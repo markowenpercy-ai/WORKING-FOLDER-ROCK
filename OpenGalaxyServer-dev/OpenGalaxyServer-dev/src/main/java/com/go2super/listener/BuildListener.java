@@ -79,20 +79,26 @@ public class BuildListener implements PacketListener {
     @PacketProcessor
     public void onBuild(RequestCreateBuildPacket packet) throws BadGuidException {
 
+        System.out.println("[DEBUG] onBuild: received build request buildingId=" + packet.getBuildingId() + " indexId=" + packet.getIndexId() + " guid=" + packet.getGuid());
+
         LoginService.validate(packet, packet.getGuid());
 
         User user = UserService.getInstance().getUserCache().findByGuid(packet.getGuid());
         if (user == null) {
+            System.out.println("[DEBUG] onBuild: user not found for guid=" + packet.getGuid());
             return;
         }
+        System.out.println("[DEBUG] onBuild: user=" + user.getUsername() + " metal=" + user.getResources().getMetal() + " he3=" + user.getResources().getHe3() + " gold=" + user.getResources().getGold());
 
         BuildsJson json = ResourceManager.getBuilds();
         BuildData data = json.getBuild(packet.getBuildingId());
 
         if (data == null) {
+            System.out.println("[DEBUG] onBuild: no build data for buildingId=" + packet.getBuildingId());
             return;
         }
         if (isInvalid(data, packet.getPosX().getValue(), packet.getPosY().getValue())) {
+            System.out.println("[DEBUG] onBuild: invalid position x=" + packet.getPosX().getValue() + " y=" + packet.getPosY().getValue());
             return;
         }
 
@@ -108,6 +114,7 @@ public class BuildListener implements PacketListener {
             slots += 3;
         }
         if (buildings.getUpdatingBuildings().size() + 1 > slots) {
+            System.out.println("[DEBUG] onBuild: construction slots full (" + buildings.getUpdatingBuildings().size() + "/" + slots + ")");
             return;
         }
 
@@ -172,13 +179,20 @@ public class BuildListener implements PacketListener {
             }
 
             if (count + 1 > limit) {
+                System.out.println("[DEBUG] onBuild: building count limit reached (" + count + "/" + limit + ")");
                 return;
             }
 
             level = data.getLevel(0);
 
-            if (level == null || !level.canBuild(user, decreaseMetal, decreaseGold, decreaseHe3)) {
-                System.out.println("Unable to upgrade");
+            if (level == null) {
+                System.out.println("[DEBUG] onBuild: no level 0 data for new building buildingId=" + packet.getBuildingId());
+                return;
+            }
+            if (!level.canBuild(user, decreaseMetal, decreaseGold, decreaseHe3)) {
+                System.out.println("[DEBUG] onBuild: canBuild failed for new building (level 0) buildingId=" + packet.getBuildingId() +
+                    " | costs metal=" + level.getMetal() + " gas=" + level.getGas() + " gold=" + level.getGold() +
+                    " | has metal=" + user.getResources().getMetal() + " gas=" + user.getResources().getHe3() + " gold=" + user.getResources().getGold());
                 return;
             }
 
@@ -209,8 +223,14 @@ public class BuildListener implements PacketListener {
 
             level = data.getLevel(building.getLevelId() + 1);
 
-            if (level == null || !level.canBuild(user, decreaseMetal, decreaseGold, decreaseHe3)) {
-                System.out.println("Unable to upgrade");
+            if (level == null) {
+                System.out.println("[DEBUG] onBuild: no level data for buildingId=" + building.getBuildingId() + " level=" + (building.getLevelId() + 1));
+                return;
+            }
+            if (!level.canBuild(user, decreaseMetal, decreaseGold, decreaseHe3)) {
+                System.out.println("[DEBUG] onBuild: canBuild failed for upgrade buildingId=" + building.getBuildingId() + " from level " + building.getLevelId() + " to " + (building.getLevelId() + 1) +
+                    " | costs metal=" + level.getMetal() + " gas=" + level.getGas() + " gold=" + level.getGold() +
+                    " | has metal=" + user.getResources().getMetal() + " gas=" + user.getResources().getHe3() + " gold=" + user.getResources().getGold());
                 return;
             }
 

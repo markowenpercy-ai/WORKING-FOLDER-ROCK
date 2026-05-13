@@ -55,15 +55,23 @@ public class BuildLevelMeta extends JsonData {
         int metal = (int) Math.floor(this.metal * (1 - (decreaseMetal * 0.01)));
         int gold = (int) Math.floor(this.gold * (1 - (decreaseGold * 0.01)));
 
-        if (user.getResources().getHe3() < gas ||
-            user.getResources().getMetal() < metal ||
-            user.getResources().getGold() < gold) {
+        if (user.getResources().getHe3() < gas) {
+            System.out.println("[DEBUG] canBuild: insufficient He3 (need " + gas + " have " + user.getResources().getHe3() + ")");
+            return false;
+        }
+        if (user.getResources().getMetal() < metal) {
+            System.out.println("[DEBUG] canBuild: insufficient Metal (need " + metal + " have " + user.getResources().getMetal() + ")");
+            return false;
+        }
+        if (user.getResources().getGold() < gold) {
+            System.out.println("[DEBUG] canBuild: insufficient Gold (need " + gold + " have " + user.getResources().getGold() + ")");
             return false;
         }
 
         if (buildings != null && require != null) {
             for (BuildRequirementMeta requirement : require) {
                 if (!buildings.has(requirement.getBuild(), requirement.getLv())) {
+                    System.out.println("[DEBUG] canBuild: missing prerequisite " + requirement.getBuild() + " level " + requirement.getLv());
                     return false;
                 }
             }
