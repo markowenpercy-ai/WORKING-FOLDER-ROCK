@@ -154,7 +154,7 @@ public class RestrictedItemsService {
             json.append("\n  ]\n}");
 
             Files.writeString(path, json.toString(), StandardCharsets.UTF_8);
-        } catch (Exception e) {e
+        } catch (Exception e) {
         }
     }
 

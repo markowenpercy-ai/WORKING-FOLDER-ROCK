@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenGalaxy</title>
+<script src="/scripts/loader.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: #0a0a0a; color: #fff; min-height: 100vh; }
+input, select, button { font-family: inherit; }
+.page { display: none; }
+.page.active { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; padding: 20px; }
+.card { background: #111; border: 1px solid #00ff44; border-radius: 12px; padding: 30px; width: 100%; max-width: 400px; }
+.card h2 { color: #00ffcc; text-align: center; margin-bottom: 20px; font-size: 22px; }
+.card h1 { color: #00ffcc; text-align: center; font-size: 32px; margin-bottom: 5px; }
+.card p.sub { color: #666; text-align: center; margin-bottom: 20px; font-size: 13px; }
+label { display: block; color: #888; font-size: 12px; margin: 10px 0 4px; }
+input, select { width: 100%; padding: 10px; background: #000; border: 1px solid #333; color: #0f0; border-radius: 6px; font-size: 14px; }
+input:focus { outline: none; border-color: #00ff44; }
+.btn { width: 100%; padding: 12px; border: none; border-radius: 6px; font-size: 15px; cursor: pointer; font-weight: bold; margin-top: 15px; }
+.btn-primary { background: #00ff44; color: #000; }
+.btn-primary:hover { background: #00dd33; }
+.btn-primary:disabled { opacity: 0.5; cursor: default; }
+.btn-danger { background: #440000; color: #f44; border: 1px solid #f44; }
+.btn-danger:hover { background: #660000; }
+.btn-secondary { background: #222; color: #aaa; border: 1px solid #444; }
+.btn-secondary:hover { background: #333; }
+.error { color: #f44; font-size: 13px; margin-top: 10px; text-align: center; }
+.success { color: #0f0; font-size: 13px; margin-top: 10px; text-align: center; }
+.link { color: #00ffcc; cursor: pointer; font-size: 13px; text-align: center; margin-top: 15px; }
+.link:hover { text-decoration: underline; }
+.planet-list { width: 100%; max-width: 600px; margin: 15px 0; }
+.planet-item { background: #111; border: 1px solid #333; border-radius: 8px; padding: 15px; margin: 8px 0; cursor: pointer; display: flex; justify-content: space-between; }
+.planet-item:hover { border-color: #00ff44; }
+.planet-item.selected { border-color: #00ff44; background: #0a1a0a; }
+.planet-name { color: #fff; font-weight: bold; }
+.planet-resources { color: #888; font-size: 12px; }
+#gameContainer { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+.game-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: #111; border-bottom: 1px solid #333; padding: 8px 15px; display: flex; justify-content: space-between; align-items: center; }
+.game-bar button { padding: 6px 14px; border-radius: 5px; font-size: 12px; }
+.hidden { display: none; }
+.text-center { text-align: center; }
+.mt-10 { margin-top: 10px; }
+.mb-10 { margin-bottom: 10px; }
+</style>
+</head>
+<body>
+
+<!-- LOGIN PAGE -->
+<div id="page-login" class="page active">
+  <div class="card">
+    <h1>OpenGalaxy</h1>
+    <p class="sub">Command the Stars</p>
+    <div id="login-error" class="error hidden"></div>
+    <label>Email or Username</label>
+    <input type="text" id="login-user" placeholder="Enter your email or username">
+    <label>Password</label>
+    <input type="password" id="login-pass" placeholder="Enter your password">
+    <button class="btn btn-primary" id="login-btn" onclick="doLogin()">Sign In</button>
+    <div class="link" onclick="showPage('register')">Don't have an account? Create one</div>
+  </div>
+</div>
+
+<!-- REGISTER PAGE -->
+<div id="page-register" class="page">
+  <div class="card">
+    <h2>Create Account</h2>
+    <div id="reg-error" class="error hidden"></div>
+    <label>Email</label>
+    <input type="email" id="reg-email" placeholder="Enter your email">
+    <label>Username</label>
+    <input type="text" id="reg-user" placeholder="Choose a username">
+    <label>Password</label>
+    <input type="password" id="reg-pass" placeholder="Create a password" minlength="6">
+    <label>Confirm Password</label>
+    <input type="password" id="reg-pass2" placeholder="Confirm your password">
+    <button class="btn btn-primary" id="reg-btn" onclick="doRegister()">Create Account</button>
+    <div class="link" onclick="showPage('login')">Already have an account? Sign in</div>
+  </div>
+</div>
+
+<!-- DASHBOARD PAGE -->
+<div id="page-dashboard" class="page">
+  <div class="card" style="max-width:650px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px">
+      <h2 style="margin:0">OpenGalaxy</h2>
+      <span style="color:#888;font-size:13px" id="dash-username"></span>
+      <button class="btn btn-danger" style="width:auto;padding:6px 15px;margin:0" onclick="doLogout()">Logout</button>
+    </div>
+    <div id="dash-loading" class="text-center" style="color:#00ff44;padding:40px">Loading...</div>
+    <div id="dash-content" class="hidden">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+        <h3 style="color:#fff;font-size:16px">Select Planet</h3>
+        <span style="color:#666;font-size:13px" id="planet-count"></span>
+      </div>
+      <div id="planet-list" class="planet-list"></div>
+      <div id="no-planets" class="text-center hidden" style="color:#666;padding:30px">
+        No planets found<br>
+        <button class="btn btn-primary" style="width:auto;padding:8px 20px;font-size:13px;margin-top:15px" onclick="showCreatePlanet()">Create New Planet</button>
+      </div>
+      <div id="create-planet-form" class="hidden" style="margin-top:15px;padding-top:15px;border-top:1px solid #333">
+        <h3 style="color:#fff;font-size:15px;margin-bottom:10px">Create New Planet</h3>
+        <label>Planet Name</label>
+        <input type="text" id="new-planet-name" placeholder="Enter planet name">
+        <label>Ground Type</label>
+        <select id="new-planet-ground">
+          <option value="1">Desert</option>
+          <option value="2">Snow</option>
+          <option value="3">Lava</option>
+        </select>
+        <div id="create-error" class="error hidden"></div>
+        <button class="btn btn-primary" onclick="createPlanet()">Create</button>
+        <button class="btn btn-secondary" style="margin-top:8px" onclick="hideCreatePlanet()">Cancel</button>
+      </div>
+      <div id="launch-section" class="hidden" style="margin-top:20px;padding-top:15px;border-top:1px solid #333">
+        <button class="btn btn-primary" id="launch-btn" onclick="launchGame()">Launch Planet</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PLAY PAGE -->
+<div id="page-play" class="page" style="padding:0;background:#000">
+  <div class="game-bar">
+    <button class="btn btn-secondary" style="width:auto" onclick="backToDashboard()">Back to Dashboard</button>
+    <div>
+      <button class="btn btn-secondary" style="width:auto;margin-right:5px" onclick="toggleFullscreen()">Fullscreen</button>
+      <button class="btn btn-danger" style="width:auto" onclick="doLogout()">Logout</button>
+    </div>
+  </div>
+  <div id="gameContainer" style="position:absolute;top:40px;left:0;right:0;bottom:0"></div>
+</div>
+
+<script>
+var TOKEN = '';
+var USER_ID = 0;
+var SESSION_KEY = '';
+var GAME_IP = 'localhost';
+var SELECTED_PLANET = null;
+var PLANETS = [];
+
+function showPage(name) {
+  document.querySelectorAll('.page').forEach(function(p) { p.className = 'page'; });
+  document.getElementById('page-' + name).className = 'page active';
+}
+
+function api(method, path, body, cb) {
+  var xhr = new XMLHttpRequest();
+  xhr.open(method, '/backend' + path, true);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  if (TOKEN) xhr.setRequestHeader('Authorization', TOKEN);
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4) cb(JSON.parse(xhr.responseText));
+  };
+  xhr.send(body ? JSON.stringify(body) : null);
+}
+
+function proxyApi(method, path, body, cb) {
+  var xhr = new XMLHttpRequest();
+  xhr.open(method, '/api' + path, true);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4) cb(JSON.parse(xhr.responseText));
+  };
+  xhr.send(body ? JSON.stringify(body) : null);
+}
+
+function showErr(id, msg) {
+  var el = document.getElementById(id);
+  el.textContent = msg;
+  el.className = 'error';
+}
+function hideErr(id) {
+  document.getElementById(id).className = 'error hidden';
+}
+
+function doRegister() {
+  var email = document.getElementById('reg-email').value.trim();
+  var user = document.getElementById('reg-user').value.trim();
+  var pass = document.getElementById('reg-pass').value;
+  var pass2 = document.getElementById('reg-pass2').value;
+  if (pass != pass2) { showErr('reg-error', 'Passwords do not match'); return; }
+  if (pass.length < 6) { showErr('reg-error', 'Password must be at least 6 characters'); return; }
+  hideErr('reg-error');
+  document.getElementById('reg-btn').disabled = true;
+  api('POST', '/login/register/account', {username: user, password: pass, email: email, captcha: 'x'}, function(r) {
+    document.getElementById('reg-btn').disabled = false;
+    if (r.code == 200) { showPage('login'); showErr('login-error', 'Account created! Please sign in.'); document.getElementById('login-error').className = 'success'; }
+    else showErr('reg-error', r.message || 'Registration failed');
+  });
+}
+
+function doLogin() {
+  var user = document.getElementById('login-user').value.trim();
+  var pass = document.getElementById('login-pass').value;
+  hideErr('login-error');
+  document.getElementById('login-btn').disabled = true;
+  api('POST', '/login/login/account', {username: user, password: pass}, function(r) {
+    document.getElementById('login-btn').disabled = false;
+    if (r.code == 200 && r.data && r.data.token) {
+      TOKEN = r.data.token;
+      loadDashboard();
+    } else {
+      showErr('login-error', r.message || 'Login failed');
+    }
+  });
+}
+
+function loadDashboard() {
+  showPage('dashboard');
+  document.getElementById('dash-loading').className = 'text-center';
+  document.getElementById('dash-content').className = 'hidden';
+  document.getElementById('dash-username').textContent = '';
+  api('GET', '/account/list/user', null, function(r) {
+    document.getElementById('dash-loading').className = 'text-center hidden';
+    var content = document.getElementById('dash-content');
+    if (r.code == 200 && r.data) {
+      PLANETS = r.data;
+      document.getElementById('dash-username').textContent = 'Logged in';
+      document.getElementById('planet-count').textContent = PLANETS.length + ' planet' + (PLANETS.length != 1 ? 's' : '') + ' available';
+      var list = document.getElementById('planet-list');
+      list.innerHTML = '';
+      if (PLANETS.length == 0) {
+        document.getElementById('no-planets').className = 'text-center';
+        document.getElementById('launch-section').className = 'hidden';
+        document.getElementById('create-planet-form').className = 'hidden';
+      } else {
+        document.getElementById('no-planets').className = 'text-center hidden';
+        PLANETS.forEach(function(p) {
+          var div = document.createElement('div');
+          div.className = 'planet-item';
+          div.onclick = function() { selectPlanet(p); };
+          div.innerHTML = '<div><div class="planet-name">' + p.username + '</div><div class="planet-resources">Planet #' + (PLANETS.indexOf(p) + 1) + '</div></div><div style="text-align:right"><div style="color:#ff0;font-size:13px">' + (p.resources && p.resources.gold ? Number(p.resources.gold).toLocaleString() : '0') + ' Gold</div><div style="color:#888;font-size:11px">' + (p.resources && p.resources.metal ? Number(p.resources.metal).toLocaleString() : '0') + ' Metal</div></div>';
+          list.appendChild(div);
+        });
+        SELECTED_PLANET = PLANETS[0];
+        document.querySelectorAll('.planet-item')[0].className = 'planet-item selected';
+        document.getElementById('launch-section').className = '';
+      }
+    }
+    content.className = '';
+  });
+}
+
+function selectPlanet(p) {
+  SELECTED_PLANET = p;
+  document.querySelectorAll('.planet-item').forEach(function(el, i) {
+    el.className = 'planet-item' + (PLANETS[i] == p ? ' selected' : '');
+  });
+  document.getElementById('launch-section').className = '';
+}
+
+function showCreatePlanet() {
+  document.getElementById('create-planet-form').className = '';
+}
+function hideCreatePlanet() {
+  document.getElementById('create-planet-form').className = 'hidden';
+  document.getElementById('create-error').className = 'error hidden';
+}
+
+function createPlanet() {
+  var name = document.getElementById('new-planet-name').value.trim();
+  var ground = document.getElementById('new-planet-ground').value;
+  if (!name) { showErr('create-error', 'Enter a planet name'); return; }
+  hideErr('create-error');
+  api('POST', '/account/create/user', {username: name, ground: parseInt(ground)}, function(r) {
+    if (r.code == 200) {
+      hideCreatePlanet();
+      loadDashboard();
+    } else {
+      showErr('create-error', r.message || 'Failed to create planet');
+    }
+  });
+}
+
+function launchGame() {
+  if (!SELECTED_PLANET) return;
+  var uid = SELECTED_PLANET.userId;
+  document.getElementById('launch-btn').disabled = true;
+  proxyApi('GET', '/status', null, function(status) {
+    var cdnUrl = status.cdnUrl || '';
+    api('GET', '/account/play/user/' + uid, null, function(r) {
+      document.getElementById('launch-btn').disabled = false;
+      if (r.code == 200 && r.data) {
+        USER_ID = r.data.userId;
+        SESSION_KEY = r.data.sessionKey;
+        GAME_IP = status.gameIp || 'localhost';
+        showPage('play');
+        setTimeout(function() { embedSWF(cdnUrl); }, 200);
+      }
+    });
+  });
+}
+
+function embedSWF(cdnUrl) {
+  var el = document.getElementById('gameContainer');
+  el.innerHTML = '';
+  var vars = 'ApiKey=410602368996176&SessionIP=' + GAME_IP + '&UserId=' + USER_ID + '&GiftId=&SessionKey=' + SESSION_KEY + '&SessionSecret=' + SESSION_KEY + '&Language=1&IsFan=&ServerPort=5050&GameUrl=http://go2.igg.com&ForJS=1&platform=1&MvpUrl=http://go2.igg.com/paybyvip/?fb_sig_user=' + USER_ID + '&CdnBase=' + cdnUrl;
+  var embed = document.createElement('embed');
+  embed.src = '/PreLoader.swf';
+  embed.type = 'application/x-shockwave-flash';
+  embed.width = '100%';
+  embed.height = '100%';
+  embed.setAttribute('flashvars', vars);
+  embed.setAttribute('allowScriptAccess', 'always');
+  embed.setAttribute('allowFullScreen', 'true');
+  embed.setAttribute('wmode', 'window');
+  embed.setAttribute('menu', 'false');
+  embed.setAttribute('scale', 'noScale');
+  embed.id = 'SnsScSWF';
+  embed.name = 'SnsScSWF';
+  el.appendChild(embed);
+}
+
+function toggleFullscreen() {
+  if (document.fullscreenElement) document.exitFullscreen();
+  else document.body.requestFullscreen();
+}
+
+function backToDashboard() {
+  showPage('dashboard');
+  loadDashboard();
+}
+
+function doLogout() {
+  api('GET', '/account/logout/user', null, function() {
+    TOKEN = ''; USER_ID = 0; SESSION_KEY = '';
+    showPage('login');
+  });
+}
+</script>
+</body>
+</html>

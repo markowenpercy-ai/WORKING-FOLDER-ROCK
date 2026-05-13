@@ -56,7 +56,7 @@ application:
   log: /logs/
   services:
     login: /login
-    account: /accounts
+    account: /account
     metric: /metrics
     status: /status
     events: /events
@@ -69,7 +69,7 @@ application:
   cms-client-secret: ${CMS_CLIENT_SECRET:}
 
   game:
-    server-port: ${APPLICATION_GAME_SERVER_PORT:5050}
+    server-port: ${APPLICATION_GAME_SERVER_PORT:5051}
     login-port: ${APPLICATION_GAME_LOGIN_PORT:5150}
     patch: ${APPLICATION_GAME_PATCH:2023-04-11}
     whitelist: ${APPLICATION_GAME_WHITELIST:60be1e9b8671b76f94bd23fb}

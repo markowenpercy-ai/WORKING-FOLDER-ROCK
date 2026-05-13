@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenGalaxy Server Test</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Courier New', monospace; background: #0a0a0a; color: #00ff88; padding: 20px; font-size: 13px; }
+.container { max-width: 900px; margin: 0 auto; }
+h1 { color: #00ffcc; border-bottom: 1px solid #00ff88; padding-bottom: 10px; margin-bottom: 20px; font-size: 18px; }
+h2 { color: #00ffcc; font-size: 14px; margin: 15px 0 8px; }
+h3 { color: #00cc88; font-size: 13px; margin: 10px 0 5px; }
+.section { background: #111; border: 1px solid #00ff44; padding: 15px; margin-bottom: 10px; }
+label { display: block; color: #00ffaa; font-size: 11px; margin: 5px 0 2px; }
+input, select { background: #000; border: 1px solid #00ff44; color: #00ff88; padding: 6px; font-family: monospace; font-size: 12px; width: 100%; }
+input:focus { outline: none; border-color: #00ffcc; }
+button { background: #003311; color: #00ff88; border: 1px solid #00ff44; padding: 5px 12px; cursor: pointer; font-family: monospace; font-size: 11px; margin: 2px; }
+button:hover { background: #005522; }
+button.post { background: #112244; border-color: #4488ff; color: #88bbff; }
+button.post:hover { background: #224466; }
+pre { background: #000; padding: 8px; border: 1px solid #003311; font-size: 11px; overflow-x: auto; white-space: pre-wrap; word-break: break-word; margin-top: 5px; max-height: 200px; overflow-y: auto; }
+.row { display: flex; gap: 8px; }
+.row > * { flex: 1; }
+.endpoint-row { display: flex; align-items: center; gap: 6px; padding: 3px 0; border-bottom: 1px solid #0a1a0a; }
+.endpoint-row .method { font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 3px; min-width: 45px; text-align: center; }
+.method.get { background: #003311; color: #00ff44; }
+.method.post { background: #112244; color: #4488ff; }
+.endpoint-row .path { flex: 1; color: #aaa; font-size: 11px; }
+.endpoint-row .desc { color: #008844; font-size: 10px; min-width: 100px; }
+.status-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+.dot-online { background: #00ff44; }
+.dot-offline { background: #ff4444; }
+.server-status { display: flex; gap: 20px; margin-bottom: 15px; flex-wrap: wrap; }
+.status-card { background: #111; border: 1px solid #00ff44; padding: 12px; flex: 1; min-width: 150px; }
+.status-card .label { font-size: 10px; color: #008844; }
+.status-card .value { font-size: 18px; margin-top: 4px; }
+.token-box { background: #000; border: 1px solid #003311; padding: 8px; font-size: 10px; word-break: break-all; margin: 3px 0; }
+.ep { margin-bottom: 8px; }
+.collapse { display: none; }
+.toggle { cursor: pointer; user-select: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>OPEN GALAXY SERVER · API TEST</h1>
+
+  <div class="server-status">
+    <div class="status-card"><div class="label">REST API (9090)</div><div class="value"><span id="apiStatus" class="status-dot dot-offline"></span><span id="apiStatusText">Checking...</span></div></div>
+    <div class="status-card"><div class="label">Version</div><div class="value" id="serverVersion">-</div></div>
+    <div class="status-card"><div class="label">Online</div><div class="value" id="onlineCount">0</div></div>
+  </div>
+
+  <div class="row">
+    <div class="section">
+      <h2>REGISTER</h2>
+      <input placeholder="Username" id="regUser" value="testplayer">
+      <input placeholder="Password" type="password" id="regPass" value="test123">
+      <input placeholder="Email" id="regEmail" value="test@test.com">
+      <input placeholder="Captcha" id="regCaptcha" value="anything">
+      <button onclick="register()">POST Register</button>
+      <pre id="regResult"></pre>
+    </div>
+    <div class="section">
+      <h2>LOGIN</h2>
+      <input placeholder="Username" id="loginUser" value="testplayer">
+      <input placeholder="Password" type="password" id="loginPass" value="test123">
+      <button onclick="login()">POST Login</button>
+      <pre id="loginResult"></pre>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>TOKENS</h2>
+    <div class="token-box">Account: <span id="accountTokenDisplay" style="color:#00ff44">none</span></div>
+    <div class="token-box">Dashboard: <span id="dashTokenDisplay" style="color:#00ff44">none</span></div>
+  </div>
+
+  <div class="section">
+    <h2>ALL ENDPOINTS</h2>
+
+    <div class="ep">
+    <h3 class="toggle" onclick="toggleSec('metricsEp')">▸ METRICS (public)</h3>
+    <div id="metricsEp" class="collapse">
+      <div class="endpoint-row"><span class="method get">GET</span><span class="path">/metrics/online</span><span class="desc">Online players</span><button onclick="callEp('/metrics/online','getEpResult')">Go</button></div>
+      <div class="endpoint-row"><span class="method get">GET</span><span class="path">/metrics/patch</span><span class="desc">Server patch</span><button onclick="callEp('/metrics/patch','getEpResult')">Go</button></div>
+      <div class="endpoint-row"><span class="method get">GET</span><span class="path">/metrics/last/planet</span><span class="desc">Last planet</span><button onclick="callEp('/metrics/last/planet','getEpResult')">Go</button></div>
+    </div>
+    </div>
+
+    <div class="ep">
+    <h3 class="toggle" onclick="toggleSec('loginEp')">▸ LOGIN (public)</h3>
+    <div id="loginEp" class="collapse">
+      <div class="endpoint-row"><span class="method post">POST</span><span class="path">/login/register/account</span><span class="desc">{username,password,email,captcha}</span><button class="post" onclick="callPost('/login/register/account',{username:'p'+Date.now(),password:'test123',email:'p'+Date.now()+'@t.com',captcha:'x'},'getEpResult')">Go</button></div>
+      <div class="endpoint-row"><span class="method post">POST</span><span class="path">/login/login/account</span><span class="desc">{username,password}</span><button class="post" onclick="callPost('/login/login/account',{username:document.getElementById('loginUser').value,password:document.getElementById('loginPass').value},'getEpResult')">Go</button></div>
+    </div>
+    </div>
+
+    <div class="ep">
+    <h3 class="toggle" onclick="toggleSec('accountEp')">▸ ACCOUNT (needs auth token)</h3>
+    <div id="accountEp" class="collapse">
+      <div class="endpoint-row"><span class="method get">GET</span><span class="path">/account/list/user</span><span class="desc">List users</span><button onclick="callAuth('/account/list/user','getEpResult')">Go</button></div>
+      <div class="endpoint-row"><span class="method get">GET</span><span class="path">/account/play/user/<input id="playUserId" value="1" style="width:40px;display:inline;padding:2px"></span><span class="desc">Play session</span><button onclick="callAuth('/account/play/user/'+document.getElementById('playUserId').value,'getEpResult')">Go</button></div>
+      <div class="endpoint-row"><span class="method post">POST</span><span class="path">/account/create/user</span><span class="desc">{username,ground}</span><button class="post" onclick="callAuthPost('/account/create/user',{username:'char'+Date.now(),ground:0},'getEpResult')">Go</button></div>
+      <div class="endpoint-row"><span class="method get">GET</span><span class="path">/account/logout/user</span><span class="desc">Logout</span><button onclick="callAuth('/account/logout/user','getEpResult')">Go</button></div>
+      <div class="endpoint-row"><span class="method post">POST</span><span class="path">/account/changepassword/user</span><span class="desc">{oldPassword,newPassword}</span><button class="post" onclick="callAuthPost('/account/changepassword/user',{oldPassword:'test123',newPassword:'newpass123'},'getEpResult')">Go</button></div>
+    </div>
+    </div>
+
+    <div class="ep">
+    <h3 class="toggle" onclick="toggleSec('eventEp')">▸ EVENTS (needs auth token)</h3>
+    <div id="eventEp" class="collapse">
+      <div class="endpoint-row"><span class="method get">GET</span><span class="path">/account/event/points</span><span class="desc">Event points</span><button onclick="callAuth('/account/event/points','getEpResult')">Go</button></div>
+      <div class="endpoint-row"><span class="method get">GET</span><span class="path">/account/event/purchased/{guid}</span><span class="desc">Purchased</span><button onclick="callAuth('/account/event/purchased/1','getEpResult')">Go(guid=1)</button></div>
+      <div class="endpoint-row"><span class="method post">POST</span><span class="path">/account/event/purchase</span><span class="desc">{id,count,userId,guid}</span><button class="post" onclick="callAuthPost('/account/event/purchase',{id:1,count:1,userId:1,guid:'1'},'getEpResult')">Go</button></div>
+      <div class="endpoint-row"><span class="method post">POST</span><span class="path">/account/event/spin</span><span class="desc">{id,count,userId,guid}</span><button class="post" onclick="callAuthPost('/account/event/spin',{id:1,count:1,userId:1,guid:'1'},'getEpResult')">Go</button></div>
+      <div class="endpoint-row"><span class="method post">POST</span><span class="path">/account/event/callback</span><span class="desc">{payload:{id}}</span><button class="post" onclick="callPost('/account/event/callback',{payload:{id:'1'}},'getEpResult')">Go</button></div>
+    </div>
+    </div>
+
+    <div class="ep">
+    <h3 class="toggle" onclick="toggleSec('dashEp')">▸ DASHBOARD</h3>
+    <div id="dashEp" class="collapse">
+      <div class="endpoint-row"><span class="method post">POST</span><span class="path">/dashboard/login</span><span class="desc">{username,password}</span><button class="post" onclick="callPost('/dashboard/login',{username:'admin@supergo2.com',password:'Ff5E!68a*5on'},'getEpResult')">Go</button></div>
+    </div>
+    </div>
+
+    <pre id="getEpResult"></pre>
+  </div>
+</div>
+
+<script>
+const BASE = 'http://localhost:9090';
+let accountToken = '';
+
+async function api(path, opts = {}) {
+  const res = await fetch(BASE + path, {
+    method: opts.method || 'GET',
+    headers: Object.assign({ 'Content-Type': 'application/json' }, opts.headers || {}),
+    body: opts.body
+  });
+  return res.json();
+}
+
+function show(id, data) {
+  document.getElementById(id).textContent = typeof data === 'string' ? data : JSON.stringify(data, null, 2);
+}
+
+function toggleSec(id) {
+  const el = document.getElementById(id);
+  el.style.display = el.style.display === 'block' ? 'none' : 'block';
+}
+
+async function callEp(path, resId) {
+  try { show(resId, await api(path)); }
+  catch (e) { show(resId, { error: e.message }); }
+}
+
+async function callPost(path, body, resId) {
+  try { show(resId, await api(path, { method: 'POST', body: JSON.stringify(body) })); }
+  catch (e) { show(resId, { error: e.message }); }
+}
+
+async function callAuth(path, resId) {
+  if (!accountToken) { show(resId, 'Login first to get an account token'); return; }
+  try { show(resId, await api(path, { headers: { 'Authorization': accountToken } })); }
+  catch (e) { show(resId, { error: e.message }); }
+}
+
+async function callAuthPost(path, body, resId) {
+  if (!accountToken) { show(resId, 'Login first to get an account token'); return; }
+  try { show(resId, await api(path, { method: 'POST', headers: { 'Authorization': accountToken }, body: JSON.stringify(body) })); }
+  catch (e) { show(resId, { error: e.message }); }
+}
+
+async function refreshStatus() {
+  try {
+    const online = await api('/metrics/online');
+    const patch = await api('/metrics/patch');
+    document.getElementById('apiStatus').className = 'status-dot dot-online';
+    document.getElementById('apiStatusText').textContent = 'Online';
+    document.getElementById('onlineCount').textContent = online.data?.online ?? '?';
+    document.getElementById('serverVersion').textContent = patch.data?.patch ?? '?';
+  } catch {
+    document.getElementById('apiStatus').className = 'status-dot dot-offline';
+    document.getElementById('apiStatusText').textContent = 'Offline';
+  }
+}
+
+async function register() {
+  try {
+    const data = await api('/login/register/account', { method: 'POST', body: JSON.stringify({
+      username: document.getElementById('regUser').value,
+      password: document.getElementById('regPass').value,
+      email: document.getElementById('regEmail').value,
+      captcha: document.getElementById('regCaptcha').value
+    })});
+    show('regResult', data);
+  } catch (e) { show('regResult', { error: e.message }); }
+}
+
+async function login() {
+  try {
+    const data = await api('/login/login/account', { method: 'POST', body: JSON.stringify({
+      username: document.getElementById('loginUser').value,
+      password: document.getElementById('loginPass').value
+    })});
+    if (data.data?.token) {
+      accountToken = data.data.token;
+      document.getElementById('accountTokenDisplay').textContent = data.data.token;
+    }
+    show('loginResult', data);
+  } catch (e) { show('loginResult', { error: e.message }); }
+}
+
+refreshStatus();
+setInterval(refreshStatus, 5000);
+</script>
+</body>
+</html>
