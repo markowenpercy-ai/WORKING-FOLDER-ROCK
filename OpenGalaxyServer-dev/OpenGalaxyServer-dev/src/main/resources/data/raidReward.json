@@ -1,0 +1,340 @@
+{
+  "raidReward": [
+    {
+      "propId": 4413,
+      "reward": [
+        {
+          "propId": 933,
+          "amount": 1,
+          "rate": 10
+        },
+        {
+          "propId": 4490,
+          "amount": 4,
+          "rate": 15
+        },
+        {
+          "propId": 4489,
+          "amount": 3,
+          "rate": 15
+        },
+        {
+          "propId": 920,
+          "amount": 1,
+          "rate": 20
+        },
+        {
+          "propId": 927,
+          "amount": 5,
+          "rate": 20
+        },
+        {
+          "propId": 979,
+          "amount": 1,
+          "rate": 20
+        }
+      ]
+    },
+    {
+      "propId": 4414,
+      "reward": [
+        {
+          "propId": 931,
+          "amount": 30,
+          "rate": 15
+        },
+        {
+          "propId": 3101,
+          "amount": 150,
+          "rate": 15
+        },
+        {
+          "propId": 4490,
+          "amount": 5,
+          "rate": 15
+        },
+        {
+          "propId": 4489,
+          "amount": 4,
+          "rate": 15
+        },
+        {
+          "propId": 917,
+          "amount": 1,
+          "rate": 20
+        },
+
+        {
+          "propId": 979,
+          "amount": 1,
+          "rate": 20
+        }
+      ]
+    },
+    {
+      "propId": 4415,
+      "reward": [
+        {
+          "propId": 937,
+          "amount": 1,
+          "rate": 15
+        },
+        {
+          "propId": 901,
+          "amount": 1,
+          "rate": 15
+        },
+        {
+          "propId": 924,
+          "amount": 5,
+          "rate": 15
+        },
+        {
+          "propId": 943,
+          "amount": 1,
+          "rate": 15
+        },
+        {
+          "propId": 4229,
+          "amount": 2,
+          "rate": 11
+        },
+
+        {
+          "propId": 4234,
+          "amount": 2,
+          "rate": 11
+        },
+        {
+          "propId": 4239,
+          "amount": 2,
+          "rate": 11
+        },
+        {
+          "propId": 1573,
+          "amount": 1,
+          "rate": 7
+        }
+      ]
+    },
+    {
+      "propId": 4416,
+      "reward": [
+        {
+          "propId": 933,
+          "amount": 10,
+          "rate": 15
+        },
+        {
+          "propId": 2313,
+          "amount": 1,
+          "rate": 10
+        },
+        {
+          "propId": 2322,
+          "amount": 5,
+          "rate": 10
+        },
+        {
+          "propId": 2259,
+          "amount": 1,
+          "rate": 10
+        },
+        {
+          "propId": 4244,
+          "amount": 2,
+          "rate": 12
+        },
+
+        {
+          "propId": 4269,
+          "amount": 2,
+          "rate": 12
+        },
+        {
+          "propId": 4294,
+          "amount": 2,
+          "rate": 12
+        },
+        {
+          "propId": 4299,
+          "amount": 2,
+          "rate": 12
+        },
+        {
+          "propId": 1588,
+          "amount": 1,
+          "rate": 7
+        }
+      ]
+    },
+    {
+      "propId": 4417,
+      "reward": [
+        {
+          "propId": 933,
+          "amount": 1,
+          "rate": 10
+        },
+        {
+          "propId": 4490,
+          "amount": 4,
+          "rate": 15
+        },
+        {
+          "propId": 4489,
+          "amount": 3,
+          "rate": 15
+        },
+        {
+          "propId": 920,
+          "amount": 1,
+          "rate": 20
+        },
+        {
+          "propId": 927,
+          "amount": 5,
+          "rate": 20
+        },
+        {
+          "propId": 979,
+          "amount": 1,
+          "rate": 20
+        }
+      ]
+    },
+    {
+      "propId": 4418,
+      "reward": [
+        {
+          "propId": 931,
+          "amount": 30,
+          "rate": 15
+        },
+        {
+          "propId": 3101,
+          "amount": 150,
+          "rate": 15
+        },
+        {
+          "propId": 4490,
+          "amount": 5,
+          "rate": 15
+        },
+        {
+          "propId": 4489,
+          "amount": 4,
+          "rate": 15
+        },
+        {
+          "propId": 917,
+          "amount": 1,
+          "rate": 20
+        },
+
+        {
+          "propId": 979,
+          "amount": 1,
+          "rate": 20
+        }
+      ]
+    },
+    {
+      "propId": 4419,
+      "reward": [
+        {
+          "propId": 937,
+          "amount": 1,
+          "rate": 15
+        },
+        {
+          "propId": 901,
+          "amount": 1,
+          "rate": 15
+        },
+        {
+          "propId": 924,
+          "amount": 5,
+          "rate": 15
+        },
+        {
+          "propId": 943,
+          "amount": 1,
+          "rate": 15
+        },
+        {
+          "propId": 4229,
+          "amount": 2,
+          "rate": 11
+        },
+
+        {
+          "propId": 4234,
+          "amount": 2,
+          "rate": 11
+        },
+        {
+          "propId": 4239,
+          "amount": 2,
+          "rate": 11
+        },
+        {
+          "propId": 1573,
+          "amount": 1,
+          "rate": 7
+        }
+      ]
+    },
+    {
+      "propId": 4420,
+      "reward": [
+        {
+          "propId": 933,
+          "amount": 10,
+          "rate": 15
+        },
+        {
+          "propId": 2313,
+          "amount": 1,
+          "rate": 10
+        },
+        {
+          "propId": 2322,
+          "amount": 5,
+          "rate": 10
+        },
+        {
+          "propId": 2259,
+          "amount": 1,
+          "rate": 10
+        },
+        {
+          "propId": 4244,
+          "amount": 2,
+          "rate": 12
+        },
+
+        {
+          "propId": 4269,
+          "amount": 2,
+          "rate": 12
+        },
+        {
+          "propId": 4294,
+          "amount": 2,
+          "rate": 12
+        },
+        {
+          "propId": 4299,
+          "amount": 2,
+          "rate": 12
+        },
+        {
+          "propId": 1588,
+          "amount": 1,
+          "rate": 7
+        }
+      ]
+    }
+  ]
+}

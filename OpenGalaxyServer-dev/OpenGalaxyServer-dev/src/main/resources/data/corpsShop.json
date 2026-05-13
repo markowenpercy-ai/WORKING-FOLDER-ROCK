@@ -1,0 +1,256 @@
+{
+  "ships": [
+    {
+      "minLevel": 0,
+      "cost": 32,
+      "amount": 100,
+      "design": "design:battleshipA"
+    },
+    {
+      "minLevel": 0,
+      "cost": 41,
+      "amount": 100,
+      "design": "design:tiaz"
+    },
+    {
+      "minLevel": 0,
+      "cost": 23,
+      "amount": 100,
+      "design": "design:nadesico"
+    },
+    {
+      "minLevel": 0,
+      "cost": 30,
+      "amount": 100,
+      "design": "design:battleshipB"
+    },
+    {
+      "minLevel": 0,
+      "cost": 43,
+      "amount": 100,
+      "design": "design:def"
+    },
+    {
+      "minLevel": 1,
+      "cost": 34,
+      "amount": 100,
+      "design": "design:jumperA"
+    },
+    {
+      "minLevel": 1,
+      "cost": 26,
+      "amount": 100,
+      "design": "design:landing"
+    },
+    {
+      "minLevel": 1,
+      "cost": 46,
+      "amount": 100,
+      "design": "design:interceptor"
+    },
+    {
+      "minLevel": 1,
+      "cost": 32,
+      "amount": 100,
+      "design": "design:jumperB"
+    },
+    {
+      "minLevel": 2,
+      "cost": 49,
+      "amount": 100,
+      "design": "design:u8A"
+    },
+    {
+      "minLevel": 2,
+      "cost": 55,
+      "amount": 100,
+      "design": "design:palenque"
+    },
+    {
+      "minLevel": 2,
+      "cost": 36,
+      "amount": 100,
+      "design": "design:hunter"
+    },
+    {
+      "minLevel": 2,
+      "cost": 40,
+      "amount": 100,
+      "design": "design:u8B"
+    },
+    {
+      "minLevel": 3,
+      "cost": 44,
+      "amount": 100,
+      "design": "design:frigate"
+    },
+    {
+      "minLevel": 3,
+      "cost": 51,
+      "amount": 100,
+      "design": "design:trackerA"
+    },
+    {
+      "minLevel": 3,
+      "cost": 57,
+      "amount": 100,
+      "design": "design:cruising"
+    },
+    {
+      "minLevel": 3,
+      "cost": 50,
+      "amount": 100,
+      "design": "design:trackerB"
+    },
+    {
+      "minLevel": 4,
+      "cost": 40,
+      "amount": 100,
+      "design": "design:redWolf"
+    },
+    {
+      "minLevel": 4,
+      "cost": 60,
+      "amount": 100,
+      "design": "design:ghosty"
+    },
+    {
+      "minLevel": 4,
+      "cost": 45,
+      "amount": 100,
+      "design": "design:vortexA"
+    },
+    {
+      "minLevel": 4,
+      "cost": 62,
+      "amount": 100,
+      "design": "design:vortexB"
+    },
+    {
+      "minLevel": 5,
+      "cost": 57,
+      "amount": 100,
+      "design": "design:encratosA"
+    },
+    {
+      "minLevel": 5,
+      "cost": 52,
+      "amount": 100,
+      "design": "design:cerberus"
+    },
+    {
+      "minLevel": 5,
+      "cost": 52,
+      "amount": 100,
+      "design": "design:prometheus"
+    },
+    {
+      "minLevel": 5,
+      "cost": 57,
+      "amount": 100,
+      "design": "design:encratosB"
+    },
+    {
+      "minLevel": 6,
+      "cost": 59,
+      "amount": 100,
+      "design": "design:hawk"
+    },
+    {
+      "minLevel": 6,
+      "cost": 63,
+      "amount": 100,
+      "design": "design:nyxA"
+    },
+    {
+      "minLevel": 6,
+      "cost": 64,
+      "amount": 100,
+      "design": "design:heavenlyStart"
+    },
+    {
+      "minLevel": 6,
+      "cost": 60,
+      "amount": 100,
+      "design": "design:nyxB"
+    },
+    {
+      "minLevel": 7,
+      "cost": 62,
+      "amount": 100,
+      "design": "design:maxA"
+    },
+    {
+      "minLevel": 7,
+      "cost": 65,
+      "amount": 100,
+      "design": "design:maxB"
+    },
+    {
+      "minLevel": 7,
+      "cost": 79,
+      "amount": 100,
+      "design": "design:maxC"
+    },
+    {
+      "minLevel": 7,
+      "cost": 70,
+      "amount": 100,
+      "design": "design:maxD"
+    },
+    {
+      "minLevel": 7,
+      "cost": 95,
+      "amount": 100,
+      "design": "design:meatshield"
+    },
+    {
+      "minLevel": 8,
+      "cost": 108,
+      "amount": 100,
+      "design": "design:newA"
+    },
+    {
+      "minLevel": 8,
+      "cost": 111,
+      "amount": 100,
+      "design": "design:newB"
+    },
+    {
+      "minLevel": 8,
+      "cost": 125,
+      "amount": 100,
+      "design": "design:newC"
+    },
+    {
+      "minLevel": 8,
+      "cost": 115,
+      "amount": 100,
+      "design": "design:newD"
+    },
+    {
+      "minLevel": 9,
+      "cost": 125,
+      "amount": 100,
+      "design": "design:newE"
+    },
+    {
+      "minLevel": 9,
+      "cost": 130,
+      "amount": 100,
+      "design": "design:newF"
+    },
+    {
+      "minLevel": 9,
+      "cost": 130,
+      "amount": 100,
+      "design": "design:newG"
+    },
+    {
+      "minLevel": 9,
+      "cost": 130,
+      "amount": 100,
+      "design": "design:newH"
+    }
+  ]
+}

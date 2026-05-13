@@ -1,0 +1,218 @@
+{
+    "flagships": [
+        {
+            "propId": "-1",
+            "required": [
+                {
+                    "propId": "3000",
+                    "amount": "200"
+                },
+                {
+                    "propId": "3001",
+                    "amount": "200"
+                },
+                {
+                    "propId": "3002",
+                    "amount": "200"
+                },
+                {
+                    "propId": "3003",
+                    "amount": "200"
+                },
+                {
+                    "propId": "3004",
+                    "amount": "200"
+                }
+            ],
+            "money": "500000"
+        },
+        {
+            "propId": "876",
+            "required": [
+                {
+                    "propId": "3000",
+                    "amount": "100"
+                },
+                {
+                    "propId": "3001",
+                    "amount": "100"
+                },
+                {
+                    "propId": "3002",
+                    "amount": "100"
+                }
+            ],
+            "money": "300000"
+        },
+        {
+            "propId": "877",
+            "required": [
+                {
+                    "propId": "3001",
+                    "amount": "100"
+                },
+                {
+                    "propId": "3002",
+                    "amount": "100"
+                },
+                {
+                    "propId": "3003",
+                    "amount": "100"
+                }
+            ],
+            "money": "300000"
+        },
+        {
+            "propId": "878",
+            "required": [
+                {
+                    "propId": "3000",
+                    "amount": "80"
+                },
+                {
+                    "propId": "3001",
+                    "amount": "80"
+                },
+                {
+                    "propId": "3002",
+                    "amount": "80"
+                },
+                {
+                    "propId": "3003",
+                    "amount": "80"
+                }
+            ],
+            "money": "300000"
+        },
+        {
+            "propId": "879",
+            "required": [
+                {
+                    "propId": "3000",
+                    "amount": "900"
+                },
+                {
+                    "propId": "3001",
+                    "amount": "900"
+                },
+                {
+                    "propId": "3004",
+                    "amount": "900"
+                }
+            ],
+            "money": "500000"
+        },
+        {
+            "propId": "880",
+            "required": [
+                {
+                    "propId": "3000",
+                    "amount": "250"
+                },
+                {
+                    "propId": "3004",
+                    "amount": "60"
+                }
+            ],
+            "money": "500000"
+        },
+        {
+            "propId": "881",
+            "required": [
+                {
+                    "propId": "3000",
+                    "amount": "80"
+                },
+                {
+                    "propId": "3001",
+                    "amount": "80"
+                },
+                {
+                    "propId": "3002",
+                    "amount": "80"
+                },
+                {
+                    "propId": "3003",
+                    "amount": "80"
+                },
+                {
+                    "propId": "3004",
+                    "amount": "50"
+                }
+            ],
+            "money": "500000"
+        },
+        {
+            "propId": "882",
+            "required": [
+                {
+                    "propId": "3001",
+                    "amount": "180"
+                },
+                {
+                    "propId": "3002",
+                    "amount": "180"
+                },
+                {
+                    "propId": "3003",
+                    "amount": "60"
+                }
+            ],
+            "money": "500000"
+        },
+        {
+            "propId": "883",
+            "required": [
+                {
+                    "propId": "3000",
+                    "amount": "900"
+                },
+                {
+                    "propId": "3001",
+                    "amount": "900"
+                },
+                {
+                    "propId": "3004",
+                    "amount": "900"
+                }
+            ],
+            "money": "500000"
+        },
+        {
+            "propId": "4460",
+            "required": [
+                {
+                    "propId": "3000",
+                    "amount": "900"
+                },
+                {
+                    "propId": "3001",
+                    "amount": "900"
+                },
+                {
+                    "propId": "3004",
+                    "amount": "900"
+                }
+            ],
+            "money": "500000"
+        },
+        {
+            "propId": "4459",
+            "required": [
+                {
+                    "propId": "3000",
+                    "amount": "900"
+                },
+                {
+                    "propId": "3001",
+                    "amount": "900"
+                },
+                {
+                    "propId": "3004",
+                    "amount": "900"
+                }
+            ],
+            "money": "500000"
+        }
+    ]
+}

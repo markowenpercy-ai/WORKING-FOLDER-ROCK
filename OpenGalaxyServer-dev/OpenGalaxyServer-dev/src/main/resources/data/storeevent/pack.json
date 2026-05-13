@@ -1,0 +1,75 @@
+{
+  "eventId": 1,
+  "pack": [
+    {
+      "id": 4662,
+      "shortName": "pack1",
+      "name": "Testing Pack I",
+      "count": 1,
+      "cost": 45,
+      "limit": 1000
+    },
+    {
+      "id": 4663,
+      "shortName": "pack2",
+      "name": "Testing Pack II",
+      "count": 1,
+      "cost": 60,
+      "limit": 1000
+    },
+    {
+      "id": 4664,
+      "shortName": "pack3",
+      "name": "Testing Pack III",
+      "count": 1,
+      "cost": 75,
+      "limit": 1000
+    },
+    {
+      "id": 1200,
+      "shortName": "ruby",
+      "name": "Accuracy Ruby",
+      "count": 16,
+      "cost": 100,
+      "limit": 1000
+    },
+    {
+      "id": 1220,
+      "shortName": "sapphire",
+      "name": "Dodge Sapphire",
+      "count": 16,
+      "cost": 100,
+      "limit": 1000
+    },
+    {
+      "id": 1225,
+      "shortName": "emerald",
+      "name": "Dodge Emerald",
+      "count": 16,
+      "cost": 100,
+      "limit": 1000
+    }
+  ],
+  "random": [
+    {
+      "id": 933,
+      "count": 1,
+      "weight": 100
+    },
+    {
+      "id": 903,
+      "count": 2,
+      "weight": 100
+    },
+    {
+      "id": 904,
+      "count": 2,
+      "weight": 100
+    },
+    {
+      "id": 924,
+      "count": 5,
+      "weight": 100
+    }
+  ]
+}

@@ -1,0 +1,9028 @@
+{
+  "mainTasks": [
+    {
+      "taskId": 0,
+      "taskName": "Collecting Resources",
+      "goal": "Harvest your Resource Warehouse",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:harvest",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 450,
+        "gold": 500,
+        "he3": 950,
+        "vouchers": 20,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 119,
+      "taskName": "Loud and Clear",
+      "goal": "Say something in the World Channel",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:send.message",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 460,
+        "gold": 520,
+        "he3": 980,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 4,
+      "taskName": "Lv1 Technology Center",
+      "goal": "Build a Lv1 Technology Center",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:scienceResearch",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 2250,
+        "gold": 3250,
+        "he3": 2100,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 111,
+      "taskName": "Lv1 Technological Research",
+      "goal": "Concurrent Construction Lv1",
+      "requirement": [
+        {
+          "type": "science",
+          "identifier": "science:concurrent.construction",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 500,
+        "gold": 600,
+        "he3": 480,
+        "propId": 900,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 107,
+      "taskName": "Metal Production",
+      "goal": "Construct Metal Collector Lv1",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:generatorMetal",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 425,
+        "gold": 425,
+        "he3": 530,
+        "propId": 829,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 110,
+      "taskName": "Blueprints 1",
+      "goal": "Use Blueprint  (Super Transmission Engine)",
+      "requirement": [
+        {
+          "type": "part",
+          "identifier": "part:superTransmissionEngine",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 515,
+        "gold": 575,
+        "he3": 1190,
+        "propId": 902,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 115,
+      "taskName": "He3 Production",
+      "goal": "Construct He3 Extractor Lv1",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:generatorFuel",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 475,
+        "gold": 475,
+        "he3": 400,
+        "propId": 741,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 118,
+      "taskName": "Blueprints 2",
+      "goal": "Use Blueprint  (Estrella)",
+      "requirement": [
+        {
+          "type": "body",
+          "identifier": "body:estrella",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 520,
+        "gold": 585,
+        "he3": 1150,
+        "propId": 805,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 116,
+      "taskName": "Creating A Residential Area",
+      "goal": "Construct Residential Area Lv1",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:generatorGold",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 390,
+        "gold": 325,
+        "he3": 360,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 3,
+      "taskName": "Lv1 Ship Factory",
+      "goal": "Construct a Ship Factory Lv1",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:shipFactory",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 600,
+        "gold": 550,
+        "he3": 475,
+        "propId": 730,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 17,
+      "taskName": "Lv1 Command Center",
+      "goal": "Construct a Command Center Lv1",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:commander",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 3000,
+        "gold": 2500,
+        "he3": 2250,
+        "propId": 812,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 102,
+      "taskName": "Recruit Commanders",
+      "goal": "Recruit 1 Commander",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 605,
+        "gold": 685,
+        "he3": 1250,
+        "propId": 903,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 1,
+      "taskName": "Design a Ship",
+      "goal": "Design a Ship",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:design",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 585,
+        "gold": 650,
+        "he3": 1235,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 2,
+      "taskName": "Ship Building",
+      "goal": "Build a Lv1 Ship",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.ship",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 600,
+        "gold": 680,
+        "he3": 1200,
+        "propId": 824,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 101,
+      "taskName": "Build a Fleet",
+      "goal": "Build 1 Fleet",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.fleet",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 610,
+        "gold": 690,
+        "he3": 1300,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 117,
+      "taskName": "Wartime Logistics",
+      "goal": "Replenish Ammunition",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:load.fleet",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 2000,
+        "gold": 2000,
+        "he3": 3000,
+        "propId": 902,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 5,
+      "taskName": "Lv1 Weapon Research Ctr",
+      "goal": "Own a Weapon Research Ctr Lv1",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:blueprintResearch",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 2500,
+        "gold": 2250,
+        "he3": 1500,
+        "propId": 782,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 105,
+      "taskName": "Bigger Bags",
+      "goal": "Increase Your Bag Slot By 1",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:buy.slot",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 620,
+        "gold": 700,
+        "he3": 1310,
+        "propId": 912,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 108,
+      "taskName": "Resource Pack",
+      "goal": "Use a Resource Pack",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:use.anypack",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 680,
+        "gold": 750,
+        "he3": 1450,
+        "propId": 923,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 109,
+      "taskName": "Growing Resources",
+      "goal": "Grow Your Own Resources",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:craft.anycomet",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 700,
+        "gold": 780,
+        "he3": 1480,
+        "propId": 904,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 112,
+      "taskName": "Adding Friends",
+      "goal": "Add 1 Friend",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:add.friend",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 710,
+        "gold": 800,
+        "he3": 1500,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 113,
+      "taskName": "The Mail System",
+      "goal": "Send an Email",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:send.email",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 720,
+        "gold": 820,
+        "he3": 1520,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 114,
+      "taskName": "Lv2 Space Station",
+      "goal": "Upgrade Space Station to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:spaceStation",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 10465,
+        "gold": 13685,
+        "he3": 9660,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 106,
+      "taskName": "Space Defense 1",
+      "goal": "Build 1 Defensive Structure",
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.space.structure",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 750,
+        "gold": 880,
+        "he3": 1600,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 6,
+      "taskName": "Lv2 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 815,
+        "gold": 815,
+        "he3": 690,
+        "propId": 905,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 7,
+      "taskName": "Lv2 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 730,
+        "gold": 730,
+        "he3": 910,
+        "propId": 906,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 8,
+      "taskName": "Lv2 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 670,
+        "gold": 560,
+        "he3": 620,
+        "propId": 907,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 9,
+      "taskName": "Lv2 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 1030,
+        "gold": 945,
+        "he3": 815,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 10,
+      "taskName": "Lv2 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 3270,
+        "gold": 4130,
+        "he3": 3180,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 11,
+      "taskName": "Lv2 Civic Center",
+      "goal": "Upgrade the Civic Center to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:civicCenter",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 6644,
+        "gold": 7248,
+        "he3": 5800,
+        "vouchers": 10,
+        "propId": 902,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 16,
+      "taskName": "Lv1 Radar",
+      "goal": "Construct a Radar to Lv1",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:radar",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 1800,
+        "gold": 2200,
+        "he3": 1600,
+        "propId": -1,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 12,
+      "taskName": "Lv3 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 1012,
+        "gold": 1012,
+        "he3": 1260,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 13,
+      "taskName": "Lv3 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 1132,
+        "gold": 1132,
+        "he3": 952,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 14,
+      "taskName": "Lv3 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 928,
+        "gold": 772,
+        "he3": 856,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 15,
+      "taskName": "Lv3 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 5901,
+        "gold": 7455,
+        "he3": 5748,
+        "propId": 908,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 18,
+      "taskName": "Lv2 Weapon Research Ctr",
+      "goal": "Upgrade the Weapon Research Center to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:blueprintResearch",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 4230,
+        "gold": 3807,
+        "he3": 2538,
+        "propId": 794,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 19,
+      "taskName": "Lv1 Recycling Plant",
+      "goal": "Construct a Recycling Plant",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:shipRecycle",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 2000,
+        "gold": 2200,
+        "he3": 1600,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 20,
+      "taskName": "Lv1 Trading",
+      "goal": "Construct a Trading Center",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:trade",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 4800,
+        "gold": 6000,
+        "he3": 4400,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 35,
+      "taskName": "Lv2 Command Center",
+      "goal": "Upgrade the Command Center to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:commander",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 6768,
+        "gold": 5640,
+        "he3": 5076,
+        "propId": 903,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 21,
+      "taskName": "Lv1 Alliance Center",
+      "goal": "Build an Alliance Center",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:alliance",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 2000,
+        "gold": 2200,
+        "he3": 1600,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 22,
+      "taskName": "Lv4 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 1760,
+        "gold": 1760,
+        "he3": 2196,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 23,
+      "taskName": "Lv4 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 1968,
+        "gold": 1968,
+        "he3": 1656,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 24,
+      "taskName": "Lv4 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 1616,
+        "gold": 1348,
+        "he3": 1492,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 25,
+      "taskName": "Lv3 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 1428,
+        "gold": 1308,
+        "he3": 1132,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 104,
+      "taskName": "A Test of Courage",
+      "goal": "Beat the Ancestral Recall Instance",
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.1",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 4400,
+        "gold": 4900,
+        "he3": 9200,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 26,
+      "taskName": "Lv2 Technology Center",
+      "goal": "Upgrade the Technology Center to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:scienceResearch",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 5076,
+        "gold": 7332,
+        "he3": 4736,
+        "propId": 902,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 27,
+      "taskName": "Lv4 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 7868,
+        "gold": 9940,
+        "he3": 7664,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 28,
+      "taskName": "Lv4 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 2484,
+        "gold": 2280,
+        "he3": 1968,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 29,
+      "taskName": "Lv3 Civic Center",
+      "goal": "Upgrade the Civic Center to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:civicCenter",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 10066,
+        "gold": 10980,
+        "he3": 8784,
+        "vouchers": 10,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 30,
+      "taskName": "Lv5 Metal Collector",
+      "goal": "Upgrade Metals Collector  to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 1540,
+        "gold": 1540,
+        "he3": 1920,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 31,
+      "taskName": "Lv5 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 1722,
+        "gold": 1722,
+        "he3": 1450,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 32,
+      "taskName": "Lv5 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 1414,
+        "gold": 1178,
+        "he3": 1304,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 33,
+      "taskName": "Lv5 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 6886,
+        "gold": 8698,
+        "he3": 6704,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 34,
+      "taskName": "Lv2 Radar",
+      "goal": "Upgrade the Radar to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:radar",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 2538,
+        "gold": 3102,
+        "he3": 2256,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 36,
+      "taskName": "Lv1 Compounding Center",
+      "goal": "Constructing a Compounding Center to Lv1",
+      "requirement": [
+        {
+          "type": "build",
+          "identifier": "build:compounding",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 24,
+        "gold": 20,
+        "he3": 200,
+        "vouchers": 10,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 54,
+      "taskName": "Lv3 Command Center",
+      "goal": "Upgrade the Command Center to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:commander",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 9576,
+        "gold": 7980,
+        "he3": 7182,
+        "propId": 904,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 37,
+      "taskName": "Lv5 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 2174,
+        "gold": 1994,
+        "he3": 1722,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 38,
+      "taskName": "Lv3 Weapon Research Ctr",
+      "goal": "Upgrade the Weapon Research Ctr to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:blueprintResearch",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 7980,
+        "gold": 7182,
+        "he3": 4788,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 39,
+      "taskName": "Lv2 Recycling Plant",
+      "goal": "Upgrade the Recycling Plant to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipRecycle",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 3020,
+        "gold": 3322,
+        "he3": 2416,
+        "propId": 923,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 40,
+      "taskName": "Lv2 Trading",
+      "goal": "Upgrade the Trading Center to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:trade",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 8448,
+        "gold": 10560,
+        "he3": 7744,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 41,
+      "taskName": "Lv2 Alliance Center",
+      "goal": "Upgrade the Alliance Center to Lv2",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:alliance",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 2820,
+        "gold": 3102,
+        "he3": 2256,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 42,
+      "taskName": "Lv6 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 2710,
+        "gold": 2710,
+        "he3": 3380,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 43,
+      "taskName": "Lv6 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 3030,
+        "gold": 3030,
+        "he3": 2552,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 44,
+      "taskName": "Lv6 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 2488,
+        "gold": 2074,
+        "he3": 2296,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 45,
+      "taskName": "Lv3 Technology Center",
+      "goal": "Upgrade the Technology Center to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:scienceResearch",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 7182,
+        "gold": 10374,
+        "he3": 6704,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 46,
+      "taskName": "Lv6 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 12120,
+        "gold": 15308,
+        "he3": 11800,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 47,
+      "taskName": "Lv6 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 3828,
+        "gold": 3508,
+        "he3": 3030,
+        "propId": 902,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 48,
+      "taskName": "Lv4 Civic Center",
+      "goal": "Upgrade the Civic Center to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:civicCenter",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 18360,
+        "gold": 20029.2,
+        "he3": 16023.6,
+        "vouchers": 10,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 49,
+      "taskName": "Lv7 Metal Collector",
+      "goal": "Upgrade Metals Collector  to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 2878.8,
+        "gold": 2878.8,
+        "he3": 3590.4,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 50,
+      "taskName": "Lv7 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 3217.2,
+        "gold": 3217.2,
+        "he3": 2709.6,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 51,
+      "taskName": "Lv7 Residential Area",
+      "goal": "UpgradeResidential Areato Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 2642.4,
+        "gold": 2202,
+        "he3": 2438.4,
+        "propId": 912,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 52,
+      "taskName": "Lv7 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 12871.2,
+        "gold": 16257.6,
+        "he3": 12532.8,
+        "propId": 915,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 53,
+      "taskName": "Lv3 Radar",
+      "goal": "Upgrade the Radar to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:radar",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 4309.2,
+        "gold": 5266.8,
+        "he3": 3830.4,
+        "propId": 918,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 72,
+      "taskName": "Lv4 Command Center",
+      "goal": "Upgrade the Command Center to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:commander",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 16318.8,
+        "gold": 13598.4,
+        "he3": 12238.8,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 55,
+      "taskName": "Lv7 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 4064.4,
+        "gold": 3726,
+        "he3": 3217.2,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 56,
+      "taskName": "Lv4 Weapon Research Ctr",
+      "goal": "Upgrade the Weapon Research Ctr to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:blueprintResearch",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 13598.4,
+        "gold": 12238.8,
+        "he3": 8158.8,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 57,
+      "taskName": "Lv3 Recycling Plant",
+      "goal": "Constructing a Recycling Plant to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipRecycle",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 5127.6,
+        "gold": 5641.2,
+        "he3": 4102.8,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 58,
+      "taskName": "Lv3 Trading",
+      "goal": "Constructing a Trading Center to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:trade",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 17893.2,
+        "gold": 22365.6,
+        "he3": 16401.6,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 59,
+      "taskName": "Lv3 Alliance Center",
+      "goal": "Building an Alliance Center to Lv3",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:alliance",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 4788,
+        "gold": 5266.8,
+        "he3": 3830.4,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 60,
+      "taskName": "Lv8 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 5125.2,
+        "gold": 5125.2,
+        "he3": 6391.2,
+        "propId": 912,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 61,
+      "taskName": "Lv8 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 5727.6,
+        "gold": 5727.6,
+        "he3": 4822.8,
+        "propId": 915,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 62,
+      "taskName": "Lv8 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 4702.8,
+        "gold": 3919.2,
+        "he3": 4340.4,
+        "propId": 918,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 63,
+      "taskName": "Lv4 Technology Center",
+      "goal": "Upgrade the Technology Center to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:scienceResearch",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 12238.8,
+        "gold": 17678.4,
+        "he3": 11422.8,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 64,
+      "taskName": "Lv8 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 22910.4,
+        "gold": 28939.2,
+        "he3": 22308,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 65,
+      "taskName": "Lv8 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 7234.8,
+        "gold": 6632.4,
+        "he3": 5727.6,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 66,
+      "taskName": "Lv5 Civic Center",
+      "goal": "Upgrade the Civic Center to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:civicCenter",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 37331.2,
+        "gold": 40725.6,
+        "he3": 32580,
+        "vouchers": 10,
+        "propId": 901,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 67,
+      "taskName": "Lv9 Metal Collector",
+      "goal": "Upgrade Metals  Collector to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 6115.2,
+        "gold": 6115.2,
+        "he3": 7626.4,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 68,
+      "taskName": "Lv9 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 6835.2,
+        "gold": 6835.2,
+        "he3": 5756,
+        "propId": 904,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 69,
+      "taskName": "Lv9 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 5612,
+        "gold": 4676.8,
+        "he3": 5180,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 70,
+      "taskName": "Lv9 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 27340,
+        "gold": 34534.4,
+        "he3": 26620,
+        "propId": 912,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 71,
+      "taskName": "Lv4 Radar",
+      "goal": "Upgrade the Radar to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:radar",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 8159.2,
+        "gold": 9972.8,
+        "he3": 7252.8,
+        "propId": 915,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 89,
+      "taskName": "Lv5 Command Center",
+      "goal": "Upgrade the Command Center to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:commander",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 31005.6,
+        "gold": 25837.6,
+        "he3": 23254.4,
+        "propId": 918,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 73,
+      "taskName": "Lv9 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 8633.6,
+        "gold": 7914.4,
+        "he3": 6835.2,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 103,
+      "taskName": "Lv5 Weapon Research Ctr",
+      "goal": "Upgrade the Weapon Research Center to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:blueprintResearch",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 25837.6,
+        "gold": 23254.4,
+        "he3": 15502.4,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 74,
+      "taskName": "Lv4 Recycling Plant",
+      "goal": "Constructing a Recycling Plant to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipRecycle",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 9708.8,
+        "gold": 10680,
+        "he3": 7767.2,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 75,
+      "taskName": "Lv4 Trading",
+      "goal": "Constructing a Trading Center to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:trade",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 42227.2,
+        "gold": 52784,
+        "he3": 38708,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 76,
+      "taskName": "Lv4 Alliance Center",
+      "goal": "Building an Alliance Center to Lv4",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:alliance",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 9065.6,
+        "gold": 9972.8,
+        "he3": 7252.8,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 77,
+      "taskName": "Lv10 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv10",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 9
+        }
+      ],
+      "award": {
+        "metal": 11008,
+        "gold": 11008,
+        "he3": 13727.2,
+        "propId": 912,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 78,
+      "taskName": "Lv10 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv10",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 9
+        }
+      ],
+      "award": {
+        "metal": 12303.2,
+        "gold": 12303.2,
+        "he3": 10360,
+        "propId": 915,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 79,
+      "taskName": "Lv10 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv10",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 9
+        }
+      ],
+      "award": {
+        "metal": 10101.6,
+        "gold": 8417.6,
+        "he3": 9324,
+        "propId": 918,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 80,
+      "taskName": "Lv5 Technology Center",
+      "goal": "Upgrade the Technology Center to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:scienceResearch",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 23254.4,
+        "gold": 33589.6,
+        "he3": 21704,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 81,
+      "taskName": "Lv10 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv10",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 9
+        }
+      ],
+      "award": {
+        "metal": 49211.2,
+        "gold": 62161.6,
+        "he3": 47916.8,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 82,
+      "taskName": "Lv10 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv10",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 9
+        }
+      ],
+      "award": {
+        "metal": 15540.8,
+        "gold": 14245.6,
+        "he3": 12303.2,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 83,
+      "taskName": "Lv6 Civic Center",
+      "goal": "Upgrade the Civic Center to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:civicCenter",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 59973.06,
+        "gold": 65425.08,
+        "he3": 52339.98,
+        "propId": 902,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 84,
+      "taskName": "Lv11 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv11",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 10
+        }
+      ],
+      "award": {
+        "metal": 10460.1,
+        "gold": 10460.1,
+        "he3": 13044.36,
+        "propId": 905,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 85,
+      "taskName": "Lv11 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv11",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 10
+        }
+      ],
+      "award": {
+        "metal": 11690.7,
+        "gold": 11690.7,
+        "he3": 9844.8,
+        "propId": 906,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 86,
+      "taskName": "Lv11 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv11",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 10
+        }
+      ],
+      "award": {
+        "metal": 9598.68,
+        "gold": 7998.9,
+        "he3": 8860.32,
+        "propId": 907,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 87,
+      "taskName": "Lv11 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv11",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 10
+        }
+      ],
+      "award": {
+        "metal": 46763.22,
+        "gold": 59069.22,
+        "he3": 45532.62,
+        "propId": 912,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 88,
+      "taskName": "Lv5 Radar",
+      "goal": "Upgrade the Radar to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:radar",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 12208.56,
+        "gold": 14921.34,
+        "he3": 10851.96,
+        "propId": 915,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 120,
+      "taskName": "Lv6 Command Center",
+      "goal": "Upgrade Command Center to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:commander",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 46554.9,
+        "gold": 38795.82,
+        "he3": 34916.28,
+        "propId": 918,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 90,
+      "taskName": "Lv11 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv11",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 10
+        }
+      ],
+      "award": {
+        "metal": 14767.2,
+        "gold": 13536.6,
+        "he3": 11690.7,
+        "propId": 918,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 91,
+      "taskName": "Lv6 Weapon Research Ctr",
+      "goal": "Upgrade the Weapon Research Center to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:blueprintResearch",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 38795.82,
+        "gold": 34916.28,
+        "he3": 23277.24,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 92,
+      "taskName": "Lv5 Recycling Plant",
+      "goal": "Constructing a Recycling Plant to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipRecycle",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 14526.96,
+        "gold": 15979.74,
+        "he3": 11621.4,
+        "propId": 900,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 93,
+      "taskName": "Lv5 Trading",
+      "goal": "Constructing a Trading Center to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:trade",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 78700.86,
+        "gold": 98376.18,
+        "he3": 72142.56,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 94,
+      "taskName": "Lv5 Alliance Center",
+      "goal": "Building an Alliance Center to Lv5",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:alliance",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 13564.74,
+        "gold": 14921.34,
+        "he3": 10851.96,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 95,
+      "taskName": "Lv12 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv12",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 11
+        }
+      ],
+      "award": {
+        "metal": 19037.76,
+        "gold": 19037.76,
+        "he3": 23740.92,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 96,
+      "taskName": "Lv12 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv12",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 11
+        }
+      ],
+      "award": {
+        "metal": 21277.2,
+        "gold": 21277.2,
+        "he3": 17917.62,
+        "propId": 925,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 97,
+      "taskName": "Lv12 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv12",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 11
+        }
+      ],
+      "award": {
+        "metal": 17469.9,
+        "gold": 14558.04,
+        "he3": 16125.9,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 98,
+      "taskName": "Lv6 Technology Center",
+      "goal": "Upgrade the Technology Center to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:scienceResearch",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 34916.28,
+        "gold": 50434.44,
+        "he3": 32588.22,
+        "propId": 924,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 99,
+      "taskName": "Lv12 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv12",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 11
+        }
+      ],
+      "award": {
+        "metal": 85109.22,
+        "gold": 107506.14,
+        "he3": 82869.36,
+        "propId": 904,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 100,
+      "taskName": "Lv12 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv12",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 11
+        }
+      ],
+      "award": {
+        "metal": 26876.64,
+        "gold": 24636.78,
+        "he3": 21277.2,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 121,
+      "taskName": "Lv7 Civic Center",
+      "goal": "Upgrade the Civic Center to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:civicCenter",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 219187,
+        "gold": 119556,
+        "he3": 191291,
+        "propId": 923,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 122,
+      "taskName": "Lv13 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv13",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 12
+        }
+      ],
+      "award": {
+        "metal": 41474,
+        "gold": 20737,
+        "he3": 51721,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 123,
+      "taskName": "Lv13 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv13",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 12
+        }
+      ],
+      "award": {
+        "metal": 46354,
+        "gold": 23177,
+        "he3": 39035,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 124,
+      "taskName": "Lv13 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv13",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 12
+        }
+      ],
+      "award": {
+        "metal": 38059,
+        "gold": 15858,
+        "he3": 35131,
+        "propId": 912,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 125,
+      "taskName": "Lv13 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv13",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 12
+        }
+      ],
+      "award": {
+        "metal": 185416,
+        "gold": 117105,
+        "he3": 180537,
+        "propId": 915,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 126,
+      "taskName": "Lv6 Radar",
+      "goal": "Upgrade the Radar to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:radar",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 41567,
+        "gold": 25402,
+        "he3": 36948,
+        "propId": 918,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 127,
+      "taskName": "Lv7 Command Center",
+      "goal": "Upgrade the Command Center to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:commander",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 159062,
+        "gold": 66276,
+        "he3": 119297,
+        "propId": 903,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 128,
+      "taskName": "Lv13 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv13",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 12
+        }
+      ],
+      "award": {
+        "metal": 58552,
+        "gold": 26836,
+        "he3": 46354,
+        "propId": 904,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 129,
+      "taskName": "Lv7 Weapon Research Ctr",
+      "goal": "Upgrade the Weapon Research Ctr to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:blueprintResearch",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 132552,
+        "gold": 59648,
+        "he3": 79531,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 130,
+      "taskName": "Lv6 Recycling Plant",
+      "goal": "Upgrade the Recycling Plant to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipRecycle",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 49461,
+        "gold": 27203,
+        "he3": 39569,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 131,
+      "taskName": "Lv6 Trading",
+      "goal": "Upgrade the Trading Center to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:trade",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 333542,
+        "gold": 208463,
+        "he3": 305746,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 132,
+      "taskName": "Lv6 Alliance Center",
+      "goal": "Upgrade the Alliance Center to Lv6",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:alliance",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 46185,
+        "gold": 25402,
+        "he3": 36948,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 133,
+      "taskName": "Lv14 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv14",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 13
+        }
+      ],
+      "award": {
+        "metal": 85291,
+        "gold": 42645,
+        "he3": 71824,
+        "propId": 905,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 134,
+      "taskName": "Lv14 He3 Extractor",
+      "goal": "Upgrade an He3  Extractorto Lv14",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 13
+        }
+      ],
+      "award": {
+        "metal": 76313,
+        "gold": 38156,
+        "he3": 95167,
+        "propId": 906,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 135,
+      "taskName": "Lv14 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv14",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 13
+        }
+      ],
+      "award": {
+        "metal": 70029,
+        "gold": 29178,
+        "he3": 64642,
+        "propId": 907,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 136,
+      "taskName": "Lv7 Technology Center",
+      "goal": "Upgrade the Technology Center to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:scienceResearch",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 119297,
+        "gold": 86159,
+        "he3": 111344,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 137,
+      "taskName": "Lv14 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv14",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 13
+        }
+      ],
+      "award": {
+        "metal": 341166,
+        "gold": 215473,
+        "he3": 332188,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 138,
+      "taskName": "Lv14 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv14",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 13
+        }
+      ],
+      "award": {
+        "metal": 107736,
+        "gold": 49379,
+        "he3": 85291,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 139,
+      "taskName": "Lv8 Civic Center",
+      "goal": "Upgrade the Civic Center to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:civicCenter",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 540077,
+        "gold": 294587,
+        "he3": 471340,
+        "propId": 923,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 140,
+      "taskName": "Lv15 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv15",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 14
+        }
+      ],
+      "award": {
+        "metal": 112944,
+        "gold": 56472,
+        "he3": 140847.6,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 141,
+      "taskName": "Lv15 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv15",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 14
+        }
+      ],
+      "award": {
+        "metal": 126231,
+        "gold": 63115,
+        "he3": 106300,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 142,
+      "taskName": "Lv15 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv15",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 14
+        }
+      ],
+      "award": {
+        "metal": 103642.8,
+        "gold": 43184,
+        "he3": 95670,
+        "propId": 912,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 143,
+      "taskName": "Lv15 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv15",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 14
+        }
+      ],
+      "award": {
+        "metal": 504925,
+        "gold": 318900,
+        "he3": 491638,
+        "propId": 915,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 144,
+      "taskName": "Lv7 Radar",
+      "goal": "Upgrade the Radar to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:radar",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 95437.6,
+        "gold": 58323,
+        "he3": 84833,
+        "propId": 918,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 145,
+      "taskName": "Lv8 Command Center",
+      "goal": "Upgrade the Command Center to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:commander",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 366480,
+        "gold": 152700,
+        "he3": 274860,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 146,
+      "taskName": "Lv15 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv15",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 14
+        }
+      ],
+      "award": {
+        "metal": 159450,
+        "gold": 73081,
+        "he3": 126231,
+        "propId": 904,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 147,
+      "taskName": "Lv8 Weapon Research Ctr",
+      "goal": "Upgrade the Weapon Research Ctr to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:blueprintResearch",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 305400,
+        "gold": 137430,
+        "he3": 183240,
+        "propId": 924,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 148,
+      "taskName": "Lv7 Recycling Plant",
+      "goal": "Upgrade the Recycling Plant to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipRecycle",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 113562,
+        "gold": 62459,
+        "he3": 90850,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 149,
+      "taskName": "Lv7 Trading",
+      "goal": "Upgrade the Trading Center to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:trade",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 952595,
+        "gold": 595372,
+        "he3": 873212,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 150,
+      "taskName": "Lv7 Alliance Center",
+      "goal": "Upgrade the Alliance Center to Lv7",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:alliance",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 106041,
+        "gold": 58323,
+        "he3": 84833,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 151,
+      "taskName": "Lv16 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv16",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 15
+        }
+      ],
+      "award": {
+        "metal": 234790,
+        "gold": 117395,
+        "he3": 197718,
+        "propId": 905,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 152,
+      "taskName": "Lv16 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv16",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 15
+        }
+      ],
+      "award": {
+        "metal": 210075,
+        "gold": 105037,
+        "he3": 261976,
+        "propId": 906,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 153,
+      "taskName": "Lv16 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv16",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 15
+        }
+      ],
+      "award": {
+        "metal": 192775,
+        "gold": 80323,
+        "he3": 177946.4,
+        "propId": 907,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 154,
+      "taskName": "Lv8 Technology Center",
+      "goal": "Upgrade the Technology Center to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:scienceResearch",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 274860,
+        "gold": 198510,
+        "he3": 256536,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 155,
+      "taskName": "Lv16 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv16",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 15
+        }
+      ],
+      "award": {
+        "metal": 939162,
+        "gold": 593154,
+        "he3": 914447,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 156,
+      "taskName": "Lv16 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv16",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 15
+        }
+      ],
+      "award": {
+        "metal": 296577,
+        "gold": 135931,
+        "he3": 234790,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 157,
+      "taskName": "Lv9 Civic Center",
+      "goal": "Upgrade the Civic Center to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:civicCenter",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 1251630,
+        "gold": 682707,
+        "he3": 1092331,
+        "propId": 900,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 158,
+      "taskName": "Lv17 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv17",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 16
+        }
+      ],
+      "award": {
+        "metal": 329293.5,
+        "gold": 164646,
+        "he3": 277299.9,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 159,
+      "taskName": "Lv17 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv17",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 16
+        }
+      ],
+      "award": {
+        "metal": 294631.2,
+        "gold": 147315,
+        "he3": 367422.3,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 160,
+      "taskName": "Lv17 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv17",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 16
+        }
+      ],
+      "award": {
+        "metal": 270367.5,
+        "gold": 112653,
+        "he3": 249570,
+        "propId": 912,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 161,
+      "taskName": "Lv17 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv17",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 16
+        }
+      ],
+      "award": {
+        "metal": 1317174.6,
+        "gold": 831899,
+        "he3": 1282512,
+        "propId": 915,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 162,
+      "taskName": "Lv8 Radar",
+      "goal": "Upgrade the Radar to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:radar",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 206145,
+        "gold": 125977,
+        "he3": 183240,
+        "propId": 918,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 163,
+      "taskName": "Lv9 Command Center",
+      "goal": "Upgrade the Command Center to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:commander",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 794345.7,
+        "gold": 330977,
+        "he3": 595759,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 164,
+      "taskName": "Lv17 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv17",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 16
+        }
+      ],
+      "award": {
+        "metal": 415950,
+        "gold": 190643,
+        "he3": 329293,
+        "propId": 924,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 165,
+      "taskName": "Lv9 Weapon Research Ctr",
+      "goal": "Upgrade the Weapon Research Center to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:blueprintResearch",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 661954.8,
+        "gold": 297879,
+        "he3": 397172,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 166,
+      "taskName": "Lv8 Recycling Plant",
+      "goal": "Upgrade the Recycling Plant to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipRecycle",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 245294.7,
+        "gold": 134912,
+        "he3": 196235,
+        "propId": 904,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 167,
+      "taskName": "Lv8 Trading",
+      "goal": "Upgrade the Trading Center to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:trade",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 2557718.4,
+        "gold": 1598574,
+        "he3": 2344575,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 168,
+      "taskName": "Lv8 Alliance Center",
+      "goal": "Upgrade the Alliance Center to Lv8",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:alliance",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 229050,
+        "gold": 125977,
+        "he3": 183240,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 169,
+      "taskName": "Lv18 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv18",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 17
+        }
+      ],
+      "award": {
+        "metal": 619071.9,
+        "gold": 309535,
+        "he3": 521323,
+        "propId": 905,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 170,
+      "taskName": "Lv18 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv18",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 17
+        }
+      ],
+      "award": {
+        "metal": 553906.5,
+        "gold": 276953,
+        "he3": 690754,
+        "propId": 906,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 171,
+      "taskName": "Lv18 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv18",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 17
+        }
+      ],
+      "award": {
+        "metal": 508290.6,
+        "gold": 211787,
+        "he3": 469191,
+        "propId": 907,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 172,
+      "taskName": "Lv9 Technology Center",
+      "goal": "Upgrade the Technology Center to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:scienceResearch",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 595759.2,
+        "gold": 430270,
+        "he3": 556041,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 173,
+      "taskName": "Lv18 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv18",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 17
+        }
+      ],
+      "award": {
+        "metal": 2476288.2,
+        "gold": 1563971,
+        "he3": 2411122,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 174,
+      "taskName": "Lv18 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv18",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 17
+        }
+      ],
+      "award": {
+        "metal": 781985.7,
+        "gold": 358410,
+        "he3": 619071,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 175,
+      "taskName": "Lv10 Civic Center",
+      "goal": "Upgrade the Civic Center to Lv10",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:civicCenter",
+          "value": 9
+        }
+      ],
+      "award": {
+        "metal": 3880052,
+        "gold": 2116392,
+        "he3": 3386227,
+        "propId": 923,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 176,
+      "taskName": "Lv19 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv19",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 18
+        }
+      ],
+      "award": {
+        "metal": 1170046,
+        "gold": 585023,
+        "he3": 985302,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 177,
+      "taskName": "Lv19 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv19",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 18
+        }
+      ],
+      "award": {
+        "metal": 1046883,
+        "gold": 523441,
+        "he3": 1305525,
+        "propId": 904,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 178,
+      "taskName": "Lv19 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv19",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 18
+        }
+      ],
+      "award": {
+        "metal": 960669,
+        "gold": 400278,
+        "he3": 886771,
+        "propId": 912,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 179,
+      "taskName": "Lv19 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv19",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 18
+        }
+      ],
+      "award": {
+        "metal": 4680184,
+        "gold": 2955906,
+        "he3": 4557021,
+        "propId": 915,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 180,
+      "taskName": "Lv9 Radar",
+      "goal": "Upgrade the Radar to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:radar",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 595759,
+        "gold": 364075,
+        "he3": 529563,
+        "propId": 918,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 181,
+      "taskName": "Lv10 Command Center",
+      "goal": "Upgrade the Command Center to Lv10",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:commander",
+          "value": 9
+        }
+      ],
+      "award": {
+        "metal": 2303602,
+        "gold": 959834,
+        "he3": 1727701,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 182,
+      "taskName": "Lv19 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv19",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 18
+        }
+      ],
+      "award": {
+        "metal": 1477953,
+        "gold": 677395,
+        "he3": 1170046,
+        "propId": 924,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 183,
+      "taskName": "Lv10 Weapon Research Ctr",
+      "goal": "Upgrade the Weapon Research Ctr to Lv10",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:blueprintResearch",
+          "value": 9
+        }
+      ],
+      "award": {
+        "metal": 1919668,
+        "gold": 863850,
+        "he3": 1151801,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 184,
+      "taskName": "Lv9 Recycling Plant",
+      "goal": "Upgrade the Recycling Plant to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipRecycle",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 708901,
+        "gold": 389896,
+        "he3": 567121,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 185,
+      "taskName": "Lv9 Trading",
+      "goal": "Upgrade the Trading Center to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:trade",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 9182208,
+        "gold": 5738880,
+        "he3": 8417025,
+        "propId": 921,
+        "propNum": 20
+      }
+    },
+    {
+      "taskId": 186,
+      "taskName": "Lv9 Alliance Center",
+      "goal": "Upgrade the Alliance Center to Lv9",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:alliance",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 661954,
+        "gold": 364075,
+        "he3": 529563,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 187,
+      "taskName": "Lv20 Metal Collector",
+      "goal": "Upgrade a Metal Collector to Lv20",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorMetal",
+          "value": 19
+        }
+      ],
+      "award": {
+        "metal": 2223087,
+        "gold": 1111543,
+        "he3": 1872073,
+        "propId": 905,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 188,
+      "taskName": "Lv20 He3 Extractor",
+      "goal": "Upgrade an He3 Extractor to Lv20",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorFuel",
+          "value": 19
+        }
+      ],
+      "award": {
+        "metal": 1989078,
+        "gold": 994539,
+        "he3": 2480497,
+        "propId": 906,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 189,
+      "taskName": "Lv20 Residential Area",
+      "goal": "Upgrade a Residential Area to Lv20",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:generatorGold",
+          "value": 19
+        }
+      ],
+      "award": {
+        "metal": 1825272,
+        "gold": 760530,
+        "he3": 1684866,
+        "propId": 907,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 190,
+      "taskName": "Lv10 Technology Center",
+      "goal": "Upgrade the Technology Center to Lv10",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:scienceResearch",
+          "value": 9
+        }
+      ],
+      "award": {
+        "metal": 1727701,
+        "gold": 1247784,
+        "he3": 1612521,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 191,
+      "taskName": "Lv20 Resource Warehouse",
+      "goal": "Upgrade the Resource Warehouse to Lv20",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:resourceStorage",
+          "value": 19
+        }
+      ],
+      "award": {
+        "metal": 8892350,
+        "gold": 5616221,
+        "he3": 8658341,
+        "propId": 926,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 192,
+      "taskName": "Lv20 Ship Factory",
+      "goal": "Upgrade the Ship Factory to Lv20",
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "build:shipFactory",
+          "value": 19
+        }
+      ],
+      "award": {
+        "metal": 2808110,
+        "gold": 1287050,
+        "he3": 2223087,
+        "propId": -1
+      }
+    }
+  ],
+  "sideTasks": [
+    {
+      "taskId": 500,
+      "lv": 0,
+      "taskName": "Harvest Time 1",
+      "goal": "Increase Metal Productivity to 2,180.",
+      "depends": 107,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 2180
+        }
+      ],
+      "award": {
+        "metal": 500,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 1,
+      "taskName": "Harvest Time 2",
+      "goal": "Increase Metal Productivity to 3,365.",
+      "depends": 6,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 3365
+        }
+      ],
+      "award": {
+        "metal": 800,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 2,
+      "taskName": "Harvest Time 3",
+      "goal": "Increase Metal Productivity to 4,670.",
+      "depends": 12,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 4670
+        }
+      ],
+      "award": {
+        "metal": 1000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 3,
+      "taskName": "Harvest Time 4",
+      "goal": "Increase Metal Productivity to 4,965.",
+      "depends": 22,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 4965
+        }
+      ],
+      "award": {
+        "metal": 2000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 4,
+      "taskName": "Harvest Time 5",
+      "goal": "Increase Metal Productivity to 6,560.",
+      "depends": 30,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 6560
+        }
+      ],
+      "award": {
+        "metal": 5000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 5,
+      "taskName": "Harvest Time 6",
+      "goal": "Increase Metal Productivity to 7,090.",
+      "depends": 42,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 7090
+        }
+      ],
+      "award": {
+        "metal": 10000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 6,
+      "taskName": "Harvest Time 7",
+      "goal": "Increase Metal Productivity to 9,190.",
+      "depends": 49,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 9190
+        }
+      ],
+      "award": {
+        "metal": 15000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 7,
+      "taskName": "Harvest Time 8",
+      "goal": "Increase Metal Productivity to 10,120.",
+      "depends": 60,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 10120
+        }
+      ],
+      "award": {
+        "metal": 30000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 8,
+      "taskName": "Harvest Time 9",
+      "goal": "Increase Metal Productivity to 12,970.",
+      "depends": 67,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 12970
+        }
+      ],
+      "award": {
+        "metal": 40000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 9,
+      "taskName": "Harvest Time 10",
+      "goal": "Increase Metal Productivity to 14,550.",
+      "depends": 77,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 14550
+        }
+      ],
+      "award": {
+        "metal": 50000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 10,
+      "taskName": "Harvest Time 11",
+      "goal": "Increase Metal Productivity to 18,630.",
+      "depends": 84,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 18630
+        }
+      ],
+      "award": {
+        "metal": 60000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 11,
+      "taskName": "Harvest Time 12",
+      "goal": "Increase Metal Productivity to 21,250.",
+      "depends": 95,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 21250
+        }
+      ],
+      "award": {
+        "metal": 70000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 12,
+      "taskName": "Harvest Time 13",
+      "goal": "Increase Metal Productivity to 27,250.",
+      "depends": 121,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 27250
+        }
+      ],
+      "award": {
+        "metal": 80000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 13,
+      "taskName": "Harvest Time 14",
+      "goal": "Increase Metal Productivity to 31,640.",
+      "depends": 132,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 31640
+        }
+      ],
+      "award": {
+        "metal": 90000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 14,
+      "taskName": "Harvest Time 15",
+      "goal": "Increase Metal Productivity to 40,780.",
+      "depends": 139,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 40780
+        }
+      ],
+      "award": {
+        "metal": 150000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 15,
+      "taskName": "Harvest Time 16",
+      "goal": "Increase Metal Productivity to 48,150.",
+      "depends": 150,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 48150
+        }
+      ],
+      "award": {
+        "metal": 210000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 16,
+      "taskName": "Harvest Time 17",
+      "goal": "Increase Metal Productivity to 62,510.",
+      "depends": 157,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 62510
+        }
+      ],
+      "award": {
+        "metal": 270000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 17,
+      "taskName": "Harvest Time 18",
+      "goal": "Increase Metal Productivity to 75,080.",
+      "depends": 168,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 75080
+        }
+      ],
+      "award": {
+        "metal": 330000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 18,
+      "taskName": "Harvest Time 19",
+      "goal": "Increase Metal Productivity to 98,280.",
+      "depends": 175,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 98280
+        }
+      ],
+      "award": {
+        "metal": 390000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 500,
+      "lv": 19,
+      "taskName": "Harvest Time 20",
+      "goal": "Increase Metal Productivity to 120,010.",
+      "depends": 186,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:metal",
+          "value": 120010
+        }
+      ],
+      "award": {
+        "metal": 450000,
+        "gold": 0,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 0,
+      "taskName": "Gathering He3 1",
+      "goal": "Increase He3 Productivity to 2,380.",
+      "depends": 115,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 2380
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 500,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 1,
+      "taskName": "Gathering He3 2",
+      "goal": "Increase He3 Productivity to 3,680.",
+      "depends": 7,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 3680
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 800,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 2,
+      "taskName": "Gathering He3 3",
+      "goal": "Increase He3 Productivity to 5,100.",
+      "depends": 13,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 5100
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 1000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 3,
+      "taskName": "Gathering He3 4",
+      "goal": "Increase He3 Productivity to 5,410.",
+      "depends": 23,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 5410
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 2000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 4,
+      "taskName": "Gathering He3 5",
+      "goal": "Increase He3 Productivity to 7,710.",
+      "depends": 31,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 7710
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 5000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 5,
+      "taskName": "Gathering He3 6",
+      "goal": "Increase He3 Productivity to 7,750.",
+      "depends": 43,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 7750
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 10000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 6,
+      "taskName": "Gathering He3 7",
+      "goal": "Increase He3 Productivity to 10,040.",
+      "depends": 50,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 10040
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 15000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 7,
+      "taskName": "Gathering He3 8",
+      "goal": "Increase He3 Productivity to 11,050.",
+      "depends": 61,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 11050
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 30000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 8,
+      "taskName": "Gathering He3 9",
+      "goal": "Increase He3 Productivity to 14,180.",
+      "depends": 68,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 14180
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 40000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 9,
+      "taskName": "Gathering He3 10",
+      "goal": "Increase He3 Productivity to 15,900.",
+      "depends": 78,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 15900
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 50000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 10,
+      "taskName": "Gathering He3 11",
+      "goal": "Increase He3 Productivity to 20,350.",
+      "depends": 85,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 20350
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 60000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 11,
+      "taskName": "Gathering He3 12",
+      "goal": "Increase He3 Productivity to 23,218.",
+      "depends": 96,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 23218
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 70000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 12,
+      "taskName": "Gathering He3 13",
+      "goal": "Increase He3 Productivity to 29,780.",
+      "depends": 122,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 29780
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 80000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 13,
+      "taskName": "Gathering He3 14",
+      "goal": "Increase He3 Productivity to 34,570.",
+      "depends": 133,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 34570
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 90000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 14,
+      "taskName": "Gathering He3 15",
+      "goal": "Increase He3 Productivity to 44,550.",
+      "depends": 140,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 44550
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 150000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 15,
+      "taskName": "Gathering He3 16",
+      "goal": "Increase He3 Productivity to 52,610.",
+      "depends": 151,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 52610
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 210000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 16,
+      "taskName": "Gathering He3 17",
+      "goal": "Increase He3 Productivity to 68,290.",
+      "depends": 158,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 68290
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 270000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 17,
+      "taskName": "Gathering He3 18",
+      "goal": "Increase He3 Productivity to 82,030.",
+      "depends": 169,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 82030
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 330000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 18,
+      "taskName": "Gathering He3 19",
+      "goal": "Increase He3 Productivity to 107,380.",
+      "depends": 176,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 107380
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 390000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 501,
+      "lv": 19,
+      "taskName": "Gathering He3 20",
+      "goal": "Increase He3 Productivity to 131,120.",
+      "depends": 187,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:he3",
+          "value": 131120
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 450000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 0,
+      "taskName": "Raising Morale 1",
+      "goal": "Increase Gold Productivity to 2,620.",
+      "depends": 116,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 2620
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 500,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 1,
+      "taskName": "Raising Morale 2",
+      "goal": "Increase Gold Productivity to 4,050.",
+      "depends": 8,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 4050
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 800,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 2,
+      "taskName": "Raising Morale 3",
+      "goal": "Increase Gold Productivity to 5,620.",
+      "depends": 14,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 5620
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 1000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 3,
+      "taskName": "Raising Morale 4",
+      "goal": "Increase Gold Productivity to 5,960.",
+      "depends": 24,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 5960
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 2000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 4,
+      "taskName": "Raising Morale 5",
+      "goal": "Increase Gold Productivity to 7,900.",
+      "depends": 32,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 7900
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 5000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 5,
+      "taskName": "Raising Morale 6",
+      "goal": "Increase Gold Productivity to 8,530.",
+      "depends": 44,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 8530
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 10000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 6,
+      "taskName": "Raising Morale 7",
+      "goal": "Increase Gold Productivity to 11,060.",
+      "depends": 51,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 11060
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 15000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 7,
+      "taskName": "Raising Morale 8",
+      "goal": "Increase Gold Productivity to 12,180.",
+      "depends": 62,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 12180
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 30000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 8,
+      "taskName": "Raising Morale 9",
+      "goal": "Increase Gold Productivity to 15,630.",
+      "depends": 69,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 15630
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 40000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 9,
+      "taskName": "Raising Morale 10",
+      "goal": "Increase Gold Productivity to 17,520.",
+      "depends": 79,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 17520
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 50000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 10,
+      "taskName": "Raising Morale 11",
+      "goal": "Increase Gold Productivity to 22,420.",
+      "depends": 86,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 22420
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 60000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 11,
+      "taskName": "Raising Morale 12",
+      "goal": "Increase Gold Productivity to 25,580.",
+      "depends": 97,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 25580
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 70000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 12,
+      "taskName": "Raising Morale 13",
+      "goal": "Increase Gold Productivity to 32,800.",
+      "depends": 123,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 32800
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 80000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 13,
+      "taskName": "Raising Morale 14",
+      "goal": "Increase Gold Productivity to 38,080.",
+      "depends": 134,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 38080
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 90000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 14,
+      "taskName": "Raising Morale 15",
+      "goal": "Increase Gold Productivity to 49,090.",
+      "depends": 141,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 49090
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 150000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 15,
+      "taskName": "Raising Morale 16",
+      "goal": "Increase Gold Productivity to 57,970.",
+      "depends": 152,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 57970
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 210000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 16,
+      "taskName": "Raising Morale 17",
+      "goal": "Increase Gold Productivity to 75,240.",
+      "depends": 159,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 75240
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 270000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 17,
+      "taskName": "Raising Morale 18",
+      "goal": "Increase Gold Productivity to 90,380.",
+      "depends": 170,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 90380
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 330000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 18,
+      "taskName": "Raising Morale 19",
+      "goal": "Increase Gold Productivity to 118,300.",
+      "depends": 177,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 118300
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 390000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 502,
+      "lv": 19,
+      "taskName": "Raising Morale 20",
+      "goal": "Increase Gold Productivity to 144,470.",
+      "depends": 188,
+      "requirement": [
+        {
+          "type": "output",
+          "identifier": "resource:gold",
+          "value": 144470
+        }
+      ],
+      "award": {
+        "metal": 0,
+        "gold": 450000,
+        "he3": 0,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 0,
+      "taskName": "Building Ships 1",
+      "goal": "Own 3 ships.",
+      "depends": 101,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 200,
+        "gold": 200,
+        "he3": 200,
+        "propId": 758,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 1,
+      "taskName": "Building Ships 2",
+      "goal": "Own 5 ships.",
+      "depends": 101,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 500,
+        "gold": 500,
+        "he3": 500,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 2,
+      "taskName": "Building Ships 3",
+      "goal": "Own 8 ships.",
+      "depends": 9,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 1000,
+        "gold": 1000,
+        "he3": 1000,
+        "propId": 770,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 3,
+      "taskName": "Building Ships 4",
+      "goal": "Own 10 ships.",
+      "depends": 9,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 10
+        }
+      ],
+      "award": {
+        "metal": 2000,
+        "gold": 2000,
+        "he3": 2000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 4,
+      "taskName": "Building Ships 5",
+      "goal": "Own 30 ships.",
+      "depends": 25,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 30
+        }
+      ],
+      "award": {
+        "metal": 3000,
+        "gold": 3000,
+        "he3": 3000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 5,
+      "taskName": "Building Ships 6",
+      "goal": "Own 50 ships.",
+      "depends": 25,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 50
+        }
+      ],
+      "award": {
+        "metal": 4000,
+        "gold": 4000,
+        "he3": 4000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 6,
+      "taskName": "Building Ships 7",
+      "goal": "Own 80 ships.",
+      "depends": 28,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 80
+        }
+      ],
+      "award": {
+        "metal": 5000,
+        "gold": 5000,
+        "he3": 5000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 7,
+      "taskName": "Building Ships 8",
+      "goal": "Own 100 ships.",
+      "depends": 28,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 100
+        }
+      ],
+      "award": {
+        "metal": 6000,
+        "gold": 6000,
+        "he3": 6000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 8,
+      "taskName": "Building Ships 9",
+      "goal": "Own 200 ships.",
+      "depends": 37,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 200
+        }
+      ],
+      "award": {
+        "metal": 10000,
+        "gold": 10000,
+        "he3": 15000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 9,
+      "taskName": "Building Ships 10",
+      "goal": "Own 300 ships.",
+      "depends": 37,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 300
+        }
+      ],
+      "award": {
+        "metal": 15000,
+        "gold": 15000,
+        "he3": 20000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 10,
+      "taskName": "Building Ships 11",
+      "goal": "Own 500 ships.",
+      "depends": 47,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 500
+        }
+      ],
+      "award": {
+        "metal": 20000,
+        "gold": 20000,
+        "he3": 25000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 11,
+      "taskName": "Building Ships 12",
+      "goal": "Own 800 ships.",
+      "depends": 47,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 800
+        }
+      ],
+      "award": {
+        "metal": 25000,
+        "gold": 25000,
+        "he3": 30000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 12,
+      "taskName": "Building Ships 13",
+      "goal": "Own 1000 ships.",
+      "depends": 65,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 1000
+        }
+      ],
+      "award": {
+        "metal": 30000,
+        "gold": 30000,
+        "he3": 35000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 13,
+      "taskName": "Building Ships 14",
+      "goal": "Own 2000 ships.",
+      "depends": 55,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 2000
+        }
+      ],
+      "award": {
+        "metal": 35000,
+        "gold": 35000,
+        "he3": 40000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 14,
+      "taskName": "Building Ships 15",
+      "goal": "Own 3000 ships.",
+      "depends": 65,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 3000
+        }
+      ],
+      "award": {
+        "metal": 40000,
+        "gold": 40000,
+        "he3": 45000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 15,
+      "taskName": "Building Ships 16",
+      "goal": "Own 5000 ships.",
+      "depends": 65,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 5000
+        }
+      ],
+      "award": {
+        "metal": 45000,
+        "gold": 45000,
+        "he3": 50000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 16,
+      "taskName": "Building Ships 17",
+      "goal": "Own 6000 ships.",
+      "depends": 78,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 6000
+        }
+      ],
+      "award": {
+        "metal": 50000,
+        "gold": 50000,
+        "he3": 60000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 17,
+      "taskName": "Building Ships 18",
+      "goal": "Own 7000 ships.",
+      "depends": 78,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 7000
+        }
+      ],
+      "award": {
+        "metal": 55000,
+        "gold": 55000,
+        "he3": 70000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 18,
+      "taskName": "Building Ships 19",
+      "goal": "Own 9000 ships.",
+      "depends": 82,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 9000
+        }
+      ],
+      "award": {
+        "metal": 60000,
+        "gold": 60000,
+        "he3": 80000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 19,
+      "taskName": "Building Ships 20",
+      "goal": "Own 12000 ships.",
+      "depends": 82,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 12000
+        }
+      ],
+      "award": {
+        "metal": 65000,
+        "gold": 65000,
+        "he3": 90000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 20,
+      "taskName": "Building Ships 21",
+      "goal": "Own 16000 ships.",
+      "depends": 90,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 16000
+        }
+      ],
+      "award": {
+        "metal": 70000,
+        "gold": 70000,
+        "he3": 100000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 21,
+      "taskName": "Building Ships 22",
+      "goal": "Own 20000 ships.",
+      "depends": 90,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 20000
+        }
+      ],
+      "award": {
+        "metal": 75000,
+        "gold": 75000,
+        "he3": 110000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 22,
+      "taskName": "Building Ships 23",
+      "goal": "Own 25000 ships.",
+      "depends": 100,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 25000
+        }
+      ],
+      "award": {
+        "metal": 100000,
+        "gold": 100000,
+        "he3": 200000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 23,
+      "taskName": "Building Ships 24",
+      "goal": "Own 30000 ships.",
+      "depends": 100,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 30000
+        }
+      ],
+      "award": {
+        "metal": 200000,
+        "gold": 200000,
+        "he3": 300000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 24,
+      "taskName": "Building Ships 25",
+      "goal": "Own 35000 ships.",
+      "depends": 127,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 35000
+        }
+      ],
+      "award": {
+        "metal": 250000,
+        "gold": 250000,
+        "he3": 350000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 25,
+      "taskName": "Building Ships 26",
+      "goal": "Own 40000 ships.",
+      "depends": 127,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 40000
+        }
+      ],
+      "award": {
+        "metal": 300000,
+        "gold": 300000,
+        "he3": 400000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 26,
+      "taskName": "Building Ships 27",
+      "goal": "Own 50000 ships.",
+      "depends": 137,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 50000
+        }
+      ],
+      "award": {
+        "metal": 350000,
+        "gold": 350000,
+        "he3": 450000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 27,
+      "taskName": "Building Ships 28",
+      "goal": "Own 60000 ships.",
+      "depends": 137,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 60000
+        }
+      ],
+      "award": {
+        "metal": 400000,
+        "gold": 400000,
+        "he3": 500000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 28,
+      "taskName": "Building Ships 29",
+      "goal": "Own 80000 ships.",
+      "depends": 145,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 80000
+        }
+      ],
+      "award": {
+        "metal": 450000,
+        "gold": 450000,
+        "he3": 550000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 29,
+      "taskName": "Building Ships 30",
+      "goal": "Own 100000 ships.",
+      "depends": 145,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 100000
+        }
+      ],
+      "award": {
+        "metal": 500000,
+        "gold": 500000,
+        "he3": 600000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 30,
+      "taskName": "Building Ships 31",
+      "goal": "Own 150000 ships.",
+      "depends": 155,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 150000
+        }
+      ],
+      "award": {
+        "metal": 550000,
+        "gold": 550000,
+        "he3": 650000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 31,
+      "taskName": "Building Ships 32",
+      "goal": "Own 200000 ships.",
+      "depends": 155,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 200000
+        }
+      ],
+      "award": {
+        "metal": 600000,
+        "gold": 600000,
+        "he3": 700000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 32,
+      "taskName": "Building Ships 33",
+      "goal": "Own 300000 ships.",
+      "depends": 163,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 300000
+        }
+      ],
+      "award": {
+        "metal": 650000,
+        "gold": 650000,
+        "he3": 750000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 33,
+      "taskName": "Building Ships 34",
+      "goal": "Own 400000 ships.",
+      "depends": 163,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 400000
+        }
+      ],
+      "award": {
+        "metal": 700000,
+        "gold": 700000,
+        "he3": 800000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 34,
+      "taskName": "Building Ships 35",
+      "goal": "Own 500000 ships.",
+      "depends": 173,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 500000
+        }
+      ],
+      "award": {
+        "metal": 750000,
+        "gold": 750000,
+        "he3": 850000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 35,
+      "taskName": "Building Ships 36",
+      "goal": "Own 600000 ships.",
+      "depends": 173,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 600000
+        }
+      ],
+      "award": {
+        "metal": 800000,
+        "gold": 800000,
+        "he3": 900000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 36,
+      "taskName": "Building Ships 37",
+      "goal": "Own 700000 ships.",
+      "depends": 181,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 700000
+        }
+      ],
+      "award": {
+        "metal": 850000,
+        "gold": 850000,
+        "he3": 950000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 37,
+      "taskName": "Building Ships 38",
+      "goal": "Own 800000 ships.",
+      "depends": 181,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 800000
+        }
+      ],
+      "award": {
+        "metal": 900000,
+        "gold": 900000,
+        "he3": 1000000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 38,
+      "taskName": "Building Ships 39",
+      "goal": "Own 900000 ships.",
+      "depends": 191,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 900000
+        }
+      ],
+      "award": {
+        "metal": 1000000,
+        "gold": 1000000,
+        "he3": 1500000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 503,
+      "lv": 39,
+      "taskName": "Building Ships 40",
+      "goal": "Own 1000000 ships.",
+      "depends": 191,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:ships",
+          "value": 1000000
+        }
+      ],
+      "award": {
+        "metal": 2000000,
+        "gold": 2000000,
+        "he3": 2500000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 0,
+      "taskName": "Plentiful Resources 1",
+      "goal": "Store 10,000 Metal, He3 and Gold.",
+      "depends": 10,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 10000
+        }
+      ],
+      "award": {
+        "metal": 500,
+        "gold": 600,
+        "he3": 500,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 1,
+      "taskName": "Plentiful Resources 2",
+      "goal": "Store 30,000 Metal, He3 and Gold.",
+      "depends": 15,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 30000
+        }
+      ],
+      "award": {
+        "metal": 700,
+        "gold": 800,
+        "he3": 700,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 2,
+      "taskName": "Plentiful Resources 3",
+      "goal": "Store 50,000 Metal, He3 and Gold.",
+      "depends": 27,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 50000
+        }
+      ],
+      "award": {
+        "metal": 900,
+        "gold": 1000,
+        "he3": 900,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 3,
+      "taskName": "Plentiful Resources 4",
+      "goal": "Store 70,000 Metal, He3 and Gold.",
+      "depends": 33,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 70000
+        }
+      ],
+      "award": {
+        "metal": 1100,
+        "gold": 1200,
+        "he3": 1100,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 4,
+      "taskName": "Plentiful Resources 5",
+      "goal": "Store 100,000 Metal, He3 and Gold.",
+      "depends": 46,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 100000
+        }
+      ],
+      "award": {
+        "metal": 1300,
+        "gold": 1500,
+        "he3": 1300,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 5,
+      "taskName": "Plentiful Resources 6",
+      "goal": "Store 130,000 Metal, He3 and Gold.",
+      "depends": 52,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 130000
+        }
+      ],
+      "award": {
+        "metal": 2000,
+        "gold": 2500,
+        "he3": 2000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 6,
+      "taskName": "Plentiful Resources 7",
+      "goal": "Store 170,000 Metal, He3 and Gold.",
+      "depends": 64,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 170000
+        }
+      ],
+      "award": {
+        "metal": 3000,
+        "gold": 3000,
+        "he3": 3000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 7,
+      "taskName": "Plentiful Resources 8",
+      "goal": "Store 300,000 Metal, He3 and Gold.",
+      "depends": 70,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 300000
+        }
+      ],
+      "award": {
+        "metal": 5000,
+        "gold": 5000,
+        "he3": 5000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 8,
+      "taskName": "Plentiful Resources 9",
+      "goal": "Store 500,000 Metal, He3 and Gold.",
+      "depends": 81,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 500000
+        }
+      ],
+      "award": {
+        "metal": 20000,
+        "gold": 30000,
+        "he3": 20000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 9,
+      "taskName": "Plentiful Resources 10",
+      "goal": "Store 1,000,000 Metal, He3 and Gold.",
+      "depends": 87,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 1000000
+        }
+      ],
+      "award": {
+        "metal": 50000,
+        "gold": 50000,
+        "he3": 50000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 10,
+      "taskName": "Plentiful Resources 11",
+      "goal": "Store 2,000,000 Metal, He3 and Gold.",
+      "depends": 99,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 2000000
+        }
+      ],
+      "award": {
+        "metal": 100000,
+        "gold": 100000,
+        "he3": 100000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 11,
+      "taskName": "Plentiful Resources 12",
+      "goal": "Store 3,000,000 Metal, He3 and Gold.",
+      "depends": 124,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 3000000
+        }
+      ],
+      "award": {
+        "metal": 300000,
+        "gold": 300000,
+        "he3": 300000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 12,
+      "taskName": "Plentiful Resources 13",
+      "goal": "Store 5,000,000 Metal, He3 and Gold.",
+      "depends": 136,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 5000000
+        }
+      ],
+      "award": {
+        "metal": 500000,
+        "gold": 500000,
+        "he3": 500000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 13,
+      "taskName": "Plentiful Resources 14",
+      "goal": "Store 10,000,000 Metal, He3 and Gold.",
+      "depends": 142,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 10000000
+        }
+      ],
+      "award": {
+        "metal": 600000,
+        "gold": 600000,
+        "he3": 600000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 14,
+      "taskName": "Plentiful Resources 15",
+      "goal": "Store 20,000,000 Metal, He3 and Gold.",
+      "depends": 154,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 20000000
+        }
+      ],
+      "award": {
+        "metal": 700000,
+        "gold": 700000,
+        "he3": 700000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 15,
+      "taskName": "Plentiful Resources 16",
+      "goal": "Store 30,000,000 Metal, He3 and Gold.",
+      "depends": 160,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 30000000
+        }
+      ],
+      "award": {
+        "metal": 800000,
+        "gold": 800000,
+        "he3": 800000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 16,
+      "taskName": "Plentiful Resources 17",
+      "goal": "Store 50,000,000 Metal, He3 and Gold.",
+      "depends": 172,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 50000000
+        }
+      ],
+      "award": {
+        "metal": 900000,
+        "gold": 900000,
+        "he3": 900000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 17,
+      "taskName": "Plentiful Resources 18",
+      "goal": "Store 100,000,000 Metal, He3 and Gold.",
+      "depends": 178,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 100000000
+        }
+      ],
+      "award": {
+        "metal": 1000000,
+        "gold": 1000000,
+        "he3": 1000000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 18,
+      "taskName": "Plentiful Resources 19",
+      "goal": "Store 200,000,000 Metal, He3 and Gold.",
+      "depends": 178,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 118300
+        }
+      ],
+      "award": {
+        "metal": 1200000,
+        "gold": 1200000,
+        "he3": 1200000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 504,
+      "lv": 19,
+      "taskName": "Plentiful Resources 20",
+      "goal": "Store 300,000,000 Metal, He3 and Gold.",
+      "depends": 190,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:resources",
+          "value": 144470
+        }
+      ],
+      "award": {
+        "metal": 1500000,
+        "gold": 1500000,
+        "he3": 1500000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 0,
+      "taskName": "Ship Research 1",
+      "goal": "Upgrade 1 ship.",
+      "depends": 5,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "ship:upgrade",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 5000,
+        "gold": 4000,
+        "he3": 10000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 1,
+      "taskName": "Parts Research 1",
+      "goal": "Upgrade 1 set of parts.",
+      "depends": 5,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "part:upgrade",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 5000,
+        "gold": 4000,
+        "he3": 10000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 2,
+      "taskName": "Ship Research 2",
+      "goal": "Upgrade 5 ships.",
+      "depends": 18,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "ship:upgrade",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 10000,
+        "gold": 8000,
+        "he3": 20000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 3,
+      "taskName": "Parts Research 2",
+      "goal": "Upgrade 5 sets of parts.",
+      "depends": 18,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "part:upgrade",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 10000,
+        "gold": 8000,
+        "he3": 20000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 4,
+      "taskName": "Ship Research 3",
+      "goal": "Upgrade 10 ships.",
+      "depends": 38,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "ship:upgrade",
+          "value": 10
+        }
+      ],
+      "award": {
+        "metal": 30000,
+        "gold": 20000,
+        "he3": 40000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 5,
+      "taskName": "Parts Research 3",
+      "goal": "Upgrade 10 sets of parts.",
+      "depends": 38,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "part:upgrade",
+          "value": 10
+        }
+      ],
+      "award": {
+        "metal": 30000,
+        "gold": 20000,
+        "he3": 40000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 6,
+      "taskName": "Ship Research 4",
+      "goal": "Upgrade 20 ships.",
+      "depends": 56,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "ship:upgrade",
+          "value": 20
+        }
+      ],
+      "award": {
+        "metal": 70000,
+        "gold": 80000,
+        "he3": 100000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 7,
+      "taskName": "Parts Research 4",
+      "goal": "Upgrade 20 sets of parts.",
+      "depends": 56,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "part:upgrade",
+          "value": 20
+        }
+      ],
+      "award": {
+        "metal": 70000,
+        "gold": 80000,
+        "he3": 100000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 8,
+      "taskName": "Ship Research 5",
+      "goal": "Upgrade 30 ships.",
+      "depends": 102,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "ship:upgrade",
+          "value": 30
+        }
+      ],
+      "award": {
+        "metal": 500000,
+        "gold": 500000,
+        "he3": 500000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 9,
+      "taskName": "Parts Research 5",
+      "goal": "Upgrade 30 sets of parts.",
+      "depends": 102,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "part:upgrade",
+          "value": 30
+        }
+      ],
+      "award": {
+        "metal": 500000,
+        "gold": 500000,
+        "he3": 500000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 10,
+      "taskName": "Ship Research 6",
+      "goal": "Upgrade 40 ships.",
+      "depends": 91,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "ship:upgrade",
+          "value": 40
+        }
+      ],
+      "award": {
+        "metal": 800000,
+        "gold": 800000,
+        "he3": 800000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 11,
+      "taskName": "Parts Research 6",
+      "goal": "Upgrade 40 sets of parts.",
+      "depends": 91,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "part:upgrade",
+          "value": 40
+        }
+      ],
+      "award": {
+        "metal": 800000,
+        "gold": 800000,
+        "he3": 800000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 12,
+      "taskName": "Ship Research 7",
+      "goal": "Upgrade 50 ships.",
+      "depends": 128,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "ship:upgrade",
+          "value": 50
+        }
+      ],
+      "award": {
+        "metal": 1000000,
+        "gold": 1000000,
+        "he3": 1000000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 13,
+      "taskName": "Parts Research 7",
+      "goal": "Upgrade 50 sets of parts.",
+      "depends": 128,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "part:upgrade",
+          "value": 50
+        }
+      ],
+      "award": {
+        "metal": 1000000,
+        "gold": 1000000,
+        "he3": 1000000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 14,
+      "taskName": "Ship Research 8",
+      "goal": "Upgrade 60 ships.",
+      "depends": 146,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "ship:upgrade",
+          "value": 60
+        }
+      ],
+      "award": {
+        "metal": 1500000,
+        "gold": 1500000,
+        "he3": 1500000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 15,
+      "taskName": "Parts Research 8",
+      "goal": "Upgrade 60 sets of parts.",
+      "depends": 146,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "part:upgrade",
+          "value": 60
+        }
+      ],
+      "award": {
+        "metal": 1500000,
+        "gold": 1500000,
+        "he3": 1500000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 16,
+      "taskName": "Ship Research 9",
+      "goal": "Upgrade 70 ships.",
+      "depends": 164,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "ship:upgrade",
+          "value": 70
+        }
+      ],
+      "award": {
+        "metal": 2000000,
+        "gold": 2000000,
+        "he3": 2000000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 17,
+      "taskName": "Parts Research 9",
+      "goal": "Upgrade 70 sets of parts.",
+      "depends": 164,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "part:upgrade",
+          "value": 70
+        }
+      ],
+      "award": {
+        "metal": 2000000,
+        "gold": 2000000,
+        "he3": 2000000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 18,
+      "taskName": "Ship Research 10",
+      "goal": "Upgrade 90 ships.",
+      "depends": 182,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "ship:upgrade",
+          "value": 90
+        }
+      ],
+      "award": {
+        "metal": 3000000,
+        "gold": 3000000,
+        "he3": 3000000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 505,
+      "lv": 19,
+      "taskName": "Parts Research 10",
+      "goal": "Upgrade 90 sets of parts.",
+      "depends": 1,
+      "requirement": [
+        {
+          "type": "upgrade",
+          "identifier": "part:upgrade",
+          "value": 90
+        }
+      ],
+      "award": {
+        "metal": 3000000,
+        "gold": 3000000,
+        "he3": 3000000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 0,
+      "taskName": "Recruitment 1",
+      "goal": "Successfully recruit 2 Commanders.",
+      "depends": 1,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 500,
+        "gold": 500,
+        "he3": 700,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 1,
+      "taskName": "Recruitment 2",
+      "goal": "Successfully recruit 4 Commanders.",
+      "depends": 1,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 600,
+        "gold": 600,
+        "he3": 800,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 2,
+      "taskName": "Recruitment 3",
+      "goal": "Successfully recruit 6 Commanders.",
+      "depends": 1,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 700,
+        "gold": 700,
+        "he3": 1000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 3,
+      "taskName": "Recruitment 4",
+      "goal": "Successfully recruit 8 Commanders.",
+      "depends": 35,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 800,
+        "gold": 800,
+        "he3": 1500,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 4,
+      "taskName": "Recruitment 5",
+      "goal": "Successfully recruit 10 Commanders.",
+      "depends": 35,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 10
+        }
+      ],
+      "award": {
+        "metal": 1000,
+        "gold": 1000,
+        "he3": 2000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 5,
+      "taskName": "Recruitment 6",
+      "goal": "Successfully recruit 12 Commanders.",
+      "depends": 35,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 12
+        }
+      ],
+      "award": {
+        "metal": 2000,
+        "gold": 2000,
+        "he3": 3000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 6,
+      "taskName": "Recruitment 7",
+      "goal": "Successfully recruit 14 Commanders.",
+      "depends": 54,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 14
+        }
+      ],
+      "award": {
+        "metal": 3000,
+        "gold": 3000,
+        "he3": 4000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 7,
+      "taskName": "Recruitment 8",
+      "goal": "Successfully recruit 16 Commanders.",
+      "depends": 54,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 16
+        }
+      ],
+      "award": {
+        "metal": 4000,
+        "gold": 4000,
+        "he3": 5000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 8,
+      "taskName": "Recruitment 9",
+      "goal": "Successfully recruit 18 Commanders.",
+      "depends": 54,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 18
+        }
+      ],
+      "award": {
+        "metal": 5000,
+        "gold": 5000,
+        "he3": 6000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 9,
+      "taskName": "Recruitment 10",
+      "goal": "Successfully recruit 20 Commanders.",
+      "depends": 72,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 20
+        }
+      ],
+      "award": {
+        "metal": 8000,
+        "gold": 8000,
+        "he3": 10000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 10,
+      "taskName": "Recruitment 11",
+      "goal": "Successfully recruit 22 Commanders.",
+      "depends": 72,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 22
+        }
+      ],
+      "award": {
+        "metal": 10000,
+        "gold": 10000,
+        "he3": 20000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 11,
+      "taskName": "Recruitment 12",
+      "goal": "Successfully recruit 24 Commanders.",
+      "depends": 72,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 24
+        }
+      ],
+      "award": {
+        "metal": 20000,
+        "gold": 20000,
+        "he3": 30000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 12,
+      "taskName": "Recruitment 13",
+      "goal": "Successfully recruit 26 Commanders.",
+      "depends": 89,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 26
+        }
+      ],
+      "award": {
+        "metal": 30000,
+        "gold": 30000,
+        "he3": 40000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 13,
+      "taskName": "Recruitment 14",
+      "goal": "Successfully recruit 28 Commanders.",
+      "depends": 89,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 28
+        }
+      ],
+      "award": {
+        "metal": 40000,
+        "gold": 40000,
+        "he3": 50000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 14,
+      "taskName": "Recruitment 15",
+      "goal": "Successfully recruit 30 Commanders.",
+      "depends": 89,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 30
+        }
+      ],
+      "award": {
+        "metal": 50000,
+        "gold": 50000,
+        "he3": 70000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 15,
+      "taskName": "Recruitment 16",
+      "goal": "Successfully recruit 32 Commanders.",
+      "depends": 120,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 32
+        }
+      ],
+      "award": {
+        "metal": 70000,
+        "gold": 70000,
+        "he3": 100000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 16,
+      "taskName": "Recruitment 17",
+      "goal": "Successfully recruit 34 Commanders.",
+      "depends": 120,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 34
+        }
+      ],
+      "award": {
+        "metal": 90000,
+        "gold": 90000,
+        "he3": 130000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 17,
+      "taskName": "Recruitment 18",
+      "goal": "Successfully recruit 36 Commanders.",
+      "depends": 126,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 36
+        }
+      ],
+      "award": {
+        "metal": 110000,
+        "gold": 110000,
+        "he3": 160000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 18,
+      "taskName": "Recruitment 19",
+      "goal": "Successfully recruit 38 Commanders.",
+      "depends": 126,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 38
+        }
+      ],
+      "award": {
+        "metal": 130000,
+        "gold": 130000,
+        "he3": 190000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 19,
+      "taskName": "Recruitment 20",
+      "goal": "Successfully recruit 40 Commanders.",
+      "depends": 144,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 40
+        }
+      ],
+      "award": {
+        "metal": 150000,
+        "gold": 150000,
+        "he3": 220000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 20,
+      "taskName": "Recruitment 21",
+      "goal": "Successfully recruit 42 Commanders.",
+      "depends": 144,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 42
+        }
+      ],
+      "award": {
+        "metal": 170000,
+        "gold": 170000,
+        "he3": 250000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 21,
+      "taskName": "Recruitment 22",
+      "goal": "Successfully recruit 44 Commanders.",
+      "depends": 162,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 44
+        }
+      ],
+      "award": {
+        "metal": 190000,
+        "gold": 190000,
+        "he3": 280000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 22,
+      "taskName": "Recruitment 23",
+      "goal": "Successfully recruit 46 Commanders.",
+      "depends": 162,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 46
+        }
+      ],
+      "award": {
+        "metal": 210000,
+        "gold": 210000,
+        "he3": 310000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 23,
+      "taskName": "Recruitment 24",
+      "goal": "Successfully recruit 48 Commanders.",
+      "depends": 180,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 48
+        }
+      ],
+      "award": {
+        "metal": 230000,
+        "gold": 230000,
+        "he3": 340000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 506,
+      "lv": 24,
+      "taskName": "Recruitment 25",
+      "goal": "Successfully recruit 50 Commanders.",
+      "depends": 180,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recruit",
+          "value": 50
+        }
+      ],
+      "award": {
+        "metal": 250000,
+        "gold": 250000,
+        "he3": 370000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 0,
+      "taskName": "Joining Forces",
+      "goal": "Join or create a Corps.",
+      "depends": 21,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:corp.join",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 500,
+        "gold": 500,
+        "he3": 500,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 1,
+      "taskName": "Friendly Faces 1",
+      "goal": "Add 2 friends.",
+      "depends": 21,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:friends",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 1000,
+        "gold": 1000,
+        "he3": 1000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 2,
+      "taskName": "Friendly Faces 2",
+      "goal": "Add 4 friends.",
+      "depends": 41,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:friends",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 5000,
+        "gold": 5000,
+        "he3": 5000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 3,
+      "taskName": "Contribution 1",
+      "goal": "Contribute up to 100 points.",
+      "depends": 41,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:corp.contribute",
+          "value": 100
+        }
+      ],
+      "award": {
+        "metal": 10000,
+        "gold": 15000,
+        "he3": 30000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 4,
+      "taskName": "Friendly Faces 3",
+      "goal": "Add 6 friends.",
+      "depends": 59,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:friends",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 9000,
+        "gold": 9000,
+        "he3": 9000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 5,
+      "taskName": "Contribution 2",
+      "goal": "Contribute up to 500 points.",
+      "depends": 59,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:corp.contribute",
+          "value": 500
+        }
+      ],
+      "award": {
+        "metal": 50000,
+        "gold": 55000,
+        "he3": 70000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 6,
+      "taskName": "Friendly Faces 4",
+      "goal": "Add 8 friends.",
+      "depends": 76,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:friends",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 13000,
+        "gold": 13000,
+        "he3": 13000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 7,
+      "taskName": "Contribution 3",
+      "goal": "Contribute up to 1,000 points.",
+      "depends": 76,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:corp.contribute",
+          "value": 1000
+        }
+      ],
+      "award": {
+        "metal": 100000,
+        "gold": 120000,
+        "he3": 200000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 8,
+      "taskName": "Friendly Faces 5",
+      "goal": "Add 10 friends.",
+      "depends": 94,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:friends",
+          "value": 10
+        }
+      ],
+      "award": {
+        "metal": 17000,
+        "gold": 17000,
+        "he3": 17000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 9,
+      "taskName": "Contribution 4",
+      "goal": "Contribute up to 2,000 points.",
+      "depends": 94,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:corp.contribute",
+          "value": 2000
+        }
+      ],
+      "award": {
+        "metal": 200000,
+        "gold": 220000,
+        "he3": 300000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 10,
+      "taskName": "Friendly Faces 6",
+      "goal": "Add 30 friends.",
+      "depends": 131,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:friends",
+          "value": 30
+        }
+      ],
+      "award": {
+        "metal": 30000,
+        "gold": 30000,
+        "he3": 30000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 11,
+      "taskName": "Contribution 5",
+      "goal": "Contribute up to 3,000 points.",
+      "depends": 131,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:corp.contribute",
+          "value": 3000
+        }
+      ],
+      "award": {
+        "metal": 300000,
+        "gold": 320000,
+        "he3": 400000,
+        "propId": 923,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 12,
+      "taskName": "Friendly Faces 7",
+      "goal": "Add 50 friends.",
+      "depends": 149,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:friends",
+          "value": 50
+        }
+      ],
+      "award": {
+        "metal": 50000,
+        "gold": 50000,
+        "he3": 50000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 13,
+      "taskName": "Contribution 6",
+      "goal": "Contribute up to 5,000 points.",
+      "depends": 149,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:corp.contribute",
+          "value": 5000
+        }
+      ],
+      "award": {
+        "metal": 500000,
+        "gold": 500000,
+        "he3": 600000,
+        "propId": 900,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 14,
+      "taskName": "Friendly Faces 8",
+      "goal": "Add 70 friends.",
+      "depends": 167,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:friends",
+          "value": 70
+        }
+      ],
+      "award": {
+        "metal": 80000,
+        "gold": 80000,
+        "he3": 80000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 15,
+      "taskName": "Contribution 7",
+      "goal": "Contribute up to 10,000 points.",
+      "depends": 167,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:corp.contribute",
+          "value": 10000
+        }
+      ],
+      "award": {
+        "metal": 800000,
+        "gold": 800000,
+        "he3": 1000000,
+        "propId": 926,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 16,
+      "taskName": "Friendly Faces 5",
+      "goal": "Add 100 friends.",
+      "depends": 185,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:friends",
+          "value": 100
+        }
+      ],
+      "award": {
+        "metal": 150000,
+        "gold": 150000,
+        "he3": 150000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 507,
+      "lv": 17,
+      "taskName": "Contribution 4",
+      "goal": "Contribute up to 20,000 points.",
+      "depends": 185,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:corp.contribute",
+          "value": 20000
+        }
+      ],
+      "award": {
+        "metal": 1000000,
+        "gold": 1000000,
+        "he3": 1500000,
+        "propId": 901,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 509,
+      "lv": 0,
+      "taskName": "Technological Advancement 2",
+      "goal": "Research High Yield Mining Lv1.",
+      "depends": 107,
+      "requirement": [
+        {
+          "type": "science",
+          "identifier": "science:high.yield.mining",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 1400,
+        "gold": 1400,
+        "he3": 1400,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 509,
+      "lv": 1,
+      "taskName": "Technological Advancement 3",
+      "goal": "Research Construction Boost Lv1.",
+      "depends": 5,
+      "requirement": [
+        {
+          "type": "science",
+          "identifier": "science:construction.boost",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 1400,
+        "gold": 1400,
+        "he3": 1400,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 509,
+      "lv": 2,
+      "taskName": "Technological Advancement 4",
+      "goal": "High Yield Chemistry Lv1.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "science",
+          "identifier": "science:high.yield.chemistry",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 1750,
+        "gold": 1750,
+        "he3": 1750,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 509,
+      "lv": 3,
+      "taskName": "Technological Advancement 5",
+      "goal": "Ship Building Boost Lv1.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "science",
+          "identifier": "science:ship.building.boost",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 1800,
+        "gold": 1800,
+        "he3": 1800,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 509,
+      "lv": 4,
+      "taskName": "Technological Advancement 6",
+      "goal": "Ship Building Logistics Lv1.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "science",
+          "identifier": "science:ship.building.logistics",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 1850,
+        "gold": 1850,
+        "he3": 1850,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 509,
+      "lv": 5,
+      "taskName": "Technological Advancement 7",
+      "goal": "Quality Materials Lv1.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "science",
+          "identifier": "science:quality.materials",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 3000,
+        "gold": 3000,
+        "he3": 3000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 509,
+      "lv": 6,
+      "taskName": "Technological Advancement 8",
+      "goal": "High Yield Investing Lv1.",
+      "depends": 45,
+      "requirement": [
+        {
+          "type": "science",
+          "identifier": "science:high.yield.investing",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 20000,
+        "gold": 20000,
+        "he3": 20000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 509,
+      "lv": 7,
+      "taskName": "Technological Advancement 9",
+      "goal": "Sync Shipbuilding Lv1.",
+      "depends": 45,
+      "requirement": [
+        {
+          "type": "science",
+          "identifier": "science:sync.shipbuilding",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 100000,
+        "gold": 100000,
+        "he3": 100000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 509,
+      "lv": 8,
+      "taskName": "Technological Advancement 10",
+      "goal": "Expand Capacity Lv1.",
+      "depends": 45,
+      "requirement": [
+        {
+          "type": "science",
+          "identifier": "science:expand.capacity",
+          "value": 0
+        }
+      ],
+      "award": {
+        "metal": 150000,
+        "gold": 150000,
+        "he3": 150000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 0,
+      "taskName": "Staying Green  1",
+      "goal": "Recycle 1 ship.",
+      "depends": 19,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 1000,
+        "gold": 1000,
+        "he3": 1500,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 1,
+      "taskName": "Staying Green  2",
+      "goal": "Recycle 30 ship.",
+      "depends": 19,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 30
+        }
+      ],
+      "award": {
+        "metal": 1500,
+        "gold": 1500,
+        "he3": 2000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 2,
+      "taskName": "Staying Green  3",
+      "goal": "Recycle 50 ship.",
+      "depends": 39,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 50
+        }
+      ],
+      "award": {
+        "metal": 2000,
+        "gold": 2000,
+        "he3": 3000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 3,
+      "taskName": "Staying Green  4",
+      "goal": "Recycle 70 ship.",
+      "depends": 39,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 70
+        }
+      ],
+      "award": {
+        "metal": 3000,
+        "gold": 3000,
+        "he3": 4000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 4,
+      "taskName": "Staying Green  5",
+      "goal": "Recycle 100 ship.",
+      "depends": 57,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 100
+        }
+      ],
+      "award": {
+        "metal": 4000,
+        "gold": 4000,
+        "he3": 6000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 5,
+      "taskName": "Staying Green  6",
+      "goal": "Recycle 200 ship.",
+      "depends": 57,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 200
+        }
+      ],
+      "award": {
+        "metal": 6000,
+        "gold": 6000,
+        "he3": 8000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 6,
+      "taskName": "Staying Green  7",
+      "goal": "Recycle 500 ship.",
+      "depends": 74,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 500
+        }
+      ],
+      "award": {
+        "metal": 8000,
+        "gold": 8000,
+        "he3": 10000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 7,
+      "taskName": "Staying Green  8",
+      "goal": "Recycle 800 ship.",
+      "depends": 74,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 800
+        }
+      ],
+      "award": {
+        "metal": 20000,
+        "gold": 20000,
+        "he3": 20000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 8,
+      "taskName": "Staying Green  9",
+      "goal": "Recycle 1,000 ship.",
+      "depends": 92,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 1000
+        }
+      ],
+      "award": {
+        "metal": 40000,
+        "gold": 40000,
+        "he3": 40000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 9,
+      "taskName": "Staying Green  10",
+      "goal": "Recycle 5,000 ship.",
+      "depends": 92,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 5000
+        }
+      ],
+      "award": {
+        "metal": 70000,
+        "gold": 70000,
+        "he3": 70000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 10,
+      "taskName": "Staying Green  11",
+      "goal": "Recycle 10,000 ship.",
+      "depends": 147,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 10000
+        }
+      ],
+      "award": {
+        "metal": 100000,
+        "gold": 100000,
+        "he3": 100000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 11,
+      "taskName": "Staying Green  12",
+      "goal": "Recycle 30,000 ship.",
+      "depends": 147,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 30000
+        }
+      ],
+      "award": {
+        "metal": 200000,
+        "gold": 200000,
+        "he3": 200000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 12,
+      "taskName": "Staying Green  13",
+      "goal": "Recycle 50,000 ship.",
+      "depends": 165,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 50000
+        }
+      ],
+      "award": {
+        "metal": 300000,
+        "gold": 300000,
+        "he3": 300000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 13,
+      "taskName": "Staying Green  14",
+      "goal": "Recycle 100,000 ship.",
+      "depends": 165,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 100000
+        }
+      ],
+      "award": {
+        "metal": 500000,
+        "gold": 500000,
+        "he3": 500000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 510,
+      "lv": 14,
+      "taskName": "Staying Green  15",
+      "goal": "Recycle 200,000 ship.",
+      "depends": 183,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:recycle",
+          "value": 200000
+        }
+      ],
+      "award": {
+        "metal": 800000,
+        "gold": 800000,
+        "he3": 1000000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 511,
+      "lv": 0,
+      "taskName": "Free Trade  1",
+      "goal": "Trading volume reaches 1.",
+      "depends": 20,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:trade",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 1000,
+        "gold": 1000,
+        "he3": 2000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 511,
+      "lv": 1,
+      "taskName": "Free Trade  2",
+      "goal": "Trading volume reaches 5.",
+      "depends": 20,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:trade",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 1500,
+        "gold": 1500,
+        "he3": 3000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 511,
+      "lv": 2,
+      "taskName": "Free Trade  3",
+      "goal": "Trading volume reaches 30.",
+      "depends": 40,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:trade",
+          "value": 30
+        }
+      ],
+      "award": {
+        "metal": 2000,
+        "gold": 2000,
+        "he3": 5000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 511,
+      "lv": 3,
+      "taskName": "Free Trade  4",
+      "goal": "Trading volume reaches 70.",
+      "depends": 40,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:trade",
+          "value": 70
+        }
+      ],
+      "award": {
+        "metal": 5000,
+        "gold": 5000,
+        "he3": 8000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 511,
+      "lv": 4,
+      "taskName": "Free Trade  5",
+      "goal": "Trading volume reaches 150.",
+      "depends": 58,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:trade",
+          "value": 150
+        }
+      ],
+      "award": {
+        "metal": 8000,
+        "gold": 8000,
+        "he3": 10000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 511,
+      "lv": 5,
+      "taskName": "Free Trade  6",
+      "goal": "Trading volume reaches 500.",
+      "depends": 75,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:trade",
+          "value": 500
+        }
+      ],
+      "award": {
+        "metal": 10000,
+        "gold": 10000,
+        "he3": 20000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 511,
+      "lv": 6,
+      "taskName": "Free Trade  7",
+      "goal": "Trading volume reaches 1000.",
+      "depends": 93,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:trade",
+          "value": 1000
+        }
+      ],
+      "award": {
+        "metal": 30000,
+        "gold": 30000,
+        "he3": 50000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 511,
+      "lv": 7,
+      "taskName": "Free Trade  8",
+      "goal": "Trading volume reaches 3000.",
+      "depends": 130,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:trade",
+          "value": 3000
+        }
+      ],
+      "award": {
+        "metal": 50000,
+        "gold": 50000,
+        "he3": 80000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 511,
+      "lv": 8,
+      "taskName": "Free Trade  9",
+      "goal": "Trading volume reaches 10,000.",
+      "depends": 148,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:trade",
+          "value": 10000
+        }
+      ],
+      "award": {
+        "metal": 80000,
+        "gold": 80000,
+        "he3": 100000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 511,
+      "lv": 9,
+      "taskName": "Free Trade  10",
+      "goal": "Trading volume reaches 30,000.",
+      "depends": 166,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:trade",
+          "value": 30000
+        }
+      ],
+      "award": {
+        "metal": 150000,
+        "gold": 150000,
+        "he3": 200000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 511,
+      "lv": 10,
+      "taskName": "Free Trade  11",
+      "goal": "Trading volume reaches 50,000.",
+      "depends": 184,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:trade",
+          "value": 50000
+        }
+      ],
+      "award": {
+        "metal": 200000,
+        "gold": 200000,
+        "he3": 300000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 512,
+      "lv": 0,
+      "taskName": "Construction Speedup",
+      "goal": "Speed up Construction.",
+      "depends": 45,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:speedup.construction",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 2500,
+        "gold": 2800,
+        "he3": 4000,
+        "vouchers": 5,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 512,
+      "lv": 1,
+      "taskName": "Tech Advancement Speedup",
+      "goal": "Speed up Tech Advancement.",
+      "depends": 45,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:speedup.tech",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 2000,
+        "gold": 2200,
+        "he3": 3000,
+        "vouchers": 5,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 512,
+      "lv": 2,
+      "taskName": "Speed up Module Research",
+      "goal": "Speed up part Blueprint Research.",
+      "depends": 45,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:speedup.part.research",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 2600,
+        "gold": 3000,
+        "he3": 4200,
+        "vouchers": 5,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 512,
+      "lv": 3,
+      "taskName": "Time To Build",
+      "goal": "Use a Construction Card.",
+      "depends": 45,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:use.construction.card",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 3000,
+        "gold": 3200,
+        "he3": 4500,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 513,
+      "lv": 0,
+      "taskName": "Commander Card Combination",
+      "goal": "Combine Commander Cards at the Compounding Center.",
+      "depends": 36,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:combine.cards",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 10000,
+        "gold": 12000,
+        "he3": 20000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 513,
+      "lv": 1,
+      "taskName": "Military Ranks 1",
+      "goal": "Obtain a 3 Star Commander.",
+      "depends": 36,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:commander.stars",
+          "value": 2
+        }
+      ],
+      "award": {
+        "metal": 20000,
+        "gold": 22000,
+        "he3": 30000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 513,
+      "lv": 2,
+      "taskName": "Military Ranks 2",
+      "goal": "Obtain a 4 Star Commander.",
+      "depends": 36,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:commander.stars",
+          "value": 3
+        }
+      ],
+      "award": {
+        "metal": 30000,
+        "gold": 32000,
+        "he3": 45000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 513,
+      "lv": 3,
+      "taskName": "Military Ranks 3",
+      "goal": "Obtain a 5 Star Commander.",
+      "depends": 36,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:commander.stars",
+          "value": 4
+        }
+      ],
+      "award": {
+        "metal": 60000,
+        "gold": 62000,
+        "he3": 75000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 513,
+      "lv": 4,
+      "taskName": "Military Ranks 4",
+      "goal": "Obtain a 6 Star Commander.",
+      "depends": 36,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:commander.stars",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 100000,
+        "gold": 120000,
+        "he3": 150000,
+        "vouchers": 10,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 513,
+      "lv": 5,
+      "taskName": "Military Ranks 5",
+      "goal": "Obtain a 7 Star Commander.",
+      "depends": 36,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:commander.stars",
+          "value": 6
+        }
+      ],
+      "award": {
+        "metal": 200000,
+        "gold": 200000,
+        "he3": 300000,
+        "vouchers": 30,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 513,
+      "lv": 6,
+      "taskName": "Military Ranks 6",
+      "goal": "Obtain a 8 Star Commander.",
+      "depends": 36,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:commander.stars",
+          "value": 7
+        }
+      ],
+      "award": {
+        "metal": 500000,
+        "gold": 500000,
+        "he3": 600000,
+        "vouchers": 50,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 513,
+      "lv": 7,
+      "taskName": "Military Ranks 7",
+      "goal": "Obtain a 9 Star Commander.",
+      "depends": 36,
+      "requirement": [
+        {
+          "type": "current",
+          "identifier": "current:commander.stars",
+          "value": 8
+        }
+      ],
+      "award": {
+        "metal": 10000000,
+        "gold": 1100000,
+        "he3": 15000000,
+        "vouchers": 100,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 514,
+      "lv": 0,
+      "taskName": "Speedy Shipbuilding",
+      "goal": "Speed up shipbuilding.",
+      "depends": 2,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:speedup.shipbuilding",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 2200,
+        "gold": 2500,
+        "he3": 3500,
+        "vouchers": 5,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 515,
+      "lv": 0,
+      "taskName": "Beefing Up Defenses 2",
+      "goal": "Construct 5 Defensive Structures.",
+      "depends": 11,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.space.structure",
+          "value": 5
+        }
+      ],
+      "award": {
+        "metal": 2000,
+        "gold": 2100,
+        "he3": 3000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 515,
+      "lv": 1,
+      "taskName": "Beefing Up Defenses 3",
+      "goal": "Construct 10 Defensive Structures.",
+      "depends": 29,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.space.structure",
+          "value": 10
+        }
+      ],
+      "award": {
+        "metal": 3500,
+        "gold": 3800,
+        "he3": 5000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 515,
+      "lv": 2,
+      "taskName": "Beefing Up Defenses 4",
+      "goal": "Construct 15 Defensive Structures.",
+      "depends": 48,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.space.structure",
+          "value": 15
+        }
+      ],
+      "award": {
+        "metal": 6000,
+        "gold": 5000,
+        "he3": 10000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 515,
+      "lv": 3,
+      "taskName": "Beefing Up Defenses 5",
+      "goal": "Construct 20 Defensive Structures.",
+      "depends": 66,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.space.structure",
+          "value": 20
+        }
+      ],
+      "award": {
+        "metal": 10000,
+        "gold": 6000,
+        "he3": 20000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 515,
+      "lv": 4,
+      "taskName": "Beefing Up Defenses 6",
+      "goal": "Construct 30 Defensive Structures.",
+      "depends": 83,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.space.structure",
+          "value": 30
+        }
+      ],
+      "award": {
+        "metal": 20000,
+        "gold": 12000,
+        "he3": 35000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 515,
+      "lv": 5,
+      "taskName": "Beefing Up Defenses 7",
+      "goal": "Construct 40 Defensive Structures.",
+      "depends": 120,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.space.structure",
+          "value": 40
+        }
+      ],
+      "award": {
+        "metal": 60000,
+        "gold": 55000,
+        "he3": 70000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 515,
+      "lv": 6,
+      "taskName": "Beefing Up Defenses 8",
+      "goal": "Construct 50 Defensive Structures.",
+      "depends": 138,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.space.structure",
+          "value": 50
+        }
+      ],
+      "award": {
+        "metal": 80000,
+        "gold": 70000,
+        "he3": 100000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 515,
+      "lv": 7,
+      "taskName": "Beefing Up Defenses 9",
+      "goal": "Construct 60 Defensive Structures.",
+      "depends": 156,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.space.structure",
+          "value": 60
+        }
+      ],
+      "award": {
+        "metal": 300000,
+        "gold": 300000,
+        "he3": 400000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 515,
+      "lv": 8,
+      "taskName": "Beefing Up Defenses 10",
+      "goal": "Construct 72 Defensive Structures.",
+      "depends": 156,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.space.structure",
+          "value": 72
+        }
+      ],
+      "award": {
+        "metal": 800000,
+        "gold": 800000,
+        "he3": 1000000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 515,
+      "lv": 9,
+      "taskName": "Beefing Up Defenses 11",
+      "goal": "Construct 86 Defensive Structures.",
+      "depends": 174,
+      "requirement": [
+        {
+          "type": "action",
+          "identifier": "action:build.space.structure",
+          "value": 86
+        }
+      ],
+      "award": {
+        "metal": 2000000,
+        "gold": 2000000,
+        "he3": 3000000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 0,
+      "taskName": "Instances 2",
+      "goal": "Successfully complete Deadzone.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.2",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 10000,
+        "gold": 10000,
+        "he3": 10000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 1,
+      "taskName": "Instances 3",
+      "goal": "Successfully complete Bravery.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.3",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 15000,
+        "gold": 15000,
+        "he3": 15000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 2,
+      "taskName": "Instances 4",
+      "goal": "Successfully complete Ambush.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.4",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 20000,
+        "gold": 20000,
+        "he3": 20000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 3,
+      "taskName": "Instances 5",
+      "goal": "Successfully complete Defending Yourself.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.5",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 25000,
+        "gold": 25000,
+        "he3": 25000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 4,
+      "taskName": "Instances 6",
+      "goal": "Successfully complete To Victory.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.6",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 30000,
+        "gold": 30000,
+        "he3": 30000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 5,
+      "taskName": "Instances 7",
+      "goal": "Successfully complete Annihilation.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.7",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 35000,
+        "gold": 35000,
+        "he3": 35000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 6,
+      "taskName": "Instances 8",
+      "goal": "Successfully complete Hellish Ventures.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.8",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 40000,
+        "gold": 40000,
+        "he3": 40000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 7,
+      "taskName": "Instances 9",
+      "goal": "Successfully complete Duel.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.9",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 45000,
+        "gold": 45000,
+        "he3": 45000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 8,
+      "taskName": "Instances 10",
+      "goal": "Successfully complete Lost.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.10",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 50000,
+        "gold": 50000,
+        "he3": 50000,
+        "propId": 905,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 9,
+      "taskName": "Instances 11",
+      "goal": "Successfully complete Wonderland.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.11",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 55000,
+        "gold": 55000,
+        "he3": 55000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 10,
+      "taskName": "Instances 12",
+      "goal": "Successfully complete Dead or Alive.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.12",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 60000,
+        "gold": 60000,
+        "he3": 60000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 11,
+      "taskName": "Instances 13",
+      "goal": "Successfully complete Ship Graveyard.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.13",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 65000,
+        "gold": 65000,
+        "he3": 65000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 12,
+      "taskName": "Instances 14",
+      "goal": "Successfully complete E.C.R.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.14",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 70000,
+        "gold": 70000,
+        "he3": 70000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 13,
+      "taskName": "Instances 15",
+      "goal": "Successfully complete Free Flight.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.15",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 75000,
+        "gold": 75000,
+        "he3": 75000,
+        "propId": 906,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 14,
+      "taskName": "Instances 16",
+      "goal": "Successfully complete Spell Break.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.16",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 80000,
+        "gold": 80000,
+        "he3": 80000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 15,
+      "taskName": "Instances 17",
+      "goal": "Successfully complete Lucky Zodiac.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.17",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 85000,
+        "gold": 85000,
+        "he3": 85000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 16,
+      "taskName": "Instances 18",
+      "goal": "Successfully complete The Blackest Hole.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.18",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 90000,
+        "gold": 90000,
+        "he3": 90000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 17,
+      "taskName": "Instances 19",
+      "goal": "Successfully complete The Matrix Returned.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.19",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 95000,
+        "gold": 95000,
+        "he3": 95000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 18,
+      "taskName": "Instances 20",
+      "goal": "Successfully complete Timewhirl.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.20",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 100000,
+        "gold": 100000,
+        "he3": 100000,
+        "propId": 907,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 19,
+      "taskName": "Instances 21",
+      "goal": "Successfully complete Bushwhacked.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.21",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 110000,
+        "gold": 110000,
+        "he3": 110000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 20,
+      "taskName": "Instances 22",
+      "goal": "Successfully complete The Gathering.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.22",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 120000,
+        "gold": 120000,
+        "he3": 120000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 21,
+      "taskName": "Instances 23",
+      "goal": "Successfully complete Saving Grace.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.23",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 130000,
+        "gold": 130000,
+        "he3": 130000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 22,
+      "taskName": "Instances 24",
+      "goal": "Successfully complete Prowler.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.24",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 140000,
+        "gold": 140000,
+        "he3": 140000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 23,
+      "taskName": "Instances 25",
+      "goal": "Successfully complete Faceoff-I.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.25",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 150000,
+        "gold": 150000,
+        "he3": 150000,
+        "propId": 926,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 24,
+      "taskName": "Instances 26",
+      "goal": "Successfully complete Faceoff-II.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.26",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 160000,
+        "gold": 160000,
+        "he3": 160000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 25,
+      "taskName": "Instances 27",
+      "goal": "Successfully complete Broken Pact.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.27",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 170000,
+        "gold": 170000,
+        "he3": 170000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 26,
+      "taskName": "Instances 28",
+      "goal": "Successfully complete Smashing.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.28",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 180000,
+        "gold": 180000,
+        "he3": 180000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 27,
+      "taskName": "Instances 29",
+      "goal": "Successfully complete B.P.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.29",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 190000,
+        "gold": 190000,
+        "he3": 190000,
+        "propId": -1
+      }
+    },
+    {
+      "taskId": 516,
+      "lv": 28,
+      "taskName": "Instances 30",
+      "goal": "Successfully complete Triumphant Glory.",
+      "depends": 26,
+      "requirement": [
+        {
+          "type": "instance",
+          "identifier": "instance:normal.30",
+          "value": 1
+        }
+      ],
+      "award": {
+        "metal": 200000,
+        "gold": 200000,
+        "he3": 200000,
+        "propId": 901,
+        "propNum": 1
+      }
+    },
+    {
+      "taskId": 517,
+      "lv": 0,
+      "taskName": "Peace Agreement",
+      "goal": "Click the &quot;Collect Rewards&quot; button to claim a Truce Card.",
+      "depends": 0,
+      "requirement": [],
+      "award": {
+        "metal": 0,
+        "gold": 0,
+        "he3": 0,
+        "propId": 902,
+        "propNum": 1
+      }
+    }
+  ]
+}

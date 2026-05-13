@@ -1,0 +1,2529 @@
+{
+  "chips": [
+    {
+      "lv": 1,
+      "next": 50,
+      "price": {
+        "corsair": 10,
+        "mp": 10
+      },
+      "rewards": [
+        {
+          "propId": 4220,
+          "propNum": 1,
+          "chances": {
+            "corsair": 5000,
+            "mp": 1000
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3660,
+          "propNum": 1,
+          "chances": {
+            "corsair": 300,
+            "mp": 570
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3780,
+          "propNum": 1,
+          "chances": {
+            "corsair": 300,
+            "mp": 570
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3980,
+          "propNum": 1,
+          "chances": {
+            "corsair": 300,
+            "mp": 570
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4180,
+          "propNum": 1,
+          "chances": {
+            "corsair": 300,
+            "mp": 570
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3540,
+          "propNum": 1,
+          "chances": {
+            "corsair": 270,
+            "mp": 565
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3580,
+          "propNum": 1,
+          "chances": {
+            "corsair": 275,
+            "mp": 565
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3620,
+          "propNum": 1,
+          "chances": {
+            "corsair": 275,
+            "mp": 565
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3700,
+          "propNum": 1,
+          "chances": {
+            "corsair": 275,
+            "mp": 465
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3500,
+          "propNum": 1,
+          "chances": {
+            "corsair": 270,
+            "mp": 465
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3740,
+          "propNum": 1,
+          "chances": {
+            "corsair": 275,
+            "mp": 465
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3820,
+          "propNum": 1,
+          "chances": {
+            "corsair": 270,
+            "mp": 455
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3860,
+          "propNum": 1,
+          "chances": {
+            "corsair": 270,
+            "mp": 455
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3900,
+          "propNum": 1,
+          "chances": {
+            "corsair": 270,
+            "mp": 455
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3940,
+          "propNum": 1,
+          "chances": {
+            "corsair": 270,
+            "mp": 455
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4020,
+          "propNum": 1,
+          "chances": {
+            "corsair": 270,
+            "mp": 455
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4060,
+          "propNum": 1,
+          "chances": {
+            "corsair": 270,
+            "mp": 455
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4100,
+          "propNum": 1,
+          "chances": {
+            "corsair": 270,
+            "mp": 450
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4140,
+          "propNum": 1,
+          "chances": {
+            "corsair": 270,
+            "mp": 450
+          },
+          "broadcast": false
+        }
+      ]
+    },
+    {
+      "lv": 2,
+      "next": 40,
+      "price": {
+        "corsair": 20,
+        "mp": 15
+      },
+      "rewards": [
+        {
+          "propId": 4220,
+          "propNum": 1,
+          "chances": {
+            "corsair": 4000,
+            "mp": 1000
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3660,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 250
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3780,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 250
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3980,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 250
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4180,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 250
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3540,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 220
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3580,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 220
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3620,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 220
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3700,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 220
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3500,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 220
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3740,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 220
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3820,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 210
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3860,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 210
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3900,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 210
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3940,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 210
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4020,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 210
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4060,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 210
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4100,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 210
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4140,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 210
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3670,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 305
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3790,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 305
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3990,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 310
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4190,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 310
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3510,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 275
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3550,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 275
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3590,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 275
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3630,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 275
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3710,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 275
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3750,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 275
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3830,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3870,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3910,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3950,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4030,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4070,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4110,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4150,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        }
+      ]
+    },
+    {
+      "lv": 3,
+      "next": 20,
+      "price": {
+        "corsair": 30,
+        "mp": 20
+      },
+      "rewards": [
+        {
+          "propId": 4220,
+          "propNum": 1,
+          "chances": {
+            "corsair": 3000,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3660,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 125
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3780,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 125
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3980,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 125
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4180,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 125
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3540,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 110
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3580,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 110
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3620,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 110
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3700,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 110
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3500,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 110
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3740,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 110
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3820,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 105
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3860,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 105
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3900,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 105
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3940,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 105
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4020,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 105
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4060,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 105
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4100,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 105
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4140,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 105
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3670,
+          "propNum": 1,
+          "chances": {
+            "corsair": 180,
+            "mp": 430
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3790,
+          "propNum": 1,
+          "chances": {
+            "corsair": 180,
+            "mp": 430
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3990,
+          "propNum": 1,
+          "chances": {
+            "corsair": 185,
+            "mp": 420
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4190,
+          "propNum": 1,
+          "chances": {
+            "corsair": 185,
+            "mp": 420
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3510,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 420
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3550,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 420
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3590,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 420
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3630,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 420
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3710,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 420
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3750,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 420
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3830,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 410
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3870,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 410
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3910,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 410
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3950,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 410
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4030,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 410
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4070,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 410
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4110,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 410
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4150,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 410
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3680,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 25
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3800,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 25
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4000,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 25
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4200,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 25
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3520,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 25
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3560,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 25
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3600,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 25
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3640,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 25
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3720,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 24
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3760,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 24
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3840,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 24
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3880,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 24
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3920,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 24
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3960,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 24
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4040,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 24
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4080,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 24
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4120,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 24
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4160,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 24
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3690,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 4
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3810,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 4
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4010,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 4
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4210,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 4
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3530,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 4
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3570,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 4
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3610,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3650,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3730,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3770,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3850,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3890,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3930,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3970,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4050,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4090,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4130,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4170,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3
+          },
+          "broadcast": true
+        }
+      ]
+    },
+    {
+      "lv": 4,
+      "next": 30,
+      "price": {
+        "corsair": 40,
+        "mp": 25
+      },
+      "rewards": [
+        {
+          "propId": 4221,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 3000
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3660,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3780,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3980,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4180,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3540,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3580,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3620,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3700,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3500,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3740,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3820,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3860,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3900,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3940,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4020,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4060,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4100,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4140,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3670,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 61
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3790,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 61
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3990,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 60
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4190,
+          "propNum": 1,
+          "chances": {
+            "corsair": 250,
+            "mp": 60
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3510,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 57
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3550,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 57
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3590,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 57
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3630,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 57
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3710,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 57
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3750,
+          "propNum": 1,
+          "chances": {
+            "corsair": 220,
+            "mp": 57
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3830,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 52
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3870,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 52
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3910,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 52
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3950,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 52
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4030,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 52
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4070,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 52
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4110,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 52
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4150,
+          "propNum": 1,
+          "chances": {
+            "corsair": 210,
+            "mp": 52
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3680,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 305
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3800,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 305
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4000,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 305
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4200,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 305
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3520,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 276
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3560,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 276
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3600,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 276
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3640,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 276
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3720,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 276
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3760,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 276
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3840,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 266
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3880,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 266
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3920,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 266
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3960,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 266
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4040,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4080,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4120,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4160,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 265
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3690,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 60
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3810,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 60
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4010,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4210,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3530,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3570,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3610,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3650,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3730,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3770,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3850,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3890,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3930,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3970,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4050,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4090,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4130,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4170,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 55
+          },
+          "broadcast": true
+        }
+      ]
+    },
+    {
+      "lv": 5,
+      "next": -1,
+      "price": {
+        "corsair": 60,
+        "mp": 30
+      },
+      "rewards": [
+        {
+          "propId": 4221,
+          "propNum": 1,
+          "chances": {
+            "corsair": 0,
+            "mp": 5500
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3660,
+          "propNum": 1,
+          "chances": {
+            "corsair": 180,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3780,
+          "propNum": 1,
+          "chances": {
+            "corsair": 180,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3980,
+          "propNum": 1,
+          "chances": {
+            "corsair": 185,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4180,
+          "propNum": 1,
+          "chances": {
+            "corsair": 185,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3540,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3580,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3620,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3700,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3500,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3740,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3820,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3860,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3900,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3940,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4020,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4060,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4100,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4140,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3670,
+          "propNum": 1,
+          "chances": {
+            "corsair": 180,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3790,
+          "propNum": 1,
+          "chances": {
+            "corsair": 180,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3990,
+          "propNum": 1,
+          "chances": {
+            "corsair": 185,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4190,
+          "propNum": 1,
+          "chances": {
+            "corsair": 185,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3510,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3550,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3590,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3630,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3710,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3750,
+          "propNum": 1,
+          "chances": {
+            "corsair": 165,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3830,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3870,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3910,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3950,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4030,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4070,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4110,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4150,
+          "propNum": 1,
+          "chances": {
+            "corsair": 160,
+            "mp": 0
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3680,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 155
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3800,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 155
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4000,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 156
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4200,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 156
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3520,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 137
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3560,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 137
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3600,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 137
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3640,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 137
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3720,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 137
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3760,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 137
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3840,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 132
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3880,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 132
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3920,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 132
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3960,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 132
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4040,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 132
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4080,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 132
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4120,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 132
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 4160,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 132
+          },
+          "broadcast": false
+        },
+        {
+          "propId": 3690,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 125
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3810,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 125
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4010,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 115
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4210,
+          "propNum": 1,
+          "chances": {
+            "corsair": 125,
+            "mp": 115
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3530,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 120
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3570,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 120
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3610,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 110
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3650,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 110
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3730,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 110
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3770,
+          "propNum": 1,
+          "chances": {
+            "corsair": 110,
+            "mp": 110
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3850,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 105
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3890,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 105
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3930,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 105
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 3970,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 105
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4050,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 105
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4090,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 105
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4130,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 105
+          },
+          "broadcast": true
+        },
+        {
+          "propId": 4170,
+          "propNum": 1,
+          "chances": {
+            "corsair": 105,
+            "mp": 105
+          },
+          "broadcast": true
+        }
+      ]
+    }
+  ]
+}

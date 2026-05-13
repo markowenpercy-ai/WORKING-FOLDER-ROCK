@@ -1,0 +1,47 @@
+[
+  {
+    "name": "com.go2super.resources.data.props.PropBodyData",
+    "fields": [
+      {
+        "name": "body",
+        "allowWrite": true
+      }
+    ],
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "equals",
+        "parameterTypes": [
+          "java.lang.Object"
+        ]
+      },
+      {
+        "name": "toString",
+        "parameterTypes": []
+      },
+      {
+        "name": "hashCode",
+        "parameterTypes": []
+      },
+      {
+        "name": "setBody",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "getBody",
+        "parameterTypes": []
+      },
+      {
+        "name": "canEqual",
+        "parameterTypes": [
+          "java.lang.Object"
+        ]
+      }
+    ]
+  }
+]

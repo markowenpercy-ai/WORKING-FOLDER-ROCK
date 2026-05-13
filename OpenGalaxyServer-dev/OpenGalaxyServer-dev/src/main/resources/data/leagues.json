@@ -1,0 +1,124 @@
+{
+  "leagues": [
+    {
+      "rank": 1,
+      "dailyHonor": 100,
+      "period1Start": "07:30",
+      "period1End": "12:30",
+      "period2Start": "18:30",
+      "period2End": "23:30",
+      "totalPlayers": null,
+      "promoted": 400,
+      "downgraded": 0,
+      "unchanged": null
+    },
+    {
+      "rank": 2,
+      "dailyHonor": 125,
+      "period1Start": "07:30",
+      "period1End": "12:30",
+      "period2Start": "18:30",
+      "period2End": "23:30",
+      "totalPlayers": 800,
+      "promoted": 200,
+      "downgraded": 400,
+      "unchanged": 200
+    },
+    {
+      "rank": 3,
+      "dailyHonor": 150,
+      "period1Start": "07:30",
+      "period1End": "12:30",
+      "period2Start": "18:30",
+      "period2End": "23:30",
+      "totalPlayers": 400,
+      "promoted": 100,
+      "downgraded": 200,
+      "unchanged": 100
+    },
+    {
+      "rank": 4,
+      "dailyHonor": 175,
+      "period1Start": "10:20",
+      "period1End": "12:30",
+      "period2Start": "21:20",
+      "period2End": "23:30",
+      "totalPlayers": 260,
+      "promoted": 80,
+      "downgraded": 100,
+      "unchanged": 80
+    },
+    {
+      "rank": 5,
+      "dailyHonor": 200,
+      "period1Start": "10:30",
+      "period1End": "12:30",
+      "period2Start": "21:30",
+      "period2End": "23:30",
+      "totalPlayers": 200,
+      "promoted": 60,
+      "downgraded": 80,
+      "unchanged": 60
+    },
+    {
+      "rank": 6,
+      "dailyHonor": 225,
+      "period1Start": "10:30",
+      "period1End": "12:30",
+      "period2Start": "21:30",
+      "period2End": "23:30",
+      "totalPlayers": 140,
+      "promoted": 40,
+      "downgraded": 60,
+      "unchanged": 40
+    },
+    {
+      "rank": 7,
+      "dailyHonor": 250,
+      "period1Start": "10:30",
+      "period1End": "12:30",
+      "period2Start": "21:30",
+      "period2End": "23:30",
+      "totalPlayers": 100,
+      "promoted": 30,
+      "downgraded": 40,
+      "unchanged": 30
+    },
+    {
+      "rank": 8,
+      "dailyHonor": 275,
+      "period1Start": "10:30",
+      "period1End": "12:30",
+      "period2Start": "21:30",
+      "period2End": "23:30",
+      "totalPlayers": 70,
+      "promoted": 20,
+      "downgraded": 30,
+      "unchanged": 20
+    },
+    {
+      "rank": 9,
+      "dailyHonor": 300,
+      "period1Start": "10:30",
+      "period1End": "12:30",
+      "period2Start": "21:30",
+      "period2End": "23:30",
+      "totalPlayers": 30,
+      "promoted": 5,
+      "downgraded": 20,
+      "unchanged": 5
+    },
+    {
+      "rank": 10,
+      "dailyHonor": 400,
+      "period1Start": "10:30",
+      "period1End": "12:30",
+      "period2Start": "21:30",
+      "period2End": "23:30",
+      "totalPlayers": 10,
+      "promoted": 0,
+      "downgraded": 5,
+      "unchanged": 5
+    }
+  ]
+}

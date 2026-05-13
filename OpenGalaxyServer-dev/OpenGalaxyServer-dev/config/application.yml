@@ -1,0 +1,169 @@
+#----------------------#
+#   General Profile    #
+#----------------------#
+
+# Default Profile
+spring.profiles.active: dev
+
+# Version
+spring.application.name: supergo2-server
+spring.application.version: v1.0.0
+spring.application.yaml-version: v1.0.0
+
+# Server Settings
+server:
+  compression:
+    enabled: true
+  error:
+    include-stacktrace: never
+  servlet:
+    context-path: /
+
+# Spring Options
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    restPort: ${server.port}
+  messages:
+    encoding: UTF-8
+  jackson:
+    time-zone: GMT-5
+  data:
+    mongodb:
+      uri: ${SPRING_DATA_MONGODB_URI:mongodb://localhost:27017}
+
+# Logging Options
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    co.com.aruma: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss:SSS} [%5p] [%t] - %15c{1}:[%4L] - %m%n"
+
+---
+
+#----------------------#
+#     Dev Profile      #
+#----------------------#
+
+spring.config.activate.on-profile: dev
+server.port: ${SERVER_PORT:9090}
+
+# Game Configuration
+application:
+  log: /logs/
+  services:
+    login: /login
+    account: /accounts
+    metric: /metrics
+    status: /status
+    events: /events
+    wheel: /wheel
+    payment: /payment
+    dashboard: /dashboard
+
+  cms: ${APPLICATION_CMS_URL:}
+  cms-client-id: ${CMS_CLIENT_ID:}
+  cms-client-secret: ${CMS_CLIENT_SECRET:}
+
+  game:
+    server-port: ${APPLICATION_GAME_SERVER_PORT:5050}
+    login-port: ${APPLICATION_GAME_LOGIN_PORT:5150}
+    patch: ${APPLICATION_GAME_PATCH:2023-04-11}
+    whitelist: ${APPLICATION_GAME_WHITELIST:60be1e9b8671b76f94bd23fb}
+    register: ${APPLICATION_GAME_REGISTER:true}
+    login: ${APPLICATION_GAME_LOGIN:true}
+    maintenance: ${APPLICATION_GAME_MAINTENANCE:false}
+    ip: ${APPLICATION_GAME_IP:0.0.0.0}
+    external-ip: ${APPLICATION_GAME_EXTERNAL_IP:127.0.0.1}
+    timeout: ${APPLICATION_GAME_TIMEOUT:70}
+    interval: ${APPLICATION_GAME_INTERVAL:100}
+    fast-ship-building: ${APPLICATION_GAME_FAST_SHIP_BUILDING:false}
+    fast-corp-upgrade: ${APPLICATION_GAME_FAST_CORP_UPGRADE:false}
+    resources-url: ${APPLICATION_GAME_RESOURCES_URL:}
+
+    test-mode: ${APPLICATION_GAME_TEST_MODE:true}
+    fast-transmission: ${APPLICATION_GAME_FAST_TRANSMISSION:false}
+    verbose: ${APPLICATION_GAME_VERBOSE:1}
+    fast-rbp: ${APPLICATION_GAME_FAST_RBP:false}
+    gelf-endpoint: ${APPLICATION_GAME_GELF_ENDPOINT:}
+    gelf-scope: ${APPLICATION_GAME_GELF_SCOPE:beta}
+    hcaptcha-secret: ${HCAPTCHA_SECRET:}
+    smtp-host: ${SMTP_HOST:}
+    smtp-username: ${SMTP_USERNAME:}
+    smtp-password: ${SMTP_PASSWORD:}
+    default-admin-username: ${ADMIN_USERNAME:}
+    default-admin-email: ${ADMIN_EMAIL:}
+    default-admin-password: ${ADMIN_PASSWORD:}
+    max-users: ${APPLICATION_GAME_MAX_USERS:1}
+    phase: ${APPLICATION_GAME_PHASE:-1}
+    event-validation: ${EVENT_VALIDATION:}
+
+  discord:
+    owner: ${DISCORD_OWNER_ID:}
+    guild: ${DISCORD_GUILD_ID:}
+    cmd-channel: ${DISCORD_CMD_CHANNEL:}
+    staff-channel: ${DISCORD_STAFF_CHANNEL:}
+    discord-token: ${DISCORD_TOKEN:}
+    audit-channel: ${DISCORD_AUDIT_CHANNEL:}
+    incident-audit-channel: ${DISCORD_INCIDENT_CHANNEL:}
+    chat-audit-channel: ${DISCORD_CHAT_CHANNEL:}
+    trade-audit-channel: ${DISCORD_TRADE_CHANNEL:}
+    merge-audit-channel: ${DISCORD_MERGE_CHANNEL:}
+    delete-audit-channel: ${DISCORD_DELETE_CHANNEL:}
+    login-audit-channel: ${DISCORD_LOGIN_CHANNEL:}
+    commander-audit-channel: ${DISCORD_COMMANDER_CHANNEL:}
+
+---
+
+#-----------------------------#
+#     Production Profile      #
+#-----------------------------#
+
+spring.config.activate.on-profile: pro
+server.port: ${SERVER_PORT:9090}
+
+# Game Configuration
+application:
+  log: /logs/
+  services:
+    login: /login
+    account: /accounts
+    metric: /metrics
+    status: /status
+    events: /events
+    wheel: /wheel
+  game:
+    server-port: ${APPLICATION_GAME_SERVER_PORT:5050}
+    login-port: ${APPLICATION_GAME_LOGIN_PORT:5150}
+    patch: ${APPLICATION_GAME_PATCH:v2022.2.pro-dev}
+    whitelist: ${APPLICATION_GAME_WHITELIST:60be1e9b8671b76f94bd23fb}
+    register: ${APPLICATION_GAME_REGISTER:false}
+    login: ${APPLICATION_GAME_LOGIN:false}
+    maintenance: ${APPLICATION_GAME_MAINTENANCE:true}
+    ip: ${APPLICATION_GAME_IP:0.0.0.0}
+    external-ip: ${APPLICATION_GAME_EXTERNAL_IP:127.0.0.1}
+    timeout: ${APPLICATION_GAME_TIMEOUT:70}
+    interval: ${APPLICATION_GAME_INTERVAL:100}
+    fast-ship-building: ${APPLICATION_GAME_FAST_SHIP_BUILDING:false}
+    fast-corp-upgrade: ${APPLICATION_GAME_FAST_CORP_UPGRADE:false}
+    resources-url: ${APPLICATION_GAME_RESOURCES_URL:}
+
+    test-mode: ${APPLICATION_GAME_TEST_MODE:false}
+    fast-transmission: ${APPLICATION_GAME_FAST_TRANSMISSION:false}
+    verbose: ${APPLICATION_GAME_VERBOSE:1}
+    fast-rbp: ${APPLICATION_GAME_FAST_RBP:false}
+    gelf-endpoint: ${APPLICATION_GAME_GELF_ENDPOINT:}
+    gelf-scope: ${APPLICATION_GAME_GELF_SCOPE:beta}
+    hcaptcha-secret: ${HCAPTCHA_SECRET:}
+    smtp-host: ${SMTP_HOST:}
+    smtp-username: ${SMTP_USERNAME:}
+    smtp-password: ${SMTP_PASSWORD:}
+    default-admin-username: ${ADMIN_USERNAME:}
+    default-admin-email: ${ADMIN_EMAIL:}
+    default-admin-password: ${ADMIN_PASSWORD:}
+    max-users: ${APPLICATION_GAME_MAX_USERS:1}
+    phase: ${APPLICATION_GAME_PHASE:-1}
+    event-validation: ${EVENT_VALIDATION:}

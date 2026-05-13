@@ -1,0 +1,5517 @@
+{
+  "instances": [
+    {
+      "id": 52,
+      "name": "instance:trials.1",
+      "rewards": [
+        {
+          "prop": "prop:raid.rightRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.blueprintShredI",
+          "num": 20,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.primusCube",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.revivalCard",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.healingCard",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:sp.card",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.accuracyRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracyEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocitySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.expDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ballisticDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.directionalDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.missileDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shipBasedDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.buildingDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.frigateDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.cruiserDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.battleshipDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        }
+      ],
+      "fleets": [
+        {
+          "layout": "layout:unknown17",
+          "stats": {
+            "accuracy": 27,
+            "electron": 24,
+            "speed": 24,
+            "dodge": 26
+          }
+        },
+        {
+          "layout": "layout:unknown17",
+          "stats": {
+            "accuracy": 27,
+            "electron": 24,
+            "speed": 24,
+            "dodge": 26
+          }
+        },
+        {
+          "layout": "layout:unknown18",
+          "stats": {
+            "accuracy": 27,
+            "electron": 24,
+            "speed": 24,
+            "dodge": 26
+          }
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "instance:trials.2",
+      "rewards": [
+        {
+          "prop": "prop:raid.rightRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:giftPack.1",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.primusCube",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:buff.metalMiningBoost",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.accuracyRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracyEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocitySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.expDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ballisticDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.directionalDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.missileDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shipBasedDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.buildingDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.frigateDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.cruiserDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.battleshipDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        }
+      ],
+      "fleets": [
+        {
+          "layout": "layout:unknown37",
+          "stats": {
+            "accuracy": 53,
+            "electron": 48,
+            "speed": 51,
+            "dodge": 41
+          }
+        },
+        {
+          "layout": "layout:unknown38",
+          "stats": {
+            "accuracy": 53,
+            "electron": 48,
+            "speed": 51,
+            "dodge": 41
+          }
+        },
+        {
+          "layout": "layout:unknown38",
+          "stats": {
+            "accuracy": 53,
+            "electron": 48,
+            "speed": 51,
+            "dodge": 41
+          }
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "instance:trials.3",
+      "rewards": [
+        {
+          "prop": "prop:raid.rightRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:giftPack.1",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.primusCube",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:buff.he3MiningBoost",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.blueprintShredII",
+          "num": 20,
+          "weight": 1
+        },
+        {
+          "prop": "prop:buff.constructionCard",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.accuracyRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracyEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocitySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.expDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ballisticDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.directionalDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.missileDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shipBasedDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.buildingDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.frigateDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.cruiserDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.battleshipDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        }
+      ],
+      "fleets": [
+        {
+          "layout": "layout:unknown57",
+          "stats": {
+            "accuracy": 106,
+            "electron": 106,
+            "speed": 106,
+            "dodge": 106
+          }
+        },
+        {
+          "layout": "layout:unknown58",
+          "stats": {
+            "accuracy": 106,
+            "electron": 106,
+            "speed": 106,
+            "dodge": 106
+          }
+        },
+        {
+          "layout": "layout:unknown59",
+          "stats": {
+            "accuracy": 106,
+            "electron": 106,
+            "speed": 106,
+            "dodge": 106
+          }
+        },
+        {
+          "layout": "layout:unknown60",
+          "stats": {
+            "accuracy": 106,
+            "electron": 106,
+            "speed": 106,
+            "dodge": 106
+          }
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "instance:trials.4",
+      "rewards": [
+        {
+          "prop": "prop:raid.rightRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:giftPack.1",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.primusCube",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:buff.extraTax",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.resettingCard",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.accuracyRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracyEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocitySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.expDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ballisticDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.directionalDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.missileDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shipBasedDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.buildingDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.frigateDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.cruiserDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.battleshipDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        }
+      ],
+      "fleets": [
+        {
+          "layout": "layout:unknown77",
+          "stats": {
+            "accuracy": 113,
+            "electron": 108,
+            "speed": 107,
+            "dodge": 112
+          }
+        },
+        {
+          "layout": "layout:unknown78",
+          "stats": {
+            "accuracy": 113,
+            "electron": 108,
+            "speed": 107,
+            "dodge": 112
+          }
+        },
+        {
+          "layout": "layout:unknown79",
+          "stats": {
+            "accuracy": 113,
+            "electron": 108,
+            "speed": 107,
+            "dodge": 112
+          }
+        },
+        {
+          "layout": "layout:unknown80",
+          "stats": {
+            "accuracy": 113,
+            "electron": 108,
+            "speed": 107,
+            "dodge": 112
+          }
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "instance:trials.5",
+      "rewards": [
+        {
+          "prop": "prop:raid.rightRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:giftPack.1",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.primusCube",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.passport",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.blueprintShredIII",
+          "num": 20,
+          "weight": 1
+        },
+        {
+          "prop": "prop:buff.extraTaxAdv",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.resettingCard",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.accuracyRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracyEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocitySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.expDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ballisticDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.directionalDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.missileDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shipBasedDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.buildingDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.frigateDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.cruiserDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.battleshipDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        }
+      ],
+      "fleets": [
+        {
+          "layout": "layout:unknown97",
+          "stats": {
+            "accuracy": 141,
+            "electron": 138,
+            "speed": 138,
+            "dodge": 140
+          }
+        },
+        {
+          "layout": "layout:unknown97",
+          "stats": {
+            "accuracy": 141,
+            "electron": 138,
+            "speed": 138,
+            "dodge": 140
+          }
+        },
+        {
+          "layout": "layout:unknown98",
+          "stats": {
+            "accuracy": 141,
+            "electron": 138,
+            "speed": 138,
+            "dodge": 140
+          }
+        },
+        {
+          "layout": "layout:unknown99",
+          "stats": {
+            "accuracy": 141,
+            "electron": 138,
+            "speed": 138,
+            "dodge": 140
+          }
+        },
+        {
+          "layout": "layout:unknown100",
+          "stats": {
+            "accuracy": 141,
+            "electron": 138,
+            "speed": 138,
+            "dodge": 140
+          }
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "instance:trials.6",
+      "rewards": [
+        {
+          "prop": "prop:raid.rightRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:giftPack.1",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.primusCube",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:badge",
+          "num": 20,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.rawGemstones",
+          "num": 20,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.resettingCard",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.accuracyRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracyEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocitySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.expDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ballisticDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.directionalDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.missileDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shipBasedDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.buildingDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.frigateDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.cruiserDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.battleshipDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        }
+      ],
+      "fleets": [
+        {
+          "layout": "layout:unknown117",
+          "stats": {
+            "accuracy": 163,
+            "electron": 161,
+            "speed": 163,
+            "dodge": 161
+          }
+        },
+        {
+          "layout": "layout:unknown118",
+          "stats": {
+            "accuracy": 163,
+            "electron": 161,
+            "speed": 163,
+            "dodge": 161
+          }
+        },
+        {
+          "layout": "layout:unknown118",
+          "stats": {
+            "accuracy": 163,
+            "electron": 161,
+            "speed": 163,
+            "dodge": 161
+          }
+        },
+        {
+          "layout": "layout:unknown118",
+          "stats": {
+            "accuracy": 163,
+            "electron": 161,
+            "speed": 163,
+            "dodge": 161
+          }
+        },
+        {
+          "layout": "layout:unknown119",
+          "stats": {
+            "accuracy": 163,
+            "electron": 161,
+            "speed": 163,
+            "dodge": 161
+          }
+        },
+        {
+          "layout": "layout:unknown120",
+          "stats": {
+            "accuracy": 163,
+            "electron": 161,
+            "speed": 163,
+            "dodge": 161
+          }
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "instance:trials.7",
+      "rewards": [
+        {
+          "prop": "prop:raid.rightRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 20,
+          "weight": 1
+        },
+        {
+          "prop": "prop:giftPack.1",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.primusCube",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.rawGemstones",
+          "num": 20,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.resettingCard",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.accuracyRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracyEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocitySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.expDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ballisticDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.directionalDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.missileDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shipBasedDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.buildingDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.frigateDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.cruiserDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.battleshipDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        }
+      ],
+      "fleets": [
+        {
+          "layout": "layout:unknown137",
+          "stats": {
+            "accuracy": 196,
+            "electron": 193,
+            "speed": 196,
+            "dodge": 306
+          }
+        },
+        {
+          "layout": "layout:unknown137",
+          "stats": {
+            "accuracy": 196,
+            "electron": 193,
+            "speed": 196,
+            "dodge": 306
+          }
+        },
+        {
+          "layout": "layout:unknown138",
+          "stats": {
+            "accuracy": 196,
+            "electron": 193,
+            "speed": 196,
+            "dodge": 306
+          }
+        },
+        {
+          "layout": "layout:unknown138",
+          "stats": {
+            "accuracy": 196,
+            "electron": 193,
+            "speed": 196,
+            "dodge": 306
+          }
+        },
+        {
+          "layout": "layout:unknown139",
+          "stats": {
+            "accuracy": 196,
+            "electron": 193,
+            "speed": 196,
+            "dodge": 306
+          }
+        },
+        {
+          "layout": "layout:unknown140",
+          "stats": {
+            "accuracy": 196,
+            "electron": 193,
+            "speed": 196,
+            "dodge": 306
+          }
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "instance:trials.8",
+      "rewards": [
+        {
+          "prop": "prop:raid.rightRuinsChartIII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartIII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 20,
+          "weight": 1
+        },
+        {
+          "prop": "prop:giftPack.1",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.primusCube",
+          "num": 10,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.frigateDiamond.3",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.resettingCard",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.accuracyRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracyEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocitySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.expDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ballisticDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.directionalDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.missileDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shipBasedDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.buildingDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.frigateDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.cruiserDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.battleshipDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        }
+      ],
+      "fleets": [
+        {
+          "layout": "layout:unknown157",
+          "stats": {
+            "accuracy": 272,
+            "electron": 300,
+            "speed": 272,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown157",
+          "stats": {
+            "accuracy": 272,
+            "electron": 300,
+            "speed": 272,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown158",
+          "stats": {
+            "accuracy": 272,
+            "electron": 300,
+            "speed": 272,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown158",
+          "stats": {
+            "accuracy": 272,
+            "electron": 300,
+            "speed": 272,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown159",
+          "stats": {
+            "accuracy": 272,
+            "electron": 300,
+            "speed": 272,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown159",
+          "stats": {
+            "accuracy": 272,
+            "electron": 300,
+            "speed": 272,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown160",
+          "stats": {
+            "accuracy": 272,
+            "electron": 300,
+            "speed": 272,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown160",
+          "stats": {
+            "accuracy": 272,
+            "electron": 300,
+            "speed": 272,
+            "dodge": 300
+          }
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "instance:trials.9",
+      "rewards": [
+        {
+          "prop": "prop:raid.rightRuinsChartIII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartIII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartI",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.blueprintShredV",
+          "num": 20,
+          "weight": 1
+        },
+        {
+          "prop": "prop:giftPack.1",
+          "num": 5,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.primusCube",
+          "num": 10,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.cruiserDiamond.3",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:badge",
+          "num": 20,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.accuracyRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracyEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocitySapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenRuby.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenSapphire.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenEmerald.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.expDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ballisticDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.directionalDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.missileDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shipBasedDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.buildingDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.frigateDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.cruiserDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.battleshipDiamond.2",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        }
+      ],
+      "fleets": [
+        {
+          "layout": "layout:unknown177",
+          "stats": {
+            "accuracy": 300,
+            "electron": 300,
+            "speed": 300,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown177",
+          "stats": {
+            "accuracy": 300,
+            "electron": 300,
+            "speed": 300,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown178",
+          "stats": {
+            "accuracy": 300,
+            "electron": 300,
+            "speed": 300,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown178",
+          "stats": {
+            "accuracy": 300,
+            "electron": 300,
+            "speed": 300,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown179",
+          "stats": {
+            "accuracy": 300,
+            "electron": 300,
+            "speed": 300,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown179",
+          "stats": {
+            "accuracy": 300,
+            "electron": 300,
+            "speed": 300,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown180",
+          "stats": {
+            "accuracy": 300,
+            "electron": 300,
+            "speed": 300,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown180",
+          "stats": {
+            "accuracy": 300,
+            "electron": 300,
+            "speed": 300,
+            "dodge": 300
+          }
+        },
+        {
+          "layout": "layout:unknown180",
+          "stats": {
+            "accuracy": 300,
+            "electron": 300,
+            "speed": 300,
+            "dodge": 300
+          }
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "instance:trials.10",
+      "rewards": [
+        {
+          "prop": "prop:raid.rightRuinsChartIV",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartIV",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.rightRuinsChartIII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:raid.leftRuinsChartIII",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:chest.commander.superCommanderCard",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.constellationPass",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:other.advGalaxyTransfer",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:chest.finalScenarioChest",
+          "num": 1,
+          "weight": 3
+        },
+        {
+          "prop": "prop:chest.geniiWeaponChest",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:chest.geniiDefenseChest",
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "prop": "prop:gem.accuracyRuby.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracySapphire.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.accuracyEmerald.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeRuby.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeSapphire.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.dodgeEmerald.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronRuby.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronSapphire.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.electronEmerald.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedRuby.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedSapphire.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.speedEmerald.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerRuby.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerSapphire.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.powerEmerald.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureRuby.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureSapphire.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.structureEmerald.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldRuby.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldSapphire.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shieldEmerald.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceRuby.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceSapphire.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.maliceEmerald.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityRuby.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocitySapphire.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ferocityEmerald.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoRuby.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoSapphire.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.chronoEmerald.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenRuby.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenSapphire.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.regenEmerald.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.expDiamond.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.ballisticDiamond.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.directionalDiamond.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.missileDiamond.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.shipBasedDiamond.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.buildingDiamond.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.frigateDiamond.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.cruiserDiamond.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        },
+        {
+          "prop": "prop:gem.battleshipDiamond.3",
+          "num": 1,
+          "weight": 1,
+          "group": "Group2"
+        }
+      ],
+      "fleets": [
+        {
+          "layout": "layout:unknown197",
+          "stats": {
+            "accuracy": 361,
+            "electron": 356,
+            "speed": 361,
+            "dodge": 359
+          }
+        },
+        {
+          "layout": "layout:unknown197",
+          "stats": {
+            "accuracy": 361,
+            "electron": 356,
+            "speed": 361,
+            "dodge": 359
+          }
+        },
+        {
+          "layout": "layout:unknown197",
+          "stats": {
+            "accuracy": 361,
+            "electron": 356,
+            "speed": 361,
+            "dodge": 359
+          }
+        },
+        {
+          "layout": "layout:unknown198",
+          "stats": {
+            "accuracy": 361,
+            "electron": 356,
+            "speed": 361,
+            "dodge": 359
+          }
+        },
+        {
+          "layout": "layout:unknown198",
+          "stats": {
+            "accuracy": 361,
+            "electron": 356,
+            "speed": 361,
+            "dodge": 359
+          }
+        },
+        {
+          "layout": "layout:unknown199",
+          "stats": {
+            "accuracy": 361,
+            "electron": 356,
+            "speed": 361,
+            "dodge": 359
+          }
+        },
+        {
+          "layout": "layout:unknown199",
+          "stats": {
+            "accuracy": 361,
+            "electron": 356,
+            "speed": 361,
+            "dodge": 359
+          }
+        },
+        {
+          "layout": "layout:unknown200",
+          "stats": {
+            "accuracy": 361,
+            "electron": 356,
+            "speed": 361,
+            "dodge": 359
+          }
+        },
+        {
+          "layout": "layout:unknown200",
+          "stats": {
+            "accuracy": 361,
+            "electron": 356,
+            "speed": 361,
+            "dodge": 359
+          }
+        },
+        {
+          "layout": "layout:unknown200",
+          "stats": {
+            "accuracy": 361,
+            "electron": 356,
+            "speed": 361,
+            "dodge": 359
+          }
+        }
+      ]
+    }
+  ],
+  "layout": [
+    {
+      "name": "layout:challenge1a",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:sandora",
+        "rank": 6,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:boss4",
+          "amount": 800
+        },
+        {
+          "design": "design:boss4",
+          "amount": 700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss4",
+          "amount": 800
+        },
+        {
+          "design": "design:boss4",
+          "amount": 700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss4",
+          "amount": 800
+        },
+        {
+          "design": "design:boss4",
+          "amount": 700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown17",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:linda",
+        "rank": 1,
+        "lv": 10,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:wandererA",
+          "amount": 920
+        },
+        {
+          "design": "design:wandererA",
+          "amount": 920
+        },
+        {
+          "design": "design:wandererA",
+          "amount": 920
+        },
+        {
+          "design": "design:wandererA",
+          "amount": 920
+        },
+        {
+          "design": "design:wandererA",
+          "amount": 920
+        },
+        {
+          "design": "design:wandererA",
+          "amount": 920
+        },
+        {
+          "design": "design:wandererA",
+          "amount": 920
+        },
+        {
+          "design": "design:wandererA",
+          "amount": 920
+        },
+        {
+          "design": "design:wandererA",
+          "amount": 920
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown18",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:anna",
+        "rank": 1,
+        "lv": 10,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:rV369",
+          "amount": 920
+        },
+        {
+          "design": "design:rV369",
+          "amount": 920
+        },
+        {
+          "design": "design:rV369",
+          "amount": 920
+        },
+        {
+          "design": "design:rV369",
+          "amount": 920
+        },
+        {
+          "design": "design:rV369",
+          "amount": 920
+        },
+        {
+          "design": "design:rV369",
+          "amount": 920
+        },
+        {
+          "design": "design:rV369",
+          "amount": 920
+        },
+        {
+          "design": "design:rV369",
+          "amount": 920
+        },
+        {
+          "design": "design:rV369",
+          "amount": 920
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown37",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:gastaf",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:battleshipA",
+          "amount": 1070
+        },
+        {
+          "design": "design:battleshipA",
+          "amount": 1070
+        },
+        {
+          "design": "design:battleshipA",
+          "amount": 1070
+        },
+        {
+          "design": "design:battleshipA",
+          "amount": 1070
+        },
+        {
+          "design": "design:battleshipA",
+          "amount": 1070
+        },
+        {
+          "design": "design:battleshipA",
+          "amount": 1070
+        },
+        {
+          "design": "design:battleshipA",
+          "amount": 1070
+        },
+        {
+          "design": "design:battleshipA",
+          "amount": 1070
+        },
+        {
+          "design": "design:battleshipA",
+          "amount": 1070
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown38",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:gastaf",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:tiaz",
+          "amount": 1070
+        },
+        {
+          "design": "design:tiaz",
+          "amount": 1070
+        },
+        {
+          "design": "design:tiaz",
+          "amount": 1070
+        },
+        {
+          "design": "design:tiaz",
+          "amount": 1070
+        },
+        {
+          "design": "design:tiaz",
+          "amount": 1070
+        },
+        {
+          "design": "design:tiaz",
+          "amount": 1070
+        },
+        {
+          "design": "design:tiaz",
+          "amount": 1070
+        },
+        {
+          "design": "design:tiaz",
+          "amount": 1070
+        },
+        {
+          "design": "design:tiaz",
+          "amount": 1070
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown57",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:maletiz",
+        "rank": 3,
+        "lv": 30,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:jumperA",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperA",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperA",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperA",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperA",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperA",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperA",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperA",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperA",
+          "amount": 1220
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown58",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:maletiz",
+        "rank": 3,
+        "lv": 30,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:landing",
+          "amount": 1220
+        },
+        {
+          "design": "design:landing",
+          "amount": 1220
+        },
+        {
+          "design": "design:landing",
+          "amount": 1220
+        },
+        {
+          "design": "design:landing",
+          "amount": 1220
+        },
+        {
+          "design": "design:landing",
+          "amount": 1220
+        },
+        {
+          "design": "design:landing",
+          "amount": 1220
+        },
+        {
+          "design": "design:landing",
+          "amount": 1220
+        },
+        {
+          "design": "design:landing",
+          "amount": 1220
+        },
+        {
+          "design": "design:landing",
+          "amount": 1220
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown59",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:maletiz",
+        "rank": 3,
+        "lv": 30,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:interceptor",
+          "amount": 1220
+        },
+        {
+          "design": "design:interceptor",
+          "amount": 1220
+        },
+        {
+          "design": "design:interceptor",
+          "amount": 1220
+        },
+        {
+          "design": "design:interceptor",
+          "amount": 1220
+        },
+        {
+          "design": "design:interceptor",
+          "amount": 1220
+        },
+        {
+          "design": "design:interceptor",
+          "amount": 1220
+        },
+        {
+          "design": "design:interceptor",
+          "amount": 1220
+        },
+        {
+          "design": "design:interceptor",
+          "amount": 1220
+        },
+        {
+          "design": "design:interceptor",
+          "amount": 1220
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown60",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:maletiz",
+        "rank": 3,
+        "lv": 30,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:jumperB",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperB",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperB",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperB",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperB",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperB",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperB",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperB",
+          "amount": 1220
+        },
+        {
+          "design": "design:jumperB",
+          "amount": 1220
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown77",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:nora",
+        "rank": 3,
+        "lv": 30,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateD1",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1370
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown78",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:nora",
+        "rank": 3,
+        "lv": 30,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateD2",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1370
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown79",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:nora",
+        "rank": 3,
+        "lv": 30,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateD3",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1370
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown80",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:nora",
+        "rank": 3,
+        "lv": 30,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateD4",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1370
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1370
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown97",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:linda",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateE1",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1520
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown98",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:anna",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateE2",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1520
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown99",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:eveline",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateE3",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1520
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown100",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:nick",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateE4",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1520
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1520
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown117",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bart",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateF1",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1670
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown118",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bart",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateF2",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1670
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown119",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bart",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateF3",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1670
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown120",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bart",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateF4",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1670
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1670
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown137",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:nick",
+        "rank": 6,
+        "lv": 45,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateG1",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 1820
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown138",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:nick",
+        "rank": 6,
+        "lv": 45,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateG2",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 1820
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown139",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:nick",
+        "rank": 6,
+        "lv": 45,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateG3",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 1820
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown140",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:nick",
+        "rank": 6,
+        "lv": 45,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateG4",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 1820
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 1820
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown157",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:maletiz",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateH1",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 1970
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown158",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:maletiz",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateH2",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 1970
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown159",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:maletiz",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateH3",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 1970
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown160",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:maletiz",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateH4",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 1970
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 1970
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown177",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:penni",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateI1",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2120
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown178",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:penni",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateI2",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2120
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown179",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:penni",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateI3",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2120
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown180",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:penni",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateI4",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2120
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2120
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown197",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:marcus",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateJ1",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 2270
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown198",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:robert",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateJ2",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 2270
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown199",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:sandora",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateJ3",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 2270
+        }
+      ]
+    },
+    {
+      "name": "layout:unknown200",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:hellen",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateJ4",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 2270
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 2270
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2023 @@
+{
+  "fortification": {
+    "id": 13,
+    "levels": [
+      {
+        "lv": 0,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 10.0
+          },
+          {
+            "type": "affect",
+            "value": 0.055
+          }
+        ]
+      },
+      {
+        "lv": 1,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 10.0
+          },
+          {
+            "type": "affect",
+            "value": 0.06
+          },
+          {
+            "type": "needRiches",
+            "value": 8.0
+          }
+        ]
+      },
+      {
+        "lv": 2,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 10.0
+          },
+          {
+            "type": "affect",
+            "value": 0.065
+          },
+          {
+            "type": "needRiches",
+            "value": 27.0
+          }
+        ]
+      },
+      {
+        "lv": 3,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 10.0
+          },
+          {
+            "type": "affect",
+            "value": 0.07
+          },
+          {
+            "type": "needRiches",
+            "value": 64.0
+          }
+        ]
+      },
+      {
+        "lv": 4,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 10.0
+          },
+          {
+            "type": "affect",
+            "value": 0.075
+          },
+          {
+            "type": "needRiches",
+            "value": 125.0
+          }
+        ]
+      },
+      {
+        "lv": 5,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 15.0
+          },
+          {
+            "type": "affect",
+            "value": 0.08
+          },
+          {
+            "type": "needRiches",
+            "value": 216.0
+          }
+        ]
+      },
+      {
+        "lv": 6,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 15.0
+          },
+          {
+            "type": "affect",
+            "value": 0.085
+          },
+          {
+            "type": "needRiches",
+            "value": 343.0
+          }
+        ]
+      },
+      {
+        "lv": 7,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 15.0
+          },
+          {
+            "type": "affect",
+            "value": 0.09
+          },
+          {
+            "type": "needRiches",
+            "value": 512.0
+          }
+        ]
+      },
+      {
+        "lv": 8,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 15.0
+          },
+          {
+            "type": "affect",
+            "value": 0.095
+          },
+          {
+            "type": "needRiches",
+            "value": 729.0
+          }
+        ]
+      },
+      {
+        "lv": 9,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 15.0
+          },
+          {
+            "type": "affect",
+            "value": 0.1
+          },
+          {
+            "type": "needRiches",
+            "value": 1000.0
+          }
+        ]
+      },
+      {
+        "lv": 10,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 20.0
+          },
+          {
+            "type": "affect",
+            "value": 0.11
+          },
+          {
+            "type": "needRiches",
+            "value": 1331.0
+          }
+        ]
+      },
+      {
+        "lv": 11,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 20.0
+          },
+          {
+            "type": "affect",
+            "value": 0.12
+          },
+          {
+            "type": "needRiches",
+            "value": 1728.0
+          }
+        ]
+      },
+      {
+        "lv": 12,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 20.0
+          },
+          {
+            "type": "affect",
+            "value": 0.13
+          },
+          {
+            "type": "needRiches",
+            "value": 2197.0
+          }
+        ]
+      },
+      {
+        "lv": 13,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 20.0
+          },
+          {
+            "type": "affect",
+            "value": 0.14
+          },
+          {
+            "type": "needRiches",
+            "value": 2744.0
+          }
+        ]
+      },
+      {
+        "lv": 14,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 20.0
+          },
+          {
+            "type": "affect",
+            "value": 0.15
+          },
+          {
+            "type": "needRiches",
+            "value": 3375.0
+          }
+        ]
+      },
+      {
+        "lv": 15,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 25.0
+          },
+          {
+            "type": "affect",
+            "value": 0.16
+          },
+          {
+            "type": "needRiches",
+            "value": 4096.0
+          }
+        ]
+      },
+      {
+        "lv": 16,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 25.0
+          },
+          {
+            "type": "affect",
+            "value": 0.17
+          },
+          {
+            "type": "needRiches",
+            "value": 4913.0
+          }
+        ]
+      },
+      {
+        "lv": 17,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 25.0
+          },
+          {
+            "type": "affect",
+            "value": 0.18
+          },
+          {
+            "type": "needRiches",
+            "value": 5832.0
+          }
+        ]
+      },
+      {
+        "lv": 18,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 25.0
+          },
+          {
+            "type": "affect",
+            "value": 0.19
+          },
+          {
+            "type": "needRiches",
+            "value": 6859.0
+          }
+        ]
+      },
+      {
+        "lv": 19,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 25.0
+          },
+          {
+            "type": "affect",
+            "value": 0.2
+          },
+          {
+            "type": "needRiches",
+            "value": 8000.0
+          }
+        ]
+      },
+      {
+        "lv": 20,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 30.0
+          },
+          {
+            "type": "affect",
+            "value": 0.215
+          },
+          {
+            "type": "needRiches",
+            "value": 9261.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.21
+          }
+        ]
+      },
+      {
+        "lv": 21,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 30.0
+          },
+          {
+            "type": "affect",
+            "value": 0.23
+          },
+          {
+            "type": "needRiches",
+            "value": 10648.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.22
+          }
+        ]
+      },
+      {
+        "lv": 22,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 30.0
+          },
+          {
+            "type": "affect",
+            "value": 0.245
+          },
+          {
+            "type": "needRiches",
+            "value": 12167.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.23
+          }
+        ]
+      },
+      {
+        "lv": 23,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 30.0
+          },
+          {
+            "type": "affect",
+            "value": 0.26
+          },
+          {
+            "type": "needRiches",
+            "value": 13824.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.24
+          }
+        ]
+      },
+      {
+        "lv": 24,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 30.0
+          },
+          {
+            "type": "affect",
+            "value": 0.275
+          },
+          {
+            "type": "needRiches",
+            "value": 15625.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.25
+          }
+        ]
+      },
+      {
+        "lv": 25,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 35.0
+          },
+          {
+            "type": "affect",
+            "value": 0.29
+          },
+          {
+            "type": "needRiches",
+            "value": 17576.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.26
+          }
+        ]
+      },
+      {
+        "lv": 26,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 35.0
+          },
+          {
+            "type": "affect",
+            "value": 0.305
+          },
+          {
+            "type": "needRiches",
+            "value": 19683.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.27
+          }
+        ]
+      },
+      {
+        "lv": 27,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 35.0
+          },
+          {
+            "type": "affect",
+            "value": 0.32
+          },
+          {
+            "type": "needRiches",
+            "value": 21952.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.28
+          }
+        ]
+      },
+      {
+        "lv": 28,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 35.0
+          },
+          {
+            "type": "affect",
+            "value": 0.335
+          },
+          {
+            "type": "needRiches",
+            "value": 24389.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.29
+          }
+        ]
+      },
+      {
+        "lv": 29,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 35.0
+          },
+          {
+            "type": "affect",
+            "value": 0.35
+          },
+          {
+            "type": "needRiches",
+            "value": 27000.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.3
+          }
+        ]
+      },
+      {
+        "lv": 30,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 40.0
+          },
+          {
+            "type": "affect",
+            "value": 0.37
+          },
+          {
+            "type": "needRiches",
+            "value": 29791.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.31
+          }
+        ]
+      },
+      {
+        "lv": 31,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 40.0
+          },
+          {
+            "type": "affect",
+            "value": 0.39
+          },
+          {
+            "type": "needRiches",
+            "value": 32768.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.32
+          }
+        ]
+      },
+      {
+        "lv": 32,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 40.0
+          },
+          {
+            "type": "affect",
+            "value": 0.41
+          },
+          {
+            "type": "needRiches",
+            "value": 35937.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.33
+          }
+        ]
+      },
+      {
+        "lv": 33,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 40.0
+          },
+          {
+            "type": "affect",
+            "value": 0.43
+          },
+          {
+            "type": "needRiches",
+            "value": 39304.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.34
+          }
+        ]
+      },
+      {
+        "lv": 34,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 40.0
+          },
+          {
+            "type": "affect",
+            "value": 0.45
+          },
+          {
+            "type": "needRiches",
+            "value": 42875.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.35
+          }
+        ]
+      },
+      {
+        "lv": 35,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 45.0
+          },
+          {
+            "type": "affect",
+            "value": 0.47
+          },
+          {
+            "type": "needRiches",
+            "value": 46656.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.36
+          }
+        ]
+      },
+      {
+        "lv": 36,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 45.0
+          },
+          {
+            "type": "affect",
+            "value": 0.49
+          },
+          {
+            "type": "needRiches",
+            "value": 50653.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.37
+          }
+        ]
+      },
+      {
+        "lv": 37,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 45.0
+          },
+          {
+            "type": "affect",
+            "value": 0.51
+          },
+          {
+            "type": "needRiches",
+            "value": 54872.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.38
+          }
+        ]
+      },
+      {
+        "lv": 38,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 45.0
+          },
+          {
+            "type": "affect",
+            "value": 0.53
+          },
+          {
+            "type": "needRiches",
+            "value": 59319.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.39
+          }
+        ]
+      },
+      {
+        "lv": 39,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 45.0
+          },
+          {
+            "type": "affect",
+            "value": 0.55
+          },
+          {
+            "type": "needRiches",
+            "value": 64000.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.4
+          }
+        ]
+      },
+      {
+        "lv": 40,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 50.0
+          },
+          {
+            "type": "affect",
+            "value": 0.575
+          },
+          {
+            "type": "needRiches",
+            "value": 68921.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.41
+          }
+        ]
+      },
+      {
+        "lv": 41,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 50.0
+          },
+          {
+            "type": "affect",
+            "value": 0.6
+          },
+          {
+            "type": "needRiches",
+            "value": 74088.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.42
+          }
+        ]
+      },
+      {
+        "lv": 42,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 50.0
+          },
+          {
+            "type": "affect",
+            "value": 0.625
+          },
+          {
+            "type": "needRiches",
+            "value": 79507.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.43
+          }
+        ]
+      },
+      {
+        "lv": 43,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 50.0
+          },
+          {
+            "type": "affect",
+            "value": 0.65
+          },
+          {
+            "type": "needRiches",
+            "value": 85184.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.44
+          }
+        ]
+      },
+      {
+        "lv": 44,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 50.0
+          },
+          {
+            "type": "affect",
+            "value": 0.675
+          },
+          {
+            "type": "needRiches",
+            "value": 91125.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.45
+          }
+        ]
+      },
+      {
+        "lv": 45,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 55.0
+          },
+          {
+            "type": "affect",
+            "value": 0.7
+          },
+          {
+            "type": "needRiches",
+            "value": 97336.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.46
+          }
+        ]
+      },
+      {
+        "lv": 46,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 55.0
+          },
+          {
+            "type": "affect",
+            "value": 0.725
+          },
+          {
+            "type": "needRiches",
+            "value": 103823.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.47
+          }
+        ]
+      },
+      {
+        "lv": 47,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 55.0
+          },
+          {
+            "type": "affect",
+            "value": 0.75
+          },
+          {
+            "type": "needRiches",
+            "value": 110592.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.48
+          }
+        ]
+      },
+      {
+        "lv": 48,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 55.0
+          },
+          {
+            "type": "affect",
+            "value": 0.775
+          },
+          {
+            "type": "needRiches",
+            "value": 117649.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.49
+          }
+        ]
+      },
+      {
+        "lv": 49,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 55.0
+          },
+          {
+            "type": "affect",
+            "value": 0.8
+          },
+          {
+            "type": "needRiches",
+            "value": 125000.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "lv": 50,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 60.0
+          },
+          {
+            "type": "affect",
+            "value": 0.83
+          },
+          {
+            "type": "needRiches",
+            "value": 132651.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.51
+          }
+        ]
+      },
+      {
+        "lv": 51,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 60.0
+          },
+          {
+            "type": "affect",
+            "value": 0.86
+          },
+          {
+            "type": "needRiches",
+            "value": 140608.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.52
+          }
+        ]
+      },
+      {
+        "lv": 52,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 60.0
+          },
+          {
+            "type": "affect",
+            "value": 0.89
+          },
+          {
+            "type": "needRiches",
+            "value": 148877.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.53
+          }
+        ]
+      },
+      {
+        "lv": 53,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 60.0
+          },
+          {
+            "type": "affect",
+            "value": 0.92
+          },
+          {
+            "type": "needRiches",
+            "value": 157464.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.54
+          }
+        ]
+      },
+      {
+        "lv": 54,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 60.0
+          },
+          {
+            "type": "affect",
+            "value": 0.95
+          },
+          {
+            "type": "needRiches",
+            "value": 166375.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.55
+          }
+        ]
+      },
+      {
+        "lv": 55,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 65.0
+          },
+          {
+            "type": "affect",
+            "value": 0.98
+          },
+          {
+            "type": "needRiches",
+            "value": 175616.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.56
+          }
+        ]
+      },
+      {
+        "lv": 56,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 65.0
+          },
+          {
+            "type": "affect",
+            "value": 1.01
+          },
+          {
+            "type": "needRiches",
+            "value": 185193.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.57
+          }
+        ]
+      },
+      {
+        "lv": 57,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 65.0
+          },
+          {
+            "type": "affect",
+            "value": 1.04
+          },
+          {
+            "type": "needRiches",
+            "value": 195112.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.58
+          }
+        ]
+      },
+      {
+        "lv": 58,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 65.0
+          },
+          {
+            "type": "affect",
+            "value": 1.07
+          },
+          {
+            "type": "needRiches",
+            "value": 205379.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.59
+          }
+        ]
+      },
+      {
+        "lv": 59,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 65.0
+          },
+          {
+            "type": "affect",
+            "value": 1.1
+          },
+          {
+            "type": "needRiches",
+            "value": 216000.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.6
+          }
+        ]
+      },
+      {
+        "lv": 60,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 70.0
+          },
+          {
+            "type": "affect",
+            "value": 1.135
+          },
+          {
+            "type": "needRiches",
+            "value": 226981.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.61
+          }
+        ]
+      },
+      {
+        "lv": 61,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 70.0
+          },
+          {
+            "type": "affect",
+            "value": 1.17
+          },
+          {
+            "type": "needRiches",
+            "value": 238328.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.62
+          }
+        ]
+      },
+      {
+        "lv": 62,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 70.0
+          },
+          {
+            "type": "affect",
+            "value": 1.205
+          },
+          {
+            "type": "needRiches",
+            "value": 250047.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.63
+          }
+        ]
+      },
+      {
+        "lv": 63,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 70.0
+          },
+          {
+            "type": "affect",
+            "value": 1.24
+          },
+          {
+            "type": "needRiches",
+            "value": 262144.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.64
+          }
+        ]
+      },
+      {
+        "lv": 64,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 70.0
+          },
+          {
+            "type": "affect",
+            "value": 1.275
+          },
+          {
+            "type": "needRiches",
+            "value": 274625.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.65
+          }
+        ]
+      },
+      {
+        "lv": 65,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 75.0
+          },
+          {
+            "type": "affect",
+            "value": 1.31
+          },
+          {
+            "type": "needRiches",
+            "value": 287496.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.66
+          }
+        ]
+      },
+      {
+        "lv": 66,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 75.0
+          },
+          {
+            "type": "affect",
+            "value": 1.345
+          },
+          {
+            "type": "needRiches",
+            "value": 300763.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.67
+          }
+        ]
+      },
+      {
+        "lv": 67,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 75.0
+          },
+          {
+            "type": "affect",
+            "value": 1.38
+          },
+          {
+            "type": "needRiches",
+            "value": 314432.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.68
+          }
+        ]
+      },
+      {
+        "lv": 68,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 75.0
+          },
+          {
+            "type": "affect",
+            "value": 1.415
+          },
+          {
+            "type": "needRiches",
+            "value": 328509.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.69
+          }
+        ]
+      },
+      {
+        "lv": 69,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 75.0
+          },
+          {
+            "type": "affect",
+            "value": 1.45
+          },
+          {
+            "type": "needRiches",
+            "value": 343000.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.7
+          }
+        ]
+      },
+      {
+        "lv": 70,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 80.0
+          },
+          {
+            "type": "affect",
+            "value": 1.49
+          },
+          {
+            "type": "needRiches",
+            "value": 357911.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.71
+          }
+        ]
+      },
+      {
+        "lv": 71,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 80.0
+          },
+          {
+            "type": "affect",
+            "value": 1.53
+          },
+          {
+            "type": "needRiches",
+            "value": 373248.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.72
+          }
+        ]
+      },
+      {
+        "lv": 72,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 80.0
+          },
+          {
+            "type": "affect",
+            "value": 1.57
+          },
+          {
+            "type": "needRiches",
+            "value": 389017.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.73
+          }
+        ]
+      },
+      {
+        "lv": 73,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 80.0
+          },
+          {
+            "type": "affect",
+            "value": 1.61
+          },
+          {
+            "type": "needRiches",
+            "value": 405224.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.74
+          }
+        ]
+      },
+      {
+        "lv": 74,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 80.0
+          },
+          {
+            "type": "affect",
+            "value": 1.65
+          },
+          {
+            "type": "needRiches",
+            "value": 421875.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.75
+          }
+        ]
+      },
+      {
+        "lv": 75,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 85.0
+          },
+          {
+            "type": "affect",
+            "value": 1.69
+          },
+          {
+            "type": "needRiches",
+            "value": 438976.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.76
+          }
+        ]
+      },
+      {
+        "lv": 76,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 85.0
+          },
+          {
+            "type": "affect",
+            "value": 1.73
+          },
+          {
+            "type": "needRiches",
+            "value": 456533.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.77
+          }
+        ]
+      },
+      {
+        "lv": 77,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 85.0
+          },
+          {
+            "type": "affect",
+            "value": 1.77
+          },
+          {
+            "type": "needRiches",
+            "value": 474552.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.78
+          }
+        ]
+      },
+      {
+        "lv": 78,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 85.0
+          },
+          {
+            "type": "affect",
+            "value": 1.81
+          },
+          {
+            "type": "needRiches",
+            "value": 493039.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.79
+          }
+        ]
+      },
+      {
+        "lv": 79,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 85.0
+          },
+          {
+            "type": "affect",
+            "value": 1.85
+          },
+          {
+            "type": "needRiches",
+            "value": 512000.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.8
+          }
+        ]
+      },
+      {
+        "lv": 80,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 90.0
+          },
+          {
+            "type": "affect",
+            "value": 1.895
+          },
+          {
+            "type": "needRiches",
+            "value": 531441.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.81
+          }
+        ]
+      },
+      {
+        "lv": 81,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 90.0
+          },
+          {
+            "type": "affect",
+            "value": 1.94
+          },
+          {
+            "type": "needRiches",
+            "value": 551368.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.82
+          }
+        ]
+      },
+      {
+        "lv": 82,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 90.0
+          },
+          {
+            "type": "affect",
+            "value": 1.985
+          },
+          {
+            "type": "needRiches",
+            "value": 571787.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.83
+          }
+        ]
+      },
+      {
+        "lv": 83,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 90.0
+          },
+          {
+            "type": "affect",
+            "value": 2.03
+          },
+          {
+            "type": "needRiches",
+            "value": 592704.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.84
+          }
+        ]
+      },
+      {
+        "lv": 84,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 90.0
+          },
+          {
+            "type": "affect",
+            "value": 2.075
+          },
+          {
+            "type": "needRiches",
+            "value": 614125.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.85
+          }
+        ]
+      },
+      {
+        "lv": 85,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 95.0
+          },
+          {
+            "type": "affect",
+            "value": 2.12
+          },
+          {
+            "type": "needRiches",
+            "value": 636056.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.86
+          }
+        ]
+      },
+      {
+        "lv": 86,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 95.0
+          },
+          {
+            "type": "affect",
+            "value": 2.165
+          },
+          {
+            "type": "needRiches",
+            "value": 658503.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.87
+          }
+        ]
+      },
+      {
+        "lv": 87,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 95.0
+          },
+          {
+            "type": "affect",
+            "value": 2.21
+          },
+          {
+            "type": "needRiches",
+            "value": 681472.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.88
+          }
+        ]
+      },
+      {
+        "lv": 88,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 95.0
+          },
+          {
+            "type": "affect",
+            "value": 2.255
+          },
+          {
+            "type": "needRiches",
+            "value": 704969.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.89
+          }
+        ]
+      },
+      {
+        "lv": 89,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 95.0
+          },
+          {
+            "type": "affect",
+            "value": 2.3
+          },
+          {
+            "type": "needRiches",
+            "value": 729000.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.9
+          }
+        ]
+      },
+      {
+        "lv": 90,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 100.0
+          },
+          {
+            "type": "affect",
+            "value": 2.35
+          },
+          {
+            "type": "needRiches",
+            "value": 753571.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.91
+          }
+        ]
+      },
+      {
+        "lv": 91,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 100.0
+          },
+          {
+            "type": "affect",
+            "value": 2.4
+          },
+          {
+            "type": "needRiches",
+            "value": 778688.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.92
+          }
+        ]
+      },
+      {
+        "lv": 92,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 100.0
+          },
+          {
+            "type": "affect",
+            "value": 2.45
+          },
+          {
+            "type": "needRiches",
+            "value": 804357.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.93
+          }
+        ]
+      },
+      {
+        "lv": 93,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 100.0
+          },
+          {
+            "type": "affect",
+            "value": 2.5
+          },
+          {
+            "type": "needRiches",
+            "value": 830584.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.94
+          }
+        ]
+      },
+      {
+        "lv": 94,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 100.0
+          },
+          {
+            "type": "affect",
+            "value": 2.55
+          },
+          {
+            "type": "needRiches",
+            "value": 857375.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.95
+          }
+        ]
+      },
+      {
+        "lv": 95,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 105.0
+          },
+          {
+            "type": "affect",
+            "value": 2.6
+          },
+          {
+            "type": "needRiches",
+            "value": 884736.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.96
+          }
+        ]
+      },
+      {
+        "lv": 96,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 105.0
+          },
+          {
+            "type": "affect",
+            "value": 2.65
+          },
+          {
+            "type": "needRiches",
+            "value": 912673.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.97
+          }
+        ]
+      },
+      {
+        "lv": 97,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 105.0
+          },
+          {
+            "type": "affect",
+            "value": 2.7
+          },
+          {
+            "type": "needRiches",
+            "value": 941192.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.98
+          }
+        ]
+      },
+      {
+        "lv": 98,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 105.0
+          },
+          {
+            "type": "affect",
+            "value": 2.75
+          },
+          {
+            "type": "needRiches",
+            "value": 970299.0
+          },
+          {
+            "type": "demotion",
+            "value": 0.99
+          }
+        ]
+      },
+      {
+        "lv": 99,
+        "effects": [
+          {
+            "type": "shipNum",
+            "value": 105.0
+          },
+          {
+            "type": "affect",
+            "value": 2.8
+          },
+          {
+            "type": "needRiches",
+            "value": 1000000.0
+          },
+          {
+            "type": "demotion",
+            "value": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

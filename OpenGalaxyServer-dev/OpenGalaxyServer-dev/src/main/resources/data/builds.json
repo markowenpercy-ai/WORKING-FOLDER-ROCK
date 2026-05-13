@@ -1,0 +1,6113 @@
+{
+  "buildings": [
+    {
+      "id": 0,
+      "name": "build:civicCenter",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 300,
+          "metal": 550,
+          "gas": 480,
+          "gold": 600,
+          "exp": 200,
+          "require": [
+            {
+              "id": 13,
+              "lv": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 1,
+          "time": 846,
+          "metal": 1661,
+          "gas": 1450,
+          "gold": 1812,
+          "exp": 300,
+          "require": [
+            {
+              "id": 13,
+              "lv": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 2,
+          "time": 2394,
+          "metal": 5033,
+          "gas": 4392,
+          "gold": 5490,
+          "exp": 400,
+          "require": [
+            {
+              "id": 13,
+              "lv": 1
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 3,
+          "time": 6799,
+          "metal": 15300,
+          "gas": 13353,
+          "gold": 16691,
+          "exp": 500,
+          "require": [
+            {
+              "id": 13,
+              "lv": 2
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 4,
+          "time": 19378,
+          "metal": 46664,
+          "gas": 40725,
+          "gold": 50907,
+          "exp": 900,
+          "require": [
+            {
+              "id": 13,
+              "lv": 3
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 5,
+          "time": 55422,
+          "metal": 142793,
+          "gas": 124619,
+          "gold": 155774,
+          "exp": 1200,
+          "require": [
+            {
+              "id": 13,
+              "lv": 4
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 6,
+          "time": 159063,
+          "metal": 438375,
+          "gas": 382582,
+          "gold": 478227,
+          "exp": 12200,
+          "require": [
+            {
+              "id": 13,
+              "lv": 5
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 7,
+          "time": 458100,
+          "metal": 1350194,
+          "gas": 1178351,
+          "gold": 1472939,
+          "exp": 122200,
+          "require": [
+            {
+              "id": 13,
+              "lv": 6
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 8,
+          "time": 1323909,
+          "metal": 4172100,
+          "gas": 3641105,
+          "gold": 4551382,
+          "exp": 122200,
+          "require": [
+            {
+              "id": 13,
+              "lv": 7
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 9,
+          "time": 3839337,
+          "metal": 12933509,
+          "gas": 11287426,
+          "gold": 14109283,
+          "exp": 1222200,
+          "require": [
+            {
+              "id": 13,
+              "lv": 8
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 10,
+          "time": 11172471,
+          "metal": 40223214,
+          "gas": 35103895,
+          "gold": 43879869,
+          "exp": 1222200,
+          "require": [
+            {
+              "id": 13,
+              "lv": 9
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 11,
+          "time": 32623616,
+          "metal": 125496426,
+          "gas": 109524154,
+          "gold": 136905192,
+          "exp": 12222200,
+          "require": [
+            {
+              "id": 13,
+              "lv": 10
+            }
+          ],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "build:generatorFuel",
+      "type": "land",
+      "limit": 8,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 40,
+          "metal": 95,
+          "gas": 80,
+          "gold": 95,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 3540
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 69,
+          "metal": 163,
+          "gas": 138,
+          "gold": 163,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 3645
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 119,
+          "metal": 283,
+          "gas": 238,
+          "gold": 283,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 3792
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 207,
+          "metal": 492,
+          "gas": 414,
+          "gold": 492,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 3981
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 362,
+          "metal": 861,
+          "gas": 725,
+          "gold": 861,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 4221
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 638,
+          "metal": 1515,
+          "gas": 1276,
+          "gold": 1515,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 4515
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 1129,
+          "metal": 2681,
+          "gas": 2258,
+          "gold": 2681,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 4878
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 2010,
+          "metal": 4773,
+          "gas": 4019,
+          "gold": 4773,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 5316
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 3597,
+          "metal": 8544,
+          "gas": 7195,
+          "gold": 8544,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 5847
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "time": 6475,
+          "metal": 15379,
+          "gas": 12950,
+          "gold": 15379,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 6492
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "time": 11720,
+          "metal": 27835,
+          "gas": 23440,
+          "gold": 27835,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 7269
+            }
+          ]
+        },
+        {
+          "lv": 11,
+          "time": 21331,
+          "metal": 50660,
+          "gas": 42661,
+          "gold": 50660,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 8214
+            }
+          ]
+        },
+        {
+          "lv": 12,
+          "time": 39035,
+          "metal": 92708,
+          "gas": 78070,
+          "gold": 92708,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 9366
+            }
+          ]
+        },
+        {
+          "lv": 13,
+          "time": 71824,
+          "metal": 170583,
+          "gas": 143649,
+          "gold": 170583,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 10770
+            }
+          ]
+        },
+        {
+          "lv": 14,
+          "time": 132875,
+          "metal": 315579,
+          "gas": 265750,
+          "gold": 315579,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 12492
+            }
+          ]
+        },
+        {
+          "lv": 15,
+          "time": 247148,
+          "metal": 586976,
+          "gas": 494296,
+          "gold": 586976,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 14616
+            }
+          ]
+        },
+        {
+          "lv": 16,
+          "time": 462167,
+          "metal": 1097645,
+          "gas": 924333,
+          "gold": 1097645,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 17247
+            }
+          ]
+        },
+        {
+          "lv": 17,
+          "time": 868873,
+          "metal": 2063573,
+          "gas": 1737746,
+          "gold": 2063573,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 20526
+            }
+          ]
+        },
+        {
+          "lv": 18,
+          "time": 1642170,
+          "metal": 3900154,
+          "gas": 3284340,
+          "gold": 3900154,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 24630
+            }
+          ]
+        },
+        {
+          "lv": 19,
+          "time": 3120123,
+          "metal": 7410292,
+          "gas": 6240246,
+          "gold": 7410292,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 29802
+            }
+          ]
+        },
+        {
+          "lv": 20,
+          "time": 5959435,
+          "metal": 14153658,
+          "gas": 11918870,
+          "gold": 14153658,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 36360
+            }
+          ]
+        },
+        {
+          "lv": 21,
+          "time": 11442115,
+          "metal": 27175024,
+          "gas": 22884230,
+          "gold": 27175024,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 44721
+            }
+          ]
+        },
+        {
+          "lv": 22,
+          "time": 22083282,
+          "metal": 52447796,
+          "gas": 44166565,
+          "gold": 52447796,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 55455
+            }
+          ]
+        },
+        {
+          "lv": 23,
+          "time": 42841568,
+          "metal": 101748723,
+          "gas": 85683135,
+          "gold": 101748723,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainFuel",
+              "value": 69318
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "build:generatorMetal",
+      "type": "land",
+      "limit": 8,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 40,
+          "metal": 85,
+          "gas": 106,
+          "gold": 85,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 3240
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 69,
+          "metal": 146,
+          "gas": 182,
+          "gold": 146,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 3336
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 119,
+          "metal": 253,
+          "gas": 315,
+          "gold": 253,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 3471
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 207,
+          "metal": 440,
+          "gas": 549,
+          "gold": 440,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 3645
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 362,
+          "metal": 770,
+          "gas": 960,
+          "gold": 770,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 3864
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 638,
+          "metal": 1355,
+          "gas": 1690,
+          "gold": 1355,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 4134
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 1129,
+          "metal": 2399,
+          "gas": 2992,
+          "gold": 2399,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 4464
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 2010,
+          "metal": 4271,
+          "gas": 5326,
+          "gold": 4271,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 4866
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 3597,
+          "metal": 7644,
+          "gas": 9533,
+          "gold": 7644,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 5352
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "time": 6475,
+          "metal": 13760,
+          "gas": 17159,
+          "gold": 13760,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 5940
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "time": 11720,
+          "metal": 24905,
+          "gas": 31058,
+          "gold": 24905,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 6654
+            }
+          ]
+        },
+        {
+          "lv": 11,
+          "time": 21331,
+          "metal": 45328,
+          "gas": 56526,
+          "gold": 45328,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 7518
+            }
+          ]
+        },
+        {
+          "lv": 12,
+          "time": 39035,
+          "metal": 82949,
+          "gas": 103443,
+          "gold": 82949,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 8571
+            }
+          ]
+        },
+        {
+          "lv": 13,
+          "time": 71824,
+          "metal": 152627,
+          "gas": 190335,
+          "gold": 152627,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 9858
+            }
+          ]
+        },
+        {
+          "lv": 14,
+          "time": 132875,
+          "metal": 282360,
+          "gas": 352119,
+          "gold": 282360,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 11436
+            }
+          ]
+        },
+        {
+          "lv": 15,
+          "time": 247148,
+          "metal": 525189,
+          "gas": 654942,
+          "gold": 525189,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 13377
+            }
+          ]
+        },
+        {
+          "lv": 16,
+          "time": 462167,
+          "metal": 982104,
+          "gas": 1224741,
+          "gold": 982104,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 15786
+            }
+          ]
+        },
+        {
+          "lv": 17,
+          "time": 868873,
+          "metal": 1846355,
+          "gas": 2302514,
+          "gold": 1846355,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 18786
+            }
+          ]
+        },
+        {
+          "lv": 18,
+          "time": 1642170,
+          "metal": 3489611,
+          "gas": 4351751,
+          "gold": 3489611,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 22542
+            }
+          ]
+        },
+        {
+          "lv": 19,
+          "time": 3120123,
+          "metal": 6630261,
+          "gas": 8268326,
+          "gold": 6630261,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 27276
+            }
+          ]
+        },
+        {
+          "lv": 20,
+          "time": 5959435,
+          "metal": 12663799,
+          "gas": 15792503,
+          "gold": 12663799,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 33279
+            }
+          ]
+        },
+        {
+          "lv": 21,
+          "time": 11442115,
+          "metal": 24314495,
+          "gas": 30321605,
+          "gold": 24314495,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 40932
+            }
+          ]
+        },
+        {
+          "lv": 22,
+          "time": 22083282,
+          "metal": 46926975,
+          "gas": 58520698,
+          "gold": 46926975,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 50757
+            }
+          ]
+        },
+        {
+          "lv": 23,
+          "time": 42841568,
+          "metal": 91038331,
+          "gas": 113530154,
+          "gold": 91038331,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainMetal",
+              "value": 63444
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "build:generatorGold",
+      "type": "land",
+      "limit": 12,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 40,
+          "metal": 78,
+          "gas": 72,
+          "gold": 65,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 3900
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 69,
+          "metal": 134,
+          "gas": 124,
+          "gold": 112,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 4017
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 119,
+          "metal": 232,
+          "gas": 214,
+          "gold": 193,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 4179
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 207,
+          "metal": 404,
+          "gas": 373,
+          "gold": 337,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 4386
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 362,
+          "metal": 707,
+          "gas": 652,
+          "gold": 589,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 4650
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 638,
+          "metal": 1244,
+          "gas": 1148,
+          "gold": 1037,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 4974
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 1129,
+          "metal": 2202,
+          "gas": 2032,
+          "gold": 1835,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 5373
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 2010,
+          "metal": 3919,
+          "gas": 3617,
+          "gold": 3266,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 5856
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 3597,
+          "metal": 7015,
+          "gas": 6475,
+          "gold": 5846,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 6444
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "time": 6475,
+          "metal": 12627,
+          "gas": 11655,
+          "gold": 10522,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 7152
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "time": 11720,
+          "metal": 22854,
+          "gas": 21096,
+          "gold": 19045,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 8010
+            }
+          ]
+        },
+        {
+          "lv": 11,
+          "time": 21331,
+          "metal": 41595,
+          "gas": 38395,
+          "gold": 34662,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 9051
+            }
+          ]
+        },
+        {
+          "lv": 12,
+          "time": 39035,
+          "metal": 76118,
+          "gas": 70263,
+          "gold": 63432,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 10317
+            }
+          ]
+        },
+        {
+          "lv": 13,
+          "time": 71824,
+          "metal": 140058,
+          "gas": 129284,
+          "gold": 116715,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 11865
+            }
+          ]
+        },
+        {
+          "lv": 14,
+          "time": 132875,
+          "metal": 259107,
+          "gas": 239175,
+          "gold": 215922,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 13764
+            }
+          ]
+        },
+        {
+          "lv": 15,
+          "time": 247148,
+          "metal": 481938,
+          "gas": 444866,
+          "gold": 401615,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 16104
+            }
+          ]
+        },
+        {
+          "lv": 16,
+          "time": 462167,
+          "metal": 901225,
+          "gas": 831900,
+          "gold": 751021,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 19002
+            }
+          ]
+        },
+        {
+          "lv": 17,
+          "time": 868873,
+          "metal": 1694302,
+          "gas": 1563971,
+          "gold": 1411919,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 22614
+            }
+          ]
+        },
+        {
+          "lv": 18,
+          "time": 1642170,
+          "metal": 3202232,
+          "gas": 2955906,
+          "gold": 2668526,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 27135
+            }
+          ]
+        },
+        {
+          "lv": 19,
+          "time": 3120123,
+          "metal": 6084240,
+          "gas": 5616221,
+          "gold": 5070200,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 32835
+            }
+          ]
+        },
+        {
+          "lv": 20,
+          "time": 5959435,
+          "metal": 11620898,
+          "gas": 10726983,
+          "gold": 9684082,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 40056
+            }
+          ]
+        },
+        {
+          "lv": 21,
+          "time": 11442115,
+          "metal": 22312125,
+          "gas": 20595807,
+          "gold": 18593437,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 49269
+            }
+          ]
+        },
+        {
+          "lv": 22,
+          "time": 22083282,
+          "metal": 43062401,
+          "gas": 39749908,
+          "gold": 35885334,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 61095
+            }
+          ]
+        },
+        {
+          "lv": 23,
+          "time": 42841568,
+          "metal": 83541057,
+          "gas": 77114822,
+          "gold": 69617548,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "gainGold",
+              "value": 76368
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "build:resourceStorage",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 35,
+          "metal": 380,
+          "gas": 370,
+          "gold": 480,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 10000
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 60,
+          "metal": 654,
+          "gas": 636,
+          "gold": 826,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 30000
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 104,
+          "metal": 1131,
+          "gas": 1101,
+          "gold": 1428,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            },
+            {
+              "id": 1,
+              "lv": 0
+            },
+            {
+              "id": 2,
+              "lv": 0
+            },
+            {
+              "id": 3,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 60000
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 181,
+          "metal": 1967,
+          "gas": 1916,
+          "gold": 2485,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            },
+            {
+              "id": 1,
+              "lv": 0
+            },
+            {
+              "id": 2,
+              "lv": 0
+            },
+            {
+              "id": 3,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 90000
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 317,
+          "metal": 3443,
+          "gas": 3352,
+          "gold": 4349,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            },
+            {
+              "id": 1,
+              "lv": 2
+            },
+            {
+              "id": 2,
+              "lv": 2
+            },
+            {
+              "id": 3,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 120000
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 558,
+          "metal": 6060,
+          "gas": 5900,
+          "gold": 7654,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            },
+            {
+              "id": 1,
+              "lv": 2
+            },
+            {
+              "id": 2,
+              "lv": 2
+            },
+            {
+              "id": 3,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 150000
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 988,
+          "metal": 10726,
+          "gas": 10444,
+          "gold": 13548,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            },
+            {
+              "id": 1,
+              "lv": 4
+            },
+            {
+              "id": 2,
+              "lv": 4
+            },
+            {
+              "id": 3,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 200000
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 1758,
+          "metal": 19092,
+          "gas": 18590,
+          "gold": 24116,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            },
+            {
+              "id": 1,
+              "lv": 4
+            },
+            {
+              "id": 2,
+              "lv": 4
+            },
+            {
+              "id": 3,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 250000
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 3148,
+          "metal": 34175,
+          "gas": 33275,
+          "gold": 43168,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            },
+            {
+              "id": 1,
+              "lv": 6
+            },
+            {
+              "id": 2,
+              "lv": 6
+            },
+            {
+              "id": 3,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 300000
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "time": 5666,
+          "metal": 61514,
+          "gas": 59896,
+          "gold": 77702,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            },
+            {
+              "id": 1,
+              "lv": 6
+            },
+            {
+              "id": 2,
+              "lv": 6
+            },
+            {
+              "id": 3,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 350000
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "time": 10255,
+          "metal": 111341,
+          "gas": 108411,
+          "gold": 140641,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            },
+            {
+              "id": 1,
+              "lv": 8
+            },
+            {
+              "id": 2,
+              "lv": 8
+            },
+            {
+              "id": 3,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 400000
+            }
+          ]
+        },
+        {
+          "lv": 11,
+          "time": 18664,
+          "metal": 202641,
+          "gas": 197308,
+          "gold": 255967,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            },
+            {
+              "id": 1,
+              "lv": 8
+            },
+            {
+              "id": 2,
+              "lv": 8
+            },
+            {
+              "id": 3,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 500000
+            }
+          ]
+        },
+        {
+          "lv": 12,
+          "time": 34156,
+          "metal": 370833,
+          "gas": 361074,
+          "gold": 468420,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            },
+            {
+              "id": 1,
+              "lv": 10
+            },
+            {
+              "id": 2,
+              "lv": 10
+            },
+            {
+              "id": 3,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 600000
+            }
+          ]
+        },
+        {
+          "lv": 13,
+          "time": 62846,
+          "metal": 682332,
+          "gas": 664376,
+          "gold": 861893,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            },
+            {
+              "id": 1,
+              "lv": 10
+            },
+            {
+              "id": 2,
+              "lv": 10
+            },
+            {
+              "id": 3,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 700000
+            }
+          ]
+        },
+        {
+          "lv": 14,
+          "time": 116266,
+          "metal": 1262314,
+          "gas": 1229096,
+          "gold": 1594502,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            },
+            {
+              "id": 1,
+              "lv": 12
+            },
+            {
+              "id": 2,
+              "lv": 12
+            },
+            {
+              "id": 3,
+              "lv": 12
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 800000
+            }
+          ]
+        },
+        {
+          "lv": 15,
+          "time": 216254,
+          "metal": 2347905,
+          "gas": 2286118,
+          "gold": 2965774,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            },
+            {
+              "id": 1,
+              "lv": 12
+            },
+            {
+              "id": 2,
+              "lv": 12
+            },
+            {
+              "id": 3,
+              "lv": 12
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 1000000
+            }
+          ]
+        },
+        {
+          "lv": 16,
+          "time": 404396,
+          "metal": 4390582,
+          "gas": 4275040,
+          "gold": 5545998,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            },
+            {
+              "id": 1,
+              "lv": 14
+            },
+            {
+              "id": 2,
+              "lv": 14
+            },
+            {
+              "id": 3,
+              "lv": 14
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 2000000
+            }
+          ]
+        },
+        {
+          "lv": 17,
+          "time": 760264,
+          "metal": 8254294,
+          "gas": 8037075,
+          "gold": 10426476,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            },
+            {
+              "id": 1,
+              "lv": 14
+            },
+            {
+              "id": 2,
+              "lv": 14
+            },
+            {
+              "id": 3,
+              "lv": 14
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 3000000
+            }
+          ]
+        },
+        {
+          "lv": 18,
+          "time": 1436899,
+          "metal": 15600615,
+          "gas": 15190073,
+          "gold": 19706040,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            },
+            {
+              "id": 1,
+              "lv": 16
+            },
+            {
+              "id": 2,
+              "lv": 16
+            },
+            {
+              "id": 3,
+              "lv": 16
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 4000000
+            }
+          ]
+        },
+        {
+          "lv": 19,
+          "time": 2730108,
+          "metal": 29641169,
+          "gas": 28861138,
+          "gold": 37441476,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            },
+            {
+              "id": 1,
+              "lv": 16
+            },
+            {
+              "id": 2,
+              "lv": 16
+            },
+            {
+              "id": 3,
+              "lv": 16
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 6000000
+            }
+          ]
+        },
+        {
+          "lv": 20,
+          "time": 5214506,
+          "metal": 56614633,
+          "gas": 55124774,
+          "gold": 71513220,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            },
+            {
+              "id": 1,
+              "lv": 18
+            },
+            {
+              "id": 2,
+              "lv": 18
+            },
+            {
+              "id": 3,
+              "lv": 18
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 8000000
+            }
+          ]
+        },
+        {
+          "lv": 21,
+          "time": 10011851,
+          "metal": 108700094,
+          "gas": 105839566,
+          "gold": 137305382,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            },
+            {
+              "id": 1,
+              "lv": 18
+            },
+            {
+              "id": 2,
+              "lv": 18
+            },
+            {
+              "id": 3,
+              "lv": 18
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 10000000
+            }
+          ]
+        },
+        {
+          "lv": 22,
+          "time": 19322872,
+          "metal": 209791182,
+          "gas": 204270362,
+          "gold": 264999388,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            },
+            {
+              "id": 1,
+              "lv": 20
+            },
+            {
+              "id": 2,
+              "lv": 20
+            },
+            {
+              "id": 3,
+              "lv": 20
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 15000000
+            }
+          ]
+        },
+        {
+          "lv": 23,
+          "time": 37486372,
+          "metal": 406994893,
+          "gas": 396284502,
+          "gold": 514098813,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            },
+            {
+              "id": 1,
+              "lv": 20
+            },
+            {
+              "id": 2,
+              "lv": 20
+            },
+            {
+              "id": 3,
+              "lv": 20
+            }
+          ],
+          "effects": [
+            {
+              "type": "storage",
+              "value": 20000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "build:commander",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 40,
+          "metal": 600,
+          "gas": 450,
+          "gold": 500,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 10800
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 121,
+          "metal": 1692,
+          "gas": 1269,
+          "gold": 1410,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 10200
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 366,
+          "metal": 4788,
+          "gas": 3591,
+          "gold": 3990,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 9600
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 1113,
+          "metal": 13599,
+          "gas": 10199,
+          "gold": 11332,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 9000
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 3394,
+          "metal": 38757,
+          "gas": 32297,
+          "gold": 32297,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 8400
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 10385,
+          "metal": 110845,
+          "gas": 83134,
+          "gold": 92371,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 7800
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 31882,
+          "metal": 318125,
+          "gas": 238594,
+          "gold": 265104,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 7200
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 98196,
+          "metal": 916200,
+          "gas": 687150,
+          "gold": 763500,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 6600
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 303425,
+          "metal": 2647819,
+          "gas": 1985864,
+          "gold": 2206516,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 6000
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "time": 940619,
+          "metal": 7678674,
+          "gas": 5759006,
+          "gold": 6398895,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 5400
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "time": 2925325,
+          "metal": 22344943,
+          "gas": 16758707,
+          "gold": 18620785,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 4800
+            }
+          ]
+        },
+        {
+          "lv": 11,
+          "time": 9127013,
+          "metal": 65247232,
+          "gas": 48935424,
+          "gold": 18620785,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "recruitCooldown",
+              "value": 4200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "build:alliance",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 300,
+          "metal": 500,
+          "gas": 400,
+          "gold": 550,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            },
+            {
+              "id": 9,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "allyFlyBonus",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 906,
+          "metal": 1410,
+          "gas": 1128,
+          "gold": 1551,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            },
+            {
+              "id": 9,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "allyFlyBonus",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 2745,
+          "metal": 3990,
+          "gas": 3192,
+          "gold": 4389,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            },
+            {
+              "id": 9,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "allyFlyBonus",
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 8345,
+          "metal": 11332,
+          "gas": 9066,
+          "gold": 12466,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            },
+            {
+              "id": 9,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "allyFlyBonus",
+              "value": 0.3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 25453,
+          "metal": 32297,
+          "gas": 25838,
+          "gold": 35527,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            },
+            {
+              "id": 9,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "allyFlyBonus",
+              "value": 0.4
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 77887,
+          "metal": 92371,
+          "gas": 73897,
+          "gold": 101608,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            },
+            {
+              "id": 9,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "allyFlyBonus",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 239113,
+          "metal": 265104,
+          "gas": 212083,
+          "gold": 291615,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            },
+            {
+              "id": 9,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "allyFlyBonus",
+              "value": 0.6
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 736470,
+          "metal": 763500,
+          "gas": 610800,
+          "gold": 839850,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            },
+            {
+              "id": 9,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "allyFlyBonus",
+              "value": 0.7
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 2275691,
+          "metal": 2206516,
+          "gas": 1765213,
+          "gold": 2427167,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            },
+            {
+              "id": 9,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "allyFlyBonus",
+              "value": 0.8
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "time": 7054641,
+          "metal": 6398895,
+          "gas": 5119116,
+          "gold": 7038785,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            },
+            {
+              "id": 9,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "allyFlyBonus",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "time": 21939935,
+          "metal": 18620785,
+          "gas": 14896628,
+          "gold": 20482864,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            },
+            {
+              "id": 9,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "allyFlyBonus",
+              "value": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "build:shipFactory",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 35,
+          "metal": 120,
+          "gas": 95,
+          "gold": 110,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 1
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 60,
+          "metal": 206,
+          "gas": 163,
+          "gold": 189,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 1
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 104,
+          "metal": 357,
+          "gas": 283,
+          "gold": 327,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 1
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 181,
+          "metal": 621,
+          "gas": 492,
+          "gold": 570,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 2
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 317,
+          "metal": 1087,
+          "gas": 861,
+          "gold": 997,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 2
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 558,
+          "metal": 1914,
+          "gas": 1515,
+          "gold": 1754,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 2
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 988,
+          "metal": 3387,
+          "gas": 2681,
+          "gold": 3105,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 3
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 1758,
+          "metal": 6029,
+          "gas": 4773,
+          "gold": 5527,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 3
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 3148,
+          "metal": 10792,
+          "gas": 8544,
+          "gold": 9893,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 3
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.13
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "time": 5666,
+          "metal": 19426,
+          "gas": 15379,
+          "gold": 17807,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.14
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "time": 10255,
+          "metal": 35160,
+          "gas": 27835,
+          "gold": 32230,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 11,
+          "time": 18664,
+          "metal": 63992,
+          "gas": 50660,
+          "gold": 58659,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.16
+            }
+          ]
+        },
+        {
+          "lv": 12,
+          "time": 34156,
+          "metal": 117105,
+          "gas": 92708,
+          "gold": 107346,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.17
+            }
+          ]
+        },
+        {
+          "lv": 13,
+          "time": 62846,
+          "metal": 215473,
+          "gas": 170583,
+          "gold": 197517,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.18
+            }
+          ]
+        },
+        {
+          "lv": 14,
+          "time": 116266,
+          "metal": 398626,
+          "gas": 315579,
+          "gold": 365407,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.19
+            }
+          ]
+        },
+        {
+          "lv": 15,
+          "time": 216254,
+          "metal": 741444,
+          "gas": 586976,
+          "gold": 679657,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "lv": 16,
+          "time": 404396,
+          "metal": 1386500,
+          "gas": 1097645,
+          "gold": 1270958,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "lv": 17,
+          "time": 760264,
+          "metal": 2606619,
+          "gas": 2063573,
+          "gold": 2389401,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.3
+            }
+          ]
+        },
+        {
+          "lv": 18,
+          "time": 1436899,
+          "metal": 4926510,
+          "gas": 3900154,
+          "gold": 4515968,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.35
+            }
+          ]
+        },
+        {
+          "lv": 19,
+          "time": 2730108,
+          "metal": 9360369,
+          "gas": 7410292,
+          "gold": 8580338,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.4
+            }
+          ]
+        },
+        {
+          "lv": 20,
+          "time": 5214506,
+          "metal": 17878305,
+          "gas": 14153658,
+          "gold": 16388446,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.45
+            }
+          ]
+        },
+        {
+          "lv": 21,
+          "time": 10011851,
+          "metal": 34326346,
+          "gas": 27175024,
+          "gold": 31465817,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "lv": 22,
+          "time": 19322872,
+          "metal": 66249847,
+          "gas": 52447796,
+          "gold": 60729026,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.55
+            }
+          ]
+        },
+        {
+          "lv": 23,
+          "time": 37486372,
+          "metal": 128524703,
+          "gas": 101748723,
+          "gold": 117814311,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipQueueSlots",
+              "value": 4
+            },
+            {
+              "type": "shipBuildBonus",
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "build:compounding",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 60,
+          "metal": 12,
+          "gas": 100,
+          "gold": 10,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            },
+            {
+              "id": 10,
+              "lv": 1
+            }
+          ],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "build:scienceResearch",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 100,
+          "metal": 450,
+          "gas": 420,
+          "gold": 650,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 302,
+          "metal": 1269,
+          "gas": 1184,
+          "gold": 1833,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 915,
+          "metal": 3591,
+          "gas": 3352,
+          "gold": 5187,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 2782,
+          "metal": 10199,
+          "gas": 9519,
+          "gold": 14732,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.12
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 8484,
+          "metal": 29068,
+          "gas": 27130,
+          "gold": 41987,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 25962,
+          "metal": 83134,
+          "gas": 77591,
+          "gold": 120082,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.18
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 79704,
+          "metal": 238594,
+          "gas": 222688,
+          "gold": 344636,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.21
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 245490,
+          "metal": 687150,
+          "gas": 641340,
+          "gold": 992550,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.24
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 758564,
+          "metal": 1985864,
+          "gas": 1853473,
+          "gold": 2868470,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.27
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "time": 2351547,
+          "metal": 5759006,
+          "gas": 5375072,
+          "gold": 8318564,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.3
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "time": 7313312,
+          "metal": 16758707,
+          "gas": 15641460,
+          "gold": 24207021,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.33
+            }
+          ]
+        },
+        {
+          "lv": 11,
+          "time": 22817532,
+          "metal": 48935424,
+          "gas": 45673062,
+          "gold": 70684501,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "build:blueprintResearch",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 40,
+          "metal": 500,
+          "gas": 300,
+          "gold": 450,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 121,
+          "metal": 1410,
+          "gas": 846,
+          "gold": 1269,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 366,
+          "metal": 3990,
+          "gas": 2394,
+          "gold": 3591,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 1113,
+          "metal": 11332,
+          "gas": 6799,
+          "gold": 10199,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.12
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 3394,
+          "metal": 32297,
+          "gas": 19378,
+          "gold": 29068,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 10385,
+          "metal": 92371,
+          "gas": 55422,
+          "gold": 83134,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.18
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 31882,
+          "metal": 265104,
+          "gas": 159063,
+          "gold": 238594,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.21
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 98196,
+          "metal": 763500,
+          "gas": 458100,
+          "gold": 687150,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.24
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 303425,
+          "metal": 2206516,
+          "gas": 1323909,
+          "gold": 1985864,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.27
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "time": 940619,
+          "metal": 6398895,
+          "gas": 3839337,
+          "gold": 5759006,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.3
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "time": 2925325,
+          "metal": 18620785,
+          "gas": 11172471,
+          "gold": 16758707,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.33
+            }
+          ]
+        },
+        {
+          "lv": 11,
+          "time": 9127013,
+          "metal": 54372693,
+          "gas": 32623616,
+          "gold": 48935424,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "blueprintBonus",
+              "value": 0.36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "build:trade",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 400,
+          "metal": 1200,
+          "gas": 1100,
+          "gold": 1500,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            },
+            {
+              "id": 10,
+              "lv": 0
+            },
+            {
+              "id": 9,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "tradeTax",
+              "value": 0.03
+            },
+            {
+              "type": "resourceExchange",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 1208,
+          "metal": 4224,
+          "gas": 3872,
+          "gold": 5280,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            },
+            {
+              "id": 10,
+              "lv": 1
+            },
+            {
+              "id": 9,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "tradeTax",
+              "value": 0.03
+            },
+            {
+              "type": "resourceExchange",
+              "value": 0.55
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 3660,
+          "metal": 14911,
+          "gas": 13668,
+          "gold": 18638,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            },
+            {
+              "id": 10,
+              "lv": 2
+            },
+            {
+              "id": 9,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "tradeTax",
+              "value": 0.03
+            },
+            {
+              "type": "resourceExchange",
+              "value": 0.6
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 11127,
+          "metal": 52784,
+          "gas": 48385,
+          "gold": 65980,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            },
+            {
+              "id": 10,
+              "lv": 3
+            },
+            {
+              "id": 9,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "tradeTax",
+              "value": 0.03
+            },
+            {
+              "type": "resourceExchange",
+              "value": 0.65
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 33938,
+          "metal": 187383,
+          "gas": 171768,
+          "gold": 234229,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            },
+            {
+              "id": 10,
+              "lv": 4
+            },
+            {
+              "id": 9,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "tradeTax",
+              "value": 0.03
+            },
+            {
+              "type": "resourceExchange",
+              "value": 0.7
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 103850,
+          "metal": 667084,
+          "gas": 611493,
+          "gold": 833854,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            },
+            {
+              "id": 10,
+              "lv": 5
+            },
+            {
+              "id": 9,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "tradeTax",
+              "value": 0.03
+            },
+            {
+              "type": "resourceExchange",
+              "value": 0.75
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 318818,
+          "metal": 2381488,
+          "gas": 2183031,
+          "gold": 2976860,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            },
+            {
+              "id": 10,
+              "lv": 6
+            },
+            {
+              "id": 9,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "tradeTax",
+              "value": 0.03
+            },
+            {
+              "type": "resourceExchange",
+              "value": 0.8
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 981959,
+          "metal": 8525728,
+          "gas": 7815251,
+          "gold": 10657160,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            },
+            {
+              "id": 10,
+              "lv": 7
+            },
+            {
+              "id": 9,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "tradeTax",
+              "value": 0.03
+            },
+            {
+              "type": "resourceExchange",
+              "value": 0.85
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 3034254,
+          "metal": 30607363,
+          "gas": 28056750,
+          "gold": 38259204,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            },
+            {
+              "id": 10,
+              "lv": 8
+            },
+            {
+              "id": 9,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "tradeTax",
+              "value": 0.03
+            },
+            {
+              "type": "resourceExchange",
+              "value": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "build:shipRecycle",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 200,
+          "metal": 500,
+          "gas": 400,
+          "gold": 550,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            },
+            {
+              "id": 7,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipScrap",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 604,
+          "metal": 1510,
+          "gas": 1208,
+          "gold": 1661,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            },
+            {
+              "id": 7,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipScrap",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 1830,
+          "metal": 4273,
+          "gas": 3419,
+          "gold": 4701,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            },
+            {
+              "id": 7,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipScrap",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 5564,
+          "metal": 12136,
+          "gas": 9709,
+          "gold": 13350,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            },
+            {
+              "id": 7,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipScrap",
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 16969,
+          "metal": 34588,
+          "gas": 27670,
+          "gold": 38047,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            },
+            {
+              "id": 7,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipScrap",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 51925,
+          "metal": 98922,
+          "gas": 79138,
+          "gold": 108814,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            },
+            {
+              "id": 7,
+              "lv": 9
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipScrap",
+              "value": 0.3
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 159409,
+          "metal": 283906,
+          "gas": 227125,
+          "gold": 312297,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            },
+            {
+              "id": 7,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipScrap",
+              "value": 0.35
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 490980,
+          "metal": 817649,
+          "gas": 654119,
+          "gold": 899414,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            },
+            {
+              "id": 7,
+              "lv": 11
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipScrap",
+              "value": 0.4
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 1517127,
+          "metal": 2363006,
+          "gas": 1890405,
+          "gold": 2599307,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            },
+            {
+              "id": 7,
+              "lv": 12
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipScrap",
+              "value": 0.45
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "time": 4703094,
+          "metal": 6852718,
+          "gas": 5482174,
+          "gold": 7537989,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            },
+            {
+              "id": 7,
+              "lv": 13
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipScrap",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "time": 14626623,
+          "metal": 19941409,
+          "gas": 15953127,
+          "gold": 21935549,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            },
+            {
+              "id": 7,
+              "lv": 14
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipScrap",
+              "value": 0.55
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "build:spaceStation",
+      "type": "space",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 200,
+          "metal": 650,
+          "gas": 600,
+          "gold": 850,
+          "require": [],
+          "effects": []
+        },
+        {
+          "lv": 1,
+          "time": 604,
+          "metal": 2093,
+          "gas": 1932,
+          "gold": 2737,
+          "require": [],
+          "effects": []
+        },
+        {
+          "lv": 2,
+          "time": 1830,
+          "metal": 6760,
+          "gas": 6240,
+          "gold": 8841,
+          "require": [],
+          "effects": []
+        },
+        {
+          "lv": 3,
+          "time": 5564,
+          "metal": 21904,
+          "gas": 20219,
+          "gold": 28643,
+          "require": [],
+          "effects": []
+        },
+        {
+          "lv": 4,
+          "time": 16969,
+          "metal": 71187,
+          "gas": 65711,
+          "gold": 93091,
+          "require": [],
+          "effects": []
+        },
+        {
+          "lv": 5,
+          "time": 51925,
+          "metal": 232069,
+          "gas": 214218,
+          "gold": 303475,
+          "require": [],
+          "effects": []
+        },
+        {
+          "lv": 6,
+          "time": 159409,
+          "metal": 758867,
+          "gas": 700492,
+          "gold": 992364,
+          "require": [],
+          "effects": []
+        },
+        {
+          "lv": 7,
+          "time": 490980,
+          "metal": 2489083,
+          "gas": 2297615,
+          "gold": 3254954,
+          "require": [],
+          "effects": []
+        },
+        {
+          "lv": 8,
+          "time": 1517127,
+          "metal": 8189082,
+          "gas": 7559153,
+          "gold": 10708799,
+          "require": [],
+          "effects": []
+        },
+        {
+          "lv": 9,
+          "time": 4703094,
+          "metal": 27023970,
+          "gas": 24945203,
+          "gold": 35339038,
+          "require": [],
+          "effects": []
+        },
+        {
+          "lv": 10,
+          "time": 14626623,
+          "metal": 89449342,
+          "gas": 82568623,
+          "gold": 116972216,
+          "require": [],
+          "effects": []
+        },
+        {
+          "lv": 11,
+          "time": 45635064,
+          "metal": 296971815,
+          "gas": 274127829,
+          "gold": 388347758,
+          "require": [],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "build:radar",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 60,
+          "metal": 450,
+          "gas": 400,
+          "gold": 550,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            },
+            {
+              "id": 9,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "radarTier",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 181,
+          "metal": 1269,
+          "gas": 1128,
+          "gold": 1551,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            },
+            {
+              "id": 9,
+              "lv": 1
+            }
+          ],
+          "effects": [
+            {
+              "type": "radarTier",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 549,
+          "metal": 3591,
+          "gas": 3192,
+          "gold": 4389,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            },
+            {
+              "id": 9,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "radarTier",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 1669,
+          "metal": 10199,
+          "gas": 9066,
+          "gold": 12466,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            },
+            {
+              "id": 9,
+              "lv": 3
+            }
+          ],
+          "effects": [
+            {
+              "type": "radarTier",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 5091,
+          "metal": 29068,
+          "gas": 25838,
+          "gold": 35527,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            },
+            {
+              "id": 9,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "radarTier",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 15577,
+          "metal": 83134,
+          "gas": 73897,
+          "gold": 101608,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            },
+            {
+              "id": 9,
+              "lv": 5
+            }
+          ],
+          "effects": [
+            {
+              "type": "radarTier",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 47823,
+          "metal": 238594,
+          "gas": 212083,
+          "gold": 291615,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            },
+            {
+              "id": 9,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "radarTier",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 147294,
+          "metal": 687150,
+          "gas": 610800,
+          "gold": 839850,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            },
+            {
+              "id": 9,
+              "lv": 7
+            }
+          ],
+          "effects": [
+            {
+              "type": "radarTier",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 455138,
+          "metal": 1985864,
+          "gas": 1765213,
+          "gold": 2427167,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            },
+            {
+              "id": 9,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "radarTier",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "build:build:meteorStar",
+      "type": "space",
+      "limit": -1,
+      "limitIf": [
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 1,
+          "add": 10
+        },
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 3,
+          "add": 10
+        },
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 5,
+          "add": 10
+        },
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 7,
+          "add": 10
+        }
+      ],
+      "levels": [
+        {
+          "lv": 0,
+          "time": 20,
+          "metal": 50,
+          "gas": 45,
+          "gold": 48,
+          "require": [
+            {
+              "id": 13,
+              "lv": 1
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 1,
+          "time": 56,
+          "metal": 141,
+          "gas": 127,
+          "gold": 135,
+          "require": [
+            {
+              "id": 13,
+              "lv": 1
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 2,
+          "time": 160,
+          "metal": 399,
+          "gas": 359,
+          "gold": 383,
+          "require": [
+            {
+              "id": 13,
+              "lv": 2
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 3,
+          "time": 453,
+          "metal": 1133,
+          "gas": 1020,
+          "gold": 1088,
+          "require": [
+            {
+              "id": 13,
+              "lv": 2
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 4,
+          "time": 1292,
+          "metal": 3230,
+          "gas": 2907,
+          "gold": 3101,
+          "require": [
+            {
+              "id": 13,
+              "lv": 3
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 5,
+          "time": 3695,
+          "metal": 9237,
+          "gas": 8313,
+          "gold": 8868,
+          "require": [
+            {
+              "id": 13,
+              "lv": 4
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 6,
+          "time": 10604,
+          "metal": 26510,
+          "gas": 23859,
+          "gold": 25450,
+          "require": [
+            {
+              "id": 13,
+              "lv": 5
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 7,
+          "time": 30540,
+          "metal": 76350,
+          "gas": 68715,
+          "gold": 73296,
+          "require": [
+            {
+              "id": 13,
+              "lv": 6
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 8,
+          "time": 88261,
+          "metal": 220652,
+          "gas": 198586,
+          "gold": 211826,
+          "require": [
+            {
+              "id": 13,
+              "lv": 7
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 9,
+          "time": 255956,
+          "metal": 639890,
+          "gas": 575901,
+          "gold": 614294,
+          "require": [
+            {
+              "id": 13,
+              "lv": 8
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 10,
+          "time": 744831,
+          "metal": 1862079,
+          "gas": 1675871,
+          "gold": 1787595,
+          "require": [
+            {
+              "id": 13,
+              "lv": 9
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 11,
+          "time": 2174908,
+          "metal": 5437269,
+          "gas": 4893542,
+          "gold": 5219779,
+          "require": [
+            {
+              "id": 13,
+              "lv": 10
+            }
+          ],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "build:particleCannon",
+      "type": "space",
+      "limit": -1,
+      "limitIf": [
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 1,
+          "add": 5
+        },
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 3,
+          "add": 5
+        },
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 5,
+          "add": 5
+        },
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 7,
+          "add": 5
+        }
+      ],
+      "levels": [
+        {
+          "lv": 0,
+          "time": 45,
+          "metal": 450,
+          "gas": 360,
+          "gold": 520,
+          "require": [
+            {
+              "id": 13,
+              "lv": 1
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 1,
+          "time": 136,
+          "metal": 1359,
+          "gas": 1087,
+          "gold": 1570,
+          "require": [
+            {
+              "id": 13,
+              "lv": 1
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 2,
+          "time": 412,
+          "metal": 4118,
+          "gas": 3294,
+          "gold": 4758,
+          "require": [
+            {
+              "id": 13,
+              "lv": 2
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 3,
+          "time": 1252,
+          "metal": 12518,
+          "gas": 10014,
+          "gold": 14465,
+          "require": [
+            {
+              "id": 13,
+              "lv": 2
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 4,
+          "time": 3818,
+          "metal": 38180,
+          "gas": 30544,
+          "gold": 44119,
+          "require": [
+            {
+              "id": 13,
+              "lv": 3
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 5,
+          "time": 11683,
+          "metal": 116831,
+          "gas": 93465,
+          "gold": 135004,
+          "require": [
+            {
+              "id": 13,
+              "lv": 4
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 6,
+          "time": 35867,
+          "metal": 358670,
+          "gas": 286936,
+          "gold": 414463,
+          "require": [
+            {
+              "id": 13,
+              "lv": 5
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 7,
+          "time": 110470,
+          "metal": 1104704,
+          "gas": 883763,
+          "gold": 1276547,
+          "require": [
+            {
+              "id": 13,
+              "lv": 6
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 8,
+          "time": 341354,
+          "metal": 3413536,
+          "gas": 2730829,
+          "gold": 3944531,
+          "require": [
+            {
+              "id": 13,
+              "lv": 7
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 9,
+          "time": 1058196,
+          "metal": 10581962,
+          "gas": 8465570,
+          "gold": 12228045,
+          "require": [
+            {
+              "id": 13,
+              "lv": 8
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 10,
+          "time": 3290990,
+          "metal": 32909902,
+          "gas": 26327922,
+          "gold": 38029220,
+          "require": [
+            {
+              "id": 13,
+              "lv": 9
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 11,
+          "time": 10267889,
+          "metal": 102678894,
+          "gas": 82143115,
+          "gold": 118651167,
+          "require": [
+            {
+              "id": 13,
+              "lv": 10
+            }
+          ],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "build:antiAircraftGun",
+      "type": "space",
+      "limit": -1,
+      "limitIf": [
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 3,
+          "add": 5
+        },
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 5,
+          "add": 5
+        },
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 7,
+          "add": 5
+        }
+      ],
+      "levels": [
+        {
+          "lv": 0,
+          "time": 45,
+          "metal": 650,
+          "gas": 600,
+          "gold": 850,
+          "require": [
+            {
+              "id": 13,
+              "lv": 3
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 1,
+          "time": 136,
+          "metal": 1963,
+          "gas": 1812,
+          "gold": 2567,
+          "require": [
+            {
+              "id": 13,
+              "lv": 3
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 2,
+          "time": 412,
+          "metal": 5948,
+          "gas": 5490,
+          "gold": 7778,
+          "require": [
+            {
+              "id": 13,
+              "lv": 4
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 3,
+          "time": 1252,
+          "metal": 18082,
+          "gas": 16691,
+          "gold": 23645,
+          "require": [
+            {
+              "id": 13,
+              "lv": 4
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 4,
+          "time": 3818,
+          "metal": 55149,
+          "gas": 50907,
+          "gold": 72118,
+          "require": [
+            {
+              "id": 13,
+              "lv": 5
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 5,
+          "time": 11683,
+          "metal": 168755,
+          "gas": 155774,
+          "gold": 220680,
+          "require": [
+            {
+              "id": 13,
+              "lv": 5
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 6,
+          "time": 35867,
+          "metal": 518079,
+          "gas": 478227,
+          "gold": 677488,
+          "require": [
+            {
+              "id": 13,
+              "lv": 6
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 7,
+          "time": 110470,
+          "metal": 1595684,
+          "gas": 1472939,
+          "gold": 2086664,
+          "require": [
+            {
+              "id": 13,
+              "lv": 7
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 8,
+          "time": 341354,
+          "metal": 4930663,
+          "gas": 4551382,
+          "gold": 6447790,
+          "require": [
+            {
+              "id": 13,
+              "lv": 8
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 9,
+          "time": 1058196,
+          "metal": 15285056,
+          "gas": 14109283,
+          "gold": 19988151,
+          "require": [
+            {
+              "id": 13,
+              "lv": 9
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 10,
+          "time": 3290990,
+          "metal": 47536525,
+          "gas": 43879869,
+          "gold": 58506492,
+          "require": [
+            {
+              "id": 13,
+              "lv": 10
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 11,
+          "time": 10267889,
+          "metal": 148313958,
+          "gas": 136905192,
+          "gold": 182540256,
+          "require": [
+            {
+              "id": 13,
+              "lv": 11
+            }
+          ],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "build:thorsCannon",
+      "type": "space",
+      "limit": -1,
+      "limitIf": [
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 5,
+          "add": 1
+        },
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 7,
+          "add": 1
+        },
+        {
+          "if": "building",
+          "id": 13,
+          "lv": 9,
+          "add": 1
+        },
+        {
+          "if": "science",
+          "id": 95,
+          "lv": 1,
+          "add": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 0,
+          "time": 40000,
+          "metal": 80000,
+          "gas": 90000,
+          "gold": 125000,
+          "require": [
+            {
+              "id": 13,
+              "lv": 5
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 1,
+          "time": 60800,
+          "metal": 161600,
+          "gas": 181800,
+          "gold": 252500,
+          "require": [
+            {
+              "id": 13,
+              "lv": 5
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 2,
+          "time": 93024,
+          "metal": 328048,
+          "gas": 369054,
+          "gold": 512575,
+          "require": [
+            {
+              "id": 13,
+              "lv": 6
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 3,
+          "time": 143257,
+          "metal": 669218,
+          "gas": 752870,
+          "gold": 1045653,
+          "require": [
+            {
+              "id": 13,
+              "lv": 6
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 4,
+          "time": 222048,
+          "metal": 1371897,
+          "gas": 1543384,
+          "gold": 2143589,
+          "require": [
+            {
+              "id": 13,
+              "lv": 7
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 5,
+          "time": 346395,
+          "metal": 2826107,
+          "gas": 3179371,
+          "gold": 4415793,
+          "require": [
+            {
+              "id": 13,
+              "lv": 7
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 6,
+          "time": 543841,
+          "metal": 5850042,
+          "gas": 6581297,
+          "gold": 9140691,
+          "require": [
+            {
+              "id": 13,
+              "lv": 8
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 7,
+          "time": 859268,
+          "metal": 12168087,
+          "gas": 13689098,
+          "gold": 19012637,
+          "require": [
+            {
+              "id": 13,
+              "lv": 8
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 8,
+          "time": 1366237,
+          "metal": 25431303,
+          "gas": 28610216,
+          "gold": 39736411,
+          "require": [
+            {
+              "id": 13,
+              "lv": 9
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 9,
+          "time": 2185978,
+          "metal": 53405736,
+          "gas": 60081453,
+          "gold": 83446462,
+          "require": [
+            {
+              "id": 13,
+              "lv": 9
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 10,
+          "time": 3519425,
+          "metal": 112686103,
+          "gas": 126771866,
+          "gold": 176072036,
+          "require": [
+            {
+              "id": 13,
+              "lv": 10
+            }
+          ],
+          "effects": []
+        },
+        {
+          "lv": 11,
+          "time": 5701469,
+          "metal": 238894538,
+          "gas": 268756355,
+          "gold": 373272716,
+          "require": [
+            {
+              "id": 13,
+              "lv": 11
+            }
+          ],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "build:bonusCasino",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 3202,
+          "metal": 304580,
+          "gas": 365340,
+          "gold": 289360,
+          "require": [],
+          "effects": [
+            {
+              "type": "goldBonus",
+              "value": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "build:bonusBeacon",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 6013,
+          "metal": 438720,
+          "gas": 337720,
+          "gold": 319780,
+          "require": [],
+          "effects": [
+            {
+              "type": "metalBonus",
+              "value": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "build:bonusMonument",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 6013,
+          "metal": 438720,
+          "gas": 337720,
+          "gold": 319780,
+          "require": [],
+          "effects": [
+            {
+              "type": "fuelBonus",
+              "value": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "build:bonusFountain",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 6013,
+          "metal": 438720,
+          "gas": 337720,
+          "gold": 319780,
+          "require": [],
+          "effects": [
+            {
+              "type": "metalBonus",
+              "value": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "build:bonusLibrary",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 7056,
+          "metal": 1206280,
+          "gas": 843580,
+          "gold": 927460,
+          "require": [],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "build:bonusTheater",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 3202,
+          "metal": 304580,
+          "gas": 365340,
+          "gold": 289360,
+          "require": [],
+          "effects": [
+            {
+              "type": "goldBonus",
+              "value": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "build:bonusPark",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 3202,
+          "metal": 304580,
+          "gas": 365340,
+          "gold": 289360,
+          "require": [],
+          "effects": [
+            {
+              "type": "goldBonus",
+              "value": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "build:bonusCollege",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 7056,
+          "metal": 1206280,
+          "gas": 843580,
+          "gold": 927460,
+          "require": [],
+          "effects": [
+            {
+              "type": "scienceBonus",
+              "value": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "build:bonusHospital",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 3202,
+          "metal": 304580,
+          "gas": 365340,
+          "gold": 289360,
+          "require": [],
+          "effects": [
+            {
+              "type": "commanderHealBonus",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "build:bonusShopping",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 3202,
+          "metal": 304580,
+          "gas": 365340,
+          "gold": 289360,
+          "require": [],
+          "effects": [
+            {
+              "type": "goldBonus",
+              "value": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "build:bonusStatue",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 6013,
+          "metal": 438720,
+          "gas": 337720,
+          "gold": 319780,
+          "require": [],
+          "effects": [
+            {
+              "type": "fuelBonus",
+              "value": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "build:shipRepair",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 44,
+          "metal": 900,
+          "gas": 675,
+          "gold": 750,
+          "require": [
+            {
+              "id": 0,
+              "lv": 0
+            },
+            {
+              "id": 7,
+              "lv": 0
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "time": 133,
+          "metal": 2538,
+          "gas": 1903,
+          "gold": 2115,
+          "require": [
+            {
+              "id": 0,
+              "lv": 1
+            },
+            {
+              "id": 7,
+              "lv": 2
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "time": 402,
+          "metal": 7182,
+          "gas": 5386,
+          "gold": 5985,
+          "require": [
+            {
+              "id": 0,
+              "lv": 2
+            },
+            {
+              "id": 7,
+              "lv": 4
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "time": 1224,
+          "metal": 20398,
+          "gas": 15298,
+          "gold": 16998,
+          "require": [
+            {
+              "id": 0,
+              "lv": 3
+            },
+            {
+              "id": 7,
+              "lv": 6
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "time": 3733,
+          "metal": 58135,
+          "gas": 43602,
+          "gold": 48445,
+          "require": [
+            {
+              "id": 0,
+              "lv": 4
+            },
+            {
+              "id": 7,
+              "lv": 8
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "time": 11423,
+          "metal": 166267,
+          "gas": 124701,
+          "gold": 138556,
+          "require": [
+            {
+              "id": 0,
+              "lv": 5
+            },
+            {
+              "id": 7,
+              "lv": 10
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "time": 35070,
+          "metal": 477187,
+          "gas": 357891,
+          "gold": 397656,
+          "require": [
+            {
+              "id": 0,
+              "lv": 6
+            },
+            {
+              "id": 7,
+              "lv": 12
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "time": 108015,
+          "metal": 1374300,
+          "gas": 1030725,
+          "gold": 1145250,
+          "require": [
+            {
+              "id": 0,
+              "lv": 7
+            },
+            {
+              "id": 7,
+              "lv": 14
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.12
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "time": 333767,
+          "metal": 3971728,
+          "gas": 2978796,
+          "gold": 3309774,
+          "require": [
+            {
+              "id": 0,
+              "lv": 8
+            },
+            {
+              "id": 7,
+              "lv": 16
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.14
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "time": 1034680,
+          "metal": 11518011,
+          "gas": 8638509,
+          "gold": 9598342,
+          "require": [
+            {
+              "id": 0,
+              "lv": 9
+            },
+            {
+              "id": 7,
+              "lv": 18
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.16
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "time": 3217857,
+          "metal": 3217857,
+          "gas": 25138060,
+          "gold": 27931177,
+          "require": [
+            {
+              "id": 0,
+              "lv": 10
+            },
+            {
+              "id": 7,
+              "lv": 20
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.18
+            }
+          ]
+        },
+        {
+          "lv": 11,
+          "time": 10039714,
+          "metal": 10039714,
+          "gas": 73403136,
+          "gold": 81559039,
+          "require": [
+            {
+              "id": 0,
+              "lv": 11
+            },
+            {
+              "id": 7,
+              "lv": 22
+            }
+          ],
+          "effects": [
+            {
+              "type": "shipRepair",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "build:bonusSanta",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 6013,
+          "metal": 1776816,
+          "gas": 1367766,
+          "gold": 1295109,
+          "require": [],
+          "effects": [
+            {
+              "type": "goldBonus",
+              "value": 0.02
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "build:galaxyTransporter",
+      "type": "land",
+      "limit": 1,
+      "levels": [
+        {
+          "lv": 0,
+          "time": 86400,
+          "metal": 100000000,
+          "gas": 100000000,
+          "gold": 100000000,
+          "require": [],
+          "effects": []
+        }
+      ]
+    }
+  ]
+}

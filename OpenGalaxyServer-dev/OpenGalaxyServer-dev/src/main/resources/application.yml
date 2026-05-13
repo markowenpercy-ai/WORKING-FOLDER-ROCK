@@ -1,0 +1,82 @@
+spring:
+  application:
+    name: supergo2-server
+    version: v1.0.0
+    restPort: 9090
+  profiles:
+    active: dev
+  data:
+    mongodb:
+      uri: mongodb://opengalaxy:opengalaxy_dev_pass@mongodb:27017/supergo2?authSource=admin
+
+server:
+  port: 9090
+  compression:
+    enabled: true
+  servlet:
+    context-path: /
+
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    co.com.aruma: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss:SSS} [%5p] [%t] - %15c{1}:[%4L] - %m%n"
+
+application:
+  log: /logs/
+  cms: http://localhost:1200
+  services:
+    login: /login
+    account: /account
+    metric: /metrics
+    status: /status
+    events: /events
+    wheel: /wheel
+    payment: /payment
+    dashboard: /dashboard
+  game:
+    server-port: 5150
+    login-port: 5050
+    patch: v2022.2.dev
+    whitelist: 60be1e9b8671b76f94bd23fb
+    register: true
+    login: true
+    maintenance: false
+    ip: 127.0.0.1
+    timeout: 70
+    interval: 100
+    fast-ship-building: false
+    fast-corp-upgrade: false
+    resources-url: http://localhost:7000
+    
+    test-mode: true
+    fast-transmission: false
+    verbose: 1
+    fast-rbp: false
+    gelf-endpoint: https://beta-gelf.supergo2.com/gelf
+    gelf-scope: local
+    hcaptcha-secret: ${HCAPTCHA_SECRET:0x078E2EbD57d43A6c7166ae87f3A86B9E6671eceD}
+    smtp-host: ${SMTP_HOST:smtp.mailgun.org}
+    smtp-username: ${SMTP_USERNAME:master@supergo2.com}
+    smtp-password: ${SMTP_PASSWORD:12NewPlanets09_}
+    default-admin-email: ${ADMIN_EMAIL:admin@supergo2.com}
+    default-admin-password: ${ADMIN_PASSWORD:Ff5E!68a*5on}
+    max-users: 1
+    phase: -1
+    event-validation: ${EVENT_VALIDATION:dev_validation}
+  discord:
+    owner: "241039350438166529"
+    guild: "540404711640137739"
+    cmd-channel: "578061221136302080"
+    audit-channel: "578061221136302080"
+    staff-channel: "541507420342452260"
+    discord-token: ${DISCORD_TOKEN:placeholder}
+    incident-audit-channel: "1045289574936625212"
+    chat-audit-channel: "1045289750447280159"
+    trade-audit-channel: "1045289641483452428"
+    merge-audit-channel: "1045289811960938586"
+    delete-audit-channel: "1045289832202637362"
+    login-audit-channel: "1045387240022474852"
+    commander-audit-channel: "1046098619901677620"

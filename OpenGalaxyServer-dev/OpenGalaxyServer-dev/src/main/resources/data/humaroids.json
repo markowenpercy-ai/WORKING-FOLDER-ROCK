@@ -1,0 +1,4152 @@
+{
+  "instances": [
+    {
+      "id": 0,
+      "name": "Humaroid 01",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.blueprintShredI",
+          "num": 5,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredII",
+          "num": 5,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIII",
+          "num": 5,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 5,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 10,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 30,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:theguardians_01"
+        },
+        {
+          "layout": "layout:theguardians_01"
+        },
+        {
+          "layout": "layout:theguardians_02"
+        },
+        {
+          "layout": "layout:theguardians_02"
+        },
+        {
+          "layout": "layout:theguardians_03"
+        },
+        {
+          "layout": "layout:theguardians_04"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Humaroid 02",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.blueprintShredI",
+          "num": 10,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredII",
+          "num": 10,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIII",
+          "num": 10,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 10,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 20,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 40,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:theguardians_05"
+        },
+        {
+          "layout": "layout:theguardians_05"
+        },
+        {
+          "layout": "layout:theguardians_06"
+        },
+        {
+          "layout": "layout:theguardians_06"
+        },
+        {
+          "layout": "layout:theguardians_07"
+        },
+        {
+          "layout": "layout:theguardians_07"
+        },
+        {
+          "layout": "layout:theguardians_08"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Humaroid 03",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.blueprintShredI",
+          "num": 15,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredII",
+          "num": 15,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIII",
+          "num": 15,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 15,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 30,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 50,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:theguardians_09"
+        },
+        {
+          "layout": "layout:theguardians_09"
+        },
+        {
+          "layout": "layout:theguardians_10"
+        },
+        {
+          "layout": "layout:theguardians_10"
+        },
+        {
+          "layout": "layout:theguardians_11"
+        },
+        {
+          "layout": "layout:theguardians_11"
+        },
+        {
+          "layout": "layout:theguardians_12"
+        },
+        {
+          "layout": "layout:theguardians_12"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Humaroid 04",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.blueprintShredI",
+          "num": 20,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredII",
+          "num": 20,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIII",
+          "num": 20,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 20,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 40,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 70,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:theguardians_13"
+        },
+        {
+          "layout": "layout:theguardians_13"
+        },
+        {
+          "layout": "layout:theguardians_13"
+        },
+        {
+          "layout": "layout:theguardians_14"
+        },
+        {
+          "layout": "layout:theguardians_14"
+        },
+        {
+          "layout": "layout:theguardians_15"
+        },
+        {
+          "layout": "layout:theguardians_15"
+        },
+        {
+          "layout": "layout:theguardians_16"
+        },
+        {
+          "layout": "layout:theguardians_16"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Humaroid 05",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.blueprintShredI",
+          "num": 25,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredII",
+          "num": 25,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIII",
+          "num": 25,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 25,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 50,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 130,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:theguardians_17"
+        },
+        {
+          "layout": "layout:theguardians_17"
+        },
+        {
+          "layout": "layout:theguardians_17"
+        },
+        {
+          "layout": "layout:theguardians_18"
+        },
+        {
+          "layout": "layout:theguardians_18"
+        },
+        {
+          "layout": "layout:theguardians_18"
+        },
+        {
+          "layout": "layout:theguardians_19"
+        },
+        {
+          "layout": "layout:theguardians_19"
+        },
+        {
+          "layout": "layout:theguardians_20"
+        },
+        {
+          "layout": "layout:theguardians_20"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Humaroid 06",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.blueprintShredI",
+          "num": 30,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredII",
+          "num": 30,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIII",
+          "num": 30,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 30,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredV",
+          "num": 30,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 60,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 130,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:theguardians_21"
+        },
+        {
+          "layout": "layout:theguardians_21"
+        },
+        {
+          "layout": "layout:theguardians_21"
+        },
+        {
+          "layout": "layout:theguardians_22"
+        },
+        {
+          "layout": "layout:theguardians_22"
+        },
+        {
+          "layout": "layout:theguardians_22"
+        },
+        {
+          "layout": "layout:theguardians_23"
+        },
+        {
+          "layout": "layout:theguardians_23"
+        },
+        {
+          "layout": "layout:theguardians_23"
+        },
+        {
+          "layout": "layout:theguardians_24"
+        },
+        {
+          "layout": "layout:theguardians_24"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Humaroid 07",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.blueprintShredI",
+          "num": 40,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredII",
+          "num": 40,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIII",
+          "num": 40,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 40,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredV",
+          "num": 40,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 75,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 200,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:theguardians_25"
+        },
+        {
+          "layout": "layout:theguardians_25"
+        },
+        {
+          "layout": "layout:theguardians_25"
+        },
+        {
+          "layout": "layout:theguardians_26"
+        },
+        {
+          "layout": "layout:theguardians_26"
+        },
+        {
+          "layout": "layout:theguardians_26"
+        },
+        {
+          "layout": "layout:theguardians_27"
+        },
+        {
+          "layout": "layout:theguardians_27"
+        },
+        {
+          "layout": "layout:theguardians_27"
+        },
+        {
+          "layout": "layout:theguardians_28"
+        },
+        {
+          "layout": "layout:theguardians_28"
+        },
+        {
+          "layout": "layout:theguardians_28"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Humaroid 08",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.blueprintShredI",
+          "num": 55,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredII",
+          "num": 55,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIII",
+          "num": 55,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 55,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredV",
+          "num": 55,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 90,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 290,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:theguardians_29"
+        },
+        {
+          "layout": "layout:theguardians_29"
+        },
+        {
+          "layout": "layout:theguardians_29"
+        },
+        {
+          "layout": "layout:theguardians_29"
+        },
+        {
+          "layout": "layout:theguardians_30"
+        },
+        {
+          "layout": "layout:theguardians_30"
+        },
+        {
+          "layout": "layout:theguardians_30"
+        },
+        {
+          "layout": "layout:theguardians_31"
+        },
+        {
+          "layout": "layout:theguardians_31"
+        },
+        {
+          "layout": "layout:theguardians_31"
+        },
+        {
+          "layout": "layout:theguardians_32"
+        },
+        {
+          "layout": "layout:theguardians_32"
+        },
+        {
+          "layout": "layout:theguardians_32"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Humaroid 09",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.blueprintShredI",
+          "num": 75,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredII",
+          "num": 75,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIII",
+          "num": 75,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 75,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredV",
+          "num": 75,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 110,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 400,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:theguardians_33"
+        },
+        {
+          "layout": "layout:theguardians_33"
+        },
+        {
+          "layout": "layout:theguardians_33"
+        },
+        {
+          "layout": "layout:theguardians_33"
+        },
+        {
+          "layout": "layout:theguardians_34"
+        },
+        {
+          "layout": "layout:theguardians_34"
+        },
+        {
+          "layout": "layout:theguardians_34"
+        },
+        {
+          "layout": "layout:theguardians_34"
+        },
+        {
+          "layout": "layout:theguardians_35"
+        },
+        {
+          "layout": "layout:theguardians_35"
+        },
+        {
+          "layout": "layout:theguardians_35"
+        },
+        {
+          "layout": "layout:theguardians_36"
+        },
+        {
+          "layout": "layout:theguardians_36"
+        },
+        {
+          "layout": "layout:theguardians_36"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Humaroid 10",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.blueprintShredI",
+          "num": 100,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredII",
+          "num": 100,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIII",
+          "num": 100,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredIV",
+          "num": 100,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.blueprintShredV",
+          "num": 100,
+          "weight": 100,
+          "one": true
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 135,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 530,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:theguardians_37"
+        },
+        {
+          "layout": "layout:theguardians_37"
+        },
+        {
+          "layout": "layout:theguardians_37"
+        },
+        {
+          "layout": "layout:theguardians_37"
+        },
+        {
+          "layout": "layout:theguardians_38"
+        },
+        {
+          "layout": "layout:theguardians_38"
+        },
+        {
+          "layout": "layout:theguardians_38"
+        },
+        {
+          "layout": "layout:theguardians_38"
+        },
+        {
+          "layout": "layout:theguardians_39"
+        },
+        {
+          "layout": "layout:theguardians_39"
+        },
+        {
+          "layout": "layout:theguardians_39"
+        },
+        {
+          "layout": "layout:theguardians_39"
+        },
+        {
+          "layout": "layout:theguardians_40"
+        },
+        {
+          "layout": "layout:theguardians_40"
+        },
+        {
+          "layout": "layout:theguardians_40"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Humaroid 11",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.blueprintShredV",
+          "num": 10,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 150,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 600,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:taurus07"
+        },
+        {
+          "layout": "layout:taurus07"
+        },
+        {
+          "layout": "layout:taurus08"
+        },
+        {
+          "layout": "layout:taurus08"
+        },
+        {
+          "layout": "layout:taurus09"
+        },
+        {
+          "layout": "layout:taurus09"
+        },
+        {
+          "layout": "layout:taurus10"
+        },
+        {
+          "layout": "layout:taurus10"
+        },
+        {
+          "layout": "layout:taurus11"
+        },
+        {
+          "layout": "layout:taurus11"
+        },
+        {
+          "layout": "layout:taurus12"
+        },
+        {
+          "layout": "layout:taurus12"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Humaroid 12",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:chest.pirateChestI",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 200,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 650,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star04"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Humaroid 13",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:chest.pirateChestII",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 250,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 700,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star06"
+        },
+        {
+          "layout": "layout:star06"
+        },
+        {
+          "layout": "layout:star06"
+        },
+        {
+          "layout": "layout:star06"
+        },
+        {
+          "layout": "layout:star06"
+        },
+        {
+          "layout": "layout:star06"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Humaroid 14",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:chest.pirateChestII",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 300,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 750,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star07"
+        },
+        {
+          "layout": "layout:star07"
+        },
+        {
+          "layout": "layout:star07"
+        },
+        {
+          "layout": "layout:star07"
+        },
+        {
+          "layout": "layout:star07"
+        },
+        {
+          "layout": "layout:star07"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Humaroid 15",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:chest.pirateChestIII",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.humaGem",
+          "num": 350,
+          "weight": 100
+        },
+        {
+          "prop": "prop:resource.corsairsChest",
+          "num": 900,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star08"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star05"
+        },
+        {
+          "layout": "layout:star06"
+        },
+        {
+          "layout": "layout:star06"
+        },
+        {
+          "layout": "layout:star06"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star09"
+        },
+        {
+          "layout": "layout:star07"
+        },
+        {
+          "layout": "layout:star07"
+        },
+        {
+          "layout": "layout:star07"
+        },
+        {
+          "layout": "layout:star07"
+        },
+        {
+          "layout": "layout:star07"
+        },
+        {
+          "layout": "layout:star07"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star04"
+        },
+        {
+          "layout": "layout:star_10"
+        },
+        {
+          "layout": "layout:star_10"
+        },
+        {
+          "layout": "layout:star_10"
+        },
+        {
+          "layout": "layout:star_10"
+        }
+      ]
+    }
+  ],
+  "layout": [
+    {
+      "name": "layout:theguardians_01",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:frontlineSurge",
+        "rank": 1,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:frigate",
+          "amount": 300
+        },
+        {
+          "design": "design:frigate",
+          "amount": 300
+        },
+        {
+          "design": "design:frigate",
+          "amount": 300
+        },
+        {
+          "design": "design:flagship16",
+          "amount": 300
+        },
+        {
+          "design": "design:frigate",
+          "amount": 300
+        },
+        {
+          "design": "design:frigate",
+          "amount": 300
+        },
+        {
+          "design": "design:frigate",
+          "amount": 300
+        },
+        {
+          "design": "design:frigate",
+          "amount": 300
+        },
+        {
+          "design": "design:frigate",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_02",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:frontlineSurge",
+        "rank": 1,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:trackerA",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 300
+        },
+        {
+          "design": "design:flagship16",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_03",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:frontlineSurge",
+        "rank": 1,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:cruising",
+          "amount": 300
+        },
+        {
+          "design": "design:cruising",
+          "amount": 300
+        },
+        {
+          "design": "design:cruising",
+          "amount": 300
+        },
+        {
+          "design": "design:flagship17",
+          "amount": 300
+        },
+        {
+          "design": "design:cruising",
+          "amount": 300
+        },
+        {
+          "design": "design:cruising",
+          "amount": 300
+        },
+        {
+          "design": "design:cruising",
+          "amount": 300
+        },
+        {
+          "design": "design:cruising",
+          "amount": 300
+        },
+        {
+          "design": "design:cruising",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_04",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 3,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:trackerB",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 300
+        },
+        {
+          "design": "design:flagship17",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 300
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_05",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:frontlineSurge",
+        "rank": 2,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:redWolf",
+          "amount": 600
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 600
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 600
+        },
+        {
+          "design": "design:flagship17",
+          "amount": 600
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 600
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 600
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 600
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 600
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 600
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_06",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:frontlineSurge",
+        "rank": 2,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:ghosty",
+          "amount": 600
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 600
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 600
+        },
+        {
+          "design": "design:flagship17",
+          "amount": 600
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 600
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 600
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 600
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 600
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 600
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_07",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:frontlineSurge",
+        "rank": 2,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:vortexA",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexA",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexA",
+          "amount": 600
+        },
+        {
+          "design": "design:flagship19",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexA",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexA",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexA",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexA",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexA",
+          "amount": 600
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_08",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 3,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:vortexB",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexB",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexB",
+          "amount": 600
+        },
+        {
+          "design": "design:flagship19",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexB",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexB",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexB",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexB",
+          "amount": 600
+        },
+        {
+          "design": "design:vortexB",
+          "amount": 600
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_09",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 3,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:encratosA",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 900
+        },
+        {
+          "design": "design:flagship7",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 900
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_10",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 3,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:cerberus",
+          "amount": 900
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 900
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 900
+        },
+        {
+          "design": "design:flagship7",
+          "amount": 900
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 900
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 900
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 900
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 900
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 900
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_11",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 3,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:prometheus",
+          "amount": 900
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 900
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 900
+        },
+        {
+          "design": "design:flagship8",
+          "amount": 900
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 900
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 900
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 900
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 900
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 900
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_12",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 3,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:encratosB",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 900
+        },
+        {
+          "design": "design:flagship8",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 900
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 900
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_13",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 4,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:hawk",
+          "amount": 1200
+        },
+        {
+          "design": "design:hawk",
+          "amount": 1200
+        },
+        {
+          "design": "design:hawk",
+          "amount": 1200
+        },
+        {
+          "design": "design:flagship8",
+          "amount": 1200
+        },
+        {
+          "design": "design:hawk",
+          "amount": 1200
+        },
+        {
+          "design": "design:hawk",
+          "amount": 1200
+        },
+        {
+          "design": "design:hawk",
+          "amount": 1200
+        },
+        {
+          "design": "design:hawk",
+          "amount": 1200
+        },
+        {
+          "design": "design:hawk",
+          "amount": 1200
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_14",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 4,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:nyxA",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 1200
+        },
+        {
+          "design": "design:flagship8",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 1200
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_15",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 4,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:heavenlyStart",
+          "amount": 1200
+        },
+        {
+          "design": "design:heavenlyStart",
+          "amount": 1200
+        },
+        {
+          "design": "design:heavenlyStart",
+          "amount": 1200
+        },
+        {
+          "design": "design:flagship9",
+          "amount": 1200
+        },
+        {
+          "design": "design:heavenlyStart",
+          "amount": 1200
+        },
+        {
+          "design": "design:heavenlyStart",
+          "amount": 1200
+        },
+        {
+          "design": "design:heavenlyStart",
+          "amount": 1200
+        },
+        {
+          "design": "design:heavenlyStart",
+          "amount": 1200
+        },
+        {
+          "design": "design:heavenlyStart",
+          "amount": 1200
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_16",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:lightAndDarkness",
+        "rank": 7,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:nyxB",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxB",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxB",
+          "amount": 1200
+        },
+        {
+          "design": "design:flagship9",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxB",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxB",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxB",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxB",
+          "amount": 1200
+        },
+        {
+          "design": "design:nyxB",
+          "amount": 1200
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_17",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:victoryRoar",
+        "rank": 5,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:maxA",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxA",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxA",
+          "amount": 1500
+        },
+        {
+          "design": "design:flagship11",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxA",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxA",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxA",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxA",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxA",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_18",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:victoryRoar",
+        "rank": 5,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:maxB",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxB",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxB",
+          "amount": 1500
+        },
+        {
+          "design": "design:flagship11",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxB",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxB",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxB",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxB",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxB",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_19",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:lightAndDarkness",
+        "rank": 7,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:maxC",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxC",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxC",
+          "amount": 1500
+        },
+        {
+          "design": "design:flagship12",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxC",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxC",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxC",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxC",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxC",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_20",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:victoryRoar",
+        "rank": 5,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:maxD",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxD",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxD",
+          "amount": 1500
+        },
+        {
+          "design": "design:flagship12",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxD",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxD",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxD",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxD",
+          "amount": 1500
+        },
+        {
+          "design": "design:maxD",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_21",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:victoryRoar",
+        "rank": 6,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newA",
+          "amount": 1800
+        },
+        {
+          "design": "design:newA",
+          "amount": 1800
+        },
+        {
+          "design": "design:newA",
+          "amount": 1800
+        },
+        {
+          "design": "design:flagship13",
+          "amount": 1800
+        },
+        {
+          "design": "design:newA",
+          "amount": 1800
+        },
+        {
+          "design": "design:newA",
+          "amount": 1800
+        },
+        {
+          "design": "design:newA",
+          "amount": 1800
+        },
+        {
+          "design": "design:newA",
+          "amount": 1800
+        },
+        {
+          "design": "design:newA",
+          "amount": 1800
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_22",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 4,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newB",
+          "amount": 1800
+        },
+        {
+          "design": "design:newB",
+          "amount": 1800
+        },
+        {
+          "design": "design:newB",
+          "amount": 1800
+        },
+        {
+          "design": "design:flagship13",
+          "amount": 1800
+        },
+        {
+          "design": "design:newB",
+          "amount": 1800
+        },
+        {
+          "design": "design:newB",
+          "amount": 1800
+        },
+        {
+          "design": "design:newB",
+          "amount": 1800
+        },
+        {
+          "design": "design:newB",
+          "amount": 1800
+        },
+        {
+          "design": "design:newB",
+          "amount": 1800
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_23",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:victoryRoar",
+        "rank": 6,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newC",
+          "amount": 1800
+        },
+        {
+          "design": "design:newC",
+          "amount": 1800
+        },
+        {
+          "design": "design:newC",
+          "amount": 1800
+        },
+        {
+          "design": "design:flagship14",
+          "amount": 1800
+        },
+        {
+          "design": "design:newC",
+          "amount": 1800
+        },
+        {
+          "design": "design:newC",
+          "amount": 1800
+        },
+        {
+          "design": "design:newC",
+          "amount": 1800
+        },
+        {
+          "design": "design:newC",
+          "amount": 1800
+        },
+        {
+          "design": "design:newC",
+          "amount": 1800
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_24",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:lightAndDarkness",
+        "rank": 7,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newD",
+          "amount": 1800
+        },
+        {
+          "design": "design:newD",
+          "amount": 1800
+        },
+        {
+          "design": "design:newD",
+          "amount": 1800
+        },
+        {
+          "design": "design:flagship14",
+          "amount": 1800
+        },
+        {
+          "design": "design:newD",
+          "amount": 1800
+        },
+        {
+          "design": "design:newD",
+          "amount": 1800
+        },
+        {
+          "design": "design:newD",
+          "amount": 1800
+        },
+        {
+          "design": "design:newD",
+          "amount": 1800
+        },
+        {
+          "design": "design:newD",
+          "amount": 1800
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_25",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:victoryRoar",
+        "rank": 6,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newE",
+          "amount": 2100
+        },
+        {
+          "design": "design:newE",
+          "amount": 2100
+        },
+        {
+          "design": "design:newE",
+          "amount": 2100
+        },
+        {
+          "design": "design:flagship1",
+          "amount": 2100
+        },
+        {
+          "design": "design:newE",
+          "amount": 2100
+        },
+        {
+          "design": "design:newE",
+          "amount": 2100
+        },
+        {
+          "design": "design:newE",
+          "amount": 2100
+        },
+        {
+          "design": "design:newE",
+          "amount": 2100
+        },
+        {
+          "design": "design:newE",
+          "amount": 2100
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_26",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:victoryRoar",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newF",
+          "amount": 2100
+        },
+        {
+          "design": "design:newF",
+          "amount": 2100
+        },
+        {
+          "design": "design:newF",
+          "amount": 2100
+        },
+        {
+          "design": "design:flagship1",
+          "amount": 2100
+        },
+        {
+          "design": "design:newF",
+          "amount": 2100
+        },
+        {
+          "design": "design:newF",
+          "amount": 2100
+        },
+        {
+          "design": "design:newF",
+          "amount": 2100
+        },
+        {
+          "design": "design:newF",
+          "amount": 2100
+        },
+        {
+          "design": "design:newF",
+          "amount": 2100
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_27",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:lightAndDarkness",
+        "rank": 7,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newG",
+          "amount": 2100
+        },
+        {
+          "design": "design:newG",
+          "amount": 2100
+        },
+        {
+          "design": "design:newG",
+          "amount": 2100
+        },
+        {
+          "design": "design:flagship2",
+          "amount": 2100
+        },
+        {
+          "design": "design:newG",
+          "amount": 2100
+        },
+        {
+          "design": "design:newG",
+          "amount": 2100
+        },
+        {
+          "design": "design:newG",
+          "amount": 2100
+        },
+        {
+          "design": "design:newG",
+          "amount": 2100
+        },
+        {
+          "design": "design:newG",
+          "amount": 2100
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_28",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:lightAndDarkness",
+        "rank": 7,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newH",
+          "amount": 2100
+        },
+        {
+          "design": "design:newH",
+          "amount": 2100
+        },
+        {
+          "design": "design:newH",
+          "amount": 2100
+        },
+        {
+          "design": "design:flagship2",
+          "amount": 2100
+        },
+        {
+          "design": "design:newH",
+          "amount": 2100
+        },
+        {
+          "design": "design:newH",
+          "amount": 2100
+        },
+        {
+          "design": "design:newH",
+          "amount": 2100
+        },
+        {
+          "design": "design:newH",
+          "amount": 2100
+        },
+        {
+          "design": "design:newH",
+          "amount": 2100
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_29",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newI",
+          "amount": 2300
+        },
+        {
+          "design": "design:newI",
+          "amount": 2300
+        },
+        {
+          "design": "design:newI",
+          "amount": 2300
+        },
+        {
+          "design": "design:flagship3",
+          "amount": 2400
+        },
+        {
+          "design": "design:newI",
+          "amount": 2300
+        },
+        {
+          "design": "design:newI",
+          "amount": 2300
+        },
+        {
+          "design": "design:newI",
+          "amount": 2300
+        },
+        {
+          "design": "design:newI",
+          "amount": 2300
+        },
+        {
+          "design": "design:newI",
+          "amount": 2300
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_30",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:victoryRoar",
+        "rank": 6,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newJ",
+          "amount": 2300
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2300
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2300
+        },
+        {
+          "design": "design:flagship3",
+          "amount": 2400
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2300
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2300
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2300
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2300
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2300
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_31",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:lightAndDarkness",
+        "rank": 6,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newK",
+          "amount": 2300
+        },
+        {
+          "design": "design:newK",
+          "amount": 2300
+        },
+        {
+          "design": "design:newK",
+          "amount": 2300
+        },
+        {
+          "design": "design:flagship4",
+          "amount": 2400
+        },
+        {
+          "design": "design:newK",
+          "amount": 2300
+        },
+        {
+          "design": "design:newK",
+          "amount": 2300
+        },
+        {
+          "design": "design:newK",
+          "amount": 2300
+        },
+        {
+          "design": "design:newK",
+          "amount": 2300
+        },
+        {
+          "design": "design:newK",
+          "amount": 2300
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_32",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:lightAndDarkness",
+        "rank": 6,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newL",
+          "amount": 2300
+        },
+        {
+          "design": "design:newL",
+          "amount": 2300
+        },
+        {
+          "design": "design:newL",
+          "amount": 2300
+        },
+        {
+          "design": "design:flagship4",
+          "amount": 2400
+        },
+        {
+          "design": "design:newL",
+          "amount": 2300
+        },
+        {
+          "design": "design:newL",
+          "amount": 2300
+        },
+        {
+          "design": "design:newL",
+          "amount": 2300
+        },
+        {
+          "design": "design:newL",
+          "amount": 2300
+        },
+        {
+          "design": "design:newL",
+          "amount": 2300
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_33",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:capricornus5_1",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_1",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_1",
+          "amount": 2500
+        },
+        {
+          "design": "design:flagship20",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus5_1",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_1",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_1",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_1",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_1",
+          "amount": 2500
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_34",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:lightAndDarkness",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:capricornus5_2",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_2",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_2",
+          "amount": 2500
+        },
+        {
+          "design": "design:flagship15",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus5_2",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_2",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_2",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_2",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_2",
+          "amount": 2500
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_35",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:victoryRoar",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:capricornus5_3",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_3",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_3",
+          "amount": 2500
+        },
+        {
+          "design": "design:flagship5",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus5_3",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_3",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_3",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_3",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_3",
+          "amount": 2500
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_36",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:frontlineSurge",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:capricornus5_4",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_4",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_4",
+          "amount": 2500
+        },
+        {
+          "design": "design:flagship10",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus5_4",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_4",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_4",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_4",
+          "amount": 2500
+        },
+        {
+          "design": "design:capricornus5_4",
+          "amount": 2500
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_37",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:fatalFuries",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:capricornus1_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus1_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus1_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:flagship25",
+          "amount": 3000
+        },
+        {
+          "design": "design:capricornus1_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus1_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus1_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus1_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus1_2",
+          "amount": 2700
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_38",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:victoryRoar",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:capricornus2_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus2_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus2_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:flagship25",
+          "amount": 3000
+        },
+        {
+          "design": "design:capricornus2_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus2_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus2_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus2_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus2_2",
+          "amount": 2700
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_39",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:lightAndDarkness",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:capricornus3_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus3_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus3_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:flagship25",
+          "amount": 3000
+        },
+        {
+          "design": "design:capricornus3_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus3_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus3_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus3_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus3_2",
+          "amount": 2700
+        }
+      ]
+    },
+    {
+      "name": "layout:theguardians_40",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:raysOfDestiny",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:capricornus4_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus4_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus4_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:flagship25",
+          "amount": 3000
+        },
+        {
+          "design": "design:capricornus4_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus4_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus4_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus4_2",
+          "amount": 2700
+        },
+        {
+          "design": "design:capricornus4_2",
+          "amount": 2700
+        }
+      ]
+    },
+    {
+      "name": "layout:taurus07",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:hekatianWitnesses",
+        "rank": 7,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:killer2",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer2",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer2",
+          "amount": 3000
+        },
+        {
+          "design": "design:flagship25",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer2",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer2",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:taurus08",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:hekatianWitnesses",
+        "rank": 7,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:killer3",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer3",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer3",
+          "amount": 2500
+        },
+        {
+          "design": "design:flagship25",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer3",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer3",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:taurus09",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:hekatianWitnesses",
+        "rank": 7,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:killer4",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer4",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer4",
+          "amount": 2500
+        },
+        {
+          "design": "design:flagship25",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer4",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer4",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:taurus10",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:eschatonAdventists",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:killer2",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer2",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer2",
+          "amount": 3000
+        },
+        {
+          "design": "design:flagship25",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer2",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer2",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:taurus11",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:eschatonAdventists",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:killer3",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer3",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer3",
+          "amount": 2500
+        },
+        {
+          "design": "design:flagship25",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer3",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer3",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:taurus12",
+      "targetPriority": "target:closest",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:eschatonAdventists",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:killer4",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer4",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer4",
+          "amount": 2500
+        },
+        {
+          "design": "design:flagship25",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        },
+        {
+          "design": "design:killer4",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer4",
+          "amount": 2500
+        },
+        {
+          "design": "design:killer1",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:star01",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:theHeartlessOnes",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:star2",
+          "amount": 3000
+        },
+        {
+          "design": "design:star2",
+          "amount": 3000
+        },
+        {
+          "design": "design:star1",
+          "amount": 3000
+        },
+        {
+          "design": "design:star2",
+          "amount": 3000
+        },
+        {
+          "design": "design:star4",
+          "amount": 3000
+        },
+        {
+          "design": "design:star1",
+          "amount": 3000
+        },
+        {
+          "design": "design:star2",
+          "amount": 3000
+        },
+        {
+          "design": "design:star2",
+          "amount": 3000
+        },
+        {
+          "design": "design:star1",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:star02",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:homericHellions",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:star3",
+          "amount": 3000
+        },
+        {
+          "design": "design:star3",
+          "amount": 3000
+        },
+        {
+          "design": "design:star1",
+          "amount": 3000
+        },
+        {
+          "design": "design:star3",
+          "amount": 3000
+        },
+        {
+          "design": "design:star4",
+          "amount": 3000
+        },
+        {
+          "design": "design:star1",
+          "amount": 3000
+        },
+        {
+          "design": "design:star3",
+          "amount": 3000
+        },
+        {
+          "design": "design:star3",
+          "amount": 3000
+        },
+        {
+          "design": "design:star1",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:star03",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:theForsaken",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:star2",
+          "amount": 3000
+        },
+        {
+          "design": "design:star2",
+          "amount": 3000
+        },
+        {
+          "design": "design:star1",
+          "amount": 3000
+        },
+        {
+          "design": "design:star2",
+          "amount": 3000
+        },
+        {
+          "design": "design:star4",
+          "amount": 3000
+        },
+        {
+          "design": "design:star1",
+          "amount": 3000
+        },
+        {
+          "design": "design:star2",
+          "amount": 3000
+        },
+        {
+          "design": "design:star2",
+          "amount": 3000
+        },
+        {
+          "design": "design:star1",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:star04",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:thePioneers",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:star5",
+          "amount": 3000
+        },
+        {
+          "design": "design:star5",
+          "amount": 3000
+        },
+        {
+          "design": "design:star10",
+          "amount": 3000
+        },
+        {
+          "design": "design:star5",
+          "amount": 3000
+        },
+        {
+          "design": "design:star5",
+          "amount": 3000
+        },
+        {
+          "design": "design:star10",
+          "amount": 3000
+        },
+        {
+          "design": "design:star5",
+          "amount": 3000
+        },
+        {
+          "design": "design:star5",
+          "amount": 3000
+        },
+        {
+          "design": "design:star10",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:star05",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:technomancers",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:star6",
+          "amount": 3000
+        },
+        {
+          "design": "design:star6",
+          "amount": 3000
+        },
+        {
+          "design": "design:star10",
+          "amount": 3000
+        },
+        {
+          "design": "design:star6",
+          "amount": 3000
+        },
+        {
+          "design": "design:star6",
+          "amount": 3000
+        },
+        {
+          "design": "design:star10",
+          "amount": 3000
+        },
+        {
+          "design": "design:star6",
+          "amount": 3000
+        },
+        {
+          "design": "design:star6",
+          "amount": 3000
+        },
+        {
+          "design": "design:star10",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:star06",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:queensOfBlades",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:star7",
+          "amount": 3000
+        },
+        {
+          "design": "design:star7",
+          "amount": 3000
+        },
+        {
+          "design": "design:star11",
+          "amount": 3000
+        },
+        {
+          "design": "design:star7",
+          "amount": 3000
+        },
+        {
+          "design": "design:star7",
+          "amount": 3000
+        },
+        {
+          "design": "design:star11",
+          "amount": 3000
+        },
+        {
+          "design": "design:star7",
+          "amount": 3000
+        },
+        {
+          "design": "design:star7",
+          "amount": 3000
+        },
+        {
+          "design": "design:star11",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:star07",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:dictators",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:star8",
+          "amount": 3000
+        },
+        {
+          "design": "design:star8",
+          "amount": 3000
+        },
+        {
+          "design": "design:star11",
+          "amount": 3000
+        },
+        {
+          "design": "design:star8",
+          "amount": 3000
+        },
+        {
+          "design": "design:star8",
+          "amount": 3000
+        },
+        {
+          "design": "design:star11",
+          "amount": 3000
+        },
+        {
+          "design": "design:star8",
+          "amount": 3000
+        },
+        {
+          "design": "design:star8",
+          "amount": 3000
+        },
+        {
+          "design": "design:star11",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:star08",
+      "targetPriority": "target:minAttack",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:duneEnforcers",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:star9",
+          "amount": 3000
+        },
+        {
+          "design": "design:star9",
+          "amount": 3000
+        },
+        {
+          "design": "design:star12",
+          "amount": 3000
+        },
+        {
+          "design": "design:star9",
+          "amount": 3000
+        },
+        {
+          "design": "design:star9",
+          "amount": 3000
+        },
+        {
+          "design": "design:star12",
+          "amount": 3000
+        },
+        {
+          "design": "design:star9",
+          "amount": 3000
+        },
+        {
+          "design": "design:star9",
+          "amount": 3000
+        },
+        {
+          "design": "design:star12",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:star09",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:slayerBael",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:star7",
+          "amount": 3000
+        },
+        {
+          "design": "design:star5",
+          "amount": 3000
+        },
+        {
+          "design": "design:star14",
+          "amount": 3000
+        },
+        {
+          "design": "design:star7",
+          "amount": 3000
+        },
+        {
+          "design": "design:star5",
+          "amount": 3000
+        },
+        {
+          "design": "design:star14",
+          "amount": 3000
+        },
+        {
+          "design": "design:star7",
+          "amount": 3000
+        },
+        {
+          "design": "design:star5",
+          "amount": 3000
+        },
+        {
+          "design": "design:star14",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:star_10",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:lunaSilvestri",
+        "rank": 8,
+        "lv": 49,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:star8",
+          "amount": 3000
+        },
+        {
+          "design": "design:star6",
+          "amount": 3000
+        },
+        {
+          "design": "design:star13",
+          "amount": 3000
+        },
+        {
+          "design": "design:star8",
+          "amount": 3000
+        },
+        {
+          "design": "design:star6",
+          "amount": 3000
+        },
+        {
+          "design": "design:star13",
+          "amount": 3000
+        },
+        {
+          "design": "design:star8",
+          "amount": 3000
+        },
+        {
+          "design": "design:star6",
+          "amount": 3000
+        },
+        {
+          "design": "design:star13",
+          "amount": 3000
+        }
+      ]
+    }
+  ]
+}

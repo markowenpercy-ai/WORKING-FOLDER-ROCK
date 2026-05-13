@@ -1,0 +1,4809 @@
+{
+  "commander": [
+    {
+      "id": 0,
+      "name": "commander:angla",
+      "type": "skill",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 4,
+        "dodge": 4,
+        "speed": 5,
+        "electron": 7
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "C",
+        "shipBased": "C",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "C",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          1999.21,
+          0.0922462,
+          0.0055897,
+          -3.036849025460421e-07
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "name": "commander:leo",
+      "type": "super",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 5,
+        "dodge": 9,
+        "speed": 6,
+        "electron": 8
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "C",
+        "missile": "B",
+        "shipBased": "C",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "electron"
+        ],
+        "curve": [
+          1999.21,
+          0.0922462,
+          0.0055897,
+          -3.036849025460421e-07
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "commander:natiya",
+      "type": "skill",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 8,
+        "dodge": 8,
+        "speed": 6,
+        "electron": 8
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "C",
+        "shipBased": "C",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "speed"
+        ],
+        "curve": [
+          999.21,
+          0.0922462,
+          0.0055897,
+          -3.036849025460421e-07
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "commander:reggie",
+      "type": "skill",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 5,
+        "dodge": 3,
+        "speed": 8,
+        "electron": 4
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "C",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "C",
+        "cruiser": "D",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "electron"
+        ],
+        "curve": [
+          799.209,
+          0.0922462,
+          0.0055897,
+          -3.036849025460421e-07
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "commander:eveline",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 7,
+        "dodge": 6,
+        "speed": 9,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "A",
+        "missile": "B",
+        "shipBased": "C",
+        "building": "C",
+        "frigate": "C",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          998.451,
+          0.0916319,
+          0.00400355,
+          -3.074270239882989e-07
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "commander:stani",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 5,
+        "dodge": 8,
+        "speed": 5,
+        "electron": 10
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "electron"
+        ],
+        "curve": [
+          997.532,
+          -0.0518497,
+          0.00256244,
+          -1.947646279455891e-08
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "commander:sofia",
+      "type": "skill",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 7,
+        "dodge": 5,
+        "speed": 11,
+        "electron": 0
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "C",
+        "shipBased": "D",
+        "building": "B",
+        "frigate": "C",
+        "cruiser": "B",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "speed"
+        ],
+        "curve": [
+          1999.21,
+          0.0922462,
+          0.0055897,
+          -3.036849025460421e-07
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "commander:jason",
+      "type": "skill",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 4,
+        "dodge": 2,
+        "speed": 5,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "D",
+        "directional": "C",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "electron"
+        ],
+        "curve": [
+          999.21,
+          0.0922462,
+          0.0055897,
+          -3.036849025460421e-07
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "commander:maletiz",
+      "type": "legendary",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 2,
+        "dodge": 2,
+        "speed": 2,
+        "electron": 2
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "C",
+        "building": "B",
+        "frigate": "C",
+        "cruiser": "S",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "dodge",
+          "electron"
+        ],
+        "curve": [
+          1503.89,
+          0.19848,
+          0.00110477,
+          2.908297447856547e-08
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "commander:nick",
+      "type": "super",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 5,
+        "dodge": 4,
+        "speed": 5,
+        "electron": 2
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "B",
+        "missile": "C",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "C",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          998.404,
+          0.234846,
+          0.00246107,
+          -1.9958745935674815e-07
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "commander:jerome",
+      "type": "skill",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 5,
+        "dodge": 8,
+        "speed": 2,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "B",
+        "missile": "C",
+        "shipBased": "C",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          1499.21,
+          0.0922462,
+          0.0055897,
+          -3.03684902546036e-07
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "commander:aileen",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 8,
+        "dodge": 8,
+        "speed": 8,
+        "electron": 8
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "A",
+        "missile": "B",
+        "shipBased": "A",
+        "building": "B",
+        "frigate": "A",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "electron",
+          "speed"
+        ],
+        "curve": [
+          1497.53,
+          -0.0518497,
+          0.00256244,
+          -1.9476462794559038e-08
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "commander:alicia",
+      "type": "skill",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 9,
+        "dodge": 3,
+        "speed": 7,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "C",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "D",
+        "cruiser": "B",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          1799.28,
+          0.0890225,
+          0.00559635,
+          -3.0687747925640415e-07
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "commander:panis",
+      "type": "skill",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 5,
+        "dodge": 5,
+        "speed": 6,
+        "electron": 12
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "D",
+        "missile": "B",
+        "shipBased": "C",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "electron"
+        ],
+        "curve": [
+          999.209,
+          0.0922462,
+          0.0055897,
+          -3.036849025460413e-07
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "commander:annata",
+      "type": "super",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 2,
+        "dodge": 8,
+        "speed": 5,
+        "electron": 8
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "A",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "C",
+        "cruiser": "C",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "speed"
+        ],
+        "curve": [
+          2496.5,
+          0.158047,
+          0.00507463,
+          -2.4368067937541347e-07
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "name": "commander:kelly",
+      "type": "skill",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 2,
+        "dodge": 9,
+        "speed": 2,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "B",
+        "missile": "C",
+        "shipBased": "C",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "speed"
+        ],
+        "curve": [
+          2496.5,
+          0.158047,
+          0.00507463,
+          -2.4368067937541347e-07
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "commander:rayllf",
+      "type": "skill",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 6,
+        "dodge": 8,
+        "speed": 7,
+        "electron": 7
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "C",
+        "missile": "C",
+        "shipBased": "C",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "speed"
+        ],
+        "curve": [
+          2496.5,
+          0.158047,
+          0.00507463,
+          -2.4368067937541347e-07
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "name": "commander:donna",
+      "type": "skill",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 7,
+        "dodge": 4,
+        "speed": 4,
+        "electron": 8
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "C",
+        "building": "D",
+        "frigate": "C",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "speed"
+        ],
+        "curve": [
+          2496.5,
+          0.158047,
+          0.00507463,
+          -2.4368067937541347e-07
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "commander:sylva",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 7,
+        "dodge": 5,
+        "speed": 5,
+        "electron": 2
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "C",
+        "missile": "C",
+        "shipBased": "B",
+        "building": "A",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "commander:gastaf",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 12,
+        "dodge": 0,
+        "speed": 10,
+        "electron": 7
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "C",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "A",
+        "cruiser": "B",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          996.503,
+          0.158047,
+          0.00507463,
+          -2.4368067937541336e-07
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "commander:taude",
+      "type": "skill",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 7,
+        "dodge": 7,
+        "speed": 4,
+        "electron": 4
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "D",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "C",
+        "cruiser": "C",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          997.232,
+          0.264169,
+          0.00404792,
+          -2.3411474762442987e-07
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "commander:wayne",
+      "type": "skill",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 8,
+        "dodge": 4,
+        "speed": 9,
+        "electron": 2
+      },
+      "expertise": {
+        "ballistic": "D",
+        "directional": "C",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          997.232,
+          0.264169,
+          0.00404792,
+          -2.3411474762442987e-07
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "name": "commander:sandora",
+      "type": "legendary",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 9,
+        "dodge": 7,
+        "speed": 8,
+        "electron": 7
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "C",
+        "cruiser": "C",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1497.53,
+          -0.0518497,
+          0.00256244,
+          -1.9476462794559038e-08
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "name": "commander:raslin",
+      "type": "super",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 8,
+        "dodge": 7,
+        "speed": 9,
+        "electron": 10
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "B",
+        "missile": "C",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "A",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "electron"
+        ],
+        "curve": [
+          1396.5,
+          0.158047,
+          0.00507463,
+          -2.436806793754132e-07
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "name": "commander:maxius",
+      "type": "skill",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 10,
+        "dodge": 0,
+        "speed": 5,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "D",
+        "frigate": "C",
+        "cruiser": "C",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          2496.5,
+          0.158047,
+          0.00507463,
+          -2.4368067937541347e-07
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "name": "commander:penni",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "C",
+        "cruiser": "C",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          997.366,
+          -0.648021,
+          0.00519459,
+          -4.774277288603365e-07
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "name": "commander:motima",
+      "type": "skill",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 8,
+        "dodge": 2,
+        "speed": 6,
+        "electron": 6
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "D",
+        "frigate": "C",
+        "cruiser": "C",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          1501.98,
+          0.356162,
+          0.00331574,
+          -1.4715074965608693e-07
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "name": "commander:ringel",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 9,
+        "dodge": 5,
+        "speed": 9,
+        "electron": 3
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "B",
+        "missile": "A",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "C",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          2001.98,
+          0.356162,
+          0.00331574,
+          -1.4715074965608693e-07
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "name": "commander:anna",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 9,
+        "dodge": 8,
+        "speed": 10,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          1497.23,
+          0.264169,
+          0.00404792,
+          -2.341147476244296e-07
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "name": "commander:linda",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 10,
+        "dodge": 9,
+        "speed": 7,
+        "electron": 7
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          1497.23,
+          0.264169,
+          0.00404792,
+          -2.341147476244296e-07
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "name": "commander:heloyce",
+      "type": "skill",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 7,
+        "dodge": 2,
+        "speed": 8,
+        "electron": 4
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "C",
+        "shipBased": "C",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "C",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          3001.33,
+          0.396846,
+          0.00446657,
+          -1.6729399411363317e-07
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "name": "commander:shaba",
+      "type": "skill",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 0,
+        "dodge": 10,
+        "speed": 5,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "B",
+        "missile": "D",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          2496.5,
+          0.158047,
+          0.00507463,
+          -2.4368067937541347e-07
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "name": "commander:nora",
+      "type": "legendary",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 9,
+        "dodge": 4,
+        "speed": 8,
+        "electron": 3
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "B",
+        "missile": "A",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "B",
+        "cruiser": "A",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          1000.81,
+          0.176531,
+          0.000843621,
+          -2.2044017612970415e-08
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "name": "commander:mantie",
+      "type": "skill",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 14,
+        "dodge": 14,
+        "speed": 14,
+        "electron": 14
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "C",
+        "cruiser": "C",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          999.178,
+          0.283177,
+          0.00492016,
+          -1.955239210316522e-07
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "name": "commander:vinna",
+      "type": "skill",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 6,
+        "dodge": 6,
+        "speed": 6,
+        "electron": 6
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "C",
+        "missile": "C",
+        "shipBased": "C",
+        "building": "B",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          799.178,
+          0.283177,
+          0.00492016,
+          -1.955239210316522e-07
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "name": "commander:singhri",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 12,
+        "dodge": 12,
+        "speed": 12,
+        "electron": 12
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "name": "commander:sylla",
+      "type": "super",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 5,
+        "dodge": 9,
+        "speed": 5,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "C",
+        "missile": "C",
+        "shipBased": "C",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          1499.178,
+          0.283177,
+          0.00492016,
+          -1.955239210316522e-07
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "name": "commander:rayo",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 13,
+        "dodge": 13,
+        "speed": 13,
+        "electron": 13
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "D",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "name": "commander:bruce",
+      "type": "super",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 6,
+        "dodge": 8,
+        "speed": 8,
+        "electron": 12
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "C",
+        "cruiser": "C",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "electron"
+        ],
+        "curve": [
+          1496.34,
+          0.0997289,
+          0.00717639,
+          -1.993589171572444e-07
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "name": "commander:marcus",
+      "type": "legendary",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 8,
+        "dodge": 6,
+        "speed": 8,
+        "electron": 3
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "name": "commander:bart",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 5,
+        "dodge": 3,
+        "speed": 5,
+        "electron": 3
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "electron",
+          "speed"
+        ],
+        "curve": [
+          1499.89,
+          0.0256279,
+          0.00219975,
+          -1.7750332508664113e-08
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "name": "commander:lawrence",
+      "type": "skill",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 9,
+        "dodge": 4,
+        "speed": 6,
+        "electron": 8
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "C",
+        "missile": "C",
+        "shipBased": "C",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          499.525,
+          0.233225,
+          0.000962323,
+          -1.020981005214214e-07
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "name": "commander:evi",
+      "type": "skill",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 8,
+        "dodge": 5,
+        "speed": 9,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "A",
+        "missile": "C",
+        "shipBased": "C",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          499.525,
+          0.233225,
+          0.000962323,
+          -1.020981005214214e-07
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "name": "commander:tyren",
+      "type": "skill",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 10,
+        "dodge": 5,
+        "speed": 7,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "C",
+        "missile": "A",
+        "shipBased": "C",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          499.525,
+          0.233225,
+          0.000962323,
+          -1.020981005214214e-07
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "name": "commander:essido",
+      "type": "skill",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 8,
+        "dodge": 5,
+        "speed": 6,
+        "electron": 8
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "C",
+        "missile": "C",
+        "shipBased": "A",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          499.525,
+          0.233225,
+          0.000962323,
+          -1.020981005214214e-07
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "name": "commander:robert",
+      "type": "legendary",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 20,
+        "dodge": 4,
+        "speed": 10,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "S",
+        "cruiser": "S",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "name": "commander:dilira",
+      "type": "legendary",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 0,
+        "dodge": 15,
+        "speed": 10,
+        "electron": 12
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "A",
+        "missile": "B",
+        "shipBased": "A",
+        "building": "C",
+        "frigate": "C",
+        "cruiser": "S",
+        "battleship": "S"
+      },
+      "proc": {
+        "stat": [
+          "speed"
+        ],
+        "curve": [
+          999.68,
+          0.0933046,
+          0.00868896,
+          -7.401522081958488e-08
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "name": "commander:hellen",
+      "type": "legendary",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 11,
+        "dodge": 5,
+        "speed": 7,
+        "electron": 16
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "B",
+        "missile": "S",
+        "shipBased": "S",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "A",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "electron"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "name": "commander:todd",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 30,
+        "dodge": 0,
+        "speed": 0,
+        "electron": 0
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "C",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "A",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          999.178,
+          0.283177,
+          0.00492016,
+          -1.955239210316522e-07
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "name": "commander:rafia",
+      "type": "legendary",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 3,
+        "dodge": 5,
+        "speed": 3,
+        "electron": 2
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "name": "commander:joseph",
+      "type": "super",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 2,
+        "dodge": 8,
+        "speed": 5,
+        "electron": 15
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "B",
+        "shipBased": "C",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "electron"
+        ],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "name": "commander:carlos",
+      "type": "legendary",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 15,
+        "dodge": 5,
+        "speed": 10,
+        "electron": 10
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "B",
+        "frigate": "C",
+        "cruiser": "A",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1700.31,
+          -0.0835166,
+          0.00341732,
+          7.881698963270661e-08
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "name": "commander:jakar",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 9,
+        "dodge": 3,
+        "speed": 5,
+        "electron": 4
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "name": "commander:rocky",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 12,
+        "dodge": 4,
+        "speed": 8,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "A",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "C",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "name": "commander:andrew",
+      "type": "super",
+      "subType": "defend",
+      "baseStats": {
+        "accuracy": 5,
+        "dodge": 10,
+        "speed": 6,
+        "electron": 1
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "C",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "name": "commander:lynn",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 8,
+        "dodge": 5,
+        "speed": 6,
+        "electron": 3
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "D",
+        "frigate": "C",
+        "cruiser": "B",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "name": "commander:miller",
+      "type": "super",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 4,
+        "dodge": 4,
+        "speed": 5,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "A",
+        "frigate": "C",
+        "cruiser": "C",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "name": "commander:victoryRoar",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 17,
+        "dodge": 16,
+        "speed": 19,
+        "electron": 15
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "B",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          999.14,
+          0.301141,
+          0.00425884,
+          -1.9925465065083706e-07
+        ]
+      },
+      "srcCommander": [
+        "commander:penni",
+        "commander:eveline"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 58,
+      "name": "commander:raysOfDestiny",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 21,
+        "dodge": 12,
+        "speed": 15,
+        "electron": 9
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "B",
+        "cruiser": "S",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge",
+          "electron",
+          "speed"
+        ],
+        "curve": [
+          2000.17,
+          -0.0523494,
+          0.00108735,
+          5.1701640312546634e-08
+        ]
+      },
+      "srcCommander": [
+        "commander:sandora",
+        "commander:maletiz"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 59,
+      "name": "commander:impendingDoom",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 10,
+        "dodge": 12,
+        "speed": 7,
+        "electron": 17
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "A",
+        "building": "B",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "dodge",
+          "electron"
+        ],
+        "curve": [
+          1499.74,
+          0.0777464,
+          0.00131536,
+          -5.129471656416146e-8
+        ]
+      },
+      "srcCommander": [
+        "commander:jerome",
+        "commander:nick"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 60,
+      "name": "commander:desolatePrayers",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 20,
+        "dodge": 20,
+        "speed": 13,
+        "electron": 18
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      },
+      "srcCommander": [
+        "commander:stani",
+        "commander:aileen"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 61,
+      "name": "commander:deadlyDuo",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 19,
+        "dodge": 17,
+        "speed": 17,
+        "electron": 12
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          1999.08,
+          0.305464,
+          0.00396377,
+          -1.9991191913923818e-07
+        ]
+      },
+      "srcCommander": [
+        "commander:anna",
+        "commander:linda"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 62,
+      "name": "commander:frontlineSurge",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 15,
+        "dodge": 10,
+        "speed": 17,
+        "electron": 3
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "speed"
+        ],
+        "curve": [
+          1999.28,
+          0.237371,
+          0.0060994,
+          -1.746227728825779e-07
+        ]
+      },
+      "srcCommander": [
+        "commander:sofia",
+        "commander:lynn"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 63,
+      "name": "commander:theTwinTorpedoes",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 30,
+        "dodge": 0,
+        "speed": 10,
+        "electron": 7
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          1999.28,
+          0.237371,
+          0.0060994,
+          -1.746227728825779e-07
+        ]
+      },
+      "srcCommander": [
+        "commander:gastaf",
+        "commander:todd"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 64,
+      "name": "commander:lightAndDarkness",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 12,
+        "dodge": 15,
+        "speed": 21,
+        "electron": 3
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "speed"
+        ],
+        "curve": [
+          1999.28,
+          0.237371,
+          0.0060994,
+          -1.746227728825779e-07
+        ]
+      },
+      "srcCommander": [
+        "commander:annata",
+        "commander:leo"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 65,
+      "name": "commander:kismetBeams",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 25,
+        "dodge": 10,
+        "speed": 20,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1499.91,
+          0.0350685,
+          0.00206446,
+          -2.522034416546127e-08
+        ]
+      },
+      "srcCommander": [
+        "commander:sandora",
+        "commander:wayne"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 66,
+      "name": "commander:fatalFuries",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 30,
+        "dodge": 14,
+        "speed": 15,
+        "electron": 12
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1499.91,
+          0.0350685,
+          0.00206446,
+          -2.522034416546127e-08
+        ]
+      },
+      "srcCommander": [
+        "commander:wayne",
+        "commander:marcus"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 67,
+      "name": "commander:indomitableDuo",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 12,
+        "dodge": 25,
+        "speed": 17,
+        "electron": 14
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "C",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "srcCommander": [
+        "commander:heloyce",
+        "commander:andrew"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 68,
+      "name": "commander:deathFromAbove",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 24,
+        "dodge": 24,
+        "speed": 24,
+        "electron": 24
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "D",
+        "frigate": "S",
+        "cruiser": "S",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "srcCommander": [
+        "commander:rayo",
+        "commander:robert"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 69,
+      "name": "commander:leechLurkers",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 17,
+        "dodge": 12,
+        "speed": 32,
+        "electron": 13
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1499.91,
+          0.0350685,
+          0.00206446,
+          -2.522034416546127e-08
+        ]
+      },
+      "srcCommander": [
+        "commander:leo",
+        "commander:bart"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 70,
+      "name": "commander:eternalTerrors",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 29,
+        "dodge": 11,
+        "speed": 10,
+        "electron": 23
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "C",
+        "missile": "S",
+        "shipBased": "S",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "electron"
+        ],
+        "curve": [
+          1499.91,
+          0.0350685,
+          0.00206446,
+          -2.522034416546127e-08
+        ]
+      },
+      "srcCommander": [
+        "commander:reggie",
+        "commander:hellen"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 71,
+      "name": "commander:feralRaptors",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 18,
+        "dodge": 14,
+        "speed": 20,
+        "electron": 10
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "B",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      },
+      "srcCommander": [
+        "commander:wayne",
+        "commander:penni"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 72,
+      "name": "commander:ironMaidens",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 10,
+        "dodge": 21,
+        "speed": 19,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "srcCommander": [
+        "commander:rafia",
+        "commander:dilira"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 73,
+      "name": "commander:fairyAndFiend",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 22,
+        "dodge": 10,
+        "speed": 20,
+        "electron": 10
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      },
+      "srcCommander": [
+        "commander:eveline",
+        "commander:carlos"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 74,
+      "name": "commander:suicidalSirens",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 31,
+        "dodge": 3,
+        "speed": 12,
+        "electron": 20
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "S",
+        "shipBased": "S",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "electron"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      },
+      "srcCommander": [
+        "commander:hellen",
+        "commander:penni"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 75,
+      "name": "commander:wildfire",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 35,
+        "dodge": 5,
+        "speed": 9,
+        "electron": 18
+      },
+      "expertise": {
+        "ballistic": "S",
+        "directional": "S",
+        "missile": "S",
+        "shipBased": "S",
+        "building": "C",
+        "frigate": "C",
+        "cruiser": "C",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "electron"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      },
+      "srcCommander": [
+        "commander:sandora",
+        "commander:hellen"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 76,
+      "name": "commander:tacticalWizards",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 9,
+        "dodge": 16,
+        "speed": 12,
+        "electron": 22
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "dodge",
+          "electron"
+        ],
+        "curve": [
+          1499.74,
+          0.0777464,
+          0.00131536,
+          -5.1294716564161456e-08
+        ]
+      },
+      "srcCommander": [
+        "commander:nick",
+        "commander:bruce"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 77,
+      "name": "commander:fearmongers",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 19,
+        "dodge": 15,
+        "speed": 12,
+        "electron": 21
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "electron"
+        ],
+        "curve": [
+          1400.14,
+          0.248999,
+          0.00497829,
+          -2.1933835117357588e-07
+        ]
+      },
+      "srcCommander": [
+        "commander:raslin",
+        "commander:bruce"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 78,
+      "name": "commander:perniciousPrinces",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 20,
+        "dodge": 20,
+        "speed": 20,
+        "electron": 20
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "srcCommander": [
+        "commander:robert",
+        "commander:jakar"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 79,
+      "name": "commander:summaCumLaude",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 24,
+        "dodge": 9,
+        "speed": 23,
+        "electron": 12
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "S",
+        "building": "D",
+        "frigate": "C",
+        "cruiser": "C",
+        "battleship": "C"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      },
+      "srcCommander": [
+        "commander:marcus",
+        "commander:hellen"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 80,
+      "name": "commander:carbuncleCohort",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 9,
+        "dodge": 22,
+        "speed": 11,
+        "electron": 15
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          1499.18,
+          0.283177,
+          0.00492016,
+          -1.955239210316478e-07
+        ]
+      },
+      "srcCommander": [
+        "commander:sylla",
+        "commander:joseph"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 81,
+      "name": "commander:enduringChorus",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 8,
+        "dodge": 19,
+        "speed": 21,
+        "electron": 6
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "A",
+        "cruiser": "S",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "speed"
+        ],
+        "curve": [
+          997.188,
+          0.266742,
+          0.00608758,
+          -1.7735980309651424e-07
+        ]
+      },
+      "srcCommander": [
+        "commander:shaba",
+        "commander:dilira"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 82,
+      "name": "commander:theRavagers",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 14,
+        "dodge": 10,
+        "speed": 13,
+        "electron": 11
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "S",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "electron"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      },
+      "srcCommander": [
+        "commander:rocky",
+        "commander:hellen"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 83,
+      "name": "commander:rexScuta",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 18,
+        "dodge": 21,
+        "speed": 15,
+        "electron": 18
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "srcCommander": [
+        "commander:rayo",
+        "commander:rafia"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 84,
+      "name": "commander:lurkingLight",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 11,
+        "dodge": 7,
+        "speed": 24,
+        "electron": 12
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "C",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "dodge",
+          "speed"
+        ],
+        "curve": [
+          1500.02,
+          0.0239002,
+          0.00220044,
+          -1.7589330731373906e-08
+        ]
+      },
+      "srcCommander": [
+        "commander:annata",
+        "commander:bart"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 85,
+      "name": "commander:titan",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 35,
+        "dodge": 35,
+        "speed": 35,
+        "electron": 35
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "S",
+        "missile": "S",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "S"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "name": "commander:eschatonAdventists",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 38,
+        "dodge": 30,
+        "speed": 25,
+        "electron": 31
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "A",
+        "missile": "S",
+        "shipBased": "S",
+        "building": "A",
+        "frigate": "B",
+        "cruiser": "S",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      },
+      "srcCommander": [
+        "commander:aileen",
+        "commander:titan"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 87,
+      "name": "commander:handOfLelantos",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 36,
+        "dodge": 34,
+        "speed": 34,
+        "electron": 32
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "S",
+        "missile": "A",
+        "shipBased": "S",
+        "building": "B",
+        "frigate": "S",
+        "cruiser": "A",
+        "battleship": "S"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "srcCommander": [
+        "commander:jakar",
+        "commander:titan"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 88,
+      "name": "commander:hekatianWitnesses",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 36,
+        "dodge": 37,
+        "speed": 34,
+        "electron": 35
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "S",
+        "shipBased": "A",
+        "building": "B",
+        "frigate": "A",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          999.778,
+          0.0866114,
+          0.00095033,
+          -5.406599628487625e-08
+        ]
+      },
+      "srcCommander": [
+        "commander:nora",
+        "commander:titan"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 89,
+      "name": "commander:dopplegangers",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 34,
+        "dodge": 45,
+        "speed": 45,
+        "electron": 44
+      },
+      "expertise": {
+        "ballistic": "S",
+        "directional": "A",
+        "missile": "S",
+        "shipBased": "S",
+        "building": "B",
+        "frigate": "A",
+        "cruiser": "S",
+        "battleship": "S"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "srcCommander": [
+        "commander:singhri",
+        "commander:titan"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 90,
+      "name": "commander:erebusErrants",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 31,
+        "dodge": 22,
+        "speed": 34,
+        "electron": 11
+      },
+      "expertise": {
+        "ballistic": "S",
+        "directional": "B",
+        "missile": "A",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "S",
+        "cruiser": "A",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          1999.08,
+          0.305464,
+          0.00396377,
+          -1.9991191913923818e-07
+        ]
+      },
+      "srcCommander": [
+        "commander:nick",
+        "commander:titan"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 91,
+      "name": "commander:cassius",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 15,
+        "dodge": 15,
+        "speed": 15,
+        "electron": 15
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "B",
+        "missile": "A",
+        "shipBased": "B",
+        "building": "A",
+        "frigate": "B",
+        "cruiser": "A",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          1500.8,
+          -0.216874,
+          0.00464777,
+          2.271682407004593e-07
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "name": "commander:bain",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 14,
+        "dodge": 12,
+        "speed": 16,
+        "electron": 18
+      },
+      "expertise": {
+        "ballistic": "C",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          1500.8,
+          -0.216874,
+          0.00464777,
+          2.271682407004593e-07
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "name": "commander:krinaKlaus",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 20,
+        "dodge": 20,
+        "speed": 20,
+        "electron": 20
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          995.324,
+          -1.26661,
+          0.00727716,
+          -9.276523327822174e-07
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "name": "commander:homericHellions",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 38,
+        "dodge": 45,
+        "speed": 25,
+        "electron": 12
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "S",
+        "missile": "B",
+        "shipBased": "A",
+        "building": "B",
+        "frigate": "B",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "dodge"
+        ],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "srcCommander": [
+        "commander:andrew",
+        "commander:titan"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 95,
+      "name": "commander:winterKnights",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 15,
+        "dodge": 34,
+        "speed": 20,
+        "electron": 30
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "B",
+        "missile": "S",
+        "shipBased": "B",
+        "building": "D",
+        "frigate": "S",
+        "cruiser": "B",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          1500.8,
+          -0.216874,
+          0.00464777,
+          2.271682407004593e-07
+        ]
+      },
+      "srcCommander": [
+        "commander:krinaKlaus",
+        "commander:bart"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 96,
+      "name": "commander:medusa",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 20,
+        "dodge": 14,
+        "speed": 12,
+        "electron": 18
+      },
+      "expertise": {
+        "ballistic": "S",
+        "directional": "C",
+        "missile": "A",
+        "shipBased": "B",
+        "building": "B",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "dodge",
+          "electron"
+        ],
+        "curve": [
+          995.324,
+          -1.26661,
+          0.00727716,
+          -9.276523327822174e-07
+        ]
+      }
+    },
+    {
+      "id": 97,
+      "name": "commander:venus",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 15,
+        "dodge": 23,
+        "speed": 12,
+        "electron": 24
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "dodge",
+          "speed"
+        ],
+        "curve": [
+          985.849,
+          -5.9655,
+          0.0255566,
+          -1.7373373389808396e-06
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "name": "commander:theHeartlessOnes",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 17,
+        "dodge": 20,
+        "speed": 13,
+        "electron": 17
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "A",
+        "building": "B",
+        "frigate": "S",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      },
+      "srcCommander": [
+        "commander:bain",
+        "commander:aileen"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 99,
+      "name": "commander:theForsaken",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 16,
+        "dodge": 19,
+        "speed": 14,
+        "electron": 19
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "B",
+        "shipBased": "S",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      },
+      "srcCommander": [
+        "commander:medusa",
+        "commander:stani"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 100,
+      "name": "commander:circe",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 15,
+        "dodge": 10,
+        "speed": 12,
+        "electron": 22
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "C",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "B",
+        "frigate": "C",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          1500,
+          -6.9959420343600156e-15,
+          0.0025,
+          -4.852308130738921e-21
+        ]
+      }
+    },
+    {
+      "id": 101,
+      "name": "commander:callisto",
+      "type": "legendary",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 14,
+        "dodge": 20,
+        "speed": 15,
+        "electron": 20
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "C",
+        "building": "D",
+        "frigate": "S",
+        "cruiser": "B",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy"
+        ],
+        "curve": [
+          1000.05,
+          -0.016124,
+          0.00266597,
+          1.0517318484948904e-08
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "name": "commander:thePioneers",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 20,
+        "dodge": 15,
+        "speed": 22,
+        "electron": 21
+      },
+      "expertise": {
+        "ballistic": "S",
+        "directional": "B",
+        "missile": "B",
+        "shipBased": "C",
+        "building": "C",
+        "frigate": "S",
+        "cruiser": "A",
+        "battleship": "S"
+      },
+      "proc": {
+        "stat": [
+          ""
+        ],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "srcCommander": [
+        "commander:rafia",
+        "commander:andrew"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 103,
+      "name": "commander:technomancers",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 14,
+        "dodge": 30,
+        "speed": 25,
+        "electron": 19
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "S",
+        "missile": "B",
+        "shipBased": "A",
+        "building": "B",
+        "frigate": "A",
+        "cruiser": "S",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          1500.05,
+          -0.0161247,
+          0.00266597,
+          1.0517318484951105e-08
+        ]
+      },
+      "srcCommander": [
+        "commander:circe",
+        "commander:reggie"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 104,
+      "name": "commander:queensOfBlades",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 28,
+        "dodge": 27,
+        "speed": 21,
+        "electron": 18
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "S",
+        "shipBased": "A",
+        "building": "D",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1500.05,
+          -0.0161247,
+          0.00266597,
+          1.0517318484951105e-08
+        ]
+      },
+      "srcCommander": [
+        "commander:callisto",
+        "commander:bart"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 105,
+      "name": "commander:dictators",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 42,
+        "dodge": 45,
+        "speed": 40,
+        "electron": 43
+      },
+      "expertise": {
+        "ballistic": "B",
+        "directional": "B",
+        "missile": "S",
+        "shipBased": "S",
+        "building": "S",
+        "frigate": "S",
+        "cruiser": "A",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "srcCommander": [
+        "commander:rayo",
+        "commander:titan"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 106,
+      "name": "commander:duneEnforcers",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 35,
+        "dodge": 35,
+        "speed": 25,
+        "electron": 40
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "C",
+        "missile": "S",
+        "shipBased": "S",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "B",
+        "battleship": "S"
+      },
+      "proc": {
+        "stat": [
+          "dodge",
+          "speed"
+        ],
+        "curve": [
+          998.929,
+          0.0933571,
+          0.001397,
+          -3.6000000000000044e-08
+        ]
+      },
+      "srcCommander": [
+        "commander:maletiz",
+        "commander:titan"
+      ],
+      "subType": "extra"
+    },
+    {
+      "id": 107,
+      "name": "commander:slayerBael",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 11,
+        "dodge": 12,
+        "speed": 5,
+        "electron": 10
+      },
+      "expertise": {
+        "ballistic": "S",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "S",
+        "building": "C",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "S"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          499.883,
+          0.0442165,
+          0.00191487,
+          -3.376968289115457e-08
+        ]
+      },
+      "srcCommander": [],
+      "subType": "extra"
+    },
+    {
+      "id": 108,
+      "name": "commander:lunaSilvestri",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 14,
+        "dodge": 19,
+        "speed": 40,
+        "electron": 13
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "S",
+        "missile": "S",
+        "shipBased": "A",
+        "building": "C",
+        "frigate": "A",
+        "cruiser": "S",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "dodge",
+          "speed"
+        ],
+        "curve": [
+          499.852,
+          0.0482377,
+          0.00182171,
+          -3.8486016711444376e-08
+        ]
+      },
+      "srcCommander": [],
+      "subType": "extra"
+    },
+    {
+      "id": 109,
+      "name": "commander:chromeDome",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 38,
+        "dodge": 30,
+        "speed": 35,
+        "electron": 34
+      },
+      "expertise": {
+        "ballistic": "S",
+        "directional": "A",
+        "missile": "S",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "B",
+        "cruiser": "B",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "dodge"
+        ],
+        "curve": [
+          999.847,
+          0.0626606,
+          0.00160077,
+          -4.6050984762080156e-08
+        ]
+      },
+      "srcCommander": [],
+      "subType": "extra"
+    },
+    {
+      "id": 110,
+      "name": "commander:shadowCountess",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 35,
+        "dodge": 22,
+        "speed": 21,
+        "electron": 21
+      },
+      "expertise": {
+        "ballistic": "S",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "S",
+        "building": "B",
+        "frigate": "S",
+        "cruiser": "A",
+        "battleship": "B"
+      },
+      "proc": {
+        "stat": [
+          "speed",
+          "dodge"
+        ],
+        "curve": [
+          999.906,
+          0.0564052,
+          0.00170565,
+          -4.151528841202249e-08
+        ]
+      },
+      "srcCommander": [],
+      "subType": "extra"
+    },
+    {
+      "id": 111,
+      "name": "commander:murphyLawson",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 28,
+        "dodge": 34,
+        "speed": 36,
+        "electron": 30
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "S",
+        "missile": "A",
+        "shipBased": "S",
+        "building": "A",
+        "frigate": "S",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "dodge",
+          "speed"
+        ],
+        "curve": [
+          999.852,
+          0.0482377,
+          0.00182171,
+          -3.8486016711443404e-08
+        ]
+      },
+      "subType": "extra"
+    },
+    {
+      "id": 112,
+      "name": "commander:eva",
+      "type": "legendary",
+      "subType": "attack",
+      "baseStats": {
+        "accuracy": 20,
+        "dodge": 4,
+        "speed": 10,
+        "electron": 5
+      },
+      "expertise": {
+        "ballistic": "S",
+        "directional": "A",
+        "missile": "C",
+        "shipBased": "C",
+        "building": "A",
+        "frigate": "S",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "electron"
+        ],
+        "curve": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": 113,
+      "name": "commander:javal",
+      "type": "divine",
+      "baseStats": {
+        "accuracy": 32,
+        "dodge": 32,
+        "speed": 32,
+        "electron": 32
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "C",
+        "frigate": "S",
+        "cruiser": "S",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed",
+          "dodge",
+          "electron"
+        ],
+        "curve": [
+          1000.17,
+          -0.0523494,
+          0.00108735,
+          5.1701640312546634e-08
+        ]
+      }
+    },
+    {
+      "id": 114,
+      "name": "commander:lumos",
+      "type": "legendary",
+      "subType": "special",
+      "baseStats": {
+        "accuracy": 20,
+        "dodge": 20,
+        "speed": 20,
+        "electron": 20
+      },
+      "expertise": {
+        "ballistic": "A",
+        "directional": "A",
+        "missile": "A",
+        "shipBased": "A",
+        "building": "A",
+        "frigate": "A",
+        "cruiser": "A",
+        "battleship": "A"
+      },
+      "proc": {
+        "stat": [
+          "accuracy",
+          "speed"
+        ],
+        "curve": [
+          1497.53,
+          -0.0518497,
+          0.00256244,
+          -1.9476462794559038e-08
+        ]
+      }
+    }
+  ],
+  "levels": [
+    {
+      "exp": 180,
+      "gem": 1
+    },
+    {
+      "exp": 540,
+      "gem": 2
+    },
+    {
+      "exp": 1080,
+      "gem": 3
+    },
+    {
+      "exp": 1800,
+      "gem": 4
+    },
+    {
+      "exp": 2700,
+      "gem": 4
+    },
+    {
+      "exp": 3780,
+      "gem": 5
+    },
+    {
+      "exp": 5040,
+      "gem": 5
+    },
+    {
+      "exp": 6480,
+      "gem": 6
+    },
+    {
+      "exp": 8100,
+      "gem": 6
+    },
+    {
+      "exp": 9900,
+      "gem": 7
+    },
+    {
+      "exp": 11880,
+      "gem": 7
+    },
+    {
+      "exp": 14040,
+      "gem": 8
+    },
+    {
+      "exp": 16380,
+      "gem": 8
+    },
+    {
+      "exp": 18900,
+      "gem": 8
+    },
+    {
+      "exp": 21600,
+      "gem": 9
+    },
+    {
+      "exp": 24480,
+      "gem": 9
+    },
+    {
+      "exp": 27540,
+      "gem": 9
+    },
+    {
+      "exp": 30780,
+      "gem": 10
+    },
+    {
+      "exp": 34200,
+      "gem": 10
+    },
+    {
+      "exp": 37800,
+      "gem": 10
+    },
+    {
+      "exp": 41580,
+      "gem": 11
+    },
+    {
+      "exp": 45540,
+      "gem": 11
+    },
+    {
+      "exp": 49680,
+      "gem": 11
+    },
+    {
+      "exp": 54000,
+      "gem": 12
+    },
+    {
+      "exp": 58500,
+      "gem": 12
+    },
+    {
+      "exp": 63180,
+      "gem": 12
+    },
+    {
+      "exp": 68040,
+      "gem": 12
+    },
+    {
+      "exp": 73080,
+      "gem": 12
+    },
+    {
+      "exp": 78300,
+      "gem": 12
+    },
+    {
+      "exp": 83700,
+      "gem": 12
+    },
+    {
+      "exp": 89280,
+      "gem": 12
+    },
+    {
+      "exp": 95040,
+      "gem": 12
+    },
+    {
+      "exp": 100980,
+      "gem": 12
+    },
+    {
+      "exp": 107100,
+      "gem": 12
+    },
+    {
+      "exp": 113400,
+      "gem": 12
+    },
+    {
+      "exp": 119880,
+      "gem": 12
+    },
+    {
+      "exp": 126540,
+      "gem": 12
+    },
+    {
+      "exp": 133380,
+      "gem": 12
+    },
+    {
+      "exp": 140400,
+      "gem": 12
+    },
+    {
+      "exp": 147600,
+      "gem": 12
+    },
+    {
+      "exp": 154980,
+      "gem": 12
+    },
+    {
+      "exp": 162540,
+      "gem": 12
+    },
+    {
+      "exp": 170280,
+      "gem": 12
+    },
+    {
+      "exp": 178200,
+      "gem": 12
+    },
+    {
+      "exp": 186300,
+      "gem": 12
+    },
+    {
+      "exp": 194580,
+      "gem": 12
+    },
+    {
+      "exp": 203040,
+      "gem": 12
+    },
+    {
+      "exp": 211680,
+      "gem": 12
+    },
+    {
+      "exp": 220500,
+      "gem": 12
+    }
+  ],
+  "probabilities": [
+    {
+      "probability": 100
+    },
+    {
+      "probability": 100
+    },
+    {
+      "probability": 90
+    },
+    {
+      "probability": 80
+    },
+    {
+      "probability": 70
+    },
+    {
+      "probability": 60
+    },
+    {
+      "probability": 50
+    },
+    {
+      "probability": 40
+    }
+  ],
+  "cures": [
+    {
+      "commandType": 1,
+      "commandStar": -1,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 0.25
+    },
+    {
+      "commandType": 2,
+      "commandStar": 0,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 0.25
+    },
+    {
+      "commandType": 2,
+      "commandStar": 1,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 0.25
+    },
+    {
+      "commandType": 2,
+      "commandStar": 2,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 0.25
+    },
+    {
+      "commandType": 2,
+      "commandStar": 3,
+      "death": 0.18,
+      "hospitalization": 10800,
+      "level": 0.25
+    },
+    {
+      "commandType": 2,
+      "commandStar": 4,
+      "death": 0.18,
+      "hospitalization": 10800,
+      "level": 0.25
+    },
+    {
+      "commandType": 2,
+      "commandStar": 5,
+      "death": 0.18,
+      "hospitalization": 10800,
+      "level": 0.25
+    },
+    {
+      "commandType": 2,
+      "commandStar": 6,
+      "death": 0.16,
+      "hospitalization": 10800,
+      "level": 0.25
+    },
+    {
+      "commandType": 2,
+      "commandStar": 7,
+      "death": 0.16,
+      "hospitalization": 10800,
+      "level": 0.25
+    },
+    {
+      "commandType": 2,
+      "commandStar": 8,
+      "death": 0.16,
+      "hospitalization": 10800,
+      "level": 0.25
+    },
+    {
+      "commandType": 3,
+      "commandStar": 0,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 0.5
+    },
+    {
+      "commandType": 3,
+      "commandStar": 1,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 0.5
+    },
+    {
+      "commandType": 3,
+      "commandStar": 2,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 0.5
+    },
+    {
+      "commandType": 3,
+      "commandStar": 3,
+      "death": 0.16,
+      "hospitalization": 10800,
+      "level": 0.5
+    },
+    {
+      "commandType": 3,
+      "commandStar": 4,
+      "death": 0.16,
+      "hospitalization": 10800,
+      "level": 0.5
+    },
+    {
+      "commandType": 3,
+      "commandStar": 5,
+      "death": 0.16,
+      "hospitalization": 10800,
+      "level": 0.5
+    },
+    {
+      "commandType": 3,
+      "commandStar": 6,
+      "death": 0.12,
+      "hospitalization": 10800,
+      "level": 0.5
+    },
+    {
+      "commandType": 3,
+      "commandStar": 7,
+      "death": 0.12,
+      "hospitalization": 10800,
+      "level": 0.5
+    },
+    {
+      "commandType": 3,
+      "commandStar": 8,
+      "death": 0.12,
+      "hospitalization": 10800,
+      "level": 0.5
+    },
+    {
+      "commandType": 4,
+      "commandStar": 0,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 4,
+      "commandStar": 1,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 4,
+      "commandStar": 2,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 4,
+      "commandStar": 3,
+      "death": 0.15,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 4,
+      "commandStar": 4,
+      "death": 0.15,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 4,
+      "commandStar": 5,
+      "death": 0.15,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 4,
+      "commandStar": 6,
+      "death": 0.1,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 4,
+      "commandStar": 7,
+      "death": 0.1,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 4,
+      "commandStar": 8,
+      "death": 0.1,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 5,
+      "commandStar": 0,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 5,
+      "commandStar": 1,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 5,
+      "commandStar": 2,
+      "death": 0.2,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 5,
+      "commandStar": 3,
+      "death": 0.15,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 5,
+      "commandStar": 4,
+      "death": 0.15,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 5,
+      "commandStar": 5,
+      "death": 0.15,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 5,
+      "commandStar": 6,
+      "death": 0.1,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 5,
+      "commandStar": 7,
+      "death": 0.1,
+      "hospitalization": 10800,
+      "level": 1
+    },
+    {
+      "commandType": 5,
+      "commandStar": 8,
+      "death": 0.1,
+      "hospitalization": 10800,
+      "level": 1
+    }
+  ],
+  "pullulates": [
+    {
+      "commandType": 1,
+      "commandStar": -1,
+      "minPullulate": 1,
+      "maxPullulate": 2,
+      "frigate": 0,
+      "cruiser": 0,
+      "battleship": 0
+    },
+    {
+      "commandType": 2,
+      "commandStar": 0,
+      "minPullulate": 1,
+      "maxPullulate": 2,
+      "frigate": 24,
+      "cruiser": 22,
+      "battleship": 20
+    },
+    {
+      "commandType": 2,
+      "commandStar": 1,
+      "minPullulate": 3,
+      "maxPullulate": 4,
+      "frigate": 74,
+      "cruiser": 68,
+      "battleship": 61
+    },
+    {
+      "commandType": 2,
+      "commandStar": 2,
+      "minPullulate": 5,
+      "maxPullulate": 6,
+      "frigate": 153,
+      "cruiser": 139,
+      "battleship": 125
+    },
+    {
+      "commandType": 2,
+      "commandStar": 3,
+      "minPullulate": 7,
+      "maxPullulate": 8,
+      "frigate": 264,
+      "cruiser": 240,
+      "battleship": 216
+    },
+    {
+      "commandType": 2,
+      "commandStar": 4,
+      "minPullulate": 9,
+      "maxPullulate": 10,
+      "frigate": 416,
+      "cruiser": 378,
+      "battleship": 340
+    },
+    {
+      "commandType": 2,
+      "commandStar": 5,
+      "minPullulate": 11,
+      "maxPullulate": 12,
+      "frigate": 618,
+      "cruiser": 562,
+      "battleship": 505
+    },
+    {
+      "commandType": 2,
+      "commandStar": 6,
+      "minPullulate": 13,
+      "maxPullulate": 14,
+      "frigate": 885,
+      "cruiser": 804,
+      "battleship": 724
+    },
+    {
+      "commandType": 2,
+      "commandStar": 7,
+      "minPullulate": 15,
+      "maxPullulate": 16,
+      "frigate": 1238,
+      "cruiser": 1125,
+      "battleship": 1013
+    },
+    {
+      "commandType": 2,
+      "commandStar": 8,
+      "minPullulate": 17,
+      "maxPullulate": 18,
+      "frigate": 1705,
+      "cruiser": 1550,
+      "battleship": 1395
+    },
+    {
+      "commandType": 3,
+      "commandStar": 0,
+      "minPullulate": 4,
+      "maxPullulate": 5,
+      "frigate": 26,
+      "cruiser": 23,
+      "battleship": 21
+    },
+    {
+      "commandType": 3,
+      "commandStar": 1,
+      "minPullulate": 6,
+      "maxPullulate": 7,
+      "frigate": 78,
+      "cruiser": 71,
+      "battleship": 64
+    },
+    {
+      "commandType": 3,
+      "commandStar": 2,
+      "minPullulate": 8,
+      "maxPullulate": 9,
+      "frigate": 160,
+      "cruiser": 146,
+      "battleship": 131
+    },
+    {
+      "commandType": 3,
+      "commandStar": 3,
+      "minPullulate": 10,
+      "maxPullulate": 11,
+      "frigate": 277,
+      "cruiser": 252,
+      "battleship": 227
+    },
+    {
+      "commandType": 3,
+      "commandStar": 4,
+      "minPullulate": 12,
+      "maxPullulate": 13,
+      "frigate": 437,
+      "cruiser": 398,
+      "battleship": 358
+    },
+    {
+      "commandType": 3,
+      "commandStar": 5,
+      "minPullulate": 14,
+      "maxPullulate": 15,
+      "frigate": 652,
+      "cruiser": 593,
+      "battleship": 533
+    },
+    {
+      "commandType": 3,
+      "commandStar": 6,
+      "minPullulate": 16,
+      "maxPullulate": 17,
+      "frigate": 937,
+      "cruiser": 852,
+      "battleship": 767
+    },
+    {
+      "commandType": 3,
+      "commandStar": 7,
+      "minPullulate": 18,
+      "maxPullulate": 19,
+      "frigate": 1316,
+      "cruiser": 1197,
+      "battleship": 1077
+    },
+    {
+      "commandType": 3,
+      "commandStar": 8,
+      "minPullulate": 20,
+      "maxPullulate": 21,
+      "frigate": 1822,
+      "cruiser": 1656,
+      "battleship": 1491
+    },
+    {
+      "commandType": 4,
+      "commandStar": 0,
+      "minPullulate": 7,
+      "maxPullulate": 8,
+      "frigate": 27,
+      "cruiser": 24,
+      "battleship": 22
+    },
+    {
+      "commandType": 4,
+      "commandStar": 1,
+      "minPullulate": 9,
+      "maxPullulate": 10,
+      "frigate": 82,
+      "cruiser": 74,
+      "battleship": 67
+    },
+    {
+      "commandType": 4,
+      "commandStar": 2,
+      "minPullulate": 11,
+      "maxPullulate": 12,
+      "frigate": 168,
+      "cruiser": 153,
+      "battleship": 138
+    },
+    {
+      "commandType": 4,
+      "commandStar": 3,
+      "minPullulate": 13,
+      "maxPullulate": 14,
+      "frigate": 292,
+      "cruiser": 265,
+      "battleship": 239
+    },
+    {
+      "commandType": 4,
+      "commandStar": 4,
+      "minPullulate": 15,
+      "maxPullulate": 16,
+      "frigate": 462,
+      "cruiser": 420,
+      "battleship": 378
+    },
+    {
+      "commandType": 4,
+      "commandStar": 5,
+      "minPullulate": 17,
+      "maxPullulate": 18,
+      "frigate": 690,
+      "cruiser": 628,
+      "battleship": 565
+    },
+    {
+      "commandType": 4,
+      "commandStar": 6,
+      "minPullulate": 19,
+      "maxPullulate": 20,
+      "frigate": 996,
+      "cruiser": 905,
+      "battleship": 815
+    },
+    {
+      "commandType": 4,
+      "commandStar": 7,
+      "minPullulate": 21,
+      "maxPullulate": 22,
+      "frigate": 1405,
+      "cruiser": 1277,
+      "battleship": 1149
+    },
+    {
+      "commandType": 4,
+      "commandStar": 8,
+      "minPullulate": 23,
+      "maxPullulate": 24,
+      "frigate": 1900,
+      "cruiser": 1777,
+      "battleship": 1599
+    },
+    {
+      "commandType": 5,
+      "commandStar": 0,
+      "minPullulate": 12,
+      "maxPullulate": 13,
+      "frigate": 27,
+      "cruiser": 24,
+      "battleship": 22
+    },
+    {
+      "commandType": 5,
+      "commandStar": 1,
+      "minPullulate": 14,
+      "maxPullulate": 15,
+      "frigate": 82,
+      "cruiser": 74,
+      "battleship": 67
+    },
+    {
+      "commandType": 5,
+      "commandStar": 2,
+      "minPullulate": 16,
+      "maxPullulate": 17,
+      "frigate": 168,
+      "cruiser": 153,
+      "battleship": 138
+    },
+    {
+      "commandType": 5,
+      "commandStar": 3,
+      "minPullulate": 18,
+      "maxPullulate": 19,
+      "frigate": 292,
+      "cruiser": 265,
+      "battleship": 239
+    },
+    {
+      "commandType": 5,
+      "commandStar": 4,
+      "minPullulate": 20,
+      "maxPullulate": 21,
+      "frigate": 462,
+      "cruiser": 420,
+      "battleship": 378
+    },
+    {
+      "commandType": 5,
+      "commandStar": 5,
+      "minPullulate": 22,
+      "maxPullulate": 23,
+      "frigate": 690,
+      "cruiser": 628,
+      "battleship": 565
+    },
+    {
+      "commandType": 5,
+      "commandStar": 6,
+      "minPullulate": 24,
+      "maxPullulate": 25,
+      "frigate": 996,
+      "cruiser": 905,
+      "battleship": 815
+    },
+    {
+      "commandType": 5,
+      "commandStar": 7,
+      "minPullulate": 26,
+      "maxPullulate": 27,
+      "frigate": 1405,
+      "cruiser": 1277,
+      "battleship": 1149
+    },
+    {
+      "commandType": 5,
+      "commandStar": 8,
+      "minPullulate": 28,
+      "maxPullulate": 29,
+      "frigate": 1900,
+      "cruiser": 1777,
+      "battleship": 1599
+    }
+  ]
+}

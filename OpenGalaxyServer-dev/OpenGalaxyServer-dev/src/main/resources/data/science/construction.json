@@ -1,0 +1,915 @@
+{
+  "construction": [
+    {
+      "groupId": 100,
+      "name": "Concurrent Construction",
+      "level": [
+        {
+          "groupLv": 1,
+          "comment": "Adds 1 more slot to the construction schedule.",
+          "title": "1",
+          "money": 1000,
+          "time": 10,
+          "increaseBuildQueue": 1
+        }
+      ],
+      "kind": 2,
+      "imageFileName": "Tech100",
+      "comment": "Adds more slots for construction orders."
+    },
+    {
+      "groupId": 101,
+      "name": "Quality Materials",
+      "level": [
+        {
+          "groupLv": 1,
+          "comment": "Resources required for construction are decreased by 1%; Next level: the resources required will be decreased by 2%.",
+          "title": "1\/10",
+          "money": 1200,
+          "time": 240,
+          "decreaseMetalConsume": 1,
+          "decreaseHe3consume": 1,
+          "decreaseMoneyConsume": 1
+        },
+        {
+          "groupLv": 2,
+          "comment": "Resources required for construction are decreased by 2%; Next level: the resources required will be decreased by 3%.",
+          "title": "2\/10",
+          "money": 2352,
+          "time": 470,
+          "decreaseMetalConsume": 2,
+          "decreaseHe3consume": 2,
+          "decreaseMoneyConsume": 2
+        },
+        {
+          "groupLv": 3,
+          "comment": "Resources required for construction are decreased by 3%; Next level: the resources required will be decreased by 4%.",
+          "title": "3\/10",
+          "money": 4608,
+          "time": 922,
+          "decreaseMetalConsume": 3,
+          "decreaseHe3consume": 3,
+          "decreaseMoneyConsume": 3
+        },
+        {
+          "groupLv": 4,
+          "comment": "Resources required for construction are decreased by 4%; Next level: the resources required will be decreased by 5%.",
+          "title": "4\/10",
+          "money": 9030,
+          "time": 1806,
+          "decreaseMetalConsume": 4,
+          "decreaseHe3consume": 4,
+          "decreaseMoneyConsume": 4
+        },
+        {
+          "groupLv": 5,
+          "comment": "Resources required for construction are decreased by 5%; Next level: the resources required will be decreased by 6%.",
+          "title": "5\/10",
+          "money": 17706,
+          "time": 3541,
+          "decreaseMetalConsume": 5,
+          "decreaseHe3consume": 5,
+          "increaseBuilding": 5
+        },
+        {
+          "groupLv": 6,
+          "comment": "Resources required for construction are decreased by 6%; Next level: the resources required will be decreased by 8%.",
+          "title": "6\/10",
+          "money": 34710,
+          "time": 6942,
+          "decreaseMetalConsume": 6,
+          "decreaseHe3consume": 6,
+          "increaseBuilding": 6
+        },
+        {
+          "groupLv": 7,
+          "comment": "Resources required for construction are decreased by 8%; Next level: the resources required will be decreased by 10%.",
+          "title": "7\/10",
+          "money": 68028,
+          "time": 13606,
+          "decreaseMetalConsume": 8,
+          "decreaseHe3consume": 8,
+          "increaseBuilding": 8
+        },
+        {
+          "groupLv": 8,
+          "comment": "Resources required for construction are decreased by 10%; Next level: the resources required will be decreased by 12%.",
+          "title": "8\/10",
+          "money": 133344,
+          "time": 26669,
+          "decreaseMetalConsume": 10,
+          "decreaseHe3consume": 10,
+          "increaseBuilding": 10
+        },
+        {
+          "groupLv": 9,
+          "comment": "Resources required for construction are decreased by 12%; Next level: the resources required will be decreased by 15%.",
+          "title": "9\/10",
+          "money": 261354,
+          "time": 52271,
+          "decreaseMetalConsume": 12,
+          "decreaseHe3consume": 12,
+          "increaseBuilding": 12
+        },
+        {
+          "groupLv": 10,
+          "comment": "Resources required for construction are decreased by<font color='#00FF00'>15%<\/font>",
+          "title": "10",
+          "money": 512250,
+          "time": 102450,
+          "decreaseMetalConsume": 15,
+          "decreaseHe3consume": 15,
+          "increaseBuilding": 15
+        }
+      ],
+      "techMemo": "Requires Lv 3 Construction Boost",
+      "kind": 2,
+      "tech": "102:3",
+      "imageFileName": "Tech102",
+      "comment": "Decreases the amount of resources required for construction. At the first level, resources required will be decreased by 1%"
+    },
+    {
+      "groupId": 102,
+      "name": "Construction Boost",
+      "level": [
+        {
+          "groupLv": 1,
+          "comment": "Increases construction speed by 1%; Next level: Increases construction speed by 2%",
+          "title": "1\/10",
+          "money": 2400,
+          "time": 10,
+          "increaseBuilding": 1
+        },
+        {
+          "groupLv": 2,
+          "comment": "Increases construction speed by 2%; Next level: Increases construction speed by 3%",
+          "title": "2\/10",
+          "money": 4704,
+          "time": 15,
+          "increaseBuilding": 2
+        },
+        {
+          "groupLv": 3,
+          "comment": "Increases construction speed by 3%; Next level: Increases construction speed by 4%",
+          "title": "3\/10",
+          "money": 9216,
+          "time": 1843,
+          "increaseBuilding": 3
+        },
+        {
+          "groupLv": 4,
+          "comment": "Increases construction speed by 4%; Next level: Increases construction speed by 5%",
+          "title": "4\/10",
+          "money": 18066,
+          "time": 3613,
+          "increaseBuilding": 4
+        },
+        {
+          "groupLv": 5,
+          "comment": "Increases construction speed by 5%; Next level: Increases construction speed by 6%",
+          "title": "5\/10",
+          "money": 35418,
+          "time": 7084,
+          "increaseBuilding": 5
+        },
+        {
+          "groupLv": 6,
+          "comment": "Increases construction speed by 6%; Next level: Increases construction speed by 8%",
+          "title": "6\/10",
+          "money": 69420,
+          "time": 13884,
+          "increaseBuilding": 6
+        },
+        {
+          "groupLv": 7,
+          "comment": "Increases construction speed by 8%; Next level: Increases construction speed by 10%",
+          "title": "7\/10",
+          "money": 136062,
+          "time": 27212,
+          "increaseBuilding": 8
+        },
+        {
+          "groupLv": 8,
+          "comment": "Increases construction speed by 10%; Next level: Increases construction speed by 12%",
+          "title": "8\/10",
+          "money": 266688,
+          "time": 53338,
+          "increaseBuilding": 10
+        },
+        {
+          "groupLv": 9,
+          "comment": "Increases construction speed by 12%; Next level: Increases construction speed by 15%",
+          "title": "9\/10",
+          "money": 522708,
+          "time": 104542,
+          "increaseBuilding": 12
+        },
+        {
+          "groupLv": 10,
+          "comment": "Increases construction speed by <font color='#00FF00'>15%<\/font>",
+          "title": "10",
+          "money": 1024506,
+          "time": 204901,
+          "increaseBuilding": 15
+        }
+      ],
+      "techMemo": "Requires Lv 1 Concurrent Construction",
+      "kind": 2,
+      "tech": "100:1",
+      "imageFileName": "Tech101",
+      "comment": "Increases the speed that construction is completed. At the first level, completion speed will be increased by 1%"
+    },
+    {
+      "groupId": 103,
+      "name": "Ship Building Boost",
+      "level": [
+        {
+          "groupLv": 1,
+          "comment": "Increases shipbuilding speed by 1%; Next level: Increases shipbuilding speed by 2%",
+          "title": "1\/10",
+          "money": 990,
+          "time": 198,
+          "increaseShipBuild": 1
+        },
+        {
+          "groupLv": 2,
+          "comment": "Increases shipbuilding speed by 2%; Next level: Increases shipbuilding speed by 3%",
+          "title": "2\/10",
+          "money": 2226,
+          "time": 445,
+          "increaseShipBuild": 2
+        },
+        {
+          "groupLv": 3,
+          "comment": "Increases shipbuilding speed by 3%; Next level: Increases shipbuilding speed by 4%",
+          "title": "3\/10",
+          "money": 5010,
+          "time": 1002,
+          "increaseShipBuild": 3
+        },
+        {
+          "groupLv": 4,
+          "comment": "Increases shipbuilding speed by 4%; Next level: Increases shipbuilding speed by 5%",
+          "title": "4\/10",
+          "money": 11274,
+          "time": 2255,
+          "increaseShipBuild": 4
+        },
+        {
+          "groupLv": 5,
+          "comment": "Increases shipbuilding speed by 5%; Next level: Increases shipbuilding speed by 6%",
+          "title": "5\/10",
+          "money": 25368,
+          "time": 5074,
+          "increaseShipBuild": 5
+        },
+        {
+          "groupLv": 6,
+          "comment": "Increases shipbuilding speed by 6%; Next level: Increases shipbuilding speed by 8%",
+          "title": "6\/10",
+          "money": 57084,
+          "time": 11417,
+          "increaseShipBuild": 6
+        },
+        {
+          "groupLv": 7,
+          "comment": "Increases shipbuilding speed by 8%; Next level: Increases shipbuilding speed by 10%",
+          "title": "7\/10",
+          "money": 128448,
+          "time": 25690,
+          "increaseShipBuild": 8
+        },
+        {
+          "groupLv": 8,
+          "comment": "Increases shipbuilding speed by 10%; Next level: Increases shipbuilding speed by 12%",
+          "title": "8\/10",
+          "money": 289008,
+          "time": 57802,
+          "increaseShipBuild": 10
+        },
+        {
+          "groupLv": 9,
+          "comment": "Increases shipbuilding speed by 12%; Next level: Increases shipbuilding speed by 15%",
+          "title": "9\/10",
+          "money": 650268,
+          "time": 130054,
+          "increaseShipBuild": 12
+        },
+        {
+          "groupLv": 10,
+          "comment": "Increases shipbuilding speed by <font color='#00FF00'>15%<\/font>",
+          "title": "10",
+          "money": 1463112,
+          "time": 292622,
+          "increaseShipBuild": 15
+        }
+      ],
+      "kind": 2,
+      "imageFileName": "Tech103",
+      "comment": "Increases the speed that ship building is completed. At the first level, completion speed will be increased by 1%"
+    },
+    {
+      "groupId": 104,
+      "name": "Ship Building Logistics",
+      "level": [
+        {
+          "groupLv": 1,
+          "comment": "Resources required for ship building are decreased by 1%; Next level: the resources required will be decreased by 2%.",
+          "title": "1\/10",
+          "money": 1386,
+          "time": 277,
+          "decreaseShipMetalConsume": 1,
+          "decreaseShipHe3consume": 1,
+          "decreaseShipMoneyConsume": 1
+        },
+        {
+          "groupLv": 2,
+          "comment": "Resources required for ship building are decreased by 2%; Next level: the resources required will be decreased by 3%.",
+          "title": "2\/10",
+          "money": 3114,
+          "time": 623,
+          "decreaseShipMetalConsume": 2,
+          "decreaseShipHe3consume": 2,
+          "decreaseShipMoneyConsume": 2
+        },
+        {
+          "groupLv": 3,
+          "comment": "Resources required for ship building are decreased by 3%; Next level: the resources required will be decreased by 4%.",
+          "title": "3\/10",
+          "money": 7014,
+          "time": 1403,
+          "decreaseShipMetalConsume": 3,
+          "decreaseShipHe3consume": 3,
+          "decreaseShipMoneyConsume": 3
+        },
+        {
+          "groupLv": 4,
+          "comment": "Resources required for ship building are decreased by 4%; Next level: the resources required will be decreased by 5%.",
+          "title": "4\/10",
+          "money": 15786,
+          "time": 3157,
+          "decreaseShipMetalConsume": 4,
+          "decreaseShipHe3consume": 4,
+          "decreaseShipMoneyConsume": 4
+        },
+        {
+          "groupLv": 5,
+          "comment": "Resources required for ship building are decreased by 5%; Next level: the resources required will be decreased by 6%.",
+          "title": "5\/10",
+          "money": 35520,
+          "time": 7104,
+          "decreaseShipMetalConsume": 5,
+          "decreaseShipHe3consume": 5,
+          "decreaseShipMoneyConsume": 5
+        },
+        {
+          "groupLv": 6,
+          "comment": "Resources required for ship building are decreased by 6%; Next level: the resources required will be decreased by 8%.",
+          "title": "6\/10",
+          "money": 79920,
+          "time": 15984,
+          "decreaseShipMetalConsume": 6,
+          "decreaseShipHe3consume": 6,
+          "decreaseShipMoneyConsume": 6
+        },
+        {
+          "groupLv": 7,
+          "comment": "Resources required for ship building are decreased by 8%; Next level: the resources required will be decreased by 10%.",
+          "title": "7\/10",
+          "money": 179826,
+          "time": 35965,
+          "decreaseShipMetalConsume": 8,
+          "decreaseShipHe3consume": 8,
+          "decreaseShipMoneyConsume": 8
+        },
+        {
+          "groupLv": 8,
+          "comment": "Resources required for ship building are decreased by 10%; Next level: the resources required will be decreased by 12%.",
+          "title": "8\/10",
+          "money": 404610,
+          "time": 80922,
+          "decreaseShipMetalConsume": 10,
+          "decreaseShipHe3consume": 10,
+          "decreaseShipMoneyConsume": 10
+        },
+        {
+          "groupLv": 9,
+          "comment": "Resources required for ship building are decreased by 12%; Next level: the resources required will be decreased by 15%.",
+          "title": "9\/10",
+          "money": 910380,
+          "time": 182076,
+          "decreaseShipMetalConsume": 12,
+          "decreaseShipHe3consume": 12,
+          "decreaseShipMoneyConsume": 12
+        },
+        {
+          "groupLv": 10,
+          "comment": "Resources required for ship building are decreased by <font color='#00FF00'>15%<\/font>",
+          "title": "10",
+          "money": 2048358,
+          "time": 409672,
+          "decreaseShipMetalConsume": 15,
+          "decreaseShipHe3consume": 15,
+          "decreaseShipMoneyConsume": 15
+        }
+      ],
+      "techMemo": "Requires Lv 2 Ship Building Boost",
+      "kind": 2,
+      "tech": "103:2",
+      "imageFileName": "Tech104",
+      "comment": "Decreases the amount of resources required for ship building. At the first level, resources required will be decreased by 1%"
+    },
+    {
+      "groupId": 105,
+      "name": "Sync Shipbuilding",
+      "level": [
+        {
+          "groupLv": 1,
+          "comment": "Adds 1 more slot to the ship building schedule.",
+          "title": "1",
+          "money": 174000,
+          "time": 34800,
+          "hola": 1
+        }
+      ],
+      "techMemo": "Requires Lv 4 Ship Building Logistics",
+      "kind": 2,
+      "tech": "104:4",
+      "imageFileName": "Tech105",
+      "comment": "Adds more slots for ship building orders."
+    },
+    {
+      "groupId": 106,
+      "name": "High Yield Mining",
+      "level": [
+        {
+          "groupLv": 1,
+          "comment": "Increases Metal output by 1%; Next level: Increases Metal output by 2%",
+          "title": "1\/10",
+          "money": 1740,
+          "time": 348,
+          "increaseShipQueue": 1
+        },
+        {
+          "groupLv": 2,
+          "comment": "Increases Metal output by 2%; Next level: Increases Metal output by 3%",
+          "title": "2\/10",
+          "money": 3408,
+          "time": 682,
+          "increaseShipQueue": 2
+        },
+        {
+          "groupLv": 3,
+          "comment": "Increases Metal output by 3%; Next level: Increases Metal output by 4%",
+          "title": "3\/10",
+          "money": 6684,
+          "time": 1337,
+          "increaseShipQueue": 3
+        },
+        {
+          "groupLv": 4,
+          "comment": "Increases Metal output by 4%; Next level: Increases Metal output by 5%",
+          "title": "4\/10",
+          "money": 13098,
+          "time": 2620,
+          "increaseShipQueue": 4
+        },
+        {
+          "groupLv": 5,
+          "comment": "Increases Metal output by 5%; Next level: Increases Metal output by 6%",
+          "title": "5\/10",
+          "money": 25674,
+          "time": 5135,
+          "increaseShipQueue": 5
+        },
+        {
+          "groupLv": 6,
+          "comment": "Increases Metal output by 6%; Next level: Increases Metal output by 7%",
+          "title": "6\/10",
+          "money": 50328,
+          "time": 10066,
+          "increaseShipQueue": 6
+        },
+        {
+          "groupLv": 7,
+          "comment": "Increases Metal output by 7%; Next level: Increases Metal output by 8%",
+          "title": "7\/10",
+          "money": 98646,
+          "time": 19729,
+          "increaseShipQueue": 7
+        },
+        {
+          "groupLv": 8,
+          "comment": "Increases Metal output by 8%; Next level: Increases Metal output by 9%",
+          "title": "8\/10",
+          "money": 193344,
+          "time": 38669,
+          "increaseShipQueue": 8
+        },
+        {
+          "groupLv": 9,
+          "comment": "Increases Metal output by 9%; Next level: Increases Metal output by 10%",
+          "title": "9\/10",
+          "money": 378960,
+          "time": 75792,
+          "increaseShipQueue": 9
+        },
+        {
+          "groupLv": 10,
+          "comment": "Increases Metal output by <font color='#00FF00'>10%<\/font>",
+          "title": "10",
+          "money": 742764,
+          "time": 148553,
+          "increaseShipQueue": 10
+        }
+      ],
+      "kind": 2,
+      "imageFileName": "Tech106",
+      "comment": "Increases the output of metal. At the first level, output is increased by 1%"
+    },
+    {
+      "groupId": 107,
+      "name": "High Yield Chemistry",
+      "level": [
+        {
+          "groupLv": 1,
+          "comment": "Increases He3 output by 1%; Next level: Increases He3 output by 2%",
+          "title": "1\/10",
+          "money": 2400,
+          "time": 480,
+          "increaseHe3out": 1
+        },
+        {
+          "groupLv": 2,
+          "comment": "Increases He3 output by 2%; Next level: Increases He3 output by 3%",
+          "title": "2\/10",
+          "money": 4704,
+          "time": 941,
+          "increaseHe3out": 2
+        },
+        {
+          "groupLv": 3,
+          "comment": "Increases He3 output by 3%; Next level: Increases He3 output by 4%",
+          "title": "3\/10",
+          "money": 9216,
+          "time": 1843,
+          "increaseHe3out": 3
+        },
+        {
+          "groupLv": 4,
+          "comment": "Increases He3 output by 4%; Next level: Increases He3 output by 5%",
+          "title": "4\/10",
+          "money": 18060,
+          "time": 3612,
+          "increaseHe3out": 4
+        },
+        {
+          "groupLv": 5,
+          "comment": "Increases He3 output by 5%; Next level: Increases He3 output by 6%",
+          "title": "5\/10",
+          "money": 35412,
+          "time": 7082,
+          "increaseHe3out": 5
+        },
+        {
+          "groupLv": 6,
+          "comment": "Increases He3 output by 6%; Next level: Increases He3 output by 7%",
+          "title": "6\/10",
+          "money": 69420,
+          "time": 13884,
+          "increaseHe3out": 6
+        },
+        {
+          "groupLv": 7,
+          "comment": "Increases He3 output by 7%; Next level: Increases He3 output by 8%",
+          "title": "7\/10",
+          "money": 136056,
+          "time": 27211,
+          "increaseHe3out": 7
+        },
+        {
+          "groupLv": 8,
+          "comment": "Increases He3 output by 8%; Next level: Increases He3 output by 9%",
+          "title": "8\/10",
+          "money": 266688,
+          "time": 53338,
+          "increaseHe3out": 8
+        },
+        {
+          "groupLv": 9,
+          "comment": "Increases He3 output by 9%; Next level: Increases He3 output by 10%",
+          "title": "9\/10",
+          "money": 522708,
+          "time": 104542,
+          "increaseHe3out": 9
+        },
+        {
+          "groupLv": 10,
+          "comment": "Increases He3 output by <font color='#00FF00'>10%<\/font>",
+          "title": "10",
+          "money": 1024500,
+          "time": 204900,
+          "increaseHe3out": 10
+        }
+      ],
+      "techMemo": "Requires Lv 2 High Yield Mining",
+      "kind": 2,
+      "tech": "106:2",
+      "imageFileName": "Tech107",
+      "comment": "Increases the output of He3. At the first level, output is increased by 1%"
+    },
+    {
+      "groupId": 108,
+      "name": "High Yield Investing",
+      "level": [
+        {
+          "groupLv": 1,
+          "comment": "Increases the output of Gold by 1%; Next level: output is increased by 2%",
+          "title": "1\/10",
+          "money": 3570,
+          "time": 714,
+          "increaseMoneyOut": 1
+        },
+        {
+          "groupLv": 2,
+          "comment": "Increases the output of Gold by 2%; Next level: output is increased by 3%",
+          "title": "2\/10",
+          "money": 6996,
+          "time": 1399,
+          "increaseMoneyOut": 2
+        },
+        {
+          "groupLv": 3,
+          "comment": "Increases the output of Gold by 3%; Next level: output is increased by 4%",
+          "title": "3\/10",
+          "money": 13710,
+          "time": 2742,
+          "increaseMoneyOut": 3
+        },
+        {
+          "groupLv": 4,
+          "comment": "Increases the output of Gold by 4%; Next level: output is increased by 5%",
+          "title": "4\/10",
+          "money": 26880,
+          "time": 5376,
+          "increaseMoneyOut": 4
+        },
+        {
+          "groupLv": 5,
+          "comment": "Increases the output of Gold by 5%; Next level: output is increased by 6%",
+          "title": "5\/10",
+          "money": 52680,
+          "time": 10536,
+          "increaseMoneyOut": 5
+        },
+        {
+          "groupLv": 6,
+          "comment": "Increases the output of Gold by 6%; Next level: output is increased by 7%",
+          "title": "6\/10",
+          "money": 103260,
+          "time": 20652,
+          "increaseMoneyOut": 6
+        },
+        {
+          "groupLv": 7,
+          "comment": "Increases the output of Gold by 7%; Next level: output is increased by 8%",
+          "title": "7\/10",
+          "money": 202392,
+          "time": 40478,
+          "increaseMoneyOut": 7
+        },
+        {
+          "groupLv": 8,
+          "comment": "Increases the output of Gold by 8%; Next level: output is increased by 9%",
+          "title": "8\/10",
+          "money": 396696,
+          "time": 79339,
+          "increaseMoneyOut": 8
+        },
+        {
+          "groupLv": 9,
+          "comment": "Increases the output of Gold by 9%; Next level: output is increased by 10%",
+          "title": "9\/10",
+          "money": 777528,
+          "time": 155506,
+          "increaseMoneyOut": 9
+        },
+        {
+          "groupLv": 10,
+          "comment": "Increases the output of Gold by <font color='#00FF00'>10%<\/font>",
+          "title": "10",
+          "money": 1523952,
+          "time": 304790,
+          "increaseMoneyOut": 10
+        }
+      ],
+      "techMemo": "Requires Lv 2 High Yield Chemistry",
+      "kind": 2,
+      "tech": "107:2",
+      "imageFileName": "Tech108",
+      "comment": "Increases the output of Gold. At the first level, output is increased by 1%"
+    },
+    {
+      "groupId": 109,
+      "name": "Expand Capacity",
+      "level": [
+        {
+          "groupLv": 1,
+          "comment": "Increases total capacity for the storage of metal, He3 and Gold by 50,000; Next level: Capacity of metal, He3 and Gold will be increased by 100,000",
+          "title": "1\/10",
+          "money": 3540,
+          "time": 708,
+          "increaseMetalCapacity": 50000,
+          "increaseHe3capacity": 50000,
+          "increaseMoneyCapacity": 50000
+        },
+        {
+          "groupLv": 2,
+          "comment": "Increases total capacity for the storage of metal, He3 and Gold by 100,000; Next level: Capacity of metal, He3 and Gold will be increased by 150,000",
+          "title": "2\/10",
+          "money": 6936,
+          "time": 1387,
+          "increaseMetalCapacity": 100000,
+          "increaseHe3capacity": 100000,
+          "increaseMoneyCapacity": 100000
+        },
+        {
+          "groupLv": 3,
+          "comment": "Increases total capacity for the storage of metal, He3 and Gold by 150,000; Next level: Capacity of metal, He3 and Gold will be increased by 200,000",
+          "title": "3\/10",
+          "money": 13596,
+          "time": 2719,
+          "increaseMetalCapacity": 150000,
+          "increaseHe3capacity": 150000,
+          "increaseMoneyCapacity": 150000
+        },
+        {
+          "groupLv": 4,
+          "comment": "Increases total capacity for the storage of metal, He3 and Gold by 200,000; Next level: Capacity of metal, He3 and Gold will be increased by 250,000",
+          "title": "4\/10",
+          "money": 26652,
+          "time": 5330,
+          "increaseMetalCapacity": 200000,
+          "increaseHe3capacity": 200000,
+          "increaseMoneyCapacity": 200000
+        },
+        {
+          "groupLv": 5,
+          "comment": "Increases total capacity for the storage of metal, He3 and Gold by 250,000; Next level: Capacity of metal, He3 and Gold will be increased by 300,000",
+          "title": "5\/10",
+          "money": 52242,
+          "time": 10448,
+          "increaseMetalCapacity": 250000,
+          "increaseHe3capacity": 250000,
+          "increaseMoneyCapacity": 250000
+        },
+        {
+          "groupLv": 6,
+          "comment": "Increases total capacity for the storage of metal, He3 and Gold by 300,000; Next level: Capacity of metal, He3 and Gold will be increased by 350,000",
+          "title": "6\/10",
+          "money": 102396,
+          "time": 20479,
+          "increaseMetalCapacity": 300000,
+          "increaseHe3capacity": 300000,
+          "increaseMoneyCapacity": 300000
+        },
+        {
+          "groupLv": 7,
+          "comment": "Increases total capacity for the storage of metal, He3 and Gold by 350,000; Next level: Capacity of metal, He3 and Gold will be increased by 400,000",
+          "title": "7\/10",
+          "money": 200694,
+          "time": 40139,
+          "increaseMetalCapacity": 350000,
+          "increaseHe3capacity": 350000,
+          "increaseMoneyCapacity": 350000
+        },
+        {
+          "groupLv": 8,
+          "comment": "Increases total capacity for the storage of metal, He3 and Gold by 400,000; Next level: Capacity of metal, He3 and Gold will be increased by 450,000",
+          "title": "8\/10",
+          "money": 393360,
+          "time": 78672,
+          "increaseMetalCapacity": 400000,
+          "increaseHe3capacity": 400000,
+          "increaseMoneyCapacity": 400000
+        },
+        {
+          "groupLv": 9,
+          "comment": "Increases total capacity for the storage of metal, He3 and Gold by 450,000; Next level: Capacity of metal, He3 and Gold will be increased by 500,000",
+          "title": "9\/10",
+          "money": 770994,
+          "time": 154199,
+          "increaseMetalCapacity": 450000,
+          "increaseHe3capacity": 450000,
+          "increaseMoneyCapacity": 450000
+        },
+        {
+          "groupLv": 9,
+          "comment": "Increases total capacity for the storage of metal, He3 and Gold by<font color='#00FF00'>500,000<\/font>",
+          "title": "10",
+          "money": 1511148,
+          "time": 302230,
+          "increaseMetalCapacity": 500000,
+          "increaseHe3capacity": 500000,
+          "increaseMoneyCapacity": 500000
+        }
+      ],
+      "techMemo": "Requires Lv 4 High Yield Investing",
+      "kind": 2,
+      "tech": "108:4",
+      "imageFileName": "Tech109",
+      "comment": "Improves the total capacity of the Resource Warehouse. At the first level, capacity for all resources are increased by 50,000"
+    },
+    {
+      "groupId": 110,
+      "name": "Repair Techology",
+      "level": [
+        {
+          "groupLv": 1,
+          "comment": "Increases the percentage of ships that can be repaired by 1%; Next Level: Increases the percentage of ships that can be repaired by 2%.",
+          "title": "1\/10",
+          "money": 5310,
+          "time": 1062,
+          "repairRate": 1
+        },
+        {
+          "groupLv": 2,
+          "comment": "Increases the percentage of ships that can be repaired by 2%; Next Level: Increases the percentage of ships that can be repaired by 3%.",
+          "title": "2\/10",
+          "money": 10404,
+          "time": 2080.5,
+          "repairRate": 2
+        },
+        {
+          "groupLv": 3,
+          "comment": "Increases the percentage of ships that can be repaired by 3%; Next Level: Increases the percentage of ships that can be repaired by 4%.",
+          "title": "3\/10",
+          "money": 20394,
+          "time": 4078.5,
+          "repairRate": 3
+        },
+        {
+          "groupLv": 4,
+          "comment": "Increases the percentage of ships that can be repaired by 4%; Next Level: Increases the percentage of ships that can be repaired by 5%.",
+          "title": "4\/10",
+          "money": 39978,
+          "time": 7995,
+          "repairRate": 4
+        },
+        {
+          "groupLv": 5,
+          "comment": "Increases the percentage of ships that can be repaired by 5%; Next Level: Increases the percentage of ships that can be repaired by 6%.",
+          "title": "5\/10",
+          "money": 78363,
+          "time": 15672,
+          "repairRate": 5
+        },
+        {
+          "groupLv": 6,
+          "comment": "Increases the percentage of ships that can be repaired by 6%; Next Level: Increases the percentage of ships that can be repaired by 7%.",
+          "title": "6\/10",
+          "money": 153594,
+          "time": 30718.5,
+          "repairRate": 6
+        },
+        {
+          "groupLv": 7,
+          "comment": "Increases the percentage of ships that can be repaired by 7%; Next Level: Increases the percentage of ships that can be repaired by 8%.",
+          "title": "7\/10",
+          "money": 301041,
+          "time": 60208.5,
+          "repairRate": 7
+        },
+        {
+          "groupLv": 8,
+          "comment": "Increases the percentage of ships that can be repaired by 8%; Next Level: Increases the percentage of ships that can be repaired by 9%.",
+          "title": "8\/10",
+          "money": 590040,
+          "time": 118008,
+          "repairRate": 8
+        },
+        {
+          "groupLv": 9,
+          "comment": "Increases the percentage of ships that can be repaired by 9%; Next Level: Increases the percentage of ships that can be repaired by 10%.",
+          "title": "9\/10",
+          "money": 1156491,
+          "time": 231298.5,
+          "repairRate": 9
+        },
+        {
+          "groupLv": 10,
+          "comment": "Increases the percentage of ships that can be repaired by <font color='#00FF00'>10%<\/font>",
+          "title": "10",
+          "money": 2266722,
+          "time": 453345,
+          "repairRate": 10
+        }
+      ],
+      "techMemo": "Requires Lv 1 Sync Shipbuilding",
+      "kind": 2,
+      "tech": "105:1",
+      "imageFileName": "Tech111",
+      "comment": "Increases the percentage of ships that can be repaired. Next Level: Increases the percentage of ships that can be repaired by 1%."
+    }
+  ]
+}

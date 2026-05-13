@@ -1,0 +1,1971 @@
+{
+  "blueprint": [
+    {
+      "name": "prop:blueprint.part.rapidFire",
+      "x": 0,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.taskmaster",
+      "x": 0,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.tempestRapidFire",
+      "x": 40,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.wisemanScatterbomb",
+      "x": 40,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.gatlingCannon",
+      "x": 80,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.blazeAutoCannon",
+      "x": 80,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.typhoonSpeedCannon",
+      "x": 120,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.tenhoDimensionalBomb",
+      "x": 120,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.flashSonicbomb",
+      "x": 160,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.calamityHowitzer",
+      "x": 160,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.deathhowlShockwave",
+      "x": 200,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.aresWidowmaker",
+      "x": 200,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.azrael",
+      "x": 240,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.bloodyMary",
+      "x": 240,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.tempest",
+      "x": 280,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.judgment",
+      "x": 280,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.bloodspur",
+      "x": 320,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.shootingStar",
+      "x": 320,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.gladiusArc",
+      "x": 360,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.blackWidow",
+      "x": 360,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.mercurius",
+      "x": 400,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.debellatio",
+      "x": 400,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.ancientArtillery",
+      "x": 440,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.ionstormer",
+      "x": 440,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.helioSword",
+      "x": 480,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.direBrand",
+      "x": 480,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.voidmaker",
+      "x": 520,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.fissureCannon",
+      "x": 520,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.cinderspireHowitzer",
+      "x": 560,
+      "y": 0,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.nmrBallista",
+      "x": 560,
+      "y": 40,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.clusterLaserTransmitter",
+      "x": 0,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.magnetoPulsar",
+      "x": 0,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.pulseLaserTransmitter",
+      "x": 40,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.guidedLaserBomb",
+      "x": 40,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.sumo",
+      "x": 80,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.magnetoBomb",
+      "x": 80,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.plasmaEnergyCannon",
+      "x": 120,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.positronBomb",
+      "x": 120,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.meltdown",
+      "x": 160,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.heartstopper",
+      "x": 160,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.princessLightspear",
+      "x": 200,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.tomahawkGodfist",
+      "x": 200,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.flamer",
+      "x": 240,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.nemesis",
+      "x": 240,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.cyclone",
+      "x": 280,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.avalanche",
+      "x": 280,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.phantomRay",
+      "x": 320,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.scorpionStinger",
+      "x": 320,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.trackingBolt",
+      "x": 360,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.warpBeam",
+      "x": 360,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.forceMajoris",
+      "x": 400,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.frostbite",
+      "x": 400,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.ashbringer",
+      "x": 440,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.arcticCrescent",
+      "x": 440,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.oddEye",
+      "x": 480,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.darkHorizon",
+      "x": 480,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.ionFlare",
+      "x": 520,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.plasmaBeacon",
+      "x": 520,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.munroeArrow",
+      "x": 560,
+      "y": 80,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.overclockPike",
+      "x": 560,
+      "y": 120,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.rocketFrame",
+      "x": 0,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.starlightMissilePod",
+      "x": 0,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.rocketBooster",
+      "x": 40,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.razorMisslePod",
+      "x": 40,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.refinedRocketFrame",
+      "x": 80,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.poacherFirebomb",
+      "x": 80,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.boomerangRocketRack",
+      "x": 120,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.hellfireMissilePod",
+      "x": 120,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.destroyerRocketRack",
+      "x": 160,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.thunderMissilePod",
+      "x": 160,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.destroyerNuclearRack",
+      "x": 200,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.doomsdayNuclearLauncher",
+      "x": 200,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.dragonSlayer",
+      "x": 240,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.wipeout",
+      "x": 240,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.terminator",
+      "x": 280,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.zeus",
+      "x": 280,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.shadowflare",
+      "x": 320,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.redComet",
+      "x": 320,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.apate",
+      "x": 360,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.spitfire",
+      "x": 360,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.landeel",
+      "x": 400,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.thermiteNest",
+      "x": 400,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.bosonCondensator",
+      "x": 440,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.nanoTrojans",
+      "x": 440,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.zeroEvent",
+      "x": 480,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.zeusExMachina",
+      "x": 480,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.venomLauncher",
+      "x": 520,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.patriotLauncher",
+      "x": 520,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.thunderbird",
+      "x": 560,
+      "y": 160,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.galeforce",
+      "x": 560,
+      "y": 200,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.streamliner",
+      "x": 0,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.golem",
+      "x": 0,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.hunterStreamliner",
+      "x": 40,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.ladybug",
+      "x": 40,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.nomadStreamliner",
+      "x": 80,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.dragonturtle",
+      "x": 80,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.leopardStreamliner",
+      "x": 120,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.guardian",
+      "x": 120,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.warhammerStreamliner",
+      "x": 160,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.hammerhead",
+      "x": 160,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.hornetSwarm",
+      "x": 200,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.pandora",
+      "x": 200,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.widowmaker",
+      "x": 240,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.titan",
+      "x": 240,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.nebula",
+      "x": 280,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.spaceCitadel",
+      "x": 280,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.darkSpecter",
+      "x": 320,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.chronusWing",
+      "x": 320,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.duskInterceptor",
+      "x": 360,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.foxTail",
+      "x": 360,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.spectre",
+      "x": 400,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.mindCustom",
+      "x": 400,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.hellhorn",
+      "x": 440,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.stormsingers",
+      "x": 440,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.blockbuster",
+      "x": 480,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.tyrannos",
+      "x": 480,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.cormack",
+      "x": 520,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.novaStorm",
+      "x": 520,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.carinaSwarm",
+      "x": 560,
+      "y": 240,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.bulwark",
+      "x": 560,
+      "y": 280,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.landerModule",
+      "x": 0,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.molotovCocktail",
+      "x": 40,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.heavyDuty",
+      "x": 80,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.starShooter",
+      "x": 120,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.smasher",
+      "x": 160,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.doomsday",
+      "x": 200,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.antiAircraftCannon",
+      "x": 240,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.missileInterception",
+      "x": 280,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.fighterInterceptionCabin",
+      "x": 320,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.poweredPulseCannon",
+      "x": 360,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.extremeCounterattack",
+      "x": 400,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.aldrinParticleCannon",
+      "x": 440,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.ironVeil",
+      "x": 480,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.stationWarehouse",
+      "x": 520,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.nanoStationWarehouse",
+      "x": 560,
+      "y": 320,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.drexlerNanoCells",
+      "x": 560,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.shipReinforcementFacility",
+      "x": 0,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.gravityMaintFacility",
+      "x": 40,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.hullMaintenanceMechanic",
+      "x": 80,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.quickReactionArmor",
+      "x": 120,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.reflectivePlating",
+      "x": 160,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.energyArmor",
+      "x": 200,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.daedalusControlSystem",
+      "x": 240,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.atomicFramework",
+      "x": 280,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.armstrongRadionArmor",
+      "x": 320,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.copernicusGyroscope",
+      "x": 360,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.icarusControlSystem",
+      "x": 400,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.drexlerRatchet",
+      "x": 440,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.tensorArmor",
+      "x": 480,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.hybridDefenseSystem",
+      "x": 520,
+      "y": 360,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.energyShieldBooster",
+      "x": 0,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.particleStunShield",
+      "x": 40,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.heatDiffusionShield",
+      "x": 80,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.spaceTimeMagneticShield",
+      "x": 120,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.detonatorShield",
+      "x": 160,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.shieldRegenerator",
+      "x": 200,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.eosPhaseShiftShield",
+      "x": 240,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.orbitalShield",
+      "x": 280,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.saganKineticsShield",
+      "x": 320,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.saganHeatShield",
+      "x": 360,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.saganMagneticShield",
+      "x": 400,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.saganAntiExplosiveShield",
+      "x": 440,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.hertzRegenerator",
+      "x": 480,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.jackOLantern",
+      "x": 520,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.tysonKineticShield",
+      "x": 560,
+      "y": 400,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.tysonHeatShield",
+      "x": 0,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.tysonMagneticShield",
+      "x": 40,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.tysonAntiExplosionShield",
+      "x": 80,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.twilightArmor",
+      "x": 120,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.zerothAccelerator",
+      "x": 160,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.agilityBooster",
+      "x": 200,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.infraredScanner",
+      "x": 240,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.ecmBooster",
+      "x": 280,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.autoTargetSystem",
+      "x": 320,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.timeDilationModule",
+      "x": 360,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.armstrongCore",
+      "x": 400,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.artemis",
+      "x": 440,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.infraredSeeker",
+      "x": 480,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.antiMatterBooster",
+      "x": 520,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.lockdown",
+      "x": 560,
+      "y": 440,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.superTransmissionEngine",
+      "x": 0,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.teamCombatEngine",
+      "x": 40,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.antimatterEngine",
+      "x": 80,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.eosPhaseShiftEngine",
+      "x": 120,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.wheelerEngine",
+      "x": 160,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.part.vaporEngine",
+      "x": 200,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.industrialShip",
+      "x": 240,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.fleetfoot",
+      "x": 280,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.hedgehog",
+      "x": 320,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.bolenciaWarship",
+      "x": 360,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.independence",
+      "x": 400,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.blackHole",
+      "x": 440,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.libertyWings",
+      "x": 480,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.dullahan",
+      "x": 520,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.harvestHuma",
+      "x": 560,
+      "y": 480,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.weikes",
+      "x": 0,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.airWanderer",
+      "x": 40,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.valkyrie",
+      "x": 80,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.goGetter",
+      "x": 120,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.spaceHunter",
+      "x": 160,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.sparrow",
+      "x": 200,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.devourer",
+      "x": 240,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.polymesus",
+      "x": 280,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.cybra",
+      "x": 320,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.hamdar",
+      "x": 360,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.daybreak",
+      "x": 400,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.lastStand",
+      "x": 440,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.shadowGuardian",
+      "x": 480,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.chimeraLeonis",
+      "x": 520,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.ultraNwyfre",
+      "x": 560,
+      "y": 520,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.typhoon",
+      "x": 0,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.bombardier",
+      "x": 40,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.duke",
+      "x": 80,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.shuttler",
+      "x": 120,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.watchman",
+      "x": 160,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.spinner",
+      "x": 200,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.wraith",
+      "x": 240,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.encratos",
+      "x": 280,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.nicholas",
+      "x": 320,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.helena",
+      "x": 360,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.quickAssault",
+      "x": 400,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.strikingSword",
+      "x": 440,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.nihelbet",
+      "x": 480,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.chimeraCapra",
+      "x": 520,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.ultraGwyar",
+      "x": 560,
+      "y": 560,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.estrella",
+      "x": 0,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.nettle",
+      "x": 40,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.diaz",
+      "x": 80,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.rv766TheExplorer",
+      "x": 120,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.palenka",
+      "x": 160,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.howler",
+      "x": 200,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.whirlpool",
+      "x": 240,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.cerberus",
+      "x": 280,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.genesis",
+      "x": 320,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.tiamat",
+      "x": 360,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.aggressiveWarlord",
+      "x": 400,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.allianceAdmiral",
+      "x": 440,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.presidoOfGlory",
+      "x": 480,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.chimeraViper",
+      "x": 520,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.ultraCalas",
+      "x": 560,
+      "y": 600,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.novasArk",
+      "x": 0,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.erotes",
+      "x": 40,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.exodus",
+      "x": 80,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.kirov",
+      "x": 120,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.independenceMk2",
+      "x": 160,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.bastion",
+      "x": 200,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.devourerBoreas",
+      "x": 240,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.dessicatorNotus",
+      "x": 280,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.cursedEurus",
+      "x": 320,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.mysteriousAlecto",
+      "x": 360,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.vengefulTisiphone",
+      "x": 400,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.megaranGrudge",
+      "x": 440,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.tenebrae",
+      "x": 480,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.charonFerry",
+      "x": 520,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.dreadedDeimos",
+      "x": 560,
+      "y": 640,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.hallowsReaper",
+      "x": 0,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.arcticAirboard",
+      "x": 40,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.asterion",
+      "x": 80,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.valentineVictory",
+      "x": 120,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.terraScorpirex",
+      "x": 160,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.abyssalScylla",
+      "x": 200,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.caerulexLadon",
+      "x": 240,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.secretariat",
+      "x": 280,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.zephyrus",
+      "x": 320,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.behemoth",
+      "x": 360,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.pathfinder",
+      "x": 400,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.kazati",
+      "x": 440,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.paramour",
+      "x": 480,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.miracle",
+      "x": 520,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.principiaDeVis",
+      "x": 560,
+      "y": 680,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.heavenPiercer",
+      "x": 0,
+      "y": 720,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.intrepidNexus",
+      "x": 40,
+      "y": 720,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.grimReaper",
+      "x": 80,
+      "y": 720,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.shadowTrojan",
+      "x": 120,
+      "y": 720,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.mercuryWing",
+      "x": 160,
+      "y": 720,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.firecat",
+      "x": 200,
+      "y": 720,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.gForcesDreadnaught",
+      "x": 240,
+      "y": 720,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.conquistador",
+      "x": 280,
+      "y": 720,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.arbiter",
+      "x": 320,
+      "y": 720,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.gfsVengeance",
+      "x": 360,
+      "y": 720,
+      "w": 40,
+      "h": 40
+    },
+    {
+      "name": "prop:blueprint.body.zeframMk42",
+      "x": 400,
+      "y": 720,
+      "w": 40,
+      "h": 40
+    }
+  ]
+}

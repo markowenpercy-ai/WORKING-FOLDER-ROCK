@@ -1,0 +1,1004 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "exp": 5000,
+      "commandernum": 10
+    },
+    {
+      "level": 2,
+      "exp": 18000,
+      "commandernum": 10
+    },
+    {
+      "level": 3,
+      "exp": 40000,
+      "commandernum": 10
+    },
+    {
+      "level": 4,
+      "exp": 68000,
+      "commandernum": 10
+    },
+    {
+      "level": 5,
+      "exp": 105000,
+      "commandernum": 10
+    },
+    {
+      "level": 6,
+      "exp": 145000,
+      "commandernum": 15
+    },
+    {
+      "level": 7,
+      "exp": 196000,
+      "commandernum": 15
+    },
+    {
+      "level": 8,
+      "exp": 252500,
+      "commandernum": 15
+    },
+    {
+      "level": 9,
+      "exp": 315800,
+      "commandernum": 15
+    },
+    {
+      "level": 10,
+      "exp": 385200,
+      "commandernum": 15
+    },
+    {
+      "level": 11,
+      "exp": 461200,
+      "commandernum": 20
+    },
+    {
+      "level": 12,
+      "exp": 543500,
+      "commandernum": 20
+    },
+    {
+      "level": 13,
+      "exp": 632100,
+      "commandernum": 20
+    },
+    {
+      "level": 14,
+      "exp": 727000,
+      "commandernum": 20
+    },
+    {
+      "level": 15,
+      "exp": 828000,
+      "commandernum": 20
+    },
+    {
+      "level": 16,
+      "exp": 935200,
+      "commandernum": 25
+    },
+    {
+      "level": 17,
+      "exp": 1048500,
+      "commandernum": 25
+    },
+    {
+      "level": 18,
+      "exp": 1168000,
+      "commandernum": 25
+    },
+    {
+      "level": 19,
+      "exp": 1293500,
+      "commandernum": 25
+    },
+    {
+      "level": 20,
+      "exp": 1424800,
+      "commandernum": 25
+    },
+    {
+      "level": 21,
+      "exp": 1562100,
+      "commandernum": 30
+    },
+    {
+      "level": 22,
+      "exp": 1705500,
+      "commandernum": 30
+    },
+    {
+      "level": 23,
+      "exp": 1854700,
+      "commandernum": 30
+    },
+    {
+      "level": 24,
+      "exp": 2009800,
+      "commandernum": 30
+    },
+    {
+      "level": 25,
+      "exp": 2170700,
+      "commandernum": 30
+    },
+    {
+      "level": 26,
+      "exp": 2337400,
+      "commandernum": 35
+    },
+    {
+      "level": 27,
+      "exp": 2510000,
+      "commandernum": 35
+    },
+    {
+      "level": 28,
+      "exp": 2688200,
+      "commandernum": 35
+    },
+    {
+      "level": 29,
+      "exp": 2872200,
+      "commandernum": 35
+    },
+    {
+      "level": 30,
+      "exp": 3062000,
+      "commandernum": 35
+    },
+    {
+      "level": 31,
+      "exp": 3257400,
+      "commandernum": 40
+    },
+    {
+      "level": 32,
+      "exp": 3458400,
+      "commandernum": 40
+    },
+    {
+      "level": 33,
+      "exp": 3665200,
+      "commandernum": 40
+    },
+    {
+      "level": 34,
+      "exp": 3877500,
+      "commandernum": 40
+    },
+    {
+      "level": 35,
+      "exp": 4095500,
+      "commandernum": 40
+    },
+    {
+      "level": 36,
+      "exp": 4319000,
+      "commandernum": 45
+    },
+    {
+      "level": 37,
+      "exp": 4548200,
+      "commandernum": 45
+    },
+    {
+      "level": 38,
+      "exp": 4783000,
+      "commandernum": 45
+    },
+    {
+      "level": 39,
+      "exp": 5023200,
+      "commandernum": 45
+    },
+    {
+      "level": 40,
+      "exp": 5270000,
+      "commandernum": 45
+    },
+    {
+      "level": 41,
+      "exp": 5525000,
+      "commandernum": 50
+    },
+    {
+      "level": 42,
+      "exp": 5777000,
+      "commandernum": 50
+    },
+    {
+      "level": 43,
+      "exp": 6040000,
+      "commandernum": 50
+    },
+    {
+      "level": 44,
+      "exp": 6308000,
+      "commandernum": 50
+    },
+    {
+      "level": 45,
+      "exp": 6580000,
+      "commandernum": 50
+    },
+    {
+      "level": 46,
+      "exp": 6860000,
+      "commandernum": 50
+    },
+    {
+      "level": 47,
+      "exp": 7150000,
+      "commandernum": 50
+    },
+    {
+      "level": 48,
+      "exp": 7500000,
+      "commandernum": 50
+    },
+    {
+      "level": 49,
+      "exp": 7800000,
+      "commandernum": 50
+    },
+    {
+      "level": 50,
+      "exp": 13280000,
+      "commandernum": 50
+    },
+    {
+      "level": 51,
+      "exp": 16473600,
+      "commandernum": 50
+    },
+    {
+      "level": 52,
+      "exp": 19939200,
+      "commandernum": 50
+    },
+    {
+      "level": 53,
+      "exp": 24160000,
+      "commandernum": 50
+    },
+    {
+      "level": 54,
+      "exp": 28896000,
+      "commandernum": 50
+    },
+    {
+      "level": 55,
+      "exp": 34040000,
+      "commandernum": 50
+    },
+    {
+      "level": 56,
+      "exp": 39592000,
+      "commandernum": 50
+    },
+    {
+      "level": 57,
+      "exp": 45552000,
+      "commandernum": 50
+    },
+    {
+      "level": 58,
+      "exp": 51920000,
+      "commandernum": 50
+    },
+    {
+      "level": 59,
+      "exp": 60720000,
+      "commandernum": 50
+    },
+    {
+      "level": 60,
+      "exp": 70200000,
+      "commandernum": 50
+    },
+    {
+      "level": 61,
+      "exp": 80360000,
+      "commandernum": 50
+    },
+    {
+      "level": 62,
+      "exp": 91200000,
+      "commandernum": 50
+    },
+    {
+      "level": 63,
+      "exp": 102720000,
+      "commandernum": 50
+    },
+    {
+      "level": 64,
+      "exp": 116272000,
+      "commandernum": 50
+    },
+    {
+      "level": 65,
+      "exp": 130640000,
+      "commandernum": 50
+    },
+    {
+      "level": 66,
+      "exp": 145824000,
+      "commandernum": 50
+    },
+    {
+      "level": 67,
+      "exp": 161824000,
+      "commandernum": 50
+    },
+    {
+      "level": 68,
+      "exp": 178640000,
+      "commandernum": 50
+    },
+    {
+      "level": 69,
+      "exp": 198302400,
+      "commandernum": 50
+    },
+    {
+      "level": 70,
+      "exp": 218944000,
+      "commandernum": 50
+    },
+    {
+      "level": 71,
+      "exp": 240564800,
+      "commandernum": 60
+    },
+    {
+      "level": 72,
+      "exp": 263164800,
+      "commandernum": 60
+    },
+    {
+      "level": 73,
+      "exp": 286744000,
+      "commandernum": 60
+    },
+    {
+      "level": 74,
+      "exp": 316992000,
+      "commandernum": 60
+    },
+    {
+      "level": 75,
+      "exp": 348600000,
+      "commandernum": 60
+    },
+    {
+      "level": 76,
+      "exp": 381568000,
+      "commandernum": 60
+    },
+    {
+      "level": 77,
+      "exp": 415896000,
+      "commandernum": 60
+    },
+    {
+      "level": 78,
+      "exp": 451584000,
+      "commandernum": 60
+    },
+    {
+      "level": 79,
+      "exp": 502864000,
+      "commandernum": 60
+    },
+    {
+      "level": 80,
+      "exp": 556320000,
+      "commandernum": 60
+    },
+    {
+      "level": 81,
+      "exp": 611952000,
+      "commandernum": 60
+    },
+    {
+      "level": 82,
+      "exp": 669760000,
+      "commandernum": 60
+    },
+    {
+      "level": 83,
+      "exp": 729744000,
+      "commandernum": 60
+    },
+    {
+      "level": 84,
+      "exp": 813600000,
+      "commandernum": 60
+    },
+    {
+      "level": 85,
+      "exp": 900720000,
+      "commandernum": 60
+    },
+    {
+      "level": 86,
+      "exp": 991104000,
+      "commandernum": 60
+    },
+    {
+      "level": 87,
+      "exp": 1084752000,
+      "commandernum": 60
+    },
+    {
+      "level": 88,
+      "exp": 1193600000,
+      "commandernum": 60
+    },
+    {
+      "level": 89,
+      "exp": 1330672000,
+      "commandernum": 60
+    },
+    {
+      "level": 90,
+      "exp": 1472640000,
+      "commandernum": 60
+    },
+    {
+      "level": 91,
+      "exp": 1619504000,
+      "commandernum": 60
+    },
+    {
+      "level": 92,
+      "exp": 1771264000,
+      "commandernum": 60
+    },
+    {
+      "level": 93,
+      "exp": 1927920000,
+      "commandernum": 60
+    },
+    {
+      "level": 94,
+      "exp": 2000000000,
+      "commandernum": 60
+    },
+    {
+      "level": 95,
+      "exp": 2000000000,
+      "commandernum": 60
+    },
+    {
+      "level": 96,
+      "exp": 2000000000,
+      "commandernum": 60
+    },
+    {
+      "level": 97,
+      "exp": 2000000000,
+      "commandernum": 60
+    },
+    {
+      "level": 98,
+      "exp": 2000000000,
+      "commandernum": 60
+    },
+    {
+      "level": 99,
+      "exp": 2000000000,
+      "commandernum": 60
+    },
+    {
+      "level": 100,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 101,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 102,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 103,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 104,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 105,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 106,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 107,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 108,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 109,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 110,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 111,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 112,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 113,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 114,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 115,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 116,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 117,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 118,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 119,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 120,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 121,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 122,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 123,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 124,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 125,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 126,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 127,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 128,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 129,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 130,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 131,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 132,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 133,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 134,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 135,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 136,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 137,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 138,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 139,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 140,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 141,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 142,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 143,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 144,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 145,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 146,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 147,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 148,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 149,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 150,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 151,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 152,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 153,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 154,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 155,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 156,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 157,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 158,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 159,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 165,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 161,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 162,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 163,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 164,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 165,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 166,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 167,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 168,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 169,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 170,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 171,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 172,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 173,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 174,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 175,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 176,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 177,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 178,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 179,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 180,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 181,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 182,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 183,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 184,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 185,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 186,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 187,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 188,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 189,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 190,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 191,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 192,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 193,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 194,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 195,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 196,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 197,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 198,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 199,
+      "exp": 2000000000,
+      "commandernum": 65
+    },
+    {
+      "level": 200,
+      "exp": 0,
+      "commandernum": 65
+    }
+  ]
+}

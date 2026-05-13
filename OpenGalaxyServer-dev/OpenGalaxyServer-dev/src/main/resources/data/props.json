@@ -1,0 +1,8554 @@
+{
+  "props": [
+    {
+      "id": 0,
+      "name": "Angla",
+      "type": "commander",
+      "data": {
+        "skillId": 0,
+        "stars": 0,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 9,
+      "name": "Leo",
+      "type": "commander",
+      "data": {
+        "skillId": 1,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 18,
+      "name": "Natiya",
+      "type": "commander",
+      "data": {
+        "skillId": 2,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 27,
+      "name": "Reggie",
+      "type": "commander",
+      "data": {
+        "skillId": 3,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 36,
+      "name": "Eveline",
+      "type": "commander",
+      "data": {
+        "skillId": 4,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 45,
+      "name": "Stani",
+      "type": "commander",
+      "data": {
+        "skillId": 5,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 54,
+      "name": "Sofia",
+      "type": "commander",
+      "data": {
+        "skillId": 6,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 63,
+      "name": "Jason",
+      "type": "commander",
+      "data": {
+        "skillId": 7,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 72,
+      "name": "Maletiz",
+      "type": "commander",
+      "data": {
+        "skillId": 8,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 81,
+      "name": "Nick",
+      "type": "commander",
+      "data": {
+        "skillId": 9,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 90,
+      "name": "Jerome",
+      "type": "commander",
+      "data": {
+        "skillId": 10,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 99,
+      "name": "Aileen",
+      "type": "commander",
+      "data": {
+        "skillId": 11,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 108,
+      "name": "Alicia",
+      "type": "commander",
+      "data": {
+        "skillId": 12,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 117,
+      "name": "Panis",
+      "type": "commander",
+      "data": {
+        "skillId": 13,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 126,
+      "name": "Annata",
+      "type": "commander",
+      "data": {
+        "skillId": 14,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 135,
+      "name": "Kelly",
+      "type": "commander",
+      "data": {
+        "skillId": 15,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 144,
+      "name": "Rayllf",
+      "type": "commander",
+      "data": {
+        "skillId": 16,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 153,
+      "name": "Donna",
+      "type": "commander",
+      "data": {
+        "skillId": 17,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 162,
+      "name": "Sylva",
+      "type": "commander",
+      "data": {
+        "skillId": 18,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 171,
+      "name": "Gastaf",
+      "type": "commander",
+      "data": {
+        "skillId": 19,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 180,
+      "name": "Taude",
+      "type": "commander",
+      "data": {
+        "skillId": 20,
+        "type": 2
+      },
+      "salvage": 300
+    },
+    {
+      "id": 189,
+      "name": "Wayne",
+      "type": "commander",
+      "data": {
+        "skillId": 21,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 198,
+      "name": "Sandora",
+      "type": "commander",
+      "data": {
+        "skillId": 22,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 207,
+      "name": "Raslin",
+      "type": "commander",
+      "data": {
+        "skillId": 23,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 216,
+      "name": "Maxius",
+      "type": "commander",
+      "data": {
+        "skillId": 24,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 225,
+      "name": "Penni",
+      "type": "commander",
+      "data": {
+        "skillId": 25,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 234,
+      "name": "Motima",
+      "type": "commander",
+      "data": {
+        "skillId": 26,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 243,
+      "name": "Ringel",
+      "type": "commander",
+      "data": {
+        "skillId": 27,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 252,
+      "name": "Anna",
+      "type": "commander",
+      "data": {
+        "skillId": 28,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 261,
+      "name": "Linda",
+      "type": "commander",
+      "data": {
+        "skillId": 29,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 270,
+      "name": "Heloyce",
+      "type": "commander",
+      "data": {
+        "skillId": 30,
+        "stars": 0,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 279,
+      "name": "Shaba",
+      "type": "commander",
+      "data": {
+        "skillId": 31,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 288,
+      "name": "Nora",
+      "type": "commander",
+      "data": {
+        "skillId": 32,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 297,
+      "name": "Mantie",
+      "type": "commander",
+      "data": {
+        "skillId": 33,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 306,
+      "name": "Vinna",
+      "type": "commander",
+      "data": {
+        "skillId": 34,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 315,
+      "name": "Singhri",
+      "type": "commander",
+      "data": {
+        "skillId": 35,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 324,
+      "name": "Sylla",
+      "type": "commander",
+      "data": {
+        "skillId": 36,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 333,
+      "name": "Rayo",
+      "type": "commander",
+      "data": {
+        "skillId": 37,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 342,
+      "name": "Bruce",
+      "type": "commander",
+      "data": {
+        "skillId": 38,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 351,
+      "name": "Marcus",
+      "type": "commander",
+      "data": {
+        "skillId": 39,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 360,
+      "name": "Bart",
+      "type": "commander",
+      "data": {
+        "skillId": 40,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 369,
+      "name": "Lawrence",
+      "type": "commander",
+      "data": {
+        "skillId": 41,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 378,
+      "name": "Evi",
+      "type": "commander",
+      "data": {
+        "skillId": 42,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 387,
+      "name": "Tyren",
+      "type": "commander",
+      "data": {
+        "skillId": 43,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 396,
+      "name": "Essido",
+      "type": "commander",
+      "data": {
+        "skillId": 44,
+        "type": 2
+      },
+      "salvage": 150
+    },
+    {
+      "id": 405,
+      "name": "Robert",
+      "type": "commander",
+      "data": {
+        "skillId": 45,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 414,
+      "name": "Dilira",
+      "type": "commander",
+      "data": {
+        "skillId": 46,
+        "type": 4
+      },
+      "salvage": 600,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 2,
+          "value": 2500
+        }
+      ]
+    },
+    {
+      "id": 423,
+      "name": "Hellen",
+      "type": "commander",
+      "data": {
+        "skillId": 47,
+        "type": 4
+      },
+      "salvage": 600,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 2,
+          "value": 2500
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "name": "Todd",
+      "type": "commander",
+      "data": {
+        "skillId": 48,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 441,
+      "name": "Rafia",
+      "type": "commander",
+      "data": {
+        "skillId": 49,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 450,
+      "name": "Joseph",
+      "type": "commander",
+      "data": {
+        "skillId": 50,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 459,
+      "name": "Carlos",
+      "type": "commander",
+      "data": {
+        "skillId": 51,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 468,
+      "name": "Jakar",
+      "type": "commander",
+      "data": {
+        "skillId": 52,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 477,
+      "name": "Rocky",
+      "type": "commander",
+      "data": {
+        "skillId": 53,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 486,
+      "name": "Andrew",
+      "type": "commander",
+      "data": {
+        "skillId": 54,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 495,
+      "name": "Lynn",
+      "type": "commander",
+      "data": {
+        "skillId": 55,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 504,
+      "name": "Miller",
+      "type": "commander",
+      "data": {
+        "skillId": 56,
+        "type": 3
+      },
+      "salvage": 300
+    },
+    {
+      "id": 2007,
+      "name": "Victory Roar",
+      "type": "commander",
+      "data": {
+        "skillId": 57,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2016,
+      "name": "Rays of Destiny",
+      "type": "commander",
+      "data": {
+        "skillId": 58,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2025,
+      "name": "Impending Doom",
+      "type": "commander",
+      "data": {
+        "skillId": 59,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2034,
+      "name": "Desolate Prayers",
+      "type": "commander",
+      "data": {
+        "skillId": 60,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2043,
+      "name": "Deadly Duo",
+      "type": "commander",
+      "data": {
+        "skillId": 61,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2052,
+      "name": "Frontline Surge",
+      "type": "commander",
+      "data": {
+        "skillId": 62,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2061,
+      "name": "The Twin Torpedoes",
+      "type": "commander",
+      "data": {
+        "skillId": 63,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2070,
+      "name": "Light and Darkness",
+      "type": "commander",
+      "data": {
+        "skillId": 64,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2079,
+      "name": "Kismet Beams",
+      "type": "commander",
+      "data": {
+        "skillId": 65,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2088,
+      "name": "Fatal Furies",
+      "type": "commander",
+      "data": {
+        "skillId": 66,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2097,
+      "name": "Indomitable Duo",
+      "type": "commander",
+      "data": {
+        "skillId": 67,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2106,
+      "name": "Death From Above",
+      "type": "commander",
+      "data": {
+        "skillId": 68,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2115,
+      "name": "Leech Lurkers",
+      "type": "commander",
+      "data": {
+        "skillId": 69,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2124,
+      "name": "Eternal Terrors",
+      "type": "commander",
+      "data": {
+        "skillId": 70,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2133,
+      "name": "Feral Raptors",
+      "type": "commander",
+      "data": {
+        "skillId": 71,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2142,
+      "name": "Iron Maidens",
+      "type": "commander",
+      "data": {
+        "skillId": 72,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2151,
+      "name": "Fairy and Fiend",
+      "type": "commander",
+      "data": {
+        "skillId": 73,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2160,
+      "name": "Suicidal Sirens",
+      "type": "commander",
+      "data": {
+        "skillId": 74,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2169,
+      "name": "Wildfire",
+      "type": "commander",
+      "data": {
+        "skillId": 75,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2178,
+      "name": "Tactical Wizards",
+      "type": "commander",
+      "data": {
+        "skillId": 76,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2187,
+      "name": "Fearmongers",
+      "type": "commander",
+      "data": {
+        "skillId": 77,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2196,
+      "name": "Pernicious Princes",
+      "type": "commander",
+      "data": {
+        "skillId": 78,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2205,
+      "name": "Summa Cum Laude",
+      "type": "commander",
+      "data": {
+        "skillId": 79,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2214,
+      "name": "Carbuncle Cohort",
+      "type": "commander",
+      "data": {
+        "skillId": 80,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2223,
+      "name": "Enduring Chorus",
+      "type": "commander",
+      "data": {
+        "skillId": 81,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2232,
+      "name": "The Ravagers",
+      "type": "commander",
+      "data": {
+        "skillId": 82,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2241,
+      "name": "Rex Scuta",
+      "type": "commander",
+      "data": {
+        "skillId": 83,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2250,
+      "name": "Lurking Light",
+      "type": "commander",
+      "data": {
+        "skillId": 84,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2259,
+      "name": "Titan",
+      "type": "commander",
+      "data": {
+        "skillId": 85,
+        "type": 4
+      },
+      "salvage": 600,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 2,
+          "value": 2500
+        }
+      ]
+    },
+    {
+      "id": 2268,
+      "name": "Eschaton Adventists",
+      "type": "commander",
+      "data": {
+        "skillId": 86,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2277,
+      "name": "Hand of Lelantos",
+      "type": "commander",
+      "data": {
+        "skillId": 87,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2286,
+      "name": " Hekatian Witnesses",
+      "type": "commander",
+      "data": {
+        "skillId": 88,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2295,
+      "name": "Dopplegangers",
+      "type": "commander",
+      "data": {
+        "skillId": 89,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2304,
+      "name": "Erebus Errants",
+      "type": "commander",
+      "data": {
+        "skillId": 90,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2313,
+      "name": "Cassius",
+      "type": "commander",
+      "data": {
+        "skillId": 91,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2322,
+      "name": "Bain",
+      "type": "commander",
+      "data": {
+        "skillId": 92,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2331,
+      "name": "Krina Klaus",
+      "type": "commander",
+      "data": {
+        "skillId": 93,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2340,
+      "name": "Homeric Hellions",
+      "type": "commander",
+      "data": {
+        "skillId": 94,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2349,
+      "name": "Winter Knights",
+      "type": "commander",
+      "data": {
+        "skillId": 95,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2358,
+      "name": "Medusa",
+      "type": "commander",
+      "data": {
+        "skillId": 96,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2367,
+      "name": "Venus",
+      "type": "commander",
+      "data": {
+        "skillId": 97,
+        "type": 4
+      },
+      "salvage": 600,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 4,
+          "value": 2498
+        }
+      ]
+    },
+    {
+      "id": 2376,
+      "name": "The Heartless Ones",
+      "type": "commander",
+      "data": {
+        "skillId": 98,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2385,
+      "name": "The Forsaken",
+      "type": "commander",
+      "data": {
+        "skillId": 99,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2394,
+      "name": "Circe",
+      "type": "commander",
+      "data": {
+        "skillId": 100,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2403,
+      "name": "Callisto",
+      "type": "commander",
+      "data": {
+        "skillId": 101,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2412,
+      "name": "The Pioneers",
+      "type": "commander",
+      "data": {
+        "skillId": 102,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2421,
+      "name": "Technomancers",
+      "type": "commander",
+      "data": {
+        "skillId": 103,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2430,
+      "name": "Queens of Blades",
+      "type": "commander",
+      "data": {
+        "skillId": 104,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2439,
+      "name": "The Dictators",
+      "type": "commander",
+      "data": {
+        "skillId": 105,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2448,
+      "name": "Dune Enforcers",
+      "type": "commander",
+      "data": {
+        "skillId": 106,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2457,
+      "name": "Slayer Bael",
+      "type": "commander",
+      "data": {
+        "skillId": 107,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2466,
+      "name": "Luna Silvestri",
+      "type": "commander",
+      "data": {
+        "skillId": 108,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2475,
+      "name": "Chrome Dome",
+      "type": "commander",
+      "data": {
+        "skillId": 109,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2484,
+      "name": "Shadow Countess",
+      "type": "commander",
+      "data": {
+        "skillId": 110,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2493,
+      "name": "Murphy Lawson",
+      "type": "commander",
+      "data": {
+        "skillId": 111,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2502,
+      "name": "Eva",
+      "type": "commander",
+      "data": {
+        "skillId": 112,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2511,
+      "name": "Javal",
+      "type": "commander",
+      "data": {
+        "skillId": 113,
+        "type": 5
+      },
+      "salvage": 600
+    },
+    {
+      "id": 2520,
+      "name": "Lumos",
+      "type": "commander",
+      "data": {
+        "skillId": 114,
+        "type": 4
+      },
+      "salvage": 600
+    },
+    {
+      "id": 945,
+      "name": "Victory Roar (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 57,
+        "srcSkillIds": [
+          25,
+          4
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 946,
+      "name": "Rays of Destiny (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 58,
+        "srcSkillIds": [
+          22,
+          8
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 947,
+      "name": "Impending Doom (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 59,
+        "srcSkillIds": [
+          10,
+          9
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 948,
+      "name": "Desolate Prayers (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 60,
+        "srcSkillIds": [
+          11,
+          5
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 949,
+      "name": "Deadly Duo (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 61,
+        "srcSkillIds": [
+          28,
+          29
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 950,
+      "name": "Frontline Surge (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 62,
+        "srcSkillIds": [
+          6,
+          55
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 951,
+      "name": "Twin Torpedoes (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 63,
+        "srcSkillIds": [
+          48,
+          19
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 952,
+      "name": "Light and Darkness (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 64,
+        "srcSkillIds": [
+          14,
+          1
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 954,
+      "name": "Kismet Beams (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 65,
+        "srcSkillIds": [
+          21,
+          22
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 955,
+      "name": "Fatal Furies (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 66,
+        "srcSkillIds": [
+          21,
+          39
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 956,
+      "name": "Indomitable Duo (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 67,
+        "srcSkillIds": [
+          30,
+          54
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 957,
+      "name": "Death From Above (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 68,
+        "srcSkillIds": [
+          45,
+          37
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 958,
+      "name": "Leech Lurkers (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 69,
+        "srcSkillIds": [
+          1,
+          40
+        ]
+      },
+      "salvage": 5,
+      "mall": [{
+        "amount": 1,
+        "bound": true,
+        "currency": 4,
+        "value": 1598
+      }]
+    },
+    {
+      "id": 959,
+      "name": "Eternal Terrors (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 70,
+        "srcSkillIds": [
+          3,
+          47
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 960,
+      "name": "Feral Raptors (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 71,
+        "srcSkillIds": [
+          21,
+          25
+        ]
+      },
+      "salvage": 5,
+      "mall": [{
+        "amount": 1,
+        "bound": true,
+        "currency": 4,
+        "value": 1598
+      }]
+    },
+    {
+      "id": 961,
+      "name": "Iron Maidens (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 72,
+        "srcSkillIds": [
+          46,
+          49
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 962,
+      "name": "Fairy and Fiend (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 73,
+        "srcSkillIds": [
+          4,
+          51
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 963,
+      "name": "Suicidal Sirens (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 74,
+        "srcSkillIds": [
+          25,
+          47
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 964,
+      "name": "Wildfire (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 75,
+        "srcSkillIds": [
+          22,
+          47
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 965,
+      "name": "Tactical Wizards (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 76,
+        "srcSkillIds": [
+          9,
+          38
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 966,
+      "name": "Fearmongers (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 77,
+        "srcSkillIds": [
+          23,
+          38
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 967,
+      "name": "Pernicious Princes (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 78,
+        "srcSkillIds": [
+          45,
+          52
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 968,
+      "name": "Summa Cum Laude (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 79,
+        "srcSkillIds": [
+          39,
+          47
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 969,
+      "name": "Carbuncle Cohort (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 80,
+        "srcSkillIds": [
+          36,
+          50
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 970,
+      "name": "Enduring Chorus (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 81,
+        "srcSkillIds": [
+          46,
+          31
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 971,
+      "name": "The Ravagers (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 82,
+        "srcSkillIds": [
+          53,
+          47
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 972,
+      "name": "Rex Scuta (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 83,
+        "srcSkillIds": [
+          37,
+          49
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 973,
+      "name": "Lurking Light (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 84,
+        "srcSkillIds": [
+          40,
+          14
+        ]
+      },
+      "salvage": 5,
+      "mall": [{
+        "amount": 1,
+        "bound": true,
+        "currency": 4,
+        "value": 1598
+      }]
+    },
+    {
+      "id": 974,
+      "name": "Eschaton Adventists (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 86,
+        "srcSkillIds": [
+          85,
+          11
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 975,
+      "name": "Hand of Lelantos (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 87,
+        "srcSkillIds": [
+          85,
+          52
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 976,
+      "name": "Hekatian Witnesses (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 88,
+        "srcSkillIds": [
+          85,
+          32
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 977,
+      "name": "Dopplegangers (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 89,
+        "srcSkillIds": [
+          85,
+          35
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 978,
+      "name": "Erebus Errants (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 90,
+        "srcSkillIds": [
+          85,
+          9
+        ]
+      },
+      "salvage": 5,
+      "mall": [{
+        "amount": 1,
+        "bound": true,
+        "currency": 4,
+        "value": 2998
+      }]
+    },
+    {
+      "id": 980,
+      "name": "Homeric Hellions (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 94,
+        "srcSkillIds": [
+          85,
+          54
+        ]
+      },
+      "salvage": 5,
+      "mall": [{
+        "amount": 1,
+        "bound": true,
+        "currency": 4,
+        "value": 2998
+      }]
+    },
+    {
+      "id": 981,
+      "name": "Winter Knights (Scroll)",
+      "type": "scroll",
+      "data": {
+        "skillId": 95,
+        "srcSkillIds": [
+          93,
+          40
+        ]
+      },
+      "salvage": 5,
+      "mall": [{
+        "amount": 1,
+        "bound": true,
+        "currency": 4,
+        "value": 2998
+      }]
+    },
+    {
+      "id": 982,
+      "name": "The Heartless Ones Scroll",
+      "type": "scroll",
+      "data": {
+        "skillId": 98,
+        "srcSkillIds": [
+          92,
+          11
+        ]
+      },
+      "salvage": 5,
+      "mall": [{
+        "amount": 1,
+        "bound": true,
+        "currency": 4,
+        "value": 4198
+      }]
+    },
+    {
+      "id": 983,
+      "name": "The Forsaken Scroll",
+      "type": "scroll",
+      "data": {
+        "skillId": 99,
+        "srcSkillIds": [
+          96,
+          5
+        ]
+      },
+      "salvage": 5,
+      "mall": [{
+        "amount": 1,
+        "bound": true,
+        "currency": 4,
+        "value": 4198
+      }]
+    },
+    {
+      "id": 4481,
+      "name": "The Pioneers Scroll",
+      "type": "scroll",
+      "data": {
+        "skillId": 102,
+        "srcSkillIds": [
+          54,
+          49
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 4482,
+      "name": "Technomancers Scroll",
+      "type": "scroll",
+      "data": {
+        "skillId": 103,
+        "srcSkillIds": [
+          100,
+          3
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 4483,
+      "name": "Queen of Blades Scroll",
+      "type": "scroll",
+      "data": {
+        "skillId": 104,
+        "srcSkillIds": [
+          101,
+          40
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 4515,
+      "name": "The Dicators Scroll",
+      "type": "scroll",
+      "data": {
+        "skillId": 105,
+        "srcSkillIds": [
+          85,
+          37
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 4516,
+      "name": "Dune Enforcers Scroll",
+      "type": "scroll",
+      "data": {
+        "skillId": 106,
+        "srcSkillIds": [
+          85,
+          8
+        ]
+      },
+      "salvage": 5
+    },
+    {
+      "id": 903,
+      "name": "Revival Card",
+      "type": "basic",
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 0,
+          "value": 8
+        },
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 8
+        },
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 3,
+          "value": 300
+        }
+      ]
+    },
+    {
+      "id": 904,
+      "name": "Healing Card",
+      "type": "basic",
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 0,
+          "value": 4
+        },
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 4
+        },
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 3,
+          "value": 150
+        }
+      ]
+    },
+    {
+      "id": 921,
+      "name": "Loudspeaker",
+      "type": "basic",
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 10,
+          "bound": true,
+          "currency": 0,
+          "value": 1
+        },
+        {
+          "amount": 10,
+          "bound": true,
+          "currency": 3,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 922,
+      "name": "Corps Certificate",
+      "type": "basic",
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 0,
+          "value": 120
+        },
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 3,
+          "value": 3000
+        }
+      ]
+    },
+    {
+      "id": 924,
+      "name": "Resetting Card",
+      "type": "basic",
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 15
+        },
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 4,
+          "value": 58
+        }
+      ]
+    },
+    {
+      "id": 925,
+      "name": "Merge Chip",
+      "type": "basic",
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 1,
+          "value": 30
+        },
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": 926,
+      "name": "Sealing Card",
+      "type": "basic",
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 120
+        }
+      ]
+    },
+
+    {
+      "id": 944,
+      "name": "Memory Chip",
+      "type": "basic",
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "id": 923,
+      "name": "Galaxy Transfer",
+      "type": "basic",
+      "salvage": 5,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 8
+        },
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 1,
+          "value": 8
+        }
+      ]
+    },
+    {
+      "id": 901,
+      "name": "Adv Galaxy Transfer",
+      "type": "basic",
+      "salvage": 5,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 120
+        },
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 3,
+          "value": 3000
+        }
+      ]
+    },
+    {
+      "id": 900,
+      "name": "Construction Card",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 0,
+            "duration": 259200
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 1,
+          "value": 24
+        },
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 24
+        }
+      ]
+    },
+    {
+      "id": 902,
+      "name": "Truce Card",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 1,
+            "duration": 43200
+          },
+          {
+            "duffId": 6,
+            "duration": 46800
+          }
+        ]
+      },
+      "salvage": 5,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 1,
+          "value": 8
+        },
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 8
+        }
+      ]
+    },
+    {
+      "id": 905,
+      "name": "Metal Mining Boost",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 2,
+            "duration": 43200
+          }
+        ]
+      },
+      "salvage": 4,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": 906,
+      "name": "He3 Mining Boost",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 3,
+            "duration": 43200
+          }
+        ]
+      },
+      "salvage": 4,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": 907,
+      "name": "Extra Tax",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 4,
+            "duration": 43200
+          }
+        ]
+      },
+      "salvage": 4,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": 930,
+      "name": "Extra Tax (Adv)",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 5,
+            "duration": 86400
+          }
+        ]
+      },
+      "salvage": 24,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 24
+        }
+      ]
+    },
+    {
+      "id": 937,
+      "name": "Adv. Truce Card",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 1,
+            "duration": 259200
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 1,
+          "value": 80
+        },
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 80
+        },
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 4,
+          "value": 258
+        }
+      ]
+    },
+    {
+      "id": 943,
+      "name": "MVP Tool",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 7,
+            "duration": 604800
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 120
+        },
+        {
+          "amount": 1,
+          "bound": true,
+          "currency": 4,
+          "value": 398
+        }
+      ]
+    },
+    {
+      "id": 939,
+      "name": "Luxurious Planet",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 10,
+            "duration": 604800
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 80
+        }
+      ]
+    },
+    {
+      "id": 940,
+      "name": "Metallic Planet",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 11,
+            "duration": 604800
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 80
+        }
+      ]
+    },
+    {
+      "id": 941,
+      "name": "Gaseous Planet",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 12,
+            "duration": 604800
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 80
+        }
+      ]
+    },
+    {
+      "id": 942,
+      "name": "Ordinary Planet",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 13,
+            "duration": 604800
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 979,
+      "name": "Wintery Planet",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 14,
+            "duration": 604800
+          }
+        ]
+      },
+      "salvage": 150
+    },
+    {
+      "id": 4458,
+      "name": "G.F. Capital",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 15,
+            "duration": 86400
+          }
+        ]
+      },
+      "salvage": 150
+    },
+    {
+      "id": 4513,
+      "name": "Ghostly Planet",
+      "type": "buff",
+      "data": {
+        "buffs": [
+          {
+            "buffId": 16,
+            "duration": 86400
+          }
+        ]
+      },
+      "salvage": 150
+    },
+    {
+      "id": 1119,
+      "name": "Raw Gemstones",
+      "type": "gem",
+      "data": {
+        "type": 0,
+        "level": 0,
+        "color": 0,
+        "stats": []
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1120,
+      "name": "Unknown Gem",
+      "type": "basic",
+      "salvage": 0
+    },
+    {
+      "id": 1200,
+      "name": "Accuracy Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 13
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1201,
+      "name": "Accuracy Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 26
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1202,
+      "name": "Accuracy Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 39
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1203,
+      "name": "Accuracy Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 52
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1204,
+      "name": "Accuracy Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 65
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1205,
+      "name": "Accuracy Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 9
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1206,
+      "name": "Accuracy Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 18
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1207,
+      "name": "Accuracy Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 27
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1208,
+      "name": "Accuracy Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 36
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1209,
+      "name": "Accuracy Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 45
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1210,
+      "name": "Accuracy Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 5
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1211,
+      "name": "Accuracy Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 10
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1212,
+      "name": "Accuracy Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 15
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1213,
+      "name": "Accuracy Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 20
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1214,
+      "name": "Accuracy Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 1,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 25
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1215,
+      "name": "Dodge Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 5
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1216,
+      "name": "Dodge Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 10
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1217,
+      "name": "Dodge Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 15
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1218,
+      "name": "Dodge Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 20
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1219,
+      "name": "Dodge Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 25
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1220,
+      "name": "Dodge Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 13
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1221,
+      "name": "Dodge Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 26
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1222,
+      "name": "Dodge Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 39
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1223,
+      "name": "Dodge Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 52
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1224,
+      "name": "Dodge Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 65
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1225,
+      "name": "Dodge Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 9
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1226,
+      "name": "Dodge Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 18
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1227,
+      "name": "Dodge Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 27
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1228,
+      "name": "Dodge Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 36
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1229,
+      "name": "Dodge Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 2,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 45
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1230,
+      "name": "Electron Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 9
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1231,
+      "name": "Electron Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 18
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1232,
+      "name": "Electron Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 27
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1233,
+      "name": "Electron Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 36
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1234,
+      "name": "Electron Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 45
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1235,
+      "name": "Electron Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 5
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1236,
+      "name": "Electron Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 10
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1237,
+      "name": "Electron Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 15
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1238,
+      "name": "Electron Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 20
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1239,
+      "name": "Electron Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 25
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1240,
+      "name": "Electron Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 13
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1241,
+      "name": "Electron Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 26
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1242,
+      "name": "Electron Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 39
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1243,
+      "name": "Electron Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 52
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1244,
+      "name": "Electron Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 3,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 65
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1245,
+      "name": "Speed Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 9
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1246,
+      "name": "Speed Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 18
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1247,
+      "name": "Speed Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 27
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1248,
+      "name": "Speed Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 36
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1249,
+      "name": "Speed Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 45
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1250,
+      "name": "Speed Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 5
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1251,
+      "name": "Speed Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 10
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1252,
+      "name": "Speed Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 15
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1253,
+      "name": "Speed Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 20
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1254,
+      "name": "Speed Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 25
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1255,
+      "name": "Speed Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 13
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1256,
+      "name": "Speed Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 26
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1257,
+      "name": "Speed Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 39
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1258,
+      "name": "Speed Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 52
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1259,
+      "name": "Speed Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 4,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 65
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1260,
+      "name": "Power Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.007
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1261,
+      "name": "Power Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.013
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1262,
+      "name": "Power Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.02
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1263,
+      "name": "Power Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.027
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1264,
+      "name": "Power Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.033
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1265,
+      "name": "Power Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.004
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1266,
+      "name": "Power Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1267,
+      "name": "Power Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.013
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1268,
+      "name": "Power Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1269,
+      "name": "Power Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.022
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1270,
+      "name": "Power Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.002
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1271,
+      "name": "Power Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.005
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1272,
+      "name": "Power Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.007
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1273,
+      "name": "Power Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1274,
+      "name": "Power Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 5,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.012
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1275,
+      "name": "Structure Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.002
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1276,
+      "name": "Structure Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.003
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1277,
+      "name": "Structure Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.005
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1278,
+      "name": "Structure Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.006
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1279,
+      "name": "Structure Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.008
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1280,
+      "name": "Structure Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.004
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1281,
+      "name": "Structure Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.008
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1282,
+      "name": "Structure Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.013
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1283,
+      "name": "Structure Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1284,
+      "name": "Structure Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.022
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1285,
+      "name": "Structure Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.003
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1286,
+      "name": "Structure Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.006
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1287,
+      "name": "Structure Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1288,
+      "name": "Structure Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.013
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1289,
+      "name": "Structure Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 6,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.015
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1290,
+      "name": "Shield Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.002
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1291,
+      "name": "Shield Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.004
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1292,
+      "name": "Shield Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.006
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1293,
+      "name": "Shield Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.008
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1294,
+      "name": "Shield Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.01
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1295,
+      "name": "Shield Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.005
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1296,
+      "name": "Shield Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.01
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1297,
+      "name": "Shield Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.016
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1298,
+      "name": "Shield Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.021
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1299,
+      "name": "Shield Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.027
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1300,
+      "name": "Shield Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.004
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1301,
+      "name": "Shield Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.008
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1302,
+      "name": "Shield Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.012
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1303,
+      "name": "Shield Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.016
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1304,
+      "name": "Shield Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 7,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "shield",
+            "add": 0.02
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1305,
+      "name": "Malice Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.022
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1306,
+      "name": "Malice Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.045
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1307,
+      "name": "Malice Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.067
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1308,
+      "name": "Malice Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.09
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1309,
+      "name": "Malice Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.111
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1310,
+      "name": "Malice Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.014
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1311,
+      "name": "Malice Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.028
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1312,
+      "name": "Malice Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1313,
+      "name": "Malice Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.057
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1314,
+      "name": "Malice Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.072
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1315,
+      "name": "Malice Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.007
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1316,
+      "name": "Malice Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.015
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1317,
+      "name": "Malice Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.023
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1318,
+      "name": "Malice Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.03
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1319,
+      "name": "Malice Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 8,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.038
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1320,
+      "name": "Ferocity Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.004
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1321,
+      "name": "Ferocity Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1322,
+      "name": "Ferocity Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.013
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1323,
+      "name": "Ferocity Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1324,
+      "name": "Ferocity Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.022
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1325,
+      "name": "Ferocity Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.002
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1326,
+      "name": "Ferocity Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.005
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1327,
+      "name": "Ferocity Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.007
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1328,
+      "name": "Ferocity Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1329,
+      "name": "Ferocity Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.012
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1330,
+      "name": "Ferocity Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.007
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1331,
+      "name": "Ferocity Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.013
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1332,
+      "name": "Ferocity Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.02
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1333,
+      "name": "Ferocity Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.027
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1334,
+      "name": "Ferocity Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 9,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critRate",
+            "add": 0.033
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1335,
+      "name": "Chrono Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.006
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1336,
+      "name": "Chrono Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.013
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1337,
+      "name": "Chrono Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.019
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1338,
+      "name": "Chrono Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.025
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1339,
+      "name": "Chrono Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.032
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1340,
+      "name": "Chrono Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.003
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1341,
+      "name": "Chrono Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.006
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1342,
+      "name": "Chrono Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1343,
+      "name": "Chrono Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.012
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1344,
+      "name": "Chrono Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.015
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1345,
+      "name": "Chrono Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1346,
+      "name": "Chrono Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1347,
+      "name": "Chrono Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.026
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1348,
+      "name": "Chrono Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.034
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1349,
+      "name": "Chrono Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 10,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "doubleRate",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1350,
+      "name": "Regen Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.003
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1351,
+      "name": "Regen Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.005
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1352,
+      "name": "Regen Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.008
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1353,
+      "name": "Regen Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.01
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1354,
+      "name": "Regen Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.013
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1355,
+      "name": "Regen Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.008
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1356,
+      "name": "Regen Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.015
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1357,
+      "name": "Regen Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.023
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1358,
+      "name": "Regen Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.031
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1359,
+      "name": "Regen Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.038
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1360,
+      "name": "Regen Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.005
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1361,
+      "name": "Regen Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.01
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1362,
+      "name": "Regen Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.016
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1363,
+      "name": "Regen Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.021
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1364,
+      "name": "Regen Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 11,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "shieldHeal",
+            "add": 0.027
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1365,
+      "name": "EXP Diamond-I",
+      "type": "gem",
+      "data": {
+        "type": 12,
+        "level": 0,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "xpRate",
+            "add": 0.1
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1366,
+      "name": "EXP Diamond-II",
+      "type": "gem",
+      "data": {
+        "type": 12,
+        "level": 1,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "xpRate",
+            "add": 0.2
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1367,
+      "name": "EXP Diamond-III",
+      "type": "gem",
+      "data": {
+        "type": 12,
+        "level": 2,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "xpRate",
+            "add": 0.3
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1368,
+      "name": "EXP Diamond-IV",
+      "type": "gem",
+      "data": {
+        "type": 12,
+        "level": 3,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "xpRate",
+            "add": 0.4
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1369,
+      "name": "EXP Diamond-V",
+      "type": "gem",
+      "data": {
+        "type": 12,
+        "level": 4,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "xpRate",
+            "add": 0.5
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1370,
+      "name": "Ballistic Diamond-I",
+      "type": "gem",
+      "data": {
+        "type": 13,
+        "level": 0,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseBallistic",
+            "set": "D"
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1371,
+      "name": "Ballistic Diamond-II",
+      "type": "gem",
+      "data": {
+        "type": 13,
+        "level": 1,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseBallistic",
+            "set": "C"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1372,
+      "name": "Ballistic Diamond-III",
+      "type": "gem",
+      "data": {
+        "type": 13,
+        "level": 2,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseBallistic",
+            "set": "B"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1373,
+      "name": "Ballistic Diamond-IV",
+      "type": "gem",
+      "data": {
+        "type": 13,
+        "level": 3,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseBallistic",
+            "set": "A"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1374,
+      "name": "Ballistic Diamond-V",
+      "type": "gem",
+      "data": {
+        "type": 13,
+        "level": 4,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseBallistic",
+            "set": "S"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1375,
+      "name": "Directional Diamond-I",
+      "type": "gem",
+      "data": {
+        "type": 14,
+        "level": 0,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseDirectional",
+            "set": "D"
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1376,
+      "name": "Directional Diamond-II",
+      "type": "gem",
+      "data": {
+        "type": 14,
+        "level": 1,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseDirectional",
+            "set": "C"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1377,
+      "name": "Directional Diamond-III",
+      "type": "gem",
+      "data": {
+        "type": 14,
+        "level": 2,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseDirectional",
+            "set": "B"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1378,
+      "name": "Directional Diamond-IV",
+      "type": "gem",
+      "data": {
+        "type": 14,
+        "level": 3,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseDirectional",
+            "set": "A"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1379,
+      "name": "Directional Diamond-V",
+      "type": "gem",
+      "data": {
+        "type": 14,
+        "level": 4,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseDirectional",
+            "set": "S"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1380,
+      "name": "Missile Diamond-I",
+      "type": "gem",
+      "data": {
+        "type": 15,
+        "level": 0,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseMissile",
+            "set": "D"
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1381,
+      "name": "Missile Diamond-II",
+      "type": "gem",
+      "data": {
+        "type": 15,
+        "level": 1,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseMissile",
+            "set": "C"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1382,
+      "name": "Missile Diamond-III",
+      "type": "gem",
+      "data": {
+        "type": 15,
+        "level": 2,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseMissile",
+            "set": "B"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1383,
+      "name": "Missile Diamond-IV",
+      "type": "gem",
+      "data": {
+        "type": 15,
+        "level": 3,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseMissile",
+            "set": "A"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1384,
+      "name": "Missile Diamond-V",
+      "type": "gem",
+      "data": {
+        "type": 15,
+        "level": 4,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseMissile",
+            "set": "S"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1385,
+      "name": "Tactical Diamond-I",
+      "type": "gem",
+      "data": {
+        "type": 16,
+        "level": 0,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseShipBased",
+            "set": "D"
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1386,
+      "name": "Tactical Diamond-II",
+      "type": "gem",
+      "data": {
+        "type": 16,
+        "level": 1,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseShipBased",
+            "set": "C"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1387,
+      "name": "Tactical Diamond-III",
+      "type": "gem",
+      "data": {
+        "type": 16,
+        "level": 2,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseShipBased",
+            "set": "B"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1388,
+      "name": "Tactical Diamond-IV",
+      "type": "gem",
+      "data": {
+        "type": 16,
+        "level": 3,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseShipBased",
+            "set": "A"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1389,
+      "name": "Tactical Diamond-V",
+      "type": "gem",
+      "data": {
+        "type": 16,
+        "level": 4,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseShipBased",
+            "set": "S"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1390,
+      "name": "Global Assault Diamond-I",
+      "type": "gem",
+      "data": {
+        "type": 17,
+        "level": 0,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertisePlanetary",
+            "set": "D"
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1391,
+      "name": "Global Assault Diamond-II",
+      "type": "gem",
+      "data": {
+        "type": 17,
+        "level": 1,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertisePlanetary",
+            "set": "C"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1392,
+      "name": "Global Assault Diamond-III",
+      "type": "gem",
+      "data": {
+        "type": 17,
+        "level": 2,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertisePlanetary",
+            "set": "B"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1393,
+      "name": "Global Assault Diamond-IV",
+      "type": "gem",
+      "data": {
+        "type": 17,
+        "level": 3,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertisePlanetary",
+            "set": "A"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1394,
+      "name": "Global Assault Diamond-V",
+      "type": "gem",
+      "data": {
+        "type": 17,
+        "level": 4,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertisePlanetary",
+            "set": "S"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1395,
+      "name": "Frigate Diamond-I",
+      "type": "gem",
+      "data": {
+        "type": 18,
+        "level": 0,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseFrigate",
+            "set": "D"
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1396,
+      "name": "Frigate Diamond-II",
+      "type": "gem",
+      "data": {
+        "type": 18,
+        "level": 1,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseFrigate",
+            "set": "C"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1397,
+      "name": "Frigate Diamond-III",
+      "type": "gem",
+      "data": {
+        "type": 18,
+        "level": 2,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseFrigate",
+            "set": "B"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1398,
+      "name": "Frigate Diamond-IV",
+      "type": "gem",
+      "data": {
+        "type": 18,
+        "level": 3,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseFrigate",
+            "set": "A"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1399,
+      "name": "Frigate Diamond-V",
+      "type": "gem",
+      "data": {
+        "type": 18,
+        "level": 4,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseFrigate",
+            "set": "S"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1400,
+      "name": "Cruiser Diamond-I",
+      "type": "gem",
+      "data": {
+        "type": 19,
+        "level": 0,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseCruiser",
+            "set": "D"
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1401,
+      "name": "Cruiser Diamond-II",
+      "type": "gem",
+      "data": {
+        "type": 19,
+        "level": 1,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseCruiser",
+            "set": "C"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1402,
+      "name": "Cruiser Diamond-III",
+      "type": "gem",
+      "data": {
+        "type": 19,
+        "level": 2,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseCruiser",
+            "set": "B"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1403,
+      "name": "Cruiser Diamond-IV",
+      "type": "gem",
+      "data": {
+        "type": 19,
+        "level": 3,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseCruiser",
+            "set": "A"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1404,
+      "name": "Cruiser Diamond-V",
+      "type": "gem",
+      "data": {
+        "type": 19,
+        "level": 4,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseCruiser",
+            "set": "S"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1405,
+      "name": "Battleship Diamond-I",
+      "type": "gem",
+      "data": {
+        "type": 20,
+        "level": 0,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseBattleship",
+            "set": "D"
+          }
+        ]
+      },
+      "salvage": 0,
+      "mall": [
+        {
+          "amount": 1,
+          "bound": false,
+          "currency": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": 1406,
+      "name": "Battleship Diamond-II",
+      "type": "gem",
+      "data": {
+        "type": 20,
+        "level": 1,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseBattleship",
+            "set": "C"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1407,
+      "name": "Battleship Diamond-III",
+      "type": "gem",
+      "data": {
+        "type": 20,
+        "level": 2,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseBattleship",
+            "set": "B"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1408,
+      "name": "Battleship Diamond-IV",
+      "type": "gem",
+      "data": {
+        "type": 20,
+        "level": 3,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseBattleship",
+            "set": "A"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1409,
+      "name": "Battleship Diamond-V",
+      "type": "gem",
+      "data": {
+        "type": 20,
+        "level": 4,
+        "color": 4,
+        "stats": [
+          {
+            "effect": "expertiseBattleship",
+            "set": "S"
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 1500,
+      "name": "Lv 1 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 800,
+        "maxValue": 1000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1501,
+      "name": "Lv 2 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 1000,
+        "maxValue": 2000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1502,
+      "name": "Lv 3 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 2000,
+        "maxValue": 3000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1503,
+      "name": "Lv 4 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 3000,
+        "maxValue": 5000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1504,
+      "name": "Lv 5 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 5000,
+        "maxValue": 8000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1505,
+      "name": "Lv 6 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 8000,
+        "maxValue": 12000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1506,
+      "name": "Lv 7 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 12000,
+        "maxValue": 16000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1507,
+      "name": "Lv 8 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 16000,
+        "maxValue": 20000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1508,
+      "name": "Lv 9 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 20000,
+        "maxValue": 25000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1509,
+      "name": "Lv 10 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 25000,
+        "maxValue": 30000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1510,
+      "name": "Lv 11 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 30000,
+        "maxValue": 35000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1511,
+      "name": "Lv 12 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 35000,
+        "maxValue": 40000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1512,
+      "name": "Lv 13 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 40000,
+        "maxValue": 50000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1513,
+      "name": "Lv 14 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 50000,
+        "maxValue": 60000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1514,
+      "name": "Lv 15 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 60000,
+        "maxValue": 75000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1515,
+      "name": "Lv 16 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 75000,
+        "maxValue": 90000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1516,
+      "name": "Lv 17 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 90000,
+        "maxValue": 110000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1517,
+      "name": "Lv 18 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 110000,
+        "maxValue": 130000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1518,
+      "name": "Lv 19 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 130000,
+        "maxValue": 150000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1519,
+      "name": "Lv 20 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 150000,
+        "maxValue": 180000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1520,
+      "name": "Lv 21 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 180000,
+        "maxValue": 210000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1521,
+      "name": "Lv 22 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 210000,
+        "maxValue": 250000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1522,
+      "name": "Lv 23 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 250000,
+        "maxValue": 300000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1523,
+      "name": "Lv 24 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 300000,
+        "maxValue": 350000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1524,
+      "name": "Lv 25 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 350000,
+        "maxValue": 400000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1525,
+      "name": "Lv 26 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 400000,
+        "maxValue": 450000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1526,
+      "name": "Lv 27 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 450000,
+        "maxValue": 500000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1527,
+      "name": "Lv 28 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 500000,
+        "maxValue": 600000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1528,
+      "name": "Lv 29 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 600000,
+        "maxValue": 800000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 1529,
+      "name": "Lv 30 Treasure Box",
+      "type": "Instance Drop",
+      "data": {
+        "minValue": 800000,
+        "maxValue": 1000000
+      },
+      "salvage": -1
+    },
+    {
+      "id": 4229,
+      "name": "Burning Triad-I",
+      "type": "gem",
+      "data": {
+        "type":  21,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.007
+          },
+          {
+            "effect": "structure",
+            "add": 0.004
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4230,
+      "name": "Burning Triad-II",
+      "type": "gem",
+      "data": {
+        "type": 21,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.013
+          },
+          {
+            "effect": "structure",
+            "add": 0.008
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4231,
+      "name": "Burning Triad-III",
+      "type": "gem",
+      "data": {
+        "type": 21,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.02
+          },
+          {
+            "effect": "structure",
+            "add": 0.013
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.026
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4232,
+      "name": "Burning Triad-IV",
+      "type": "gem",
+      "data": {
+        "type": 21,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.027
+          },
+          {
+            "effect": "structure",
+            "add": 0.017
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.034
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4233,
+      "name": "Burning Triad-V",
+      "type": "gem",
+      "data": {
+        "type": 21,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "attack",
+            "add": 0.033
+          },
+          {
+            "effect": "structure",
+            "add": 0.022
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4234,
+      "name": "Guardian Triad-I",
+      "type": "gem",
+      "data": {
+        "type": 22,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.004
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.008
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4235,
+      "name": "Guardian Triad-II",
+      "type": "gem",
+      "data": {
+        "type": 22,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.008
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.015
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4236,
+      "name": "Guardian Triad-III",
+      "type": "gem",
+      "data": {
+        "type": 22,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.013
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.023
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4237,
+      "name": "Guardian Triad-IV",
+      "type": "gem",
+      "data": {
+        "type": 22,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.017
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.031
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4238,
+      "name": "Guardian Triad-V",
+      "type": "gem",
+      "data": {
+        "type": 22,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "structure",
+            "add": 0.022
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.038
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4239,
+      "name": "Giant Triad-I",
+      "type": "gem",
+      "data": {
+        "type": 23,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.022
+          },
+          {
+            "effect": "critRate",
+            "add": 0.007
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4240,
+      "name": "Giant Triad-II",
+      "type": "gem",
+      "data": {
+        "type": 23,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.045
+          },
+          {
+            "effect": "critRate",
+            "add": 0.013
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4241,
+      "name": "Giant Triad-III",
+      "type": "gem",
+      "data": {
+        "type": 23,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.067
+          },
+          {
+            "effect": "critRate",
+            "add": 0.02
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.026
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4242,
+      "name": "Giant Triad-IV",
+      "type": "gem",
+      "data": {
+        "type": 23,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.09
+          },
+          {
+            "effect": "critRate",
+            "add": 0.027
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.034
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4243,
+      "name": "Giant Triad-V",
+      "type": "gem",
+      "data": {
+        "type": 23,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "critAttack",
+            "add": 0.111
+          },
+          {
+            "effect": "critRate",
+            "add": 0.033
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4244,
+      "name": "Quadra Accuracy Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 13
+          },
+          {
+            "effect": "attack",
+            "add": 0.007
+          },
+          {
+            "effect": "structure",
+            "add": 0.004
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4245,
+      "name": "Quadra Accuracy Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 26
+          },
+          {
+            "effect": "attack",
+            "add": 0.013
+          },
+          {
+            "effect": "structure",
+            "add": 0.008
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4246,
+      "name": "Quadra Accuracy Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 39
+          },
+          {
+            "effect": "attack",
+            "add": 0.02
+          },
+          {
+            "effect": "structure",
+            "add": 0.013
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.026
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4247,
+      "name": "Quadra Accuracy Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 52
+          },
+          {
+            "effect": "attack",
+            "add": 0.027
+          },
+          {
+            "effect": "structure",
+            "add": 0.017
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.034
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4248,
+      "name": "Quadra Accuracy Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 65
+          },
+          {
+            "effect": "attack",
+            "add": 0.033
+          },
+          {
+            "effect": "structure",
+            "add": 0.022
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4264,
+      "name": "Quadra Accuracy Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 9
+          },
+          {
+            "effect": "structure",
+            "add": 0.004
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.008
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4265,
+      "name": "Quadra Accuracy Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 18
+          },
+          {
+            "effect": "structure",
+            "add": 0.008
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.015
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4266,
+      "name": "Quadra Accuracy Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 27
+          },
+          {
+            "effect": "structure",
+            "add": 0.013
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.023
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4267,
+      "name": "Quadra Accuracy Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 36
+          },
+          {
+            "effect": "structure",
+            "add": 0.017
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.031
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4268,
+      "name": "Quadra Accuracy Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 45
+          },
+          {
+            "effect": "structure",
+            "add": 0.022
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.038
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4284,
+      "name": "Quadra Accuracy Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 5
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.022
+          },
+          {
+            "effect": "critRate",
+            "add": 0.007
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4285,
+      "name": "Quadra Accuracy Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 10
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.045
+          },
+          {
+            "effect": "critRate",
+            "add": 0.013
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4286,
+      "name": "Quadra Accuracy Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 15
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.067
+          },
+          {
+            "effect": "critRate",
+            "add": 0.02
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.026
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4287,
+      "name": "Quadra Accuracy Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 20
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.09
+          },
+          {
+            "effect": "critRate",
+            "add": 0.027
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.034
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4288,
+      "name": "Quadra Accuracy Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 24,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "aim",
+            "add": 25
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.111
+          },
+          {
+            "effect": "critRate",
+            "add": 0.033
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4249,
+      "name": "Quadra Dodge Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 5
+          },
+          {
+            "effect": "attack",
+            "add": 0.007
+          },
+          {
+            "effect": "structure",
+            "add": 0.004
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4250,
+      "name": "Quadra Dodge Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 10
+          },
+          {
+            "effect": "attack",
+            "add": 0.013
+          },
+          {
+            "effect": "structure",
+            "add": 0.008
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4251,
+      "name": "Quadra Dodge Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 15
+          },
+          {
+            "effect": "attack",
+            "add": 0.02
+          },
+          {
+            "effect": "structure",
+            "add": 0.013
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.026
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4252,
+      "name": "Quadra Dodge Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 20
+          },
+          {
+            "effect": "attack",
+            "add": 0.027
+          },
+          {
+            "effect": "structure",
+            "add": 0.017
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.034
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4253,
+      "name": "Quadra Dodge Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 25
+          },
+          {
+            "effect": "attack",
+            "add": 0.033
+          },
+          {
+            "effect": "structure",
+            "add": 0.022
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4269,
+      "name": "Quadra Dodge Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 13
+          },
+          {
+            "effect": "structure",
+            "add": 0.004
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.008
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4270,
+      "name": "Quadra Dodge Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 26
+          },
+          {
+            "effect": "structure",
+            "add": 0.008
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.015
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4271,
+      "name": "Quadra Dodge Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 39
+          },
+          {
+            "effect": "structure",
+            "add": 0.013
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.023
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4272,
+      "name": "Quadra Dodge Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 52
+          },
+          {
+            "effect": "structure",
+            "add": 0.017
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.031
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4273,
+      "name": "Quadra Dodge Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 65
+          },
+          {
+            "effect": "structure",
+            "add": 0.022
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.038
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4289,
+      "name": "Quadra Dodge Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 9
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.022
+          },
+          {
+            "effect": "critRate",
+            "add": 0.007
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4290,
+      "name": "Quadra Dodge Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 18
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.045
+          },
+          {
+            "effect": "critRate",
+            "add": 0.013
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4291,
+      "name": "Quadra Dodge Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 27
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.067
+          },
+          {
+            "effect": "critRate",
+            "add": 0.02
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.026
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4292,
+      "name": "Quadra Dodge Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 36
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.09
+          },
+          {
+            "effect": "critRate",
+            "add": 0.027
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.034
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4293,
+      "name": "Quadra Dodge Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 25,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "blench",
+            "add": 45
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.111
+          },
+          {
+            "effect": "critRate",
+            "add": 0.033
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4259,
+      "name": "Quadra Electron Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 9
+          },
+          {
+            "effect": "attack",
+            "add": 0.007
+          },
+          {
+            "effect": "structure",
+            "add": 0.004
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4260,
+      "name": "Quadra Electron Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 18
+          },
+          {
+            "effect": "attack",
+            "add": 0.013
+          },
+          {
+            "effect": "structure",
+            "add": 0.008
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4261,
+      "name": "Quadra Electron Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 27
+          },
+          {
+            "effect": "attack",
+            "add": 0.02
+          },
+          {
+            "effect": "structure",
+            "add": 0.013
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.026
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4262,
+      "name": "Quadra Electron Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 36
+          },
+          {
+            "effect": "attack",
+            "add": 0.027
+          },
+          {
+            "effect": "structure",
+            "add": 0.017
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.034
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4263,
+      "name": "Quadra Electron Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 45
+          },
+          {
+            "effect": "attack",
+            "add": 0.033
+          },
+          {
+            "effect": "structure",
+            "add": 0.022
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4279,
+      "name": "Quadra Electron Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 5
+          },
+          {
+            "effect": "structure",
+            "add": 0.004
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.008
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4280,
+      "name": "Quadra Electron Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 10
+          },
+          {
+            "effect": "structure",
+            "add": 0.008
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.015
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4281,
+      "name": "Quadra Electron Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 15
+          },
+          {
+            "effect": "structure",
+            "add": 0.013
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.023
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4282,
+      "name": "Quadra Electron Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 20
+          },
+          {
+            "effect": "structure",
+            "add": 0.017
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.031
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4283,
+      "name": "Quadra Electron Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 25
+          },
+          {
+            "effect": "structure",
+            "add": 0.022
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.038
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4299,
+      "name": "Quadra Electron Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 13
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.022
+          },
+          {
+            "effect": "critRate",
+            "add": 0.007
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4300,
+      "name": "Quadra Electron Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 26
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.045
+          },
+          {
+            "effect": "critRate",
+            "add": 0.013
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4301,
+      "name": "Quadra Electron Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 39
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.067
+          },
+          {
+            "effect": "critRate",
+            "add": 0.02
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.026
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4302,
+      "name": "Quadra Electron Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 52
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.09
+          },
+          {
+            "effect": "critRate",
+            "add": 0.027
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.034
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4303,
+      "name": "Quadra Electron Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 26,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "electron",
+            "add": 65
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.111
+          },
+          {
+            "effect": "critRate",
+            "add": 0.033
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4254,
+      "name": "Quadra Speed Ruby-I",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 0,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 9
+          },
+          {
+            "effect": "attack",
+            "add": 0.007
+          },
+          {
+            "effect": "structure",
+            "add": 0.004
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4255,
+      "name": "Quadra Speed Ruby-II",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 1,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 18
+          },
+          {
+            "effect": "attack",
+            "add": 0.013
+          },
+          {
+            "effect": "structure",
+            "add": 0.008
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4256,
+      "name": "Quadra Speed Ruby-III",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 2,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 27
+          },
+          {
+            "effect": "attack",
+            "add": 0.02
+          },
+          {
+            "effect": "structure",
+            "add": 0.013
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.026
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4257,
+      "name": "Quadra Speed Ruby-IV",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 3,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 36
+          },
+          {
+            "effect": "attack",
+            "add": 0.027
+          },
+          {
+            "effect": "structure",
+            "add": 0.017
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.034
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4258,
+      "name": "Quadra Speed Ruby-V",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 4,
+        "color": 1,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 45
+          },
+          {
+            "effect": "attack",
+            "add": 0.033
+          },
+          {
+            "effect": "structure",
+            "add": 0.022
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4274,
+      "name": "Quadra Speed Sapphire-I",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 0,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 5
+          },
+          {
+            "effect": "structure",
+            "add": 0.004
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.008
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4275,
+      "name": "Quadra Speed Sapphire-II",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 1,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 10
+          },
+          {
+            "effect": "structure",
+            "add": 0.008
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.015
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4276,
+      "name": "Quadra Speed Sapphire-III",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 2,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 15
+          },
+          {
+            "effect": "structure",
+            "add": 0.013
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.023
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4277,
+      "name": "Quadra Speed Sapphire-IV",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 3,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 20
+          },
+          {
+            "effect": "structure",
+            "add": 0.017
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.031
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4278,
+      "name": "Quadra Speed Sapphire-V",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 4,
+        "color": 2,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 25
+          },
+          {
+            "effect": "structure",
+            "add": 0.022
+          },
+          {
+            "effect": "shieldHeal",
+            "add": 0.038
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4294,
+      "name": "Quadra Speed Emerald-I",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 0,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 13
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.022
+          },
+          {
+            "effect": "critRate",
+            "add": 0.007
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.009
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4295,
+      "name": "Quadra Speed Emerald-II",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 1,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 26
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.045
+          },
+          {
+            "effect": "critRate",
+            "add": 0.013
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.017
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4296,
+      "name": "Quadra Speed Emerald-III",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 2,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 39
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.067
+          },
+          {
+            "effect": "critRate",
+            "add": 0.02
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.026
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4297,
+      "name": "Quadra Speed Emerald-IV",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 3,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 52
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.09
+          },
+          {
+            "effect": "critRate",
+            "add": 0.027
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.034
+          }
+        ]
+      },
+      "salvage": 0
+    },
+    {
+      "id": 4298,
+      "name": "Quadra Speed Emerald-V",
+      "type": "gem",
+      "data": {
+        "type": 27,
+        "level": 4,
+        "color": 3,
+        "stats": [
+          {
+            "effect": "priority",
+            "add": 65
+          },
+          {
+            "effect": "critAttack",
+            "add": 0.111
+          },
+          {
+            "effect": "critRate",
+            "add": 0.033
+          },
+          {
+            "effect": "doubleRate",
+            "add": 0.043
+          }
+        ]
+      },
+      "salvage": 0
+    }
+  ]
+}

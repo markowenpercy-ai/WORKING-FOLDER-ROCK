@@ -1,0 +1,1646 @@
+{
+  "fortifications": [
+    {
+      "id": 13,
+      "levels": [
+        {
+          "lv": 0,
+          "effects": [
+            {
+              "type": "defend",
+              "value": 10
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "levels": [
+        {
+          "lv": 0,
+          "effects": [
+            {
+              "type": "defend",
+              "value": 50
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 40000
+            },
+            {
+              "type": "fly",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 0
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "effects": [
+            {
+              "type": "defend",
+              "value": 50
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 80000
+            },
+            {
+              "type": "fly",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 50
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "effects": [
+            {
+              "type": "defend",
+              "value": 50
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 160000
+            },
+            {
+              "type": "fly",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 100
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "effects": [
+            {
+              "type": "defend",
+              "value": 50
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 320000
+            },
+            {
+              "type": "fly",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 150
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "effects": [
+            {
+              "type": "defend",
+              "value": 50
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 640000
+            },
+            {
+              "type": "fly",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 200
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "effects": [
+            {
+              "type": "defend",
+              "value": 50
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 1280000
+            },
+            {
+              "type": "fly",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 250
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "effects": [
+            {
+              "type": "defend",
+              "value": 50
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 2560000
+            },
+            {
+              "type": "fly",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 300
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "effects": [
+            {
+              "type": "defend",
+              "value": 50
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 5120000
+            },
+            {
+              "type": "fly",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 350
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "effects": [
+            {
+              "type": "defend",
+              "value": 50
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 10240000
+            },
+            {
+              "type": "fly",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 400
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "effects": [
+            {
+              "type": "defend",
+              "value": 50
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 20480000
+            },
+            {
+              "type": "fly",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 450
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "levels": [
+        {
+          "lv": 0,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 10000
+            },
+            {
+              "type": "defend",
+              "value": 8
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 20000
+            },
+            {
+              "type": "range",
+              "value": 8
+            },
+            {
+              "type": "backfill",
+              "value": 0
+            },
+            {
+              "type": "attackType",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 0
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 50000
+            },
+            {
+              "type": "defend",
+              "value": 8
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 40000
+            },
+            {
+              "type": "range",
+              "value": 9
+            },
+            {
+              "type": "backfill",
+              "value": 0
+            },
+            {
+              "type": "attackType",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 100
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 100000
+            },
+            {
+              "type": "defend",
+              "value": 8
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 80000
+            },
+            {
+              "type": "range",
+              "value": 10
+            },
+            {
+              "type": "backfill",
+              "value": 0
+            },
+            {
+              "type": "attackType",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 250
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 150000
+            },
+            {
+              "type": "defend",
+              "value": 8
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 160000
+            },
+            {
+              "type": "range",
+              "value": 11
+            },
+            {
+              "type": "backfill",
+              "value": 0
+            },
+            {
+              "type": "attackType",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 400
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 200000
+            },
+            {
+              "type": "defend",
+              "value": 8
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 320000
+            },
+            {
+              "type": "range",
+              "value": 12
+            },
+            {
+              "type": "backfill",
+              "value": 0
+            },
+            {
+              "type": "attackType",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 550
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 250000
+            },
+            {
+              "type": "defend",
+              "value": 8
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 640000
+            },
+            {
+              "type": "range",
+              "value": 13
+            },
+            {
+              "type": "backfill",
+              "value": 0
+            },
+            {
+              "type": "attackType",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 700
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 300000
+            },
+            {
+              "type": "defend",
+              "value": 8
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 1280000
+            },
+            {
+              "type": "range",
+              "value": 14
+            },
+            {
+              "type": "backfill",
+              "value": 0
+            },
+            {
+              "type": "attackType",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 850
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 350000
+            },
+            {
+              "type": "defend",
+              "value": 8
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 2560000
+            },
+            {
+              "type": "range",
+              "value": 15
+            },
+            {
+              "type": "backfill",
+              "value": 0
+            },
+            {
+              "type": "attackType",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 1000
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 400000
+            },
+            {
+              "type": "defend",
+              "value": 8
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 5120000
+            },
+            {
+              "type": "range",
+              "value": 16
+            },
+            {
+              "type": "backfill",
+              "value": 0
+            },
+            {
+              "type": "attackType",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 1150
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 450000
+            },
+            {
+              "type": "defend",
+              "value": 8
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 10240000
+            },
+            {
+              "type": "range",
+              "value": 17
+            },
+            {
+              "type": "backfill",
+              "value": 0
+            },
+            {
+              "type": "attackType",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 1300
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "levels": [
+        {
+          "lv": 0,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 50000
+            },
+            {
+              "type": "defend",
+              "value": 10
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 16000
+            },
+            {
+              "type": "range",
+              "value": 30
+            },
+            {
+              "type": "backfill",
+              "value": 1
+            },
+            {
+              "type": "attackType",
+              "value": 2
+            },
+            {
+              "type": "attackArea",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 0
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 100000
+            },
+            {
+              "type": "defend",
+              "value": 10
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 32000
+            },
+            {
+              "type": "range",
+              "value": 30
+            },
+            {
+              "type": "backfill",
+              "value": 1
+            },
+            {
+              "type": "attackType",
+              "value": 2
+            },
+            {
+              "type": "attackArea",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 200
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 150000
+            },
+            {
+              "type": "defend",
+              "value": 10
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 64000
+            },
+            {
+              "type": "range",
+              "value": 30
+            },
+            {
+              "type": "backfill",
+              "value": 1
+            },
+            {
+              "type": "attackType",
+              "value": 2
+            },
+            {
+              "type": "attackArea",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 400
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 200000
+            },
+            {
+              "type": "defend",
+              "value": 10
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 128000
+            },
+            {
+              "type": "range",
+              "value": 30
+            },
+            {
+              "type": "backfill",
+              "value": 1
+            },
+            {
+              "type": "attackType",
+              "value": 2
+            },
+            {
+              "type": "attackArea",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 600
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 250000
+            },
+            {
+              "type": "defend",
+              "value": 10
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 256000
+            },
+            {
+              "type": "range",
+              "value": 30
+            },
+            {
+              "type": "backfill",
+              "value": 1
+            },
+            {
+              "type": "attackType",
+              "value": 2
+            },
+            {
+              "type": "attackArea",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 800
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 300000
+            },
+            {
+              "type": "defend",
+              "value": 10
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 512000
+            },
+            {
+              "type": "range",
+              "value": 30
+            },
+            {
+              "type": "backfill",
+              "value": 1
+            },
+            {
+              "type": "attackType",
+              "value": 2
+            },
+            {
+              "type": "attackArea",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 1000
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 350000
+            },
+            {
+              "type": "defend",
+              "value": 10
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 1024000
+            },
+            {
+              "type": "range",
+              "value": 30
+            },
+            {
+              "type": "backfill",
+              "value": 1
+            },
+            {
+              "type": "attackType",
+              "value": 2
+            },
+            {
+              "type": "attackArea",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 1200
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 400000
+            },
+            {
+              "type": "defend",
+              "value": 10
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 2048000
+            },
+            {
+              "type": "range",
+              "value": 30
+            },
+            {
+              "type": "backfill",
+              "value": 1
+            },
+            {
+              "type": "attackType",
+              "value": 2
+            },
+            {
+              "type": "attackArea",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 1400
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 450000
+            },
+            {
+              "type": "defend",
+              "value": 10
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 4096000
+            },
+            {
+              "type": "range",
+              "value": 30
+            },
+            {
+              "type": "backfill",
+              "value": 1
+            },
+            {
+              "type": "attackType",
+              "value": 2
+            },
+            {
+              "type": "attackArea",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 1600
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 500000
+            },
+            {
+              "type": "defend",
+              "value": 10
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 8192000
+            },
+            {
+              "type": "range",
+              "value": 30
+            },
+            {
+              "type": "backfill",
+              "value": 1
+            },
+            {
+              "type": "attackType",
+              "value": 2
+            },
+            {
+              "type": "attackArea",
+              "value": 1
+            },
+            {
+              "type": "wealth",
+              "value": 1800
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "levels": [
+        {
+          "lv": 0,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 50000
+            },
+            {
+              "type": "defend",
+              "value": 40
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 80000
+            },
+            {
+              "type": "range",
+              "value": 10
+            },
+            {
+              "type": "backfill",
+              "value": 2
+            },
+            {
+              "type": "attackType",
+              "value": 3
+            },
+            {
+              "type": "attackArea",
+              "value": 10
+            },
+            {
+              "type": "wealth",
+              "value": 0
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 1,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 150000
+            },
+            {
+              "type": "defend",
+              "value": 40
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 160000
+            },
+            {
+              "type": "range",
+              "value": 11
+            },
+            {
+              "type": "backfill",
+              "value": 2
+            },
+            {
+              "type": "attackType",
+              "value": 3
+            },
+            {
+              "type": "attackArea",
+              "value": 11
+            },
+            {
+              "type": "wealth",
+              "value": 100
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 300000
+            },
+            {
+              "type": "defend",
+              "value": 40
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 320000
+            },
+            {
+              "type": "range",
+              "value": 12
+            },
+            {
+              "type": "backfill",
+              "value": 2
+            },
+            {
+              "type": "attackType",
+              "value": 3
+            },
+            {
+              "type": "attackArea",
+              "value": 12
+            },
+            {
+              "type": "wealth",
+              "value": 200
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 450000
+            },
+            {
+              "type": "defend",
+              "value": 40
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 640000
+            },
+            {
+              "type": "range",
+              "value": 13
+            },
+            {
+              "type": "backfill",
+              "value": 2
+            },
+            {
+              "type": "attackType",
+              "value": 3
+            },
+            {
+              "type": "attackArea",
+              "value": 13
+            },
+            {
+              "type": "wealth",
+              "value": 400
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 600000
+            },
+            {
+              "type": "defend",
+              "value": 40
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 1280000
+            },
+            {
+              "type": "range",
+              "value": 14
+            },
+            {
+              "type": "backfill",
+              "value": 2
+            },
+            {
+              "type": "attackType",
+              "value": 3
+            },
+            {
+              "type": "attackArea",
+              "value": 14
+            },
+            {
+              "type": "wealth",
+              "value": 800
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 750000
+            },
+            {
+              "type": "defend",
+              "value": 40
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 2560000
+            },
+            {
+              "type": "range",
+              "value": 15
+            },
+            {
+              "type": "backfill",
+              "value": 2
+            },
+            {
+              "type": "attackType",
+              "value": 3
+            },
+            {
+              "type": "attackArea",
+              "value": 15
+            },
+            {
+              "type": "wealth",
+              "value": 1600
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 900000
+            },
+            {
+              "type": "defend",
+              "value": 40
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 5120000
+            },
+            {
+              "type": "range",
+              "value": 16
+            },
+            {
+              "type": "backfill",
+              "value": 2
+            },
+            {
+              "type": "attackType",
+              "value": 3
+            },
+            {
+              "type": "attackArea",
+              "value": 16
+            },
+            {
+              "type": "wealth",
+              "value": 3200
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 1050000
+            },
+            {
+              "type": "defend",
+              "value": 40
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 10240000
+            },
+            {
+              "type": "range",
+              "value": 17
+            },
+            {
+              "type": "backfill",
+              "value": 2
+            },
+            {
+              "type": "attackType",
+              "value": 3
+            },
+            {
+              "type": "attackArea",
+              "value": 17
+            },
+            {
+              "type": "wealth",
+              "value": 6400
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 1200000
+            },
+            {
+              "type": "defend",
+              "value": 40
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 20480000
+            },
+            {
+              "type": "range",
+              "value": 18
+            },
+            {
+              "type": "backfill",
+              "value": 2
+            },
+            {
+              "type": "attackType",
+              "value": 3
+            },
+            {
+              "type": "attackArea",
+              "value": 18
+            },
+            {
+              "type": "wealth",
+              "value": 12800
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "effects": [
+            {
+              "type": "assault",
+              "value": 1350000
+            },
+            {
+              "type": "defend",
+              "value": 40
+            },
+            {
+              "type": "defendType",
+              "value": 6
+            },
+            {
+              "type": "endure",
+              "value": 40960000
+            },
+            {
+              "type": "range",
+              "value": 19
+            },
+            {
+              "type": "backfill",
+              "value": 2
+            },
+            {
+              "type": "attackType",
+              "value": 3
+            },
+            {
+              "type": "attackArea",
+              "value": 19
+            },
+            {
+              "type": "wealth",
+              "value": 25600
+            },
+            {
+              "type": "interactiveBoxType",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

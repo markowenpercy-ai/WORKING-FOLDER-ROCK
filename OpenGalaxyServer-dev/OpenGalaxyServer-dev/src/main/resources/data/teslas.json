@@ -1,0 +1,410 @@
+{
+  "teslas": [
+    {
+      "propId": 4491,
+      "required": [
+        {
+          "propId": 4412,
+          "amount": 3
+        },
+        {
+          "propId": 836,
+          "amount": 3
+        },
+        {
+          "propId": 721,
+          "amount": 25
+        },
+        {
+          "propId": 724,
+          "amount": 20
+        },
+        {
+          "propId": 727,
+          "amount": 15
+        },
+        {
+          "propId": 4490,
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "propId": 4492,
+      "required": [
+        {
+          "propId": 846,
+          "amount": 15
+        },
+        {
+          "propId": 837,
+          "amount": 3
+        },
+        {
+          "propId": 722,
+          "amount": 25
+        },
+        {
+          "propId": 725,
+          "amount": 20
+        },
+        {
+          "propId": 728,
+          "amount": 15
+        },
+        {
+          "propId": 4490,
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "propId": 4493,
+      "required": [
+        {
+          "propId": 898,
+          "amount": 10
+        },
+        {
+          "propId": 838,
+          "amount": 3
+        },
+        {
+          "propId": 723,
+          "amount": 25
+        },
+        {
+          "propId": 726,
+          "amount": 20
+        },
+        {
+          "propId": 729,
+          "amount": 15
+        },
+        {
+          "propId": 4490,
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "propId": 4494,
+      "required": [
+        {
+          "propId": 897,
+          "amount": 10
+        },
+        {
+          "propId": 839,
+          "amount": 3
+        },
+        {
+          "propId": 731,
+          "amount": 25
+        },
+        {
+          "propId": 734,
+          "amount": 20
+        },
+        {
+          "propId": 737,
+          "amount": 15
+        },
+        {
+          "propId": 4490,
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "propId": 4495,
+      "required": [
+        {
+          "propId": 4422,
+          "amount": 3
+        },
+        {
+          "propId": 840,
+          "amount": 3
+        },
+        {
+          "propId": 732,
+          "amount": 25
+        },
+        {
+          "propId": 735,
+          "amount": 20
+        },
+        {
+          "propId": 738,
+          "amount": 15
+        },
+        {
+          "propId": 4490,
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "propId": 4496,
+      "required": [
+        {
+          "propId": 899,
+          "amount": 10
+        },
+        {
+          "propId": 841,
+          "amount": 3
+        },
+        {
+          "propId": 733,
+          "amount": 25
+        },
+        {
+          "propId": 736,
+          "amount": 20
+        },
+        {
+          "propId": 739,
+          "amount": 15
+        },
+        {
+          "propId": 4490,
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "propId": 4497,
+      "required": [
+        {
+          "propId": 4411,
+          "amount": 15
+        },
+        {
+          "propId": 842,
+          "amount": 3
+        },
+        {
+          "propId": 742,
+          "amount": 25
+        },
+        {
+          "propId": 745,
+          "amount": 20
+        },
+        {
+          "propId": 748,
+          "amount": 15
+        },
+        {
+          "propId": 4490,
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "propId": 4498,
+      "required": [
+        {
+          "propId": 4421,
+          "amount": 3
+        },
+        {
+          "propId": 843,
+          "amount": 3
+        },
+        {
+          "propId": 743,
+          "amount": 25
+        },
+        {
+          "propId": 746,
+          "amount": 20
+        },
+        {
+          "propId": 749,
+          "amount": 15
+        },
+        {
+          "propId": 4490,
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "propId": 4499,
+      "required": [
+        {
+          "propId": 4437,
+          "amount": 3
+        },
+        {
+          "propId": 844,
+          "amount": 3
+        },
+        {
+          "propId": 744,
+          "amount": 25
+        },
+        {
+          "propId": 747,
+          "amount": 20
+        },
+        {
+          "propId": 750,
+          "amount": 15
+        },
+        {
+          "propId": 4490,
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "propId": 4539,
+      "required": [
+        {
+          "propId": 4488,
+          "amount": 3
+        },
+        {
+          "propId": 4410,
+          "amount": 4
+        },
+        {
+          "propId": 884,
+          "amount": 10
+        },
+        {
+          "propId": 750,
+          "amount": 15
+        },
+        {
+          "propId": 748,
+          "amount": 10
+        },
+        {
+          "propId": 4490,
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "propId": 4545,
+      "required": [
+        {
+          "propId": 4459,
+          "amount": 18
+        },
+        {
+          "propId": 881,
+          "amount": 35
+        },
+        {
+          "propId": 878,
+          "amount": 35
+        },
+        {
+          "propId": 877,
+          "amount": 35
+        },
+        {
+          "propId": 880,
+          "amount": 35
+        },
+        {
+          "propId": 4490,
+          "amount": 550
+        }
+      ]
+    },
+    {
+      "propId": 4546,
+      "required": [
+        {
+          "propId": 4460,
+          "amount": 18
+        },
+        {
+          "propId": 882,
+          "amount": 35
+        },
+        {
+          "propId": 876,
+          "amount": 35
+        },
+        {
+          "propId": 877,
+          "amount": 35
+        },
+        {
+          "propId": 878,
+          "amount": 35
+        },
+        {
+          "propId": 4490,
+          "amount": 550
+        }
+      ]
+    },
+    {
+      "propId": 4547,
+      "required": [
+        {
+          "propId": 879,
+          "amount": 18
+        },
+        {
+          "propId": 883,
+          "amount": 18
+        },
+        {
+          "propId": 880,
+          "amount": 35
+        },
+        {
+          "propId": 877,
+          "amount": 35
+        },
+        {
+          "propId": 876,
+          "amount": 35
+        },
+        {
+          "propId": 4490,
+          "amount": 550
+        }
+      ]
+    },
+    {
+      "propId": 4586,
+      "required": [
+        {
+          "propId": 4490,
+          "amount": 600
+        },
+        {
+          "propId": 4492,
+          "amount": 5
+        },
+        {
+          "propId": 4456,
+          "amount": 10
+        },
+        {
+          "propId": 4459,
+          "amount": 10
+        },
+        {
+          "propId": 4408,
+          "amount": 25
+        },
+        {
+          "propId": 836,
+          "amount": 15
+        }
+      ]
+    }
+  ]
+}

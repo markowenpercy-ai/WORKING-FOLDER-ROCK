@@ -1,0 +1,7611 @@
+{
+  "defense": [
+    {
+      "id": 70,
+      "name": "science:ship.defense.tech",
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 2846,
+          "time": 3240,
+          "effects": [
+            {
+              "type": "increase.ship.shield",
+              "value": 0.02
+            },
+            {
+              "type": "increase.ship.endure",
+              "value": 0.02
+            },
+            {
+              "type": "increase.ship.yare",
+              "value": 0.02
+            },
+            {
+              "type": "increase.ship.defend",
+              "value": 0.02
+            },
+            {
+              "type": "increase.ship.stability",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 3295,
+          "time": 4343,
+          "effects": [
+            {
+              "type": "increase.ship.shield",
+              "value": 0.05
+            },
+            {
+              "type": "increase.ship.endure",
+              "value": 0.05
+            },
+            {
+              "type": "increase.ship.yare",
+              "value": 0.05
+            },
+            {
+              "type": "increase.ship.defend",
+              "value": 0.05
+            },
+            {
+              "type": "increase.ship.stability",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "science:shield.research",
+      "require": [
+        {
+          "id": 70,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 10392,
+          "time": 2700,
+          "effects": [
+            {
+              "type": "increase.ship.shield",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 12032,
+          "time": 3619,
+          "effects": [
+            {
+              "type": "increase.ship.shield",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 18407,
+          "time": 8470,
+          "effects": [
+            {
+              "type": "increase.ship.shield",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 28158,
+          "time": 19822,
+          "effects": [
+            {
+              "type": "increase.ship.shield",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 43076,
+          "time": 46389,
+          "effects": [
+            {
+              "type": "increase.ship.shield",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "science:energy.diffusion.tech",
+      "require": [
+        {
+          "id": 70,
+          "lv": 2
+        },
+        {
+          "id": 71,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 46765,
+          "time": 10800,
+          "effects": [
+            {
+              "type": "shield.module.increase.damage.reduction",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 54142,
+          "time": 14476,
+          "effects": [
+            {
+              "type": "shield.module.increase.damage.reduction",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 82828,
+          "time": 33879,
+          "effects": [
+            {
+              "type": "shield.module.increase.damage.reduction",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "science:penetration.resistance",
+      "require": [
+        {
+          "id": 71,
+          "lv": 5
+        },
+        {
+          "id": 72,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 117576,
+          "time": 21600,
+          "effects": [
+            {
+              "type": "enemy.shield.penetration.reduction.rate",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 136122,
+          "time": 28952,
+          "effects": [
+            {
+              "type": "enemy.shield.penetration.reduction.rate",
+              "value": 0.07
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "science:augment.shield",
+      "require": [
+        {
+          "id": 72,
+          "lv": 2
+        },
+        {
+          "id": 73,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 248747,
+          "time": 39600,
+          "effects": [
+            {
+              "type": "increase.ship.shield",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 287983,
+          "time": 53078,
+          "effects": [
+            {
+              "type": "increase.ship.shield",
+              "value": 0.13
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 440562,
+          "time": 124221,
+          "effects": [
+            {
+              "type": "increase.ship.shield",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "science:restoration",
+      "require": [
+        {
+          "id": 72,
+          "lv": 3
+        },
+        {
+          "id": 74,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 540000,
+          "time": 90000,
+          "effects": [
+            {
+              "type": "shield.module.increase.restoration.at.round.start",
+              "value": 0.3
+            },
+            {
+              "type": "intercept.module.increase.rate",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 625178,
+          "time": 120632,
+          "effects": [
+            {
+              "type": "shield.module.increase.restoration.at.round.start",
+              "value": 0.6
+            },
+            {
+              "type": "intercept.module.increase.rate",
+              "value": 0.02
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "science:augment.absorption",
+      "require": [
+        {
+          "id": 71,
+          "lv": 5
+        },
+        {
+          "id": 72,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 117576,
+          "time": 21600,
+          "effects": [
+            {
+              "type": "shield.module.increase.damage.reduction",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 136122,
+          "time": 28952,
+          "effects": [
+            {
+              "type": "shield.module.increase.damage.reduction",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "science:energy.conservation",
+      "require": [
+        {
+          "id": 72,
+          "lv": 2
+        },
+        {
+          "id": 76,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 248747,
+          "time": 39600,
+          "effects": [
+            {
+              "type": "all.modules.no.he3.consumption.increase.rate",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 287983,
+          "time": 53078,
+          "effects": [
+            {
+              "type": "all.modules.no.he3.consumption.increase.rate",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 440562,
+          "time": 124221,
+          "effects": [
+            {
+              "type": "all.modules.no.he3.consumption.increase.rate",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "science:electronic.barrier",
+      "require": [
+        {
+          "id": 72,
+          "lv": 3
+        },
+        {
+          "id": 77,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 540000,
+          "time": 90000,
+          "effects": [
+            {
+              "type": "after.shield.damage.reflection",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 625178,
+          "time": 120632,
+          "effects": [
+            {
+              "type": "after.shield.damage.reflection",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "science:damage.mitigation",
+      "require": [
+        {
+          "id": 74,
+          "lv": 3
+        },
+        {
+          "id": 75,
+          "lv": 2
+        },
+        {
+          "id": 77,
+          "lv": 3
+        },
+        {
+          "id": 78,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 805152,
+          "time": 108000,
+          "effects": [
+            {
+              "type": "module.double.damage.absorption.chance",
+              "value": 0.1
+            },
+            {
+              "type": "scattering.increase.damage.reduction",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 932153,
+          "time": 144758,
+          "effects": [
+            {
+              "type": "module.double.damage.absorption.chance",
+              "value": 0.2
+            },
+            {
+              "type": "scattering.increase.damage.reduction",
+              "value": 0.3
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 1426024,
+          "time": 338783,
+          "effects": [
+            {
+              "type": "module.double.damage.absorption.chance",
+              "value": 0.3
+            },
+            {
+              "type": "scattering.increase.damage.reduction",
+              "value": 0.45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "science:ship.structural.analysis",
+      "require": [
+        {
+          "id": 70,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 10392,
+          "time": 2700,
+          "effects": [
+            {
+              "type": "increase.ship.endure",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 12032,
+          "time": 3619,
+          "effects": [
+            {
+              "type": "increase.ship.endure",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 18407,
+          "time": 8470,
+          "effects": [
+            {
+              "type": "increase.ship.endure",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 28158,
+          "time": 19822,
+          "effects": [
+            {
+              "type": "increase.ship.endure",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 43076,
+          "time": 46389,
+          "effects": [
+            {
+              "type": "increase.ship.endure",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "science:ship.reinforcement.tech",
+      "require": [
+        {
+          "id": 70,
+          "lv": 2
+        },
+        {
+          "id": 80,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 46765,
+          "time": 10800,
+          "effects": [
+            {
+              "type": "increase.ship.stability",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 54142,
+          "time": 14476,
+          "effects": [
+            {
+              "type": "increase.ship.stability",
+              "value": 0.16
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 82828,
+          "time": 33879,
+          "effects": [
+            {
+              "type": "increase.ship.stability",
+              "value": 0.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "science:resilience",
+      "require": [
+        {
+          "id": 80,
+          "lv": 5
+        },
+        {
+          "id": 81,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 117576,
+          "time": 21600,
+          "effects": [
+            {
+              "type": "increase.ship.yare",
+              "value": 0.05
+            },
+            {
+              "type": "enemy.critical.strike.increase.damage.reduction",
+              "value": 0.07
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 136122,
+          "time": 28952,
+          "effects": [
+            {
+              "type": "increase.ship.yare",
+              "value": 0.1
+            },
+            {
+              "type": "enemy.critical.strike.increase.damage.reduction",
+              "value": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "science:structure.improvement",
+      "require": [
+        {
+          "id": 81,
+          "lv": 2
+        },
+        {
+          "id": 82,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 248747,
+          "time": 39600,
+          "effects": [
+            {
+              "type": "increase.ship.endure",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 287983,
+          "time": 53078,
+          "effects": [
+            {
+              "type": "increase.ship.endure",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 440562,
+          "time": 124221,
+          "effects": [
+            {
+              "type": "increase.ship.endure",
+              "value": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "science:fast.repair.tech",
+      "require": [
+        {
+          "id": 81,
+          "lv": 3
+        },
+        {
+          "id": 83,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 540000,
+          "time": 90000,
+          "effects": [
+            {
+              "type": "intercept.module.increase.rate",
+              "value": 0.01
+            },
+            {
+              "type": "structure.module.restoration.at.round.start",
+              "value": 0.3
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 625178,
+          "time": 120632,
+          "effects": [
+            {
+              "type": "intercept.module.increase.rate",
+              "value": 0.02
+            },
+            {
+              "type": "structure.module.restoration.at.round.start",
+              "value": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "science:reaction.armor.improvement",
+      "require": [
+        {
+          "id": 80,
+          "lv": 5
+        },
+        {
+          "id": 81,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 117576,
+          "time": 21600,
+          "effects": [
+            {
+              "type": "increase.ship.stability",
+              "value": 0.1
+            },
+            {
+              "type": "reaction.armor.harm.increase.reduction",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 136122,
+          "time": 28952,
+          "effects": [
+            {
+              "type": "increase.ship.stability",
+              "value": 0.2
+            },
+            {
+              "type": "reaction.armor.harm.increase.reduction",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "science:defense.improvement",
+      "require": [
+        {
+          "id": 81,
+          "lv": 2
+        },
+        {
+          "id": 85,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 248747,
+          "time": 39600,
+          "effects": [
+            {
+              "type": "increase.ship.defend",
+              "value": 0.05
+            },
+            {
+              "type": "armor.type.chrome.increase.reduction",
+              "value": 0.03
+            },
+            {
+              "type": "armor.type.nano.increase.reduction",
+              "value": 0.03
+            },
+            {
+              "type": "armor.type.neutralizing.increase.reduction",
+              "value": 0.03
+            },
+            {
+              "type": "armor.type.regen.increase.reduction",
+              "value": 0.03
+            },
+            {
+              "type": "armor.type.light.increase.reduction",
+              "value": 0.03
+            },
+            {
+              "type": "armor.type.unknown.increase.reduction",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 287983,
+          "time": 53078,
+          "effects": [
+            {
+              "type": "increase.ship.defend",
+              "value": 0.1
+            },
+            {
+              "type": "armor.type.chrome.increase.reduction",
+              "value": 0.06
+            },
+            {
+              "type": "armor.type.nano.increase.reduction",
+              "value": 0.06
+            },
+            {
+              "type": "armor.type.neutralizing.increase.reduction",
+              "value": 0.06
+            },
+            {
+              "type": "armor.type.regen.increase.reduction",
+              "value": 0.06
+            },
+            {
+              "type": "armor.type.light.increase.reduction",
+              "value": 0.06
+            },
+            {
+              "type": "armor.type.unknown.increase.reduction",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 440562,
+          "time": 124221,
+          "effects": [
+            {
+              "type": "increase.ship.defend",
+              "value": 0.15
+            },
+            {
+              "type": "armor.type.chrome.increase.reduction",
+              "value": 0.1
+            },
+            {
+              "type": "armor.type.nano.increase.reduction",
+              "value": 0.1
+            },
+            {
+              "type": "armor.type.neutralizing.increase.reduction",
+              "value": 0.1
+            },
+            {
+              "type": "armor.type.regen.increase.reduction",
+              "value": 0.1
+            },
+            {
+              "type": "armor.type.light.increase.reduction",
+              "value": 0.1
+            },
+            {
+              "type": "armor.type.unknown.increase.reduction",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "science:reflection.mastery",
+      "require": [
+        {
+          "id": 81,
+          "lv": 3
+        },
+        {
+          "id": 86,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 540000,
+          "time": 90000,
+          "effects": [
+            {
+              "type": "enable.reflect.modules.reactivation.after.rounds",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 625178,
+          "time": 120632,
+          "effects": [
+            {
+              "type": "enable.reflect.modules.reactivation.after.rounds",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "science:stability.mastery",
+      "require": [
+        {
+          "id": 83,
+          "lv": 3
+        },
+        {
+          "id": 84,
+          "lv": 2
+        },
+        {
+          "id": 86,
+          "lv": 3
+        },
+        {
+          "id": 87,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 805152,
+          "time": 108000,
+          "effects": [
+            {
+              "type": "intercept.module.increase.rate",
+              "value": 0.02
+            },
+            {
+              "type": "enemy.critical.strike.increase.damage.reduction",
+              "value": 0.05
+            },
+            {
+              "type": "activated.daedalus.ship.stability.to.augment.during.attack.increase.rate",
+              "value": 0.1
+            },
+            {
+              "type": "activated.daedalus.ship.stability.augment",
+              "value": 1
+            },
+            {
+              "type": "activated.daedalus.ship.increase.damage.reduction",
+              "value": 0.4
+            },
+            {
+              "type": "scattering.increase.damage.reduction",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 932153,
+          "time": 144758,
+          "effects": [
+            {
+              "type": "intercept.module.increase.rate",
+              "value": 0.04
+            },
+            {
+              "type": "enemy.critical.strike.increase.damage.reduction",
+              "value": 0.05
+            },
+            {
+              "type": "activated.daedalus.ship.stability.to.augment.during.attack.increase.rate",
+              "value": 0.2
+            },
+            {
+              "type": "activated.daedalus.ship.stability.augment",
+              "value": 1
+            },
+            {
+              "type": "activated.daedalus.ship.increase.damage.reduction",
+              "value": 0.4
+            },
+            {
+              "type": "scattering.increase.damage.reduction",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 1426024,
+          "time": 338783,
+          "effects": [
+            {
+              "type": "intercept.module.increase.rate",
+              "value": 0.06
+            },
+            {
+              "type": "enemy.critical.strike.increase.damage.reduction",
+              "value": 0.05
+            },
+            {
+              "type": "activated.daedalus.ship.stability.to.augment.during.attack.increase.rate",
+              "value": 0.3
+            },
+            {
+              "type": "activated.daedalus.ship.stability.augment",
+              "value": 1
+            },
+            {
+              "type": "activated.daedalus.ship.increase.damage.reduction",
+              "value": 0.4
+            },
+            {
+              "type": "scattering.increase.damage.reduction",
+              "value": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "science:energy.control",
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 2500,
+          "time": 500,
+          "effects": [
+            {
+              "type": "decrease.defensive.structures.metal.consume",
+              "value": 1
+            },
+            {
+              "type": "decrease.defensive.structures.he3.consume",
+              "value": 1
+            },
+            {
+              "type": "decrease.defensive.structures.gold.consume",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 5000,
+          "time": 1000,
+          "effects": [
+            {
+              "type": "decrease.defensive.structures.metal.consume",
+              "value": 2
+            },
+            {
+              "type": "decrease.defensive.structures.he3.consume",
+              "value": 2
+            },
+            {
+              "type": "decrease.defensive.structures.gold.consume",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 10000,
+          "time": 2000,
+          "effects": [
+            {
+              "type": "decrease.defensive.structures.metal.consume",
+              "value": 3
+            },
+            {
+              "type": "decrease.defensive.structures.he3.consume",
+              "value": 3
+            },
+            {
+              "type": "decrease.defensive.structures.gold.consume",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 20000,
+          "time": 4000,
+          "effects": [
+            {
+              "type": "decrease.defensive.structures.metal.consume",
+              "value": 4
+            },
+            {
+              "type": "decrease.defensive.structures.he3.consume",
+              "value": 4
+            },
+            {
+              "type": "decrease.defensive.structures.gold.consume",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 40000,
+          "time": 8000,
+          "effects": [
+            {
+              "type": "decrease.defensive.structures.metal.consume",
+              "value": 5
+            },
+            {
+              "type": "decrease.defensive.structures.he3.consume",
+              "value": 5
+            },
+            {
+              "type": "decrease.defensive.structures.gold.consume",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 80000,
+          "time": 16000,
+          "effects": [
+            {
+              "type": "decrease.defensive.structures.metal.consume",
+              "value": 6
+            },
+            {
+              "type": "decrease.defensive.structures.he3.consume",
+              "value": 6
+            },
+            {
+              "type": "decrease.defensive.structures.gold.consume",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 160000,
+          "time": 32000,
+          "effects": [
+            {
+              "type": "decrease.defensive.structures.metal.consume",
+              "value": 7
+            },
+            {
+              "type": "decrease.defensive.structures.he3.consume",
+              "value": 7
+            },
+            {
+              "type": "decrease.defensive.structures.gold.consume",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 320000,
+          "time": 64000,
+          "effects": [
+            {
+              "type": "decrease.defensive.structures.metal.consume",
+              "value": 8
+            },
+            {
+              "type": "decrease.defensive.structures.he3.consume",
+              "value": 8
+            },
+            {
+              "type": "decrease.defensive.structures.gold.consume",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 640000,
+          "time": 128000,
+          "effects": [
+            {
+              "type": "decrease.defensive.structures.metal.consume",
+              "value": 9
+            },
+            {
+              "type": "decrease.defensive.structures.he3.consume",
+              "value": 9
+            },
+            {
+              "type": "decrease.defensive.structures.gold.consume",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 1280000,
+          "time": 256000,
+          "effects": [
+            {
+              "type": "decrease.defensive.structures.metal.consume",
+              "value": 10
+            },
+            {
+              "type": "decrease.defensive.structures.he3.consume",
+              "value": 10
+            },
+            {
+              "type": "decrease.defensive.structures.gold.consume",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "science:rapid.defense.buildup",
+      "require": [
+        {
+          "id": 89,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 3000,
+          "time": 600,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.speed",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 6000,
+          "time": 1200,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.speed",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 12000,
+          "time": 2400,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.speed",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 24000,
+          "time": 4800,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.speed",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 48000,
+          "time": 9600,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.speed",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 96000,
+          "time": 19200,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.speed",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 192000,
+          "time": 38400,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.speed",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 384000,
+          "time": 76800,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.speed",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 768000,
+          "time": 153600,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.speed",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 1536000,
+          "time": 307200,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.speed",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "science:defense.enhancement",
+      "require": [
+        {
+          "id": 89,
+          "lv": 3
+        },
+        {
+          "id": 90,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 1500,
+          "time": 300,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.defense.value",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 3000,
+          "time": 600,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.defense.value",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 6000,
+          "time": 1200,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.defense.value",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 12000,
+          "time": 2400,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.defense.value",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 24000,
+          "time": 4800,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.defense.value",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 48000,
+          "time": 9600,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.defense.value",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 96000,
+          "time": 19200,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.defense.value",
+              "value": 0.07
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 192000,
+          "time": 38400,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.defense.value",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 384000,
+          "time": 76800,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.defense.value",
+              "value": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 768000,
+          "time": 153600,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.defense.value",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "science:emplacement.mastery",
+      "require": [
+        {
+          "id": 90,
+          "lv": 5
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 2250,
+          "time": 450,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.attack.value",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 4500,
+          "time": 900,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.attack.value",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 9000,
+          "time": 1800,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.attack.value",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 18000,
+          "time": 3600,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.attack.value",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 36000,
+          "time": 7200,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.attack.value",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 72000,
+          "time": 14400,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.attack.value",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 144000,
+          "time": 28800,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.attack.value",
+              "value": 0.07
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 288000,
+          "time": 57600,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.attack.value",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 576000,
+          "time": 115200,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.attack.value",
+              "value": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 1152000,
+          "time": 230400,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.attack.value",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "science:utmost.defense.buildup",
+      "require": [
+        {
+          "id": 89,
+          "lv": 5
+        },
+        {
+          "id": 91,
+          "lv": 5
+        },
+        {
+          "id": 92,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 1750,
+          "time": 350,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.maximum.value",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 3500,
+          "time": 700,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.maximum.value",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 7000,
+          "time": 1400,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.maximum.value",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 14000,
+          "time": 2800,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.maximum.value",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 28000,
+          "time": 5600,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.maximum.value",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 56000,
+          "time": 11200,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.maximum.value",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 112000,
+          "time": 22400,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.maximum.value",
+              "value": 0.07
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 224000,
+          "time": 44800,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.maximum.value",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 448000,
+          "time": 89600,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.maximum.value",
+              "value": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 896000,
+          "time": 179200,
+          "effects": [
+            {
+              "type": "increase.defensive.structures.maximum.value",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "science:range.extension",
+      "require": [
+        {
+          "id": 90,
+          "lv": 8
+        },
+        {
+          "id": 92,
+          "lv": 5
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 300000,
+          "time": 60000,
+          "effects": [
+            {
+              "type": "increase.basic.defensive.structures.attack.range",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 600000,
+          "time": 120000,
+          "effects": [
+            {
+              "type": "increase.basic.defensive.structures.attack.range",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "science:thor.buildup",
+      "require": [
+        {
+          "id": 89,
+          "lv": 8
+        },
+        {
+          "id": 93,
+          "lv": 5
+        },
+        {
+          "id": 94,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 800000,
+          "time": 160000,
+          "effects": [
+            {
+              "type": "increase.thor.maximum.amount",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "science:augment.propulsion",
+      "require": [
+        {
+          "id": 92,
+          "lv": 8
+        },
+        {
+          "id": 95,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 400000,
+          "time": 80000,
+          "effects": [
+            {
+              "type": "increase.ship.movement.at.home.planet",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 900000,
+          "time": 180000,
+          "effects": [
+            {
+              "type": "increase.ship.movement.at.home.planet",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "construction": [
+    {
+      "id": 100,
+      "name": "science:concurrent.construction",
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 1000,
+          "time": 10,
+          "effects": [
+            {
+              "type": "increase.build.queue",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "science:quality.materials",
+      "require": [
+        {
+          "id": 102,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 1200,
+          "time": 240,
+          "effects": [
+            {
+              "type": "decrease.metal.consume",
+              "value": 1
+            },
+            {
+              "type": "decrease.he3.consume",
+              "value": 1
+            },
+            {
+              "type": "decrease.gold.consume",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 2352,
+          "time": 470,
+          "effects": [
+            {
+              "type": "decrease.metal.consume",
+              "value": 2
+            },
+            {
+              "type": "decrease.he3.consume",
+              "value": 2
+            },
+            {
+              "type": "decrease.gold.consume",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 4608,
+          "time": 922,
+          "effects": [
+            {
+              "type": "decrease.metal.consume",
+              "value": 3
+            },
+            {
+              "type": "decrease.he3.consume",
+              "value": 3
+            },
+            {
+              "type": "decrease.gold.consume",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 9030,
+          "time": 1806,
+          "effects": [
+            {
+              "type": "decrease.metal.consume",
+              "value": 4
+            },
+            {
+              "type": "decrease.he3.consume",
+              "value": 4
+            },
+            {
+              "type": "decrease.gold.consume",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 17706,
+          "time": 3541,
+          "effects": [
+            {
+              "type": "decrease.metal.consume",
+              "value": 5
+            },
+            {
+              "type": "decrease.he3.consume",
+              "value": 5
+            },
+            {
+              "type": "decrease.gold.consume",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 34710,
+          "time": 6942,
+          "effects": [
+            {
+              "type": "decrease.metal.consume",
+              "value": 6
+            },
+            {
+              "type": "decrease.he3.consume",
+              "value": 6
+            },
+            {
+              "type": "decrease.gold.consume",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 68028,
+          "time": 13606,
+          "effects": [
+            {
+              "type": "decrease.metal.consume",
+              "value": 8
+            },
+            {
+              "type": "decrease.he3.consume",
+              "value": 8
+            },
+            {
+              "type": "decrease.gold.consume",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 133344,
+          "time": 26669,
+          "effects": [
+            {
+              "type": "decrease.metal.consume",
+              "value": 10
+            },
+            {
+              "type": "decrease.he3.consume",
+              "value": 10
+            },
+            {
+              "type": "decrease.gold.consume",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 261354,
+          "time": 52271,
+          "effects": [
+            {
+              "type": "decrease.metal.consume",
+              "value": 12
+            },
+            {
+              "type": "decrease.he3.consume",
+              "value": 12
+            },
+            {
+              "type": "decrease.gold.consume",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 512250,
+          "time": 102450,
+          "effects": [
+            {
+              "type": "decrease.metal.consume",
+              "value": 15
+            },
+            {
+              "type": "decrease.he3.consume",
+              "value": 15
+            },
+            {
+              "type": "decrease.gold.consume",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "science:construction.boost",
+      "require": [
+        {
+          "id": 100,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 2400,
+          "time": 480,
+          "effects": [
+            {
+              "type": "increase.construction.speed",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 4704,
+          "time": 941,
+          "effects": [
+            {
+              "type": "increase.construction.speed",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 9216,
+          "time": 1843,
+          "effects": [
+            {
+              "type": "increase.construction.speed",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 18066,
+          "time": 3613,
+          "effects": [
+            {
+              "type": "increase.construction.speed",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 35418,
+          "time": 7084,
+          "effects": [
+            {
+              "type": "increase.construction.speed",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 69420,
+          "time": 13884,
+          "effects": [
+            {
+              "type": "increase.construction.speed",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 136062,
+          "time": 27212,
+          "effects": [
+            {
+              "type": "increase.construction.speed",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 266688,
+          "time": 53338,
+          "effects": [
+            {
+              "type": "increase.construction.speed",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 522708,
+          "time": 104542,
+          "effects": [
+            {
+              "type": "increase.construction.speed",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 1024506,
+          "time": 204901,
+          "effects": [
+            {
+              "type": "increase.construction.speed",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "science:ship.building.boost",
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 990,
+          "time": 198,
+          "effects": [
+            {
+              "type": "increase.shipbuilding.speed",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 2226,
+          "time": 445,
+          "effects": [
+            {
+              "type": "increase.shipbuilding.speed",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 5010,
+          "time": 1002,
+          "effects": [
+            {
+              "type": "increase.shipbuilding.speed",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 11274,
+          "time": 2255,
+          "effects": [
+            {
+              "type": "increase.shipbuilding.speed",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 25368,
+          "time": 5074,
+          "effects": [
+            {
+              "type": "increase.shipbuilding.speed",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 57084,
+          "time": 11417,
+          "effects": [
+            {
+              "type": "increase.shipbuilding.speed",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 128448,
+          "time": 25690,
+          "effects": [
+            {
+              "type": "increase.shipbuilding.speed",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 289008,
+          "time": 57802,
+          "effects": [
+            {
+              "type": "increase.shipbuilding.speed",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 650268,
+          "time": 130054,
+          "effects": [
+            {
+              "type": "increase.shipbuilding.speed",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 1463112,
+          "time": 292622,
+          "effects": [
+            {
+              "type": "increase.shipbuilding.speed",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "science:ship.building.logistics",
+      "require": [
+        {
+          "id": 103,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 1386,
+          "time": 277,
+          "effects": [
+            {
+              "type": "decrease.ship.metal.consume",
+              "value": 1
+            },
+            {
+              "type": "decrease.ship.he3.consume",
+              "value": 1
+            },
+            {
+              "type": "decrease.ship.gold.consume",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 3114,
+          "time": 623,
+          "effects": [
+            {
+              "type": "decrease.ship.metal.consume",
+              "value": 2
+            },
+            {
+              "type": "decrease.ship.he3.consume",
+              "value": 2
+            },
+            {
+              "type": "decrease.ship.gold.consume",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 7014,
+          "time": 1403,
+          "effects": [
+            {
+              "type": "decrease.ship.metal.consume",
+              "value": 3
+            },
+            {
+              "type": "decrease.ship.he3.consume",
+              "value": 3
+            },
+            {
+              "type": "decrease.ship.gold.consume",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 15786,
+          "time": 3157,
+          "effects": [
+            {
+              "type": "decrease.ship.metal.consume",
+              "value": 4
+            },
+            {
+              "type": "decrease.ship.he3.consume",
+              "value": 4
+            },
+            {
+              "type": "decrease.ship.gold.consume",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 35520,
+          "time": 7104,
+          "effects": [
+            {
+              "type": "decrease.ship.metal.consume",
+              "value": 5
+            },
+            {
+              "type": "decrease.ship.he3.consume",
+              "value": 5
+            },
+            {
+              "type": "decrease.ship.gold.consume",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 79920,
+          "time": 15984,
+          "effects": [
+            {
+              "type": "decrease.ship.metal.consume",
+              "value": 6
+            },
+            {
+              "type": "decrease.ship.he3.consume",
+              "value": 6
+            },
+            {
+              "type": "decrease.ship.gold.consume",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 179826,
+          "time": 35965,
+          "effects": [
+            {
+              "type": "decrease.ship.metal.consume",
+              "value": 8
+            },
+            {
+              "type": "decrease.ship.he3.consume",
+              "value": 8
+            },
+            {
+              "type": "decrease.ship.gold.consume",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 404610,
+          "time": 80922,
+          "effects": [
+            {
+              "type": "decrease.ship.metal.consume",
+              "value": 10
+            },
+            {
+              "type": "decrease.ship.he3.consume",
+              "value": 10
+            },
+            {
+              "type": "decrease.ship.gold.consume",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 910380,
+          "time": 182076,
+          "effects": [
+            {
+              "type": "decrease.ship.metal.consume",
+              "value": 12
+            },
+            {
+              "type": "decrease.ship.he3.consume",
+              "value": 12
+            },
+            {
+              "type": "decrease.ship.gold.consume",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 2048358,
+          "time": 409672,
+          "effects": [
+            {
+              "type": "decrease.ship.metal.consume",
+              "value": 15
+            },
+            {
+              "type": "decrease.ship.he3.consume",
+              "value": 15
+            },
+            {
+              "type": "decrease.ship.gold.consume",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "science:sync.shipbuilding",
+      "require": [
+        {
+          "id": 104,
+          "lv": 4
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 174000,
+          "time": 34800,
+          "effects": [
+            {
+              "type": "increase.shipbuilding.queue",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "science:high.yield.mining",
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 1740,
+          "time": 348,
+          "effects": [
+            {
+              "type": "increase.metal.output",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 3408,
+          "time": 682,
+          "effects": [
+            {
+              "type": "increase.metal.output",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 6684,
+          "time": 1337,
+          "effects": [
+            {
+              "type": "increase.metal.output",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 13098,
+          "time": 2620,
+          "effects": [
+            {
+              "type": "increase.metal.output",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 25674,
+          "time": 5135,
+          "effects": [
+            {
+              "type": "increase.metal.output",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 50328,
+          "time": 10066,
+          "effects": [
+            {
+              "type": "increase.metal.output",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 98646,
+          "time": 19729,
+          "effects": [
+            {
+              "type": "increase.metal.output",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 193344,
+          "time": 38669,
+          "effects": [
+            {
+              "type": "increase.metal.output",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 378960,
+          "time": 75792,
+          "effects": [
+            {
+              "type": "increase.metal.output",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 742764,
+          "time": 148553,
+          "effects": [
+            {
+              "type": "increase.metal.output",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "science:high.yield.chemistry",
+      "require": [
+        {
+          "id": 106,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 2400,
+          "time": 480,
+          "effects": [
+            {
+              "type": "increase.he3.output",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 4704,
+          "time": 941,
+          "effects": [
+            {
+              "type": "increase.he3.output",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 9216,
+          "time": 1843,
+          "effects": [
+            {
+              "type": "increase.he3.output",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 18060,
+          "time": 3612,
+          "effects": [
+            {
+              "type": "increase.he3.output",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 35412,
+          "time": 7082,
+          "effects": [
+            {
+              "type": "increase.he3.output",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 69420,
+          "time": 13884,
+          "effects": [
+            {
+              "type": "increase.he3.output",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 136056,
+          "time": 27211,
+          "effects": [
+            {
+              "type": "increase.he3.output",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 266688,
+          "time": 53338,
+          "effects": [
+            {
+              "type": "increase.he3.output",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 522708,
+          "time": 104542,
+          "effects": [
+            {
+              "type": "increase.he3.output",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 1024500,
+          "time": 204900,
+          "effects": [
+            {
+              "type": "increase.he3.output",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "science:high.yield.investing",
+      "require": [
+        {
+          "id": 107,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 3570,
+          "time": 714,
+          "effects": [
+            {
+              "type": "increase.gold.output",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 6996,
+          "time": 1399,
+          "effects": [
+            {
+              "type": "increase.gold.output",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 13710,
+          "time": 2742,
+          "effects": [
+            {
+              "type": "increase.gold.output",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 26880,
+          "time": 5376,
+          "effects": [
+            {
+              "type": "increase.gold.output",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 52680,
+          "time": 10536,
+          "effects": [
+            {
+              "type": "increase.gold.output",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 103260,
+          "time": 20652,
+          "effects": [
+            {
+              "type": "increase.gold.output",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 202392,
+          "time": 40478,
+          "effects": [
+            {
+              "type": "increase.gold.output",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 396696,
+          "time": 79339,
+          "effects": [
+            {
+              "type": "increase.gold.output",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 777528,
+          "time": 155506,
+          "effects": [
+            {
+              "type": "increase.gold.output",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 1523952,
+          "time": 304790,
+          "effects": [
+            {
+              "type": "increase.gold.output",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "science:expand.capacity",
+      "require": [
+        {
+          "id": 108,
+          "lv": 4
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 3540,
+          "time": 708,
+          "effects": [
+            {
+              "type": "increase.metal.capacity",
+              "value": 50000
+            },
+            {
+              "type": "increase.he3.capacity",
+              "value": 50000
+            },
+            {
+              "type": "increase.gold.capacity",
+              "value": 50000
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 6936,
+          "time": 1387,
+          "effects": [
+            {
+              "type": "increase.metal.capacity",
+              "value": 100000
+            },
+            {
+              "type": "increase.he3.capacity",
+              "value": 100000
+            },
+            {
+              "type": "increase.gold.capacity",
+              "value": 100000
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 13596,
+          "time": 2719,
+          "effects": [
+            {
+              "type": "increase.metal.capacity",
+              "value": 150000
+            },
+            {
+              "type": "increase.he3.capacity",
+              "value": 150000
+            },
+            {
+              "type": "increase.gold.capacity",
+              "value": 150000
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 26652,
+          "time": 5330,
+          "effects": [
+            {
+              "type": "increase.metal.capacity",
+              "value": 200000
+            },
+            {
+              "type": "increase.he3.capacity",
+              "value": 200000
+            },
+            {
+              "type": "increase.gold.capacity",
+              "value": 200000
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 52242,
+          "time": 10448,
+          "effects": [
+            {
+              "type": "increase.metal.capacity",
+              "value": 250000
+            },
+            {
+              "type": "increase.he3.capacity",
+              "value": 250000
+            },
+            {
+              "type": "increase.gold.capacity",
+              "value": 250000
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 102396,
+          "time": 20479,
+          "effects": [
+            {
+              "type": "increase.metal.capacity",
+              "value": 300000
+            },
+            {
+              "type": "increase.he3.capacity",
+              "value": 300000
+            },
+            {
+              "type": "increase.gold.capacity",
+              "value": 300000
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 200694,
+          "time": 40139,
+          "effects": [
+            {
+              "type": "increase.metal.capacity",
+              "value": 350000
+            },
+            {
+              "type": "increase.he3.capacity",
+              "value": 350000
+            },
+            {
+              "type": "increase.gold.capacity",
+              "value": 350000
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 393360,
+          "time": 78672,
+          "effects": [
+            {
+              "type": "increase.metal.capacity",
+              "value": 400000
+            },
+            {
+              "type": "increase.he3.capacity",
+              "value": 400000
+            },
+            {
+              "type": "increase.gold.capacity",
+              "value": 400000
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 770994,
+          "time": 154199,
+          "effects": [
+            {
+              "type": "increase.metal.capacity",
+              "value": 450000
+            },
+            {
+              "type": "increase.he3.capacity",
+              "value": 450000
+            },
+            {
+              "type": "increase.gold.capacity",
+              "value": 450000
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 1511148,
+          "time": 302230,
+          "effects": [
+            {
+              "type": "increase.metal.capacity",
+              "value": 500000
+            },
+            {
+              "type": "increase.he3.capacity",
+              "value": 500000
+            },
+            {
+              "type": "increase.gold.capacity",
+              "value": 500000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "science:repair.techology",
+      "require": [
+        {
+          "id": 105,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 5310,
+          "time": 1062,
+          "effects": [
+            {
+              "type": "ship.repair.rate",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 10404,
+          "time": 2080.5,
+          "effects": [
+            {
+              "type": "ship.repair.rate",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 20394,
+          "time": 4078.5,
+          "effects": [
+            {
+              "type": "ship.repair.rate",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 39978,
+          "time": 7995,
+          "effects": [
+            {
+              "type": "ship.repair.rate",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 78363,
+          "time": 15672,
+          "effects": [
+            {
+              "type": "ship.repair.rate",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 153594,
+          "time": 30718.5,
+          "effects": [
+            {
+              "type": "ship.repair.rate",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 301041,
+          "time": 60208.5,
+          "effects": [
+            {
+              "type": "ship.repair.rate",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 590040,
+          "time": 118008,
+          "effects": [
+            {
+              "type": "ship.repair.rate",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 1156491,
+          "time": 231298.5,
+          "effects": [
+            {
+              "type": "ship.repair.rate",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 2266722,
+          "time": 453345,
+          "effects": [
+            {
+              "type": "ship.repair.rate",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "id": 0,
+      "name": "science:ballistics",
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 541,
+          "time": 117,
+          "effects": [
+            {
+              "type": "ballistic.damage",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 628,
+          "time": 158,
+          "effects": [
+            {
+              "type": "ballistic.damage",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 959,
+          "time": 368,
+          "effects": [
+            {
+              "type": "ballistic.damage",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 1467,
+          "time": 861,
+          "effects": [
+            {
+              "type": "ballistic.damage",
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 2244,
+          "time": 2015,
+          "effects": [
+            {
+              "type": "ballistic.damage",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 3434,
+          "time": 4717,
+          "effects": [
+            {
+              "type": "ballistic.damage",
+              "value": 0.3
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 5253,
+          "time": 11039,
+          "effects": [
+            {
+              "type": "ballistic.damage",
+              "value": 0.35
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 8036,
+          "time": 25834,
+          "effects": [
+            {
+              "type": "ballistic.damage",
+              "value": 0.4
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 12294,
+          "time": 60461,
+          "effects": [
+            {
+              "type": "ballistic.damage",
+              "value": 0.45
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 18808,
+          "time": 141501,
+          "effects": [
+            {
+              "type": "ballistic.damage",
+              "value": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "science:ballistic.malice",
+      "require": [
+        {
+          "id": 0,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 7558,
+          "time": 1428,
+          "effects": [
+            {
+              "type": "ballistic.critical.rate",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 8752,
+          "time": 1915,
+          "effects": [
+            {
+              "type": "ballistic.critical.rate",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 13385,
+          "time": 4479,
+          "effects": [
+            {
+              "type": "ballistic.critical.rate",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 20477,
+          "time": 10483,
+          "effects": [
+            {
+              "type": "ballistic.critical.rate",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 31327,
+          "time": 24535,
+          "effects": [
+            {
+              "type": "ballistic.critical.rate",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "science:ballistic.crackdown",
+      "require": [
+        {
+          "id": 0,
+          "lv": 6
+        },
+        {
+          "id": 1,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 29628,
+          "time": 4335,
+          "effects": [
+            {
+              "type": "ballistic.critical.damage",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 34303,
+          "time": 5811,
+          "effects": [
+            {
+              "type": "ballistic.critical.damage",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "science:steady.control.tech",
+      "require": [
+        {
+          "id": 0,
+          "lv": 6
+        },
+        {
+          "id": 1,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 26108,
+          "time": 3366,
+          "effects": [
+            {
+              "type": "ballistic.reduce.space",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 30227,
+          "time": 4512,
+          "effects": [
+            {
+              "type": "ballistic.reduce.space",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 46241,
+          "time": 10559,
+          "effects": [
+            {
+              "type": "ballistic.reduce.space",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 70739,
+          "time": 24711,
+          "effects": [
+            {
+              "type": "ballistic.reduce.space",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 108217,
+          "time": 57832,
+          "effects": [
+            {
+              "type": "ballistic.reduce.space",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "science:precise.ballistics",
+      "require": [
+        {
+          "id": 0,
+          "lv": 8
+        },
+        {
+          "id": 3,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 51100,
+          "time": 4080,
+          "effects": [
+            {
+              "type": "ballistic.hit.rate",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 59162,
+          "time": 5469,
+          "effects": [
+            {
+              "type": "ballistic.hit.rate",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 90506,
+          "time": 12799,
+          "effects": [
+            {
+              "type": "ballistic.hit.rate",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 138453,
+          "time": 29952,
+          "effects": [
+            {
+              "type": "ballistic.hit.rate",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 211811,
+          "time": 70100,
+          "effects": [
+            {
+              "type": "ballistic.hit.rate",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "science:shield.penetration",
+      "require": [
+        {
+          "id": 1,
+          "lv": 5
+        },
+        {
+          "id": 2,
+          "lv": 1
+        },
+        {
+          "id": 4,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 154616,
+          "time": 15300,
+          "effects": [
+            {
+              "type": "ballistic.penetration",
+              "value": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "science:depleted.uranium.bomb.research",
+      "require": [
+        {
+          "id": 2,
+          "lv": 2
+        },
+        {
+          "id": 5,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 203249,
+          "time": 12750,
+          "effects": [
+            {
+              "type": "ballistic.kinetic.increase.damage.against.neutralizing",
+              "value": 0.1
+            },
+            {
+              "type": "ballistic.kinetic.increase.damage.against.light",
+              "value": 0.01
+            },
+            {
+              "type": "ballistic.kinetic.increase.damage.against.unknown",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 235312,
+          "time": 17090,
+          "effects": [
+            {
+              "type": "ballistic.kinetic.increase.damage.against.neutralizing",
+              "value": 0.2
+            },
+            {
+              "type": "ballistic.kinetic.increase.damage.against.light",
+              "value": 0.02
+            },
+            {
+              "type": "ballistic.kinetic.increase.damage.against.unknown",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 359977,
+          "time": 39995,
+          "effects": [
+            {
+              "type": "ballistic.kinetic.increase.damage.against.neutralizing",
+              "value": 0.3
+            },
+            {
+              "type": "ballistic.kinetic.increase.damage.against.light",
+              "value": 0.03
+            },
+            {
+              "type": "ballistic.kinetic.increase.damage.against.unknown",
+              "value": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "science:fire.bomb.research",
+      "require": [
+        {
+          "id": 2,
+          "lv": 2
+        },
+        {
+          "id": 5,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 203249,
+          "time": 12750,
+          "effects": [
+            {
+              "type": "ballistic.heat.increase.damage.against.regen",
+              "value": 0.1
+            },
+            {
+              "type": "ballistic.heat.increase.damage.against.light",
+              "value": 0.01
+            },
+            {
+              "type": "ballistic.heat.increase.damage.against.unknown",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 235312,
+          "time": 17090,
+          "effects": [
+            {
+              "type": "ballistic.heat.increase.damage.against.regen",
+              "value": 0.2
+            },
+            {
+              "type": "ballistic.heat.increase.damage.against.light",
+              "value": 0.02
+            },
+            {
+              "type": "ballistic.heat.increase.damage.against.unknown",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 359977,
+          "time": 39995,
+          "effects": [
+            {
+              "type": "ballistic.heat.increase.damage.against.regen",
+              "value": 0.3
+            },
+            {
+              "type": "ballistic.heat.increase.damage.against.light",
+              "value": 0.03
+            },
+            {
+              "type": "ballistic.heat.increase.damage.against.unknown",
+              "value": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "science:improved.penetration",
+      "require": [
+        {
+          "id": 6,
+          "lv": 1
+        },
+        {
+          "id": 7,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 484776,
+          "time": 22950,
+          "effects": [
+            {
+              "type": "ballistic.penetration",
+              "value": 0.03
+            },
+            {
+              "type": "ballistic.increase.damage.against.light",
+              "value": 0.01
+            },
+            {
+              "type": "ballistic.increase.damage.against.unknown",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 561242,
+          "time": 30761,
+          "effects": [
+            {
+              "type": "ballistic.penetration",
+              "value": 0.06
+            },
+            {
+              "type": "ballistic.increase.damage.against.light",
+              "value": 0.02
+            },
+            {
+              "type": "ballistic.increase.damage.against.unknown",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 858602,
+          "time": 71992,
+          "effects": [
+            {
+              "type": "ballistic.penetration",
+              "value": 0.1
+            },
+            {
+              "type": "ballistic.increase.damage.against.light",
+              "value": 0.03
+            },
+            {
+              "type": "ballistic.increase.damage.against.unknown",
+              "value": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "science:victory.rush",
+      "require": [
+        {
+          "id": 6,
+          "lv": 3
+        },
+        {
+          "id": 7,
+          "lv": 3
+        },
+        {
+          "id": 8,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 1918521,
+          "time": 224400,
+          "effects": [
+            {
+              "type": "ballistic.critical.rate",
+              "value": 0.05
+            },
+            {
+              "type": "ballistic.critical.damage",
+              "value": 0.05
+            },
+            {
+              "type": "ballistic.range.1.increase.damage",
+              "value": 1.2
+            },
+            {
+              "type": "ballistic.range.2.increase.damage",
+              "value": 0.8
+            },
+            {
+              "type": "ballistic.range.3.increase.damage",
+              "value": 0.5
+            },
+            {
+              "type": "ballistic.range.4.increase.damage",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "science:ballistic.scattering",
+      "require": [
+        {
+          "id": 0,
+          "lv": 10
+        },
+        {
+          "id": 1,
+          "lv": 5
+        },
+        {
+          "id": 3,
+          "lv": 5
+        },
+        {
+          "id": 4,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 119765,
+          "time": 9180,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.damage",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 138660,
+          "time": 12305,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.damage",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 212117,
+          "time": 28796,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.damage",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 324504,
+          "time": 67394,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.damage",
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 496433,
+          "time": 157725,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.damage",
+              "value": 0.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "science:improved.ballistic.scattering",
+      "require": [
+        {
+          "id": 4,
+          "lv": 5
+        },
+        {
+          "id": 10,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 240487,
+          "time": 17850,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.damage",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 278425,
+          "time": 23926,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.damage",
+              "value": 0.16
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 425931,
+          "time": 55993,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.damage",
+              "value": 0.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "science:hop.bomb.research",
+      "require": [
+        {
+          "id": 10,
+          "lv": 5
+        },
+        {
+          "id": 11,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 349930,
+          "time": 20400,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.maximum.chance",
+              "value": 0.02
+            },
+            {
+              "type": "ballistic.increase.dispersion.maximum.damage",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 405133,
+          "time": 27344,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.maximum.chance",
+              "value": 0.04
+            },
+            {
+              "type": "ballistic.increase.dispersion.maximum.damage",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 619768,
+          "time": 63992,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.maximum.chance",
+              "value": 0.06
+            },
+            {
+              "type": "ballistic.increase.dispersion.maximum.damage",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 948134,
+          "time": 149764,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.maximum.chance",
+              "value": 0.08
+            },
+            {
+              "type": "ballistic.increase.dispersion.maximum.damage",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 1450474,
+          "time": 350500,
+          "effects": [
+            {
+              "type": "ballistic.increase.dispersion.maximum.chance",
+              "value": 0.1
+            },
+            {
+              "type": "ballistic.increase.dispersion.maximum.damage",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "science:demolition.warhead.research",
+      "require": [
+        {
+          "id": 11,
+          "lv": 3
+        },
+        {
+          "id": 12,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 885076,
+          "time": 76500,
+          "effects": [
+            {
+              "type": "ballistic.increase.target.damage.on.hphit",
+              "value": 0.2
+            },
+            {
+              "type": "ballistic.increase.target.damage.on.hp.or.less",
+              "value": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "science:range.extension",
+      "require": [
+        {
+          "id": 12,
+          "lv": 5
+        },
+        {
+          "id": 13,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 1735367,
+          "time": 183600,
+          "effects": [
+            {
+              "type": "ballistic.increase.range",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 2009094,
+          "time": 246088,
+          "effects": [
+            {
+              "type": "ballistic.increase.range",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "science:artillery.specialization",
+      "require": [
+        {
+          "id": 9,
+          "lv": 1
+        },
+        {
+          "id": 14,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 10000000,
+          "time": 399952,
+          "effects": [
+            {
+              "type": "ballistic.penetration",
+              "value": -0.03
+            },
+            {
+              "type": "ballistic.increase.damage.against.chrome",
+              "value": 0.03
+            },
+            {
+              "type": "ballistic.increase.damage.against.nano",
+              "value": 0.03
+            },
+            {
+              "type": "ballistic.increase.damage.against.neutralizing",
+              "value": 0.03
+            },
+            {
+              "type": "ballistic.increase.damage.against.regen",
+              "value": 0.03
+            },
+            {
+              "type": "ballistic.increase.damage.against.light",
+              "value": 0.03
+            },
+            {
+              "type": "ballistic.increase.damage.against.unknown",
+              "value": 0.03
+            },
+            {
+              "type": "ballistic.range.1.increase.damage",
+              "value": 1.3
+            },
+            {
+              "type": "ballistic.range.2.increase.damage",
+              "value": 0.9
+            },
+            {
+              "type": "ballistic.range.3.increase.damage",
+              "value": 0.6
+            },
+            {
+              "type": "ballistic.range.4.increase.damage",
+              "value": 0.3
+            },
+            {
+              "type": "ballistic.increase.dispersion.maximum.chance",
+              "value": 0.01
+            },
+            {
+              "type": "ballistic.increase.target.damage.on.hphit",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 30000000,
+          "time": 599952,
+          "effects": [
+            {
+              "type": "ballistic.penetration",
+              "value": -0.05
+            },
+            {
+              "type": "ballistic.increase.damage.against.chrome",
+              "value": 0.05
+            },
+            {
+              "type": "ballistic.increase.damage.against.nano",
+              "value": 0.05
+            },
+            {
+              "type": "ballistic.increase.damage.against.neutralizing",
+              "value": 0.05
+            },
+            {
+              "type": "ballistic.increase.damage.against.regen",
+              "value": 0.05
+            },
+            {
+              "type": "ballistic.increase.damage.against.light",
+              "value": 0.05
+            },
+            {
+              "type": "ballistic.increase.damage.against.unknown",
+              "value": 0.05
+            },
+            {
+              "type": "ballistic.range.1.increase.damage",
+              "value": 1.35
+            },
+            {
+              "type": "ballistic.range.2.increase.damage",
+              "value": 0.95
+            },
+            {
+              "type": "ballistic.range.3.increase.damage",
+              "value": 0.65
+            },
+            {
+              "type": "ballistic.range.4.increase.damage",
+              "value": 0.35
+            },
+            {
+              "type": "ballistic.increase.dispersion.maximum.chance",
+              "value": 0.02
+            },
+            {
+              "type": "ballistic.increase.target.damage.on.hphit",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 80000000,
+          "time": 729952,
+          "effects": [
+            {
+              "type": "ballistic.penetration",
+              "value": -0.07
+            },
+            {
+              "type": "ballistic.increase.damage.against.chrome",
+              "value": 0.07
+            },
+            {
+              "type": "ballistic.increase.damage.against.nano",
+              "value": 0.07
+            },
+            {
+              "type": "ballistic.increase.damage.against.neutralizing",
+              "value": 0.07
+            },
+            {
+              "type": "ballistic.increase.damage.against.regen",
+              "value": 0.07
+            },
+            {
+              "type": "ballistic.increase.damage.against.light",
+              "value": 0.07
+            },
+            {
+              "type": "ballistic.increase.damage.against.unknown",
+              "value": 0.07
+            },
+            {
+              "type": "ballistic.range.1.increase.damage",
+              "value": 1.4
+            },
+            {
+              "type": "ballistic.range.2.increase.damage",
+              "value": 1
+            },
+            {
+              "type": "ballistic.range.3.increase.damage",
+              "value": 0.7
+            },
+            {
+              "type": "ballistic.range.4.increase.damage",
+              "value": 0.4
+            },
+            {
+              "type": "ballistic.increase.dispersion.maximum.chance",
+              "value": 0.03
+            },
+            {
+              "type": "ballistic.increase.target.damage.on.hphit",
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 150000000,
+          "time": 936026,
+          "effects": [
+            {
+              "type": "ballistic.penetration",
+              "value": -0.1
+            },
+            {
+              "type": "ballistic.increase.damage.against.chrome",
+              "value": 0.1
+            },
+            {
+              "type": "ballistic.increase.damage.against.nano",
+              "value": 0.1
+            },
+            {
+              "type": "ballistic.increase.damage.against.neutralizing",
+              "value": 0.1
+            },
+            {
+              "type": "ballistic.increase.damage.against.regen",
+              "value": 0.1
+            },
+            {
+              "type": "ballistic.increase.damage.against.light",
+              "value": 0.1
+            },
+            {
+              "type": "ballistic.increase.damage.against.unknown",
+              "value": 0.1
+            },
+            {
+              "type": "ballistic.range.1.increase.damage",
+              "value": 1.5
+            },
+            {
+              "type": "ballistic.range.2.increase.damage",
+              "value": 1.1
+            },
+            {
+              "type": "ballistic.range.3.increase.damage",
+              "value": 0.8
+            },
+            {
+              "type": "ballistic.range.4.increase.damage",
+              "value": 0.5
+            },
+            {
+              "type": "ballistic.increase.dispersion.maximum.chance",
+              "value": 0.05
+            },
+            {
+              "type": "ballistic.increase.target.damage.on.hphit",
+              "value": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "science:optics",
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 541,
+          "time": 117,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 628,
+          "time": 158,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 959,
+          "time": 368,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 1467,
+          "time": 861,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 2244,
+          "time": 2015,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 3434,
+          "time": 4717,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.3
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 5253,
+          "time": 11039,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.35
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 8036,
+          "time": 25834,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.4
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 12294,
+          "time": 60461,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.45
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 18808,
+          "time": 141501,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "science:directional.malice",
+      "require": [
+        {
+          "id": 16,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 7558,
+          "time": 1428,
+          "effects": [
+            {
+              "type": "laser.critical.rate",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 8752,
+          "time": 1915,
+          "effects": [
+            {
+              "type": "laser.critical.rate",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 13385,
+          "time": 4479,
+          "effects": [
+            {
+              "type": "laser.critical.rate",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 20477,
+          "time": 10483,
+          "effects": [
+            {
+              "type": "laser.critical.rate",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 31327,
+          "time": 24535,
+          "effects": [
+            {
+              "type": "laser.critical.rate",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "science:pierce",
+      "require": [
+        {
+          "id": 16,
+          "lv": 10
+        },
+        {
+          "id": 17,
+          "lv": 5
+        },
+        {
+          "id": 22,
+          "lv": 5
+        },
+        {
+          "id": 26,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 87919,
+          "time": 4947,
+          "effects": [
+            {
+              "type": "laser.increase.dispersion.damage",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 101789,
+          "time": 6631,
+          "effects": [
+            {
+              "type": "laser.increase.dispersion.damage",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 155714,
+          "time": 15518,
+          "effects": [
+            {
+              "type": "laser.increase.dispersion.damage",
+              "value": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 238216,
+          "time": 36318,
+          "effects": [
+            {
+              "type": "laser.increase.dispersion.damage",
+              "value": 0.12
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 364426,
+          "time": 84996,
+          "effects": [
+            {
+              "type": "laser.increase.dispersion.damage",
+              "value": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "science:improved.pierce",
+      "require": [
+        {
+          "id": 18,
+          "lv": 3
+        },
+        {
+          "id": 25,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 240487,
+          "time": 17850,
+          "effects": [
+            {
+              "type": "laser.increase.dispersion.damage",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 278425,
+          "time": 23926,
+          "effects": [
+            {
+              "type": "laser.increase.dispersion.damage",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "science:piercing.crit",
+      "require": [
+        {
+          "id": 18,
+          "lv": 5
+        },
+        {
+          "id": 19,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 391234,
+          "time": 25500,
+          "effects": [
+            {
+              "type": "laser.increase.dispersion.blast",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "science:particle.impact.tech",
+      "require": [
+        {
+          "id": 19,
+          "lv": 2
+        },
+        {
+          "id": 20,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 646368,
+          "time": 40800,
+          "effects": [
+            {
+              "type": "laser.decrease.target.damage",
+              "value": 0.1
+            },
+            {
+              "type": "laser.decrease.target.damage.rounds",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 748328,
+          "time": 54687,
+          "effects": [
+            {
+              "type": "laser.decrease.target.damage",
+              "value": 0.2
+            },
+            {
+              "type": "laser.decrease.target.damage.rounds",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 1144795,
+          "time": 127984,
+          "effects": [
+            {
+              "type": "laser.decrease.target.damage",
+              "value": 0.3
+            },
+            {
+              "type": "laser.decrease.target.damage.rounds",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "science:directional.accuracy",
+      "require": [
+        {
+          "id": 16,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 7558,
+          "time": 1428,
+          "effects": [
+            {
+              "type": "laser.hit.rate",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 8752,
+          "time": 1915,
+          "effects": [
+            {
+              "type": "laser.hit.rate",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 13385,
+          "time": 4479,
+          "effects": [
+            {
+              "type": "laser.hit.rate",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 20477,
+          "time": 10483,
+          "effects": [
+            {
+              "type": "laser.hit.rate",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 31327,
+          "time": 24535,
+          "effects": [
+            {
+              "type": "laser.hit.rate",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "science:radiative.interference",
+      "require": [
+        {
+          "id": 16,
+          "lv": 6
+        },
+        {
+          "id": 22,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 43116,
+          "time": 9180,
+          "effects": [
+            {
+              "type": "laser.decrease.target.ratio",
+              "value": 0.02
+            },
+            {
+              "type": "laser.decrease.target.maximum.ratio",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 49918,
+          "time": 12305,
+          "effects": [
+            {
+              "type": "laser.decrease.target.ratio",
+              "value": 0.04
+            },
+            {
+              "type": "laser.decrease.target.maximum.ratio",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 76362,
+          "time": 28796,
+          "effects": [
+            {
+              "type": "laser.decrease.target.ratio",
+              "value": 0.06
+            },
+            {
+              "type": "laser.decrease.target.maximum.ratio",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 116822,
+          "time": 67394,
+          "effects": [
+            {
+              "type": "laser.decrease.target.ratio",
+              "value": 0.08
+            },
+            {
+              "type": "laser.decrease.target.maximum.ratio",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 178716,
+          "time": 157725,
+          "effects": [
+            {
+              "type": "laser.decrease.target.ratio",
+              "value": 0.1
+            },
+            {
+              "type": "laser.decrease.target.maximum.ratio",
+              "value": 0.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "science:electronic.interference",
+      "require": [
+        {
+          "id": 22,
+          "lv": 2
+        },
+        {
+          "id": 23,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 87581,
+          "time": 11985,
+          "effects": [
+            {
+              "type": "laser.reduce.space",
+              "value": 0.03
+            },
+            {
+              "type": "laser.decrease.target.steering.reduction.rate",
+              "value": 0.05
+            },
+            {
+              "type": "laser.decrease.target.steering.reduction.damage",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 101398,
+          "time": 16065,
+          "effects": [
+            {
+              "type": "laser.reduce.space",
+              "value": 0.06
+            },
+            {
+              "type": "laser.decrease.target.steering.reduction.rate",
+              "value": 0.1
+            },
+            {
+              "type": "laser.decrease.target.steering.reduction.damage",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 155115,
+          "time": 37595,
+          "effects": [
+            {
+              "type": "laser.reduce.space",
+              "value": 0.09
+            },
+            {
+              "type": "laser.decrease.target.steering.reduction.rate",
+              "value": 0.15
+            },
+            {
+              "type": "laser.decrease.target.steering.reduction.damage",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "science:eagle.eye",
+      "require": [
+        {
+          "id": 16,
+          "lv": 6
+        },
+        {
+          "id": 22,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 22724,
+          "time": 2550,
+          "effects": [
+            {
+              "type": "laser.increase.steering.damage",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 26309,
+          "time": 3418,
+          "effects": [
+            {
+              "type": "laser.increase.steering.damage",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "science:energy.penetration",
+      "require": [
+        {
+          "id": 22,
+          "lv": 2
+        },
+        {
+          "id": 25,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 62584,
+          "time": 6120,
+          "effects": [
+            {
+              "type": "laser.hit.rate",
+              "value": 0.05
+            },
+            {
+              "type": "laser.penetration",
+              "value": 0.08
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "science:energy.accumulation",
+      "require": [
+        {
+          "id": 25,
+          "lv": 2
+        },
+        {
+          "id": 26,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 136845,
+          "time": 11985,
+          "effects": [
+            {
+              "type": "laser.one.grid.increase.critical.rate",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 158435,
+          "time": 16065,
+          "effects": [
+            {
+              "type": "laser.one.grid.increase.critical.rate",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 242368,
+          "time": 37595,
+          "effects": [
+            {
+              "type": "laser.one.grid.increase.critical.rate",
+              "value": 0.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "science:weakness.detection",
+      "require": [
+        {
+          "id": 24,
+          "lv": 3
+        },
+        {
+          "id": 27,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 349054,
+          "time": 20298,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.05
+            },
+            {
+              "type": "laser.increase.maximum.ratio.chance",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 404116,
+          "time": 27207,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.1
+            },
+            {
+              "type": "laser.increase.maximum.ratio.chance",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 618216,
+          "time": 63672,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.15
+            },
+            {
+              "type": "laser.increase.maximum.ratio.chance",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "science:magnetic.impact",
+      "require": [
+        {
+          "id": 22,
+          "lv": 5
+        },
+        {
+          "id": 23,
+          "lv": 5
+        },
+        {
+          "id": 28,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 996120,
+          "time": 96900,
+          "effects": [
+            {
+              "type": "laser.increase.target.yare.ignore.chance",
+              "value": 0.1
+            },
+            {
+              "type": "laser.increase.target.yare.ignore.value",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 1153244,
+          "time": 129880,
+          "effects": [
+            {
+              "type": "laser.increase.target.yare.ignore.chance",
+              "value": 0.2
+            },
+            {
+              "type": "laser.increase.target.yare.ignore.value",
+              "value": 0.16
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 1764254,
+          "time": 303964,
+          "effects": [
+            {
+              "type": "laser.increase.target.yare.ignore.chance",
+              "value": 0.3
+            },
+            {
+              "type": "laser.increase.target.yare.ignore.value",
+              "value": 0.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "science:dynamic.impairment",
+      "require": [
+        {
+          "id": 21,
+          "lv": 3
+        },
+        {
+          "id": 28,
+          "lv": 3
+        },
+        {
+          "id": 29,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 1431605,
+          "time": 124950,
+          "effects": [
+            {
+              "type": "laser.increase.target.defense.ignore.value",
+              "value": 0.08
+            },
+            {
+              "type": "laser.decrease.target.movement.chance",
+              "value": 0.06
+            },
+            {
+              "type": "laser.decrease.target.movement.value",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 1657420,
+          "time": 167477,
+          "effects": [
+            {
+              "type": "laser.increase.target.defense.ignore.value",
+              "value": 0.16
+            },
+            {
+              "type": "laser.decrease.target.movement.chance",
+              "value": 0.13
+            },
+            {
+              "type": "laser.decrease.target.movement.value",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 2535549,
+          "time": 391953,
+          "effects": [
+            {
+              "type": "laser.increase.target.defense.ignore.value",
+              "value": 0.25
+            },
+            {
+              "type": "laser.decrease.target.movement.chance",
+              "value": 0.2
+            },
+            {
+              "type": "laser.decrease.target.movement.value",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "science:artillery.trajectory.research",
+      "require": [
+        {
+          "id": 30,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 10000000,
+          "time": 399952,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.03
+            },
+            {
+              "type": "laser.hit.rate",
+              "value": 0.02
+            },
+            {
+              "type": "laser.penetration",
+              "value": 0.01
+            },
+            {
+              "type": "laser.increase.dispersion.damage",
+              "value": 0.03
+            },
+            {
+              "type": "laser.increase.range",
+              "value": 1
+            },
+            {
+              "type": "laser.decrease.target.damage",
+              "value": 0.15
+            },
+            {
+              "type": "laser.decrease.target.movement.chance",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 30000000,
+          "time": 599952,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.07
+            },
+            {
+              "type": "laser.hit.rate",
+              "value": 0.04
+            },
+            {
+              "type": "laser.penetration",
+              "value": 0.02
+            },
+            {
+              "type": "laser.increase.dispersion.damage",
+              "value": 0.07
+            },
+            {
+              "type": "laser.increase.range",
+              "value": 1
+            },
+            {
+              "type": "laser.decrease.target.damage",
+              "value": 0.25
+            },
+            {
+              "type": "laser.decrease.target.movement.rate",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 80000000,
+          "time": 729952,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.11
+            },
+            {
+              "type": "laser.hit.rate",
+              "value": 0.06
+            },
+            {
+              "type": "laser.penetration",
+              "value": 0.03
+            },
+            {
+              "type": "laser.increase.dispersion.damage",
+              "value": 0.11
+            },
+            {
+              "type": "laser.increase.range",
+              "value": 1
+            },
+            {
+              "type": "laser.decrease.target.damage",
+              "value": 0.35
+            },
+            {
+              "type": "laser.decrease.target.movement.rate",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 150000000,
+          "time": 936026,
+          "effects": [
+            {
+              "type": "laser.damage",
+              "value": 0.15
+            },
+            {
+              "type": "laser.hit.rate",
+              "value": 0.08
+            },
+            {
+              "type": "laser.penetration",
+              "value": 0.04
+            },
+            {
+              "type": "laser.increase.dispersion.damage",
+              "value": 0.15
+            },
+            {
+              "type": "laser.increase.range",
+              "value": 1
+            },
+            {
+              "type": "laser.decrease.target.damage",
+              "value": 0.5
+            },
+            {
+              "type": "laser.decrease.target.movement.rate",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "science:missile.theory",
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 541,
+          "time": 117,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 628,
+          "time": 158,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 959,
+          "time": 368,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.12
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 1467,
+          "time": 861,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.16
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 2244,
+          "time": 2015,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 3434,
+          "time": 4717,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.24
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 5253,
+          "time": 11039,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.28
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 8036,
+          "time": 25834,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.32
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 12294,
+          "time": 60461,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.36
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 18808,
+          "time": 141501,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "science:missile.accuracy",
+      "require": [
+        {
+          "id": 32,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 7558,
+          "time": 1428,
+          "effects": [
+            {
+              "type": "missile.hit.rate",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 8752,
+          "time": 1915,
+          "effects": [
+            {
+              "type": "missile.hit.rate",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 13385,
+          "time": 4479,
+          "effects": [
+            {
+              "type": "missile.hit.rate",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 20477,
+          "time": 10483,
+          "effects": [
+            {
+              "type": "missile.hit.rate",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 31327,
+          "time": 24535,
+          "effects": [
+            {
+              "type": "missile.hit.rate",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "science:multidirectional.assault",
+      "require": [
+        {
+          "id": 32,
+          "lv": 10
+        },
+        {
+          "id": 33,
+          "lv": 3
+        },
+        {
+          "id": 41,
+          "lv": 2
+        },
+        {
+          "id": 42,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 80796,
+          "time": 10200,
+          "effects": [
+            {
+              "type": "missile.increase.dispersion.damage",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 93542,
+          "time": 13672,
+          "effects": [
+            {
+              "type": "missile.increase.dispersion.damage",
+              "value": 0.12
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 143099,
+          "time": 31996,
+          "effects": [
+            {
+              "type": "missile.increase.dispersion.damage",
+              "value": 0.18
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 218917,
+          "time": 74882,
+          "effects": [
+            {
+              "type": "missile.increase.dispersion.damage",
+              "value": 0.24
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 334903,
+          "time": 175250,
+          "effects": [
+            {
+              "type": "missile.increase.dispersion.damage",
+              "value": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "science:shrapnel.research",
+      "require": [
+        {
+          "id": 33,
+          "lv": 5
+        },
+        {
+          "id": 34,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 157172,
+          "time": 15810,
+          "effects": [
+            {
+              "type": "missile.increase.dispersion.damage",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 181964,
+          "time": 21191,
+          "effects": [
+            {
+              "type": "missile.increase.dispersion.damage",
+              "value": 0.04
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "science:exaltation",
+      "require": [
+        {
+          "id": 34,
+          "lv": 5
+        },
+        {
+          "id": 35,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 224495,
+          "time": 15555,
+          "effects": [
+            {
+              "type": "missile.increase.lower.structure.dispersion.damage",
+              "value": 0.2
+            },
+            {
+              "type": "missile.increase.he3.reduction.rate",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 259912,
+          "time": 20850,
+          "effects": [
+            {
+              "type": "missile.increase.lower.structure.dispersion.damage",
+              "value": 0.4
+            },
+            {
+              "type": "missile.increase.he3.reduction.rate",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 397609,
+          "time": 48794,
+          "effects": [
+            {
+              "type": "missile.increase.lower.structure.dispersion.damage",
+              "value": 0.6
+            },
+            {
+              "type": "missile.increase.he3.reduction.rate",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 608270,
+          "time": 114195,
+          "effects": [
+            {
+              "type": "missile.increase.lower.structure.dispersion.damage",
+              "value": 0.8
+            },
+            {
+              "type": "missile.increase.he3.reduction.rate",
+              "value": 0.08
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "science:suppression",
+      "require": [
+        {
+          "id": 35,
+          "lv": 2
+        },
+        {
+          "id": 36,
+          "lv": 4
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 484776,
+          "time": 22950,
+          "effects": [
+            {
+              "type": "missile.critical.rate",
+              "value": 0.03
+            },
+            {
+              "type": "missile.increase.higher.structure.dispersion.damage",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 561242,
+          "time": 30761,
+          "effects": [
+            {
+              "type": "missile.critical.rate",
+              "value": 0.06
+            },
+            {
+              "type": "missile.increase.higher.structure.dispersion.damage",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 858602,
+          "time": 71992,
+          "effects": [
+            {
+              "type": "missile.critical.rate",
+              "value": 0.09
+            },
+            {
+              "type": "missile.increase.higher.structure.dispersion.damage",
+              "value": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 1313502,
+          "time": 168485,
+          "effects": [
+            {
+              "type": "missile.critical.rate",
+              "value": 0.12
+            },
+            {
+              "type": "missile.increase.higher.structure.dispersion.damage",
+              "value": 0.12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "science:nuclear.radiation.research",
+      "require": [
+        {
+          "id": 33,
+          "lv": 4
+        },
+        {
+          "id": 34,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 112916,
+          "time": 8160,
+          "effects": [
+            {
+              "type": "missile.increase.target.fleet.damage.chance",
+              "value": 0.04
+            },
+            {
+              "type": "missile.increase.target.fleet.damage.value",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 130731,
+          "time": 10938,
+          "effects": [
+            {
+              "type": "missile.increase.target.fleet.damage.chance",
+              "value": 0.08
+            },
+            {
+              "type": "missile.increase.target.fleet.damage.value",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 199988,
+          "time": 25597,
+          "effects": [
+            {
+              "type": "missile.increase.target.fleet.damage.chance",
+              "value": 0.12
+            },
+            {
+              "type": "missile.increase.target.fleet.damage.value",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 305944,
+          "time": 59905,
+          "effects": [
+            {
+              "type": "missile.increase.target.fleet.damage.chance",
+              "value": 0.16
+            },
+            {
+              "type": "missile.increase.target.fleet.damage.value",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 468041,
+          "time": 140200,
+          "effects": [
+            {
+              "type": "missile.increase.target.fleet.damage.chance",
+              "value": 0.2
+            },
+            {
+              "type": "missile.increase.target.fleet.damage.value",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "science:break.armor",
+      "require": [
+        {
+          "id": 34,
+          "lv": 2
+        },
+        {
+          "id": 38,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 287437,
+          "time": 25500,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "science:energy.conservation",
+      "require": [
+        {
+          "id": 34,
+          "lv": 3
+        },
+        {
+          "id": 38,
+          "lv": 5
+        },
+        {
+          "id": 39,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 428575,
+          "time": 30600,
+          "effects": [
+            {
+              "type": "missile.increase.he3.reduction.chance",
+              "value": 0.04
+            },
+            {
+              "type": "missile.increase.he3.reduction.value",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 496178,
+          "time": 41015,
+          "effects": [
+            {
+              "type": "missile.increase.he3.reduction.chance",
+              "value": 0.08
+            },
+            {
+              "type": "missile.increase.he3.reduction.value",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 759061,
+          "time": 95989,
+          "effects": [
+            {
+              "type": "missile.increase.he3.reduction.chance",
+              "value": 0.12
+            },
+            {
+              "type": "missile.increase.he3.reduction.value",
+              "value": 0.5
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 1161222,
+          "time": 224646,
+          "effects": [
+            {
+              "type": "missile.increase.he3.reduction.chance",
+              "value": 0.18
+            },
+            {
+              "type": "missile.increase.he3.reduction.value",
+              "value": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "science:cruise.dynamics",
+      "require": [
+        {
+          "id": 32,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 11603,
+          "time": 3366,
+          "effects": [
+            {
+              "type": "missile.increase.steering.damage",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 13434,
+          "time": 4512,
+          "effects": [
+            {
+              "type": "missile.increase.steering.damage",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "science:missile.research",
+      "require": [
+        {
+          "id": 32,
+          "lv": 6
+        },
+        {
+          "id": 41,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 38831,
+          "time": 7446,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.03
+            },
+            {
+              "type": "missile.penetration",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 44957,
+          "time": 9981,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.06
+            },
+            {
+              "type": "missile.penetration",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 68773,
+          "time": 23357,
+          "effects": [
+            {
+              "type": "missile.damage",
+              "value": 0.1
+            },
+            {
+              "type": "missile.penetration",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "science:missile.elusion",
+      "require": [
+        {
+          "id": 41,
+          "lv": 2
+        },
+        {
+          "id": 42,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 78750,
+          "time": 9690,
+          "effects": [
+            {
+              "type": "missile.hit.rate",
+              "value": 0.03
+            },
+            {
+              "type": "missile.decrease.intercept.rate",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 91172,
+          "time": 12988,
+          "effects": [
+            {
+              "type": "missile.hit.rate",
+              "value": 0.06
+            },
+            {
+              "type": "missile.decrease.intercept.rate",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 139478,
+          "time": 30397,
+          "effects": [
+            {
+              "type": "missile.hit.rate",
+              "value": 0.09
+            },
+            {
+              "type": "missile.decrease.intercept.rate",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "science:missile.space.optimization",
+      "require": [
+        {
+          "id": 42,
+          "lv": 2
+        },
+        {
+          "id": 43,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 233515,
+          "time": 16830,
+          "effects": [
+            {
+              "type": "missile.reduce.space",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 270354,
+          "time": 22559,
+          "effects": [
+            {
+              "type": "missile.reduce.space",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 413581,
+          "time": 52793,
+          "effects": [
+            {
+              "type": "missile.reduce.space",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 632710,
+          "time": 123556,
+          "effects": [
+            {
+              "type": "missile.reduce.space",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "science:missile.concussion",
+      "require": [
+        {
+          "id": 40,
+          "lv": 2
+        },
+        {
+          "id": 42,
+          "lv": 3
+        },
+        {
+          "id": 43,
+          "lv": 3
+        },
+        {
+          "id": 44,
+          "lv": 4
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 1351976,
+          "time": 178500,
+          "effects": [
+            {
+              "type": "missile.increase.repel.chance",
+              "value": 0.2
+            },
+            {
+              "type": "missile.increase.repel.range",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "science:rapid.loading",
+      "require": [
+        {
+          "id": 37,
+          "lv": 4
+        },
+        {
+          "id": 40,
+          "lv": 4
+        },
+        {
+          "id": 45,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 1961639,
+          "time": 234600,
+          "effects": [
+            {
+              "type": "missile.increase.repel.chance",
+              "value": 0.1
+            },
+            {
+              "type": "missile.increase.repel.range",
+              "value": 1
+            },
+            {
+              "type": "missile.decrease.weapon.cooldown.round",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "science:perfect.storm",
+      "require": [
+        {
+          "id": 46,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 10000000,
+          "time": 399952,
+          "effects": [
+            {
+              "type": "missile.penetration",
+              "value": 0.02
+            },
+            {
+              "type": "missile.increase.dispersion.damage",
+              "value": 0.02
+            },
+            {
+              "type": "missile.increase.he3.reduction.chance",
+              "value": 0.5
+            },
+            {
+              "type": "missile.decrease.intercept.rate",
+              "value": -0.02
+            },
+            {
+              "type": "missile.increase.repel.chance",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 30000000,
+          "time": 599952,
+          "effects": [
+            {
+              "type": "missile.penetration",
+              "value": 0.04
+            },
+            {
+              "type": "missile.increase.dispersion.damage",
+              "value": 0.04
+            },
+            {
+              "type": "missile.increase.range",
+              "value": 1
+            },
+            {
+              "type": "missile.increase.he3.reduction.chance",
+              "value": 0.1
+            },
+            {
+              "type": "missile.decrease.intercept.rate",
+              "value": -0.04
+            },
+            {
+              "type": "missile.increase.repel.chance",
+              "value": 0.08
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 80000000,
+          "time": 729952,
+          "effects": [
+            {
+              "type": "missile.penetration",
+              "value": 0.06
+            },
+            {
+              "type": "missile.increase.dispersion.damage",
+              "value": 0.06
+            },
+            {
+              "type": "missile.increase.range",
+              "value": 2
+            },
+            {
+              "type": "missile.increase.he3.reduction.chance",
+              "value": 0.15
+            },
+            {
+              "type": "missile.decrease.intercept.rate",
+              "value": -0.05
+            },
+            {
+              "type": "missile.increase.repel.chance",
+              "value": 0.11
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 150000000,
+          "time": 936026,
+          "effects": [
+            {
+              "type": "missile.penetration",
+              "value": 0.08
+            },
+            {
+              "type": "missile.increase.dispersion.damage",
+              "value": 0.08
+            },
+            {
+              "type": "missile.increase.range",
+              "value": 3
+            },
+            {
+              "type": "missile.increase.he3.reduction.chance",
+              "value": 0.22
+            },
+            {
+              "type": "missile.decrease.intercept.rate",
+              "value": -0.08
+            },
+            {
+              "type": "missile.increase.repel.chance",
+              "value": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "science:fighter.weapons.theory",
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 541,
+          "time": 117,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 628,
+          "time": 158,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 959,
+          "time": 368,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.09
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 1467,
+          "time": 861,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.12
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 2244,
+          "time": 2015,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 6,
+          "gold": 3434,
+          "time": 4717,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.18
+            }
+          ]
+        },
+        {
+          "lv": 7,
+          "gold": 5253,
+          "time": 11039,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.21
+            }
+          ]
+        },
+        {
+          "lv": 8,
+          "gold": 8036,
+          "time": 25834,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.24
+            }
+          ]
+        },
+        {
+          "lv": 9,
+          "gold": 12294,
+          "time": 60461,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.27
+            }
+          ]
+        },
+        {
+          "lv": 10,
+          "gold": 18808,
+          "time": 141501,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "science:reconnaissance",
+      "require": [
+        {
+          "id": 48,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 11603,
+          "time": 3366,
+          "effects": [
+            {
+              "type": "shipbased.increase.steering.damage",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 13434,
+          "time": 4512,
+          "effects": [
+            {
+              "type": "shipbased.increase.steering.damage",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "science:fuel.optimization",
+      "require": [
+        {
+          "id": 48,
+          "lv": 6
+        },
+        {
+          "id": 49,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 22724,
+          "time": 2550,
+          "effects": [
+            {
+              "type": "shipbased.increase.he3.reduction.rate",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 26309,
+          "time": 3418,
+          "effects": [
+            {
+              "type": "shipbased.increase.he3.reduction.rate",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 40247,
+          "time": 7999,
+          "effects": [
+            {
+              "type": "shipbased.increase.he3.reduction.rate",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 61571,
+          "time": 18721,
+          "effects": [
+            {
+              "type": "shipbased.increase.he3.reduction.rate",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 94191,
+          "time": 43812,
+          "effects": [
+            {
+              "type": "shipbased.increase.he3.reduction.rate",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "science:fighter.tech.upgrades",
+      "require": [
+        {
+          "id": 49,
+          "lv": 2
+        },
+        {
+          "id": 50,
+          "lv": 5
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 174015,
+          "time": 19380,
+          "effects": [
+            {
+              "type": "shipbased.increase.he3.reduction.rate",
+              "value": 0.02
+            },
+            {
+              "type": "shipbased.damage",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 201463,
+          "time": 25976,
+          "effects": [
+            {
+              "type": "shipbased.increase.he3.reduction.rate",
+              "value": 0.04
+            },
+            {
+              "type": "shipbased.damage",
+              "value": 0.06
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 308203,
+          "time": 60793,
+          "effects": [
+            {
+              "type": "shipbased.increase.he3.reduction.rate",
+              "value": 0.06
+            },
+            {
+              "type": "shipbased.damage",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "science:armor.structural.analysis",
+      "require": [
+        {
+          "id": 51,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 363582,
+          "time": 40800,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "science:fighter.based.weapons.efficiency",
+      "require": [
+        {
+          "id": 48,
+          "lv": 10
+        },
+        {
+          "id": 52,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 740249,
+          "time": 91290,
+          "effects": [
+            {
+              "type": "shipbased.instant.reload.chance",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 857013,
+          "time": 122361,
+          "effects": [
+            {
+              "type": "shipbased.instant.reload.chance",
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 1311071,
+          "time": 286365,
+          "effects": [
+            {
+              "type": "shipbased.instant.reload.chance",
+              "value": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "science:thruster.optimization",
+      "require": [
+        {
+          "id": 48,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 6387,
+          "time": 1020,
+          "effects": [
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 7397,
+          "time": 1368,
+          "effects": [
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 11312,
+          "time": 3199,
+          "effects": [
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 17307,
+          "time": 7488,
+          "effects": [
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 26476,
+          "time": 17525,
+          "effects": [
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "science:long.ranged.strike",
+      "require": [
+        {
+          "id": 50,
+          "lv": 3
+        },
+        {
+          "id": 54,
+          "lv": 3
+        },
+        {
+          "id": 58,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 98955,
+          "time": 15300,
+          "effects": [
+            {
+              "type": "shipbased.long.ranged.away.6.slots.increase.base.damage",
+              "value": 0.03
+            },
+            {
+              "type": "shipbased.long.ranged.away.7.slots.increase.base.damage",
+              "value": 0.06
+            },
+            {
+              "type": "shipbased.long.ranged.away.8.slots.increase.base.damage",
+              "value": 0.09
+            },
+            {
+              "type": "shipbased.long.ranged.away.9.slots.increase.base.damage",
+              "value": 0.12
+            },
+            {
+              "type": "shipbased.long.ranged.away.10.slots.increase.base.damage",
+              "value": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "science:fortune",
+      "require": [
+        {
+          "id": 54,
+          "lv": 5
+        },
+        {
+          "id": 55,
+          "lv": 1
+        },
+        {
+          "id": 61,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 885076,
+          "time": 76500,
+          "effects": [
+            {
+              "type": "shipbased.long.ranged.away.increase.double.chance",
+              "value": 0.1
+            },
+            {
+              "type": "shipbased.critical.rate",
+              "value": 0.1
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 1024685,
+          "time": 102537,
+          "effects": [
+            {
+              "type": "shipbased.long.ranged.away.increase.double.chance",
+              "value": 0.2
+            },
+            {
+              "type": "shipbased.critical.rate",
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 1567579,
+          "time": 239971,
+          "effects": [
+            {
+              "type": "shipbased.long.ranged.away.increase.double.chance",
+              "value": 0.3
+            },
+            {
+              "type": "shipbased.critical.rate",
+              "value": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "science:navigation",
+      "require": [
+        {
+          "id": 48,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 6850,
+          "time": 1173,
+          "effects": [
+            {
+              "type": "shipbased.hit.rate",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 7932,
+          "time": 1573,
+          "effects": [
+            {
+              "type": "shipbased.hit.rate",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 12131,
+          "time": 3679,
+          "effects": [
+            {
+              "type": "shipbased.hit.rate",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 18560,
+          "time": 8612,
+          "effects": [
+            {
+              "type": "shipbased.hit.rate",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 28392,
+          "time": 20153,
+          "effects": [
+            {
+              "type": "shipbased.hit.rate",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "science:fighter.mastery",
+      "require": [
+        {
+          "id": 48,
+          "lv": 6
+        },
+        {
+          "id": 57,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 48737,
+          "time": 11730,
+          "effects": [
+            {
+              "type": "shipbased.damage",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "science:fighter.interception.countermeasures",
+      "require": [
+        {
+          "id": 54,
+          "lv": 3
+        },
+        {
+          "id": 57,
+          "lv": 5
+        },
+        {
+          "id": 58,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 135381,
+          "time": 11730,
+          "effects": [
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": 0.01
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 156739,
+          "time": 15723,
+          "effects": [
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": 0.02
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 239775,
+          "time": 36795,
+          "effects": [
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 366817,
+          "time": 86115,
+          "effects": [
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": 0.04
+            }
+          ]
+        },
+        {
+          "lv": 5,
+          "gold": 561161,
+          "time": 201537,
+          "effects": [
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "science:formation.optimization",
+      "require": [
+        {
+          "id": 59,
+          "lv": 5
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 287437,
+          "time": 25500,
+          "effects": [
+            {
+              "type": "shipbased.critical.damage",
+              "value": 0.05
+            },
+            {
+              "type": "shipbased.reduce.space",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 332776,
+          "time": 34179,
+          "effects": [
+            {
+              "type": "shipbased.critical.damage",
+              "value": 0.1
+            },
+            {
+              "type": "shipbased.reduce.space",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "science:swarm",
+      "require": [
+        {
+          "id": 48,
+          "lv": 10
+        },
+        {
+          "id": 60,
+          "lv": 2
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 630845,
+          "time": 66300,
+          "effects": [
+            {
+              "type": "shipbased.improve.hit.chance",
+              "value": 0.1
+            },
+            {
+              "type": "shipbased.improve.hit.damage",
+              "value": 0.08
+            },
+            {
+              "type": "shipbased.improve.hit.he3.cost",
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 730355,
+          "time": 88866,
+          "effects": [
+            {
+              "type": "shipbased.improve.hit.chance",
+              "value": 0.2
+            },
+            {
+              "type": "shipbased.improve.hit.damage",
+              "value": 0.16
+            },
+            {
+              "type": "shipbased.improve.hit.he3.cost",
+              "value": 0.25
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 1117305,
+          "time": 207975,
+          "effects": [
+            {
+              "type": "shipbased.improve.hit.chance",
+              "value": 0.3
+            },
+            {
+              "type": "shipbased.improve.hit.damage",
+              "value": 0.25
+            },
+            {
+              "type": "shipbased.improve.hit.he3.cost",
+              "value": 0.35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "science:ingenuity",
+      "require": [
+        {
+          "id": 53,
+          "lv": 3
+        },
+        {
+          "id": 56,
+          "lv": 3
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 2045150,
+          "time": 255000,
+          "effects": [
+            {
+              "type": "shipbased.improve.hit.chance",
+              "value": 0.05
+            },
+            {
+              "type": "shipbased.improve.hit.damage",
+              "value": 0.05
+            },
+            {
+              "type": "shipbased.enemy.no.shield.increase.base.damage",
+              "value": 0.1
+            },
+            {
+              "type": "shipbased.increase.he3.reduction.rate",
+              "value": 0.05
+            },
+            {
+              "type": "shipbased.custom.intercept.rate",
+              "value": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "science:heavy.gear.research",
+      "require": [
+        {
+          "id": 62,
+          "lv": 1
+        }
+      ],
+      "levels": [
+        {
+          "lv": 1,
+          "gold": 10000000,
+          "time": 399952,
+          "effects": [
+            {
+              "type": "shipbased.increase.range",
+              "value": 1
+            },
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": -0.03
+            },
+            {
+              "type": "shipbased.decrease.weapon.cooldown.round",
+              "value": 1
+            },
+            {
+              "type": "shipbased.enemy.shield.increase.damage",
+              "value": 0.03
+            },
+            {
+              "type": "shipbased.instant.reload.chance",
+              "value": 0.03
+            }
+          ]
+        },
+        {
+          "lv": 2,
+          "gold": 30000000,
+          "time": 599952,
+          "effects": [
+            {
+              "type": "shipbased.increase.range",
+              "value": 2
+            },
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": -0.05
+            },
+            {
+              "type": "shipbased.decrease.weapon.cooldown.round",
+              "value": 1
+            },
+            {
+              "type": "shipbased.enemy.shield.increase.damage",
+              "value": 0.07
+            },
+            {
+              "type": "shipbased.instant.reload.chance",
+              "value": 0.05
+            }
+          ]
+        },
+        {
+          "lv": 3,
+          "gold": 80000000,
+          "time": 729952,
+          "effects": [
+            {
+              "type": "shipbased.increase.range",
+              "value": 3
+            },
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": -0.07
+            },
+            {
+              "type": "shipbased.decrease.weapon.cooldown.round",
+              "value": 1
+            },
+            {
+              "type": "shipbased.enemy.shield.increase.damage",
+              "value": 0.11
+            },
+            {
+              "type": "shipbased.instant.reload.chance",
+              "value": 0.07
+            }
+          ]
+        },
+        {
+          "lv": 4,
+          "gold": 150000000,
+          "time": 936026,
+          "effects": [
+            {
+              "type": "shipbased.increase.range",
+              "value": 5
+            },
+            {
+              "type": "shipbased.decrease.intercept.rate",
+              "value": -0.1
+            },
+            {
+              "type": "shipbased.decrease.weapon.cooldown.round",
+              "value": 1
+            },
+            {
+              "type": "shipbased.enemy.shield.increase.damage",
+              "value": 0.15
+            },
+            {
+              "type": "shipbased.instant.reload.chance",
+              "value": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

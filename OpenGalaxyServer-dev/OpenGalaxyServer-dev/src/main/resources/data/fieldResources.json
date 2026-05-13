@@ -1,0 +1,94 @@
+{
+  "fieldResources": [
+    {
+      "id": 0,
+      "name": "field:metal.comsat.small",
+      "kind": 0,
+      "time": 1800,
+      "generation": {
+        "resource": "resource:metal",
+        "value": 1200
+      }
+    },
+    {
+      "id": 1,
+      "name": "field:metal.comsat.medium",
+      "kind": 0,
+      "time": 14400,
+      "generation": {
+        "resource": "resource:metal",
+        "value": 9600
+      }
+    },
+    {
+      "id": 2,
+      "name": "field:metal.comsat.big",
+      "kind": 0,
+      "time": 36000,
+      "generation": {
+        "resource": "resource:metal",
+        "value": 24000
+      }
+    },
+    {
+      "id": 3,
+      "name": "field:metal.comsat.special",
+      "kind": 0,
+      "time": 86400,
+      "generation": {
+        "resource": "resource:metal",
+        "value": 57600
+      }
+    },
+    {
+      "id": 4,
+      "name": "field:he3.comsat.small",
+      "kind": 1,
+      "time": 1800,
+      "generation": {
+        "resource": "resource:he3",
+        "value": 1200
+      }
+    },
+    {
+      "id": 5,
+      "name": "field:he3.comsat.medium",
+      "kind": 1,
+      "time": 14400,
+      "generation": {
+        "resource": "resource:he3",
+        "value": 9600
+      }
+    },
+    {
+      "id": 6,
+      "name": "field:he3.comsat.big",
+      "kind": 1,
+      "time": 36000,
+      "generation": {
+        "resource": "resource:he3",
+        "value": 24000
+      }
+    },
+    {
+      "id": 7,
+      "name": "field:he3.comsat.special",
+      "kind": 1,
+      "time": 86400,
+      "generation": {
+        "resource": "resource:he3",
+        "value": 57600
+      }
+    },
+    {
+      "id": 8,
+      "name": "field:celestial.industrial.base",
+      "kind": 3,
+      "time": 28800,
+      "generation": {
+        "resource": "resource:voucher",
+        "value": 10
+      }
+    }
+  ]
+}

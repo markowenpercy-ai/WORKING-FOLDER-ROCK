@@ -1,0 +1,2384 @@
+{
+  "shipBody_hd": [
+    {
+      "name": "body:weikes.1.hd",
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:weikes.2.hd",
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:weikes.3.hd",
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:airWanderer.1.hd",
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:airWanderer.2.hd",
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:airWanderer.3.hd",
+      "x": 400,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:valkyrie.1.hd",
+      "x": 480,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:valkyrie.2.hd",
+      "x": 560,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:valkyrie.3.hd",
+      "x": 640,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:goGetter.1.hd",
+      "x": 720,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:goGetter.2.hd",
+      "x": 800,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:goGetter.3.hd",
+      "x": 880,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:spaceHunter.1.hd",
+      "x": 960,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:spaceHunter.2.hd",
+      "x": 1040,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:spaceHunter.3.hd",
+      "x": 1120,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:sparrow.1.hd",
+      "x": 1200,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:sparrow.2.hd",
+      "x": 1280,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:sparrow.3.hd",
+      "x": 1360,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:devourer.1.hd",
+      "x": 1440,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:devourer.2.hd",
+      "x": 1520,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:devourer.3.hd",
+      "x": 1600,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:polymesus.1.hd",
+      "x": 1680,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:polymesus.2.hd",
+      "x": 1760,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:polymesus.3.hd",
+      "x": 1840,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:cybra.1.hd",
+      "x": 1920,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:cybra.2.hd",
+      "x": 2000,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:cybra.3.hd",
+      "x": 2080,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:hamdar.1.hd",
+      "x": 2160,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:hamdar.2.hd",
+      "x": 2240,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:hamdar.3.hd",
+      "x": 2320,
+      "y": 0,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:typhoon.1.hd",
+      "x": 0,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:typhoon.2.hd",
+      "x": 80,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:typhoon.3.hd",
+      "x": 160,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:bombardier.1.hd",
+      "x": 240,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:bombardier.2.hd",
+      "x": 320,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:bombardier.3.hd",
+      "x": 400,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:duke.1.hd",
+      "x": 480,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:duke.2.hd",
+      "x": 560,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:duke.3.hd",
+      "x": 640,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shuttler.1.hd",
+      "x": 720,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shuttler.2.hd",
+      "x": 800,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shuttler.3.hd",
+      "x": 880,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:watchman.1.hd",
+      "x": 960,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:watchman.2.hd",
+      "x": 1040,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:watchman.3.hd",
+      "x": 1120,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:spinner.1.hd",
+      "x": 1200,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:spinner.2.hd",
+      "x": 1280,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:spinner.3.hd",
+      "x": 1360,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:wraith.1.hd",
+      "x": 1440,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:wraith.2.hd",
+      "x": 1520,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:wraith.3.hd",
+      "x": 1600,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:encratos.1.hd",
+      "x": 1680,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:encratos.2.hd",
+      "x": 1760,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:encratos.3.hd",
+      "x": 1840,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:nicholas.1.hd",
+      "x": 1920,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:nicholas.2.hd",
+      "x": 2000,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:nicholas.3.hd",
+      "x": 2080,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:helena.1.hd",
+      "x": 2160,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:helena.2.hd",
+      "x": 2240,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:helena.3.hd",
+      "x": 2320,
+      "y": 62,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:estrella.1.hd",
+      "x": 0,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:estrella.2.hd",
+      "x": 80,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:estrella.3.hd",
+      "x": 160,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:nettle.1.hd",
+      "x": 240,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:nettle.2.hd",
+      "x": 320,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:nettle.3.hd",
+      "x": 400,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:diaz.1.hd",
+      "x": 480,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:diaz.2.hd",
+      "x": 560,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:diaz.3.hd",
+      "x": 640,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:rv766TheExplorer.1.hd",
+      "x": 720,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:rv766TheExplorer.2.hd",
+      "x": 800,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:rv766TheExplorer.3.hd",
+      "x": 880,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:palenka.1.hd",
+      "x": 960,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:palenka.2.hd",
+      "x": 1040,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:palenka.3.hd",
+      "x": 1120,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:howler.1.hd",
+      "x": 1200,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:howler.2.hd",
+      "x": 1280,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:howler.3.hd",
+      "x": 1360,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:whirlpool.1.hd",
+      "x": 1440,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:whirlpool.2.hd",
+      "x": 1520,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:whirlpool.3.hd",
+      "x": 1600,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:cerberus.1.hd",
+      "x": 1680,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:cerberus.2.hd",
+      "x": 1760,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:cerberus.3.hd",
+      "x": 1840,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:genesis.1.hd",
+      "x": 1920,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:genesis.2.hd",
+      "x": 2000,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:genesis.3.hd",
+      "x": 2080,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:tiamat.1.hd",
+      "x": 2160,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:tiamat.2.hd",
+      "x": 2240,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:tiamat.3.hd",
+      "x": 2320,
+      "y": 124,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:industrialShip.1.hd",
+      "x": 0,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:industrialShip.2.hd",
+      "x": 80,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:industrialShip.3.hd",
+      "x": 160,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:fleetfoot.1.hd",
+      "x": 240,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:hedgehog.1.hd",
+      "x": 320,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:bolenciaWarship.1.hd",
+      "x": 400,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:daybreak.1.hd",
+      "x": 480,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:daybreak.2.hd",
+      "x": 560,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:daybreak.3.hd",
+      "x": 640,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:lastStand.1.hd",
+      "x": 720,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:lastStand.2.hd",
+      "x": 800,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:lastStand.3.hd",
+      "x": 880,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowGuardian.1.hd",
+      "x": 960,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowGuardian.2.hd",
+      "x": 1040,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowGuardian.3.hd",
+      "x": 1120,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:quickAssault.1.hd",
+      "x": 1200,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:quickAssault.2.hd",
+      "x": 1280,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:quickAssault.3.hd",
+      "x": 1360,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:strikingSword.1.hd",
+      "x": 1440,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:strikingSword.2.hd",
+      "x": 1520,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:strikingSword.3.hd",
+      "x": 1600,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:nihelbet.1.hd",
+      "x": 1680,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:nihelbet.2.hd",
+      "x": 1760,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:nihelbet.3.hd",
+      "x": 1840,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:aggressiveWarlord.1.hd",
+      "x": 1920,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:aggressiveWarlord.2.hd",
+      "x": 2000,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:aggressiveWarlord.3.hd",
+      "x": 2080,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:allianceAdmiral.1.hd",
+      "x": 2160,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:allianceAdmiral.2.hd",
+      "x": 2240,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:allianceAdmiral.3.hd",
+      "x": 2320,
+      "y": 186,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:presidoOfGlory.1.hd",
+      "x": 0,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:presidoOfGlory.2.hd",
+      "x": 80,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:presidoOfGlory.3.hd",
+      "x": 160,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:independence.1.hd",
+      "x": 240,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:independence.2.hd",
+      "x": 320,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:independence.3.hd",
+      "x": 400,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:blackHole.1.hd",
+      "x": 480,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:blackHole.2.hd",
+      "x": 560,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:blackHole.3.hd",
+      "x": 640,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:chimeraLeonis.1.hd",
+      "x": 720,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:chimeraLeonis.2.hd",
+      "x": 800,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:chimeraLeonis.3.hd",
+      "x": 880,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:chimeraCapra.1.hd",
+      "x": 960,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:chimeraCapra.2.hd",
+      "x": 1040,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:chimeraCapra.3.hd",
+      "x": 1120,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:chimeraViper.1.hd",
+      "x": 1200,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:chimeraViper.2.hd",
+      "x": 1280,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:chimeraViper.3.hd",
+      "x": 1360,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:dullahan.1.hd",
+      "x": 1440,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:harvestHuma.2.hd",
+      "x": 1520,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:novasArk.3.hd",
+      "x": 1600,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:erotes.1.hd",
+      "x": 1680,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:erotes.2.hd",
+      "x": 1760,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:erotes.3.hd",
+      "x": 1840,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:ultraNwyfre.1.hd",
+      "x": 1920,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:ultraNwyfre.2.hd",
+      "x": 2000,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:ultraNwyfre.3.hd",
+      "x": 2080,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:ultraGwyar.1.hd",
+      "x": 2160,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:ultraGwyar.2.hd",
+      "x": 2240,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:ultraGwyar.3.hd",
+      "x": 2320,
+      "y": 248,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:ultraCalas.1.hd",
+      "x": 0,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:ultraCalas.2.hd",
+      "x": 80,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:ultraCalas.3.hd",
+      "x": 160,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:exodus.1.hd",
+      "x": 240,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:exodus.2.hd",
+      "x": 320,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:exodus.3.hd",
+      "x": 400,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:kirov.1.hd",
+      "x": 480,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:kirov.2.hd",
+      "x": 560,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:kirov.3.hd",
+      "x": 640,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:independenceMk2.1.hd",
+      "x": 720,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:independenceMk2.2.hd",
+      "x": 800,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:independenceMk2.3.hd",
+      "x": 880,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:bastion.1.hd",
+      "x": 960,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:bastion.2.hd",
+      "x": 1040,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:bastion.3.hd",
+      "x": 1120,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:devourerBoreas.1.hd",
+      "x": 1200,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:devourerBoreas.2.hd",
+      "x": 1280,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:devourerBoreas.3.hd",
+      "x": 1360,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:dessicatorNotus.1.hd",
+      "x": 1440,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:dessicatorNotus.2.hd",
+      "x": 1520,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:dessicatorNotus.3.hd",
+      "x": 1600,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:cursedEurus.1.hd",
+      "x": 1680,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:cursedEurus.2.hd",
+      "x": 1760,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:cursedEurus.3.hd",
+      "x": 1840,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mysteriousAlecto.1.hd",
+      "x": 1920,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mysteriousAlecto.2.hd",
+      "x": 2000,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mysteriousAlecto.3.hd",
+      "x": 2080,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:vengefulTisiphone.1.hd",
+      "x": 2160,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:vengefulTisiphone.2.hd",
+      "x": 2240,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:vengefulTisiphone.3.hd",
+      "x": 2320,
+      "y": 310,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:megaranGrudge.1.hd",
+      "x": 0,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:megaranGrudge.2.hd",
+      "x": 80,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:megaranGrudge.3.hd",
+      "x": 160,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:tenebrae.1.hd",
+      "x": 240,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:tenebrae.2.hd",
+      "x": 320,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:tenebrae.3.hd",
+      "x": 400,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:charonFerry.1.hd",
+      "x": 480,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:charonFerry.2.hd",
+      "x": 560,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:charonFerry.3.hd",
+      "x": 640,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:dreadedDeimos.1.hd",
+      "x": 720,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:dreadedDeimos.2.hd",
+      "x": 800,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:dreadedDeimos.3.hd",
+      "x": 880,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:asterion.1.hd",
+      "x": 960,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:asterion.2.hd",
+      "x": 1040,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:asterion.3.hd",
+      "x": 1120,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:valentineVictory.1.hd",
+      "x": 1200,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:valentineVictory.2.hd",
+      "x": 1280,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:valentineVictory.3.hd",
+      "x": 1360,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:terraScorpirex.1.hd",
+      "x": 1440,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:terraScorpirex.2.hd",
+      "x": 1520,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:terraScorpirex.3.hd",
+      "x": 1600,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:abyssalScylla.1.hd",
+      "x": 1680,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:abyssalScylla.2.hd",
+      "x": 1760,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:abyssalScylla.3.hd",
+      "x": 1840,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:caerulexLadon.1.hd",
+      "x": 1920,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:caerulexLadon.2.hd",
+      "x": 2000,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:caerulexLadon.3.hd",
+      "x": 2080,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:secretariat.1.hd",
+      "x": 2160,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:secretariat.2.hd",
+      "x": 2240,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:secretariat.3.hd",
+      "x": 2320,
+      "y": 372,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zephyrus.1.hd",
+      "x": 0,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zephyrus.2.hd",
+      "x": 80,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zephyrus.3.hd",
+      "x": 160,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:kazati.1.hd",
+      "x": 240,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:kazati.2.hd",
+      "x": 320,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:kazati.3.hd",
+      "x": 400,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:paramour.1.hd",
+      "x": 480,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:paramour.2.hd",
+      "x": 560,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:paramour.3.hd",
+      "x": 640,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:miracle.1.hd",
+      "x": 720,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:miracle.2.hd",
+      "x": 800,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:miracle.3.hd",
+      "x": 880,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:principiaDeVis.1.hd",
+      "x": 960,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:principiaDeVis.2.hd",
+      "x": 1040,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:principiaDeVis.3.hd",
+      "x": 1120,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:heavenPiercer.1.hd",
+      "x": 1200,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:heavenPiercer.2.hd",
+      "x": 1280,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:heavenPiercer.3.hd",
+      "x": 1360,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:hallowsReaper.1.hd",
+      "x": 1440,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:arcticAirboard.1.hd",
+      "x": 1520,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:behemoth.1.hd",
+      "x": 1600,
+      "y": 434,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:libertyWings.1.hd",
+      "x": 1680,
+      "y": 434,
+      "w": 80,
+      "h": 80
+    },
+    {
+      "name": "body:libertyWings.2.hd",
+      "x": 1760,
+      "y": 434,
+      "w": 80,
+      "h": 80
+    },
+    {
+      "name": "body:libertyWings.3.hd",
+      "x": 1840,
+      "y": 434,
+      "w": 80,
+      "h": 80
+    },
+    {
+      "name": "body:libertyWings2S.1.hd",
+      "x": 1920,
+      "y": 434,
+      "w": 80,
+      "h": 80
+    },
+    {
+      "name": "body:libertyWings2S.2.hd",
+      "x": 2000,
+      "y": 434,
+      "w": 80,
+      "h": 80
+    },
+    {
+      "name": "body:libertyWings2S.3.hd",
+      "x": 2080,
+      "y": 434,
+      "w": 80,
+      "h": 80
+    },
+    {
+      "name": "body:pathfinder.1.hd",
+      "x": 2160,
+      "y": 434,
+      "w": 80,
+      "h": 80
+    },
+    {
+      "name": "body:pathfinder.2.hd",
+      "x": 2240,
+      "y": 434,
+      "w": 80,
+      "h": 80
+    },
+    {
+      "name": "body:pathfinder.3.hd",
+      "x": 2320,
+      "y": 434,
+      "w": 80,
+      "h": 80
+    },
+    {
+      "name": "body:intrepidNexus.1.hd",
+      "x": 0,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:intrepidNexus.2.hd",
+      "x": 80,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:intrepidNexus.3.hd",
+      "x": 160,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:intrepidNexus.4.hd",
+      "x": 240,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:intrepidNexus.5.hd",
+      "x": 320,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:intrepidNexus.6.hd",
+      "x": 400,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:intrepidNexus.7.hd",
+      "x": 480,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:intrepidNexus.8.hd",
+      "x": 560,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:intrepidNexus.9.hd",
+      "x": 640,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:intrepidNexus.10.hd",
+      "x": 720,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:grimReaper.1.hd",
+      "x": 800,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:grimReaper.2.hd",
+      "x": 880,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:grimReaper.3.hd",
+      "x": 960,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:grimReaper.4.hd",
+      "x": 1040,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:grimReaper.5.hd",
+      "x": 1120,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:grimReaper.6.hd",
+      "x": 1200,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:grimReaper.7.hd",
+      "x": 1280,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:grimReaper.8.hd",
+      "x": 1360,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:grimReaper.9.hd",
+      "x": 1440,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:grimReaper.10.hd",
+      "x": 1520,
+      "y": 496,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowTrojan.1.hd",
+      "x": 0,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowTrojan.2.hd",
+      "x": 80,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowTrojan.3.hd",
+      "x": 160,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowTrojan.4.hd",
+      "x": 240,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowTrojan.5.hd",
+      "x": 320,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowTrojan.6.hd",
+      "x": 400,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowTrojan.7.hd",
+      "x": 480,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowTrojan.8.hd",
+      "x": 560,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowTrojan.9.hd",
+      "x": 640,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:shadowTrojan.10.hd",
+      "x": 720,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mercuryWing.1.hd",
+      "x": 800,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mercuryWing.2.hd",
+      "x": 880,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mercuryWing.3.hd",
+      "x": 960,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mercuryWing.4.hd",
+      "x": 1040,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mercuryWing.5.hd",
+      "x": 1120,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mercuryWing.6.hd",
+      "x": 1200,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mercuryWing.7.hd",
+      "x": 1280,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mercuryWing.8.hd",
+      "x": 1360,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mercuryWing.9.hd",
+      "x": 1440,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:mercuryWing.10.hd",
+      "x": 1520,
+      "y": 558,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:firecat.1.hd",
+      "x": 0,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:firecat.2.hd",
+      "x": 80,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:firecat.3.hd",
+      "x": 160,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:firecat.4.hd",
+      "x": 240,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:firecat.5.hd",
+      "x": 320,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:firecat.6.hd",
+      "x": 400,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:firecat.7.hd",
+      "x": 480,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:firecat.8.hd",
+      "x": 560,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:firecat.9.hd",
+      "x": 640,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:firecat.10.hd",
+      "x": 720,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gForcesDreadnaught.1.hd",
+      "x": 800,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gForcesDreadnaught.2.hd",
+      "x": 880,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gForcesDreadnaught.3.hd",
+      "x": 960,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gForcesDreadnaught.4.hd",
+      "x": 1040,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gForcesDreadnaught.5.hd",
+      "x": 1120,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gForcesDreadnaught.6.hd",
+      "x": 1200,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gForcesDreadnaught.7.hd",
+      "x": 1280,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gForcesDreadnaught.8.hd",
+      "x": 1360,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gForcesDreadnaught.9.hd",
+      "x": 1440,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gForcesDreadnaught.10.hd",
+      "x": 1520,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:conquistador.1.hd",
+      "x": 1600,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:conquistador.2.hd",
+      "x": 1680,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:conquistador.3.hd",
+      "x": 1760,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:conquistador.4.hd",
+      "x": 1840,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:conquistador.5.hd",
+      "x": 1920,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:conquistador.6.hd",
+      "x": 2000,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:conquistador.7.hd",
+      "x": 2080,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:conquistador.8.hd",
+      "x": 2160,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:conquistador.9.hd",
+      "x": 2240,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:conquistador.10.hd",
+      "x": 2320,
+      "y": 620,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:arbiter.1.hd",
+      "x": 0,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:arbiter.2.hd",
+      "x": 80,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:arbiter.3.hd",
+      "x": 160,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:arbiter.4.hd",
+      "x": 240,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:arbiter.5.hd",
+      "x": 320,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:arbiter.6.hd",
+      "x": 400,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:arbiter.7.hd",
+      "x": 480,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:arbiter.8.hd",
+      "x": 560,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:arbiter.9.hd",
+      "x": 640,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:arbiter.10.hd",
+      "x": 720,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gfsVengeance.1.hd",
+      "x": 800,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gfsVengeance.2.hd",
+      "x": 880,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gfsVengeance.3.hd",
+      "x": 960,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gfsVengeance.4.hd",
+      "x": 1040,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gfsVengeance.5.hd",
+      "x": 1120,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gfsVengeance.6.hd",
+      "x": 1200,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gfsVengeance.7.hd",
+      "x": 1280,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gfsVengeance.8.hd",
+      "x": 1360,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gfsVengeance.9.hd",
+      "x": 1440,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:gfsVengeance.10.hd",
+      "x": 1520,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zeframMk42.1.hd",
+      "x": 1600,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zeframMk42.2.hd",
+      "x": 1680,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zeframMk42.3.hd",
+      "x": 1760,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zeframMk42.4.hd",
+      "x": 1840,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zeframMk42.5.hd",
+      "x": 1920,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zeframMk42.6.hd",
+      "x": 2000,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zeframMk42.7.hd",
+      "x": 2080,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zeframMk42.8.hd",
+      "x": 2160,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zeframMk42.9.hd",
+      "x": 2240,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    },
+    {
+      "name": "body:zeframMk42.10.hd",
+      "x": 2320,
+      "y": 682,
+      "w": 80,
+      "h": 62
+    }
+  ]
+}

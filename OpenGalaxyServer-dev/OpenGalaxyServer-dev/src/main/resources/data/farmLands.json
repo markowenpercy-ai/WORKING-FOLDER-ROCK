@@ -1,0 +1,100 @@
+{
+  "farmLands": [
+    {
+      "id": 0,
+      "station": 0,
+      "offset": {
+        "x": -1,
+        "y": 0
+      }
+    },
+    {
+      "id": 1,
+      "station": 0,
+      "offset": {
+        "x": 1,
+        "y": 0
+      }
+    },
+    {
+      "id": 2,
+      "station": 1,
+      "offset": {
+        "x": 0,
+        "y": -1
+      }
+    },
+    {
+      "id": 3,
+      "station": 1,
+      "offset": {
+        "x": 0,
+        "y": 1
+      }
+    },
+    {
+      "id": 4,
+      "station": 2,
+      "offset": {
+        "x": 1,
+        "y": -1
+      }
+    },
+    {
+      "id": 5,
+      "station": 2,
+      "offset": {
+        "x": -1,
+        "y": 1
+      }
+    },
+    {
+      "id": 6,
+      "station": 3,
+      "offset": {
+        "x": -1,
+        "y": -1
+      }
+    },
+    {
+      "id": 7,
+      "station": 3,
+      "offset": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "id": 8,
+      "station": 4,
+      "offset": {
+        "x": -2,
+        "y": 0
+      }
+    },
+    {
+      "id": 9,
+      "station": 4,
+      "offset": {
+        "x": 2,
+        "y": 0
+      }
+    },
+    {
+      "id": 10,
+      "station": 5,
+      "offset": {
+        "x": 0,
+        "y": -2
+      }
+    },
+    {
+      "id": 11,
+      "station": 5,
+      "offset": {
+        "x": 0,
+        "y": 2
+      }
+    }
+  ]
+}

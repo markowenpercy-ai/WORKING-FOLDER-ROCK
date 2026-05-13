@@ -1,0 +1,201 @@
+{
+  "dailyTask": [
+    {
+      "id": 1000,
+      "name": "Instance Warrior",
+      "earnPoints": 0,
+      "require": "daily.instanceComplete",
+      "limit": 5
+    },
+    {
+      "id": 1001,
+      "name": "Stockpiling",
+      "earnPoints": 1,
+      "require": "daily.useWarehouse",
+      "limit": 3
+    },
+    {
+      "id": 1002,
+      "name": "Collect Your Dues",
+      "earnPoints": 4,
+      "require": "daily.collectSatellite",
+      "limit": 1
+    },
+    {
+      "id": 1003,
+      "name": "Daily Login",
+      "earnPoints": 10,
+      "require": "daily.login",
+      "limit": 1
+    },
+    {
+      "id": 1004,
+      "name": "Helping Hand",
+      "earnPoints": 2,
+      "require": "daily.friendSpeedup",
+      "limit": 5
+    },
+    {
+      "id": 1005,
+      "name": "Need for Speed",
+      "earnPoints": 3,
+      "require": "daily.buildingSpeedup",
+      "limit": 1
+    },
+    {
+      "id": 1006,
+      "name": "Finders Keepers",
+      "earnPoints": 2,
+      "require": "daily.collectOtherSatellite",
+      "limit": 5
+    },
+    {
+      "id": 1007,
+      "name": "Base Construction",
+      "earnPoints": 2,
+      "require": "daily.repairCouncil",
+      "limit": 5
+    },
+    {
+      "id": 1008,
+      "name": "Voucher Rush",
+      "earnPoints": 4,
+      "require": "daily.collectCouncil",
+      "limit": 1
+    },
+    {
+      "id": 1009,
+      "name": "Donations",
+      "earnPoints": 6,
+      "require": "daily.corpsDonate",
+      "limit": 20
+    },
+    {
+      "id": 1010,
+      "name": "Restricted Instance",
+      "earnPoints": 5,
+      "require": "daily.instanceRestrictedComplete",
+      "limit": 2
+    }
+  ],
+  "dailyReward": [
+    {
+      "id": 0,
+      "name": "Bronze Award",
+      "requirePoints": 10,
+      "rewards": [
+        {
+          "id": 921,
+          "num": 20,
+          "weight": 5
+        },
+        {
+          "id": 928,
+          "num": 1,
+          "weight": 3
+        },
+        {
+          "id": 927,
+          "num": 1,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Silver Award",
+      "requirePoints": 30,
+      "rewards": [
+        {
+          "id": 921,
+          "num": 20,
+          "weight": 4
+        },
+        {
+          "id": 928,
+          "num": 2,
+          "weight": 3
+        },
+        {
+          "id": 927,
+          "num": 2,
+          "weight": 1
+        },
+        {
+          "id": 915,
+          "num": 1,
+          "weight": 1
+        },
+        {
+          "id": 912,
+          "num": 1,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gold Award",
+      "requirePoints": 50,
+      "rewards": [
+        {
+          "id": 928,
+          "num": 5,
+          "weight": 30
+        },
+        {
+          "id": 927,
+          "num": 4,
+          "weight": 30
+        },
+        {
+          "id": 915,
+          "num": 2,
+          "weight": 10
+        },
+        {
+          "id": 912,
+          "num": 2,
+          "weight": 10
+        },
+        {
+          "id": 905,
+          "num": 1,
+          "weight": 5
+        },
+        {
+          "id": 906,
+          "num": 1,
+          "weight": 5
+        },
+        {
+          "id": 900,
+          "num": 1,
+          "weight": 2
+        },
+        {
+          "id": 923,
+          "num": 1,
+          "weight": 3
+        },
+        {
+          "id": 907,
+          "num": 1,
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Diamond Award",
+      "requirePoints": 70,
+      "rewards": [
+        {
+          "id": 1119,
+          "num": 1,
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

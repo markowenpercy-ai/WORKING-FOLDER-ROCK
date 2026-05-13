@@ -1,0 +1,102 @@
+{
+  "rewards": [
+    {
+      "level": 0,
+      "time": 700,
+      "reward": {
+        "type": "mallPoint",
+        "amount": 250
+      }
+    },
+    {
+      "level": 1,
+      "time": 700,
+      "reward": {
+        "type": "prop",
+        "id": 3101,
+        "amount": 2500
+      }
+    },
+    {
+      "level": 2,
+      "time": 700,
+      "reward": {
+        "type": "prop",
+        "id": 934,
+        "amount": 500
+      }
+    },
+    {
+      "level": 3,
+      "time": 700,
+      "reward": {
+        "type": "prop",
+        "id": 931,
+        "amount": 500
+      }
+    },
+    {
+      "level": 4,
+      "time": 700,
+      "reward": {
+        "type": "prop",
+        "id": 1119,
+        "amount": 50
+      }
+    },
+    {
+      "level": 5,
+      "time": 700,
+      "reward": {
+        "type": "prop",
+        "id": 4490,
+        "amount": 10
+      }
+    },
+    {
+      "level": 6,
+      "time": 1800,
+      "reward": {
+        "type": "prop",
+        "id": 924,
+        "amount": 25
+      }
+    },
+    {
+      "level": 7,
+      "time": 1800,
+      "reward": {
+        "type": "prop",
+        "id": 935,
+        "amount": 25
+      }
+    },
+    {
+      "level": 8,
+      "time": 3600,
+      "reward": {
+        "type": "prop",
+        "id": 1552,
+        "amount": 1
+      }
+    },
+    {
+      "level": 9,
+      "time": 7200,
+      "reward": {
+        "type": "prop",
+        "id": 4489,
+        "amount": 5
+      }
+    },
+    {
+      "level": 10,
+      "time": 7200,
+      "reward": {
+        "type": "prop",
+        "id": 953,
+        "amount": 10
+      }
+    }
+  ]
+}

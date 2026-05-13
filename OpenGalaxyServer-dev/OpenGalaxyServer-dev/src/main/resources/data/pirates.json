@@ -1,0 +1,3752 @@
+{
+  "instances": [
+    {
+      "id": 1,
+      "name": "1. Roving Pirate Crew",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.honorEmblem",
+          "num": 15,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost1"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost2"
+        },
+        {
+          "layout": "layout:ghost3"
+        },
+        {
+          "layout": "layout:ghost3"
+        },
+        {
+          "layout": "layout:ghost3"
+        },
+        {
+          "layout": "layout:ghost3"
+        },
+        {
+          "layout": "layout:ghost3"
+        },
+        {
+          "layout": "layout:ghost3"
+        },
+        {
+          "layout": "layout:ghost3"
+        },
+        {
+          "layout": "layout:ghost3"
+        },
+        {
+          "layout": "layout:ghost3"
+        },
+        {
+          "layout": "layout:ghost3"
+        },
+        {
+          "layout": "layout:ghost4"
+        },
+        {
+          "layout": "layout:ghost4"
+        },
+        {
+          "layout": "layout:ghost4"
+        },
+        {
+          "layout": "layout:ghost4"
+        },
+        {
+          "layout": "layout:ghost4"
+        },
+        {
+          "layout": "layout:ghost4"
+        },
+        {
+          "layout": "layout:ghost4"
+        },
+        {
+          "layout": "layout:ghost4"
+        },
+        {
+          "layout": "layout:ghost4"
+        },
+        {
+          "layout": "layout:ghost4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "2. Pirate Scout Crew",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.honorEmblem",
+          "num": 30,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost5"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost6"
+        },
+        {
+          "layout": "layout:ghost7"
+        },
+        {
+          "layout": "layout:ghost7"
+        },
+        {
+          "layout": "layout:ghost7"
+        },
+        {
+          "layout": "layout:ghost7"
+        },
+        {
+          "layout": "layout:ghost7"
+        },
+        {
+          "layout": "layout:ghost7"
+        },
+        {
+          "layout": "layout:ghost7"
+        },
+        {
+          "layout": "layout:ghost7"
+        },
+        {
+          "layout": "layout:ghost7"
+        },
+        {
+          "layout": "layout:ghost7"
+        },
+        {
+          "layout": "layout:ghost8"
+        },
+        {
+          "layout": "layout:ghost8"
+        },
+        {
+          "layout": "layout:ghost8"
+        },
+        {
+          "layout": "layout:ghost8"
+        },
+        {
+          "layout": "layout:ghost8"
+        },
+        {
+          "layout": "layout:ghost8"
+        },
+        {
+          "layout": "layout:ghost8"
+        },
+        {
+          "layout": "layout:ghost8"
+        },
+        {
+          "layout": "layout:ghost8"
+        },
+        {
+          "layout": "layout:ghost8"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "3. Coppernose's Pirate Crew",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.honorEmblem",
+          "num": 50,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost9"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost10"
+        },
+        {
+          "layout": "layout:ghost11"
+        },
+        {
+          "layout": "layout:ghost11"
+        },
+        {
+          "layout": "layout:ghost11"
+        },
+        {
+          "layout": "layout:ghost11"
+        },
+        {
+          "layout": "layout:ghost11"
+        },
+        {
+          "layout": "layout:ghost11"
+        },
+        {
+          "layout": "layout:ghost11"
+        },
+        {
+          "layout": "layout:ghost11"
+        },
+        {
+          "layout": "layout:ghost11"
+        },
+        {
+          "layout": "layout:ghost11"
+        },
+        {
+          "layout": "layout:ghost11"
+        },
+        {
+          "layout": "layout:ghost12"
+        },
+        {
+          "layout": "layout:ghost12"
+        },
+        {
+          "layout": "layout:ghost12"
+        },
+        {
+          "layout": "layout:ghost12"
+        },
+        {
+          "layout": "layout:ghost12"
+        },
+        {
+          "layout": "layout:ghost12"
+        },
+        {
+          "layout": "layout:ghost12"
+        },
+        {
+          "layout": "layout:ghost12"
+        },
+        {
+          "layout": "layout:ghost12"
+        },
+        {
+          "layout": "layout:ghost12"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "4. Storm Pirate Crew",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.honorEmblem",
+          "num": 72,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost13"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost14"
+        },
+        {
+          "layout": "layout:ghost15"
+        },
+        {
+          "layout": "layout:ghost15"
+        },
+        {
+          "layout": "layout:ghost15"
+        },
+        {
+          "layout": "layout:ghost15"
+        },
+        {
+          "layout": "layout:ghost15"
+        },
+        {
+          "layout": "layout:ghost15"
+        },
+        {
+          "layout": "layout:ghost15"
+        },
+        {
+          "layout": "layout:ghost15"
+        },
+        {
+          "layout": "layout:ghost15"
+        },
+        {
+          "layout": "layout:ghost15"
+        },
+        {
+          "layout": "layout:ghost16"
+        },
+        {
+          "layout": "layout:ghost16"
+        },
+        {
+          "layout": "layout:ghost16"
+        },
+        {
+          "layout": "layout:ghost16"
+        },
+        {
+          "layout": "layout:ghost16"
+        },
+        {
+          "layout": "layout:ghost16"
+        },
+        {
+          "layout": "layout:ghost16"
+        },
+        {
+          "layout": "layout:ghost16"
+        },
+        {
+          "layout": "layout:ghost16"
+        },
+        {
+          "layout": "layout:ghost16"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "5. Lion Pirate Crew",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.honorEmblem",
+          "num": 98,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost17"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost18"
+        },
+        {
+          "layout": "layout:ghost19"
+        },
+        {
+          "layout": "layout:ghost19"
+        },
+        {
+          "layout": "layout:ghost19"
+        },
+        {
+          "layout": "layout:ghost19"
+        },
+        {
+          "layout": "layout:ghost19"
+        },
+        {
+          "layout": "layout:ghost19"
+        },
+        {
+          "layout": "layout:ghost19"
+        },
+        {
+          "layout": "layout:ghost19"
+        },
+        {
+          "layout": "layout:ghost19"
+        },
+        {
+          "layout": "layout:ghost19"
+        },
+        {
+          "layout": "layout:ghost20"
+        },
+        {
+          "layout": "layout:ghost20"
+        },
+        {
+          "layout": "layout:ghost20"
+        },
+        {
+          "layout": "layout:ghost20"
+        },
+        {
+          "layout": "layout:ghost20"
+        },
+        {
+          "layout": "layout:ghost20"
+        },
+        {
+          "layout": "layout:ghost20"
+        },
+        {
+          "layout": "layout:ghost20"
+        },
+        {
+          "layout": "layout:ghost20"
+        },
+        {
+          "layout": "layout:ghost20"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "6. Wolf Pirate Crew",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.honorEmblem",
+          "num": 117,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost21"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost22"
+        },
+        {
+          "layout": "layout:ghost23"
+        },
+        {
+          "layout": "layout:ghost23"
+        },
+        {
+          "layout": "layout:ghost23"
+        },
+        {
+          "layout": "layout:ghost23"
+        },
+        {
+          "layout": "layout:ghost23"
+        },
+        {
+          "layout": "layout:ghost23"
+        },
+        {
+          "layout": "layout:ghost23"
+        },
+        {
+          "layout": "layout:ghost23"
+        },
+        {
+          "layout": "layout:ghost23"
+        },
+        {
+          "layout": "layout:ghost23"
+        },
+        {
+          "layout": "layout:ghost24"
+        },
+        {
+          "layout": "layout:ghost24"
+        },
+        {
+          "layout": "layout:ghost24"
+        },
+        {
+          "layout": "layout:ghost24"
+        },
+        {
+          "layout": "layout:ghost24"
+        },
+        {
+          "layout": "layout:ghost24"
+        },
+        {
+          "layout": "layout:ghost24"
+        },
+        {
+          "layout": "layout:ghost24"
+        },
+        {
+          "layout": "layout:ghost24"
+        },
+        {
+          "layout": "layout:ghost24"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "7. Ghost Pirate Crew",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.honorEmblem",
+          "num": 147,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost25"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost26"
+        },
+        {
+          "layout": "layout:ghost27"
+        },
+        {
+          "layout": "layout:ghost27"
+        },
+        {
+          "layout": "layout:ghost27"
+        },
+        {
+          "layout": "layout:ghost27"
+        },
+        {
+          "layout": "layout:ghost27"
+        },
+        {
+          "layout": "layout:ghost27"
+        },
+        {
+          "layout": "layout:ghost27"
+        },
+        {
+          "layout": "layout:ghost27"
+        },
+        {
+          "layout": "layout:ghost27"
+        },
+        {
+          "layout": "layout:ghost27"
+        },
+        {
+          "layout": "layout:ghost28"
+        },
+        {
+          "layout": "layout:ghost28"
+        },
+        {
+          "layout": "layout:ghost28"
+        },
+        {
+          "layout": "layout:ghost28"
+        },
+        {
+          "layout": "layout:ghost28"
+        },
+        {
+          "layout": "layout:ghost28"
+        },
+        {
+          "layout": "layout:ghost28"
+        },
+        {
+          "layout": "layout:ghost28"
+        },
+        {
+          "layout": "layout:ghost28"
+        },
+        {
+          "layout": "layout:ghost28"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "8. Tiger Pirate Crew",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.honorEmblem",
+          "num": 180,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost29"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost30"
+        },
+        {
+          "layout": "layout:ghost31"
+        },
+        {
+          "layout": "layout:ghost31"
+        },
+        {
+          "layout": "layout:ghost31"
+        },
+        {
+          "layout": "layout:ghost31"
+        },
+        {
+          "layout": "layout:ghost31"
+        },
+        {
+          "layout": "layout:ghost31"
+        },
+        {
+          "layout": "layout:ghost31"
+        },
+        {
+          "layout": "layout:ghost31"
+        },
+        {
+          "layout": "layout:ghost31"
+        },
+        {
+          "layout": "layout:ghost31"
+        },
+        {
+          "layout": "layout:ghost32"
+        },
+        {
+          "layout": "layout:ghost32"
+        },
+        {
+          "layout": "layout:ghost32"
+        },
+        {
+          "layout": "layout:ghost32"
+        },
+        {
+          "layout": "layout:ghost32"
+        },
+        {
+          "layout": "layout:ghost32"
+        },
+        {
+          "layout": "layout:ghost32"
+        },
+        {
+          "layout": "layout:ghost32"
+        },
+        {
+          "layout": "layout:ghost32"
+        },
+        {
+          "layout": "layout:ghost32"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "9. Viking Crew",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.honorEmblem",
+          "num": 216,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost33"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost34"
+        },
+        {
+          "layout": "layout:ghost35"
+        },
+        {
+          "layout": "layout:ghost35"
+        },
+        {
+          "layout": "layout:ghost35"
+        },
+        {
+          "layout": "layout:ghost35"
+        },
+        {
+          "layout": "layout:ghost35"
+        },
+        {
+          "layout": "layout:ghost35"
+        },
+        {
+          "layout": "layout:ghost35"
+        },
+        {
+          "layout": "layout:ghost35"
+        },
+        {
+          "layout": "layout:ghost35"
+        },
+        {
+          "layout": "layout:ghost35"
+        },
+        {
+          "layout": "layout:ghost36"
+        },
+        {
+          "layout": "layout:ghost36"
+        },
+        {
+          "layout": "layout:ghost36"
+        },
+        {
+          "layout": "layout:ghost36"
+        },
+        {
+          "layout": "layout:ghost36"
+        },
+        {
+          "layout": "layout:ghost36"
+        },
+        {
+          "layout": "layout:ghost36"
+        },
+        {
+          "layout": "layout:ghost36"
+        },
+        {
+          "layout": "layout:ghost36"
+        },
+        {
+          "layout": "layout:ghost36"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "10. Pirate King's Crew",
+      "experienceGain": 0,
+      "rewards": [
+        {
+          "prop": "prop:other.honorEmblem",
+          "num": 255,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [],
+      "fortifications": [],
+      "fleets": [
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost37"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost38"
+        },
+        {
+          "layout": "layout:ghost39"
+        },
+        {
+          "layout": "layout:ghost39"
+        },
+        {
+          "layout": "layout:ghost39"
+        },
+        {
+          "layout": "layout:ghost39"
+        },
+        {
+          "layout": "layout:ghost39"
+        },
+        {
+          "layout": "layout:ghost39"
+        },
+        {
+          "layout": "layout:ghost39"
+        },
+        {
+          "layout": "layout:ghost39"
+        },
+        {
+          "layout": "layout:ghost39"
+        },
+        {
+          "layout": "layout:ghost39"
+        },
+        {
+          "layout": "layout:ghost40"
+        },
+        {
+          "layout": "layout:ghost40"
+        },
+        {
+          "layout": "layout:ghost40"
+        },
+        {
+          "layout": "layout:ghost40"
+        },
+        {
+          "layout": "layout:ghost40"
+        },
+        {
+          "layout": "layout:ghost40"
+        },
+        {
+          "layout": "layout:ghost40"
+        },
+        {
+          "layout": "layout:ghost40"
+        },
+        {
+          "layout": "layout:ghost40"
+        },
+        {
+          "layout": "layout:ghost40"
+        }
+      ]
+    }
+  ],
+  "layout": [
+    {
+      "name": "layout:ghost1",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:wayne",
+        "rank": 1,
+        "lv": 5,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateA1",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA1",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA1",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA1",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA1",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA1",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA1",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA1",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA1",
+          "amount": 600
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost2",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:alicia",
+        "rank": 1,
+        "lv": 5,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateA2",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA2",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA2",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA2",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA2",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA2",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA2",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA2",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA2",
+          "amount": 600
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost3",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:jerome",
+        "rank": 1,
+        "lv": 5,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateA3",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA3",
+          "amount": 600
+        },
+        {
+          "design": "design:def",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA3",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA3",
+          "amount": 600
+        },
+        {
+          "design": "design:def",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA3",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA3",
+          "amount": 600
+        },
+        {
+          "design": "design:def",
+          "amount": 600
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost4",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:natiya",
+        "rank": 1,
+        "lv": 5,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateA4",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA4",
+          "amount": 600
+        },
+        {
+          "design": "design:def",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA4",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA4",
+          "amount": 600
+        },
+        {
+          "design": "design:def",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA4",
+          "amount": 600
+        },
+        {
+          "design": "design:pirateA4",
+          "amount": 600
+        },
+        {
+          "design": "design:def",
+          "amount": 600
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost5",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:sofia",
+        "rank": 1,
+        "lv": 5,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateB1",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB1",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB1",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB1",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB1",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB1",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB1",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB1",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB1",
+          "amount": 800
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost6",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:vinna",
+        "rank": 1,
+        "lv": 5,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateB2",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB2",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB2",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB2",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB2",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB2",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB2",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB2",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB2",
+          "amount": 800
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost7",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:sandora",
+        "rank": 1,
+        "lv": 5,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateB3",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB3",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB3",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB3",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB3",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB3",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB3",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB3",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB3",
+          "amount": 800
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost8",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:penni",
+        "rank": 1,
+        "lv": 5,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateB4",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB4",
+          "amount": 800
+        },
+        {
+          "design": "design:def",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB4",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB4",
+          "amount": 800
+        },
+        {
+          "design": "design:def",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB4",
+          "amount": 800
+        },
+        {
+          "design": "design:pirateB4",
+          "amount": 800
+        },
+        {
+          "design": "design:def",
+          "amount": 800
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost9",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:alicia",
+        "rank": 3,
+        "lv": 20,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateC2",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC2",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC1",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC2",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC2",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC1",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC2",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC2",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC1",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost10",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:wayne",
+        "rank": 3,
+        "lv": 20,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateC3",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC3",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC3",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC3",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC3",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC3",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC3",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC3",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC3",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost11",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:eveline",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateC4",
+          "amount": 1000
+        },
+        {
+          "design": "design:def",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC4",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC4",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC4",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC4",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC4",
+          "amount": 1000
+        },
+        {
+          "design": "design:def",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC4",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost12",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:gastaf",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateC5",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC5",
+          "amount": 1000
+        },
+        {
+          "design": "design:def",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC5",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC5",
+          "amount": 1000
+        },
+        {
+          "design": "design:def",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC4",
+          "amount": 1000
+        },
+        {
+          "design": "design:pirateC5",
+          "amount": 1000
+        },
+        {
+          "design": "design:def",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost13",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:leo",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateD1",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD1",
+          "amount": 1200
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost14",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:marcus",
+        "rank": 3,
+        "lv": 30,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateD2",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD2",
+          "amount": 1200
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost15",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:rayo",
+        "rank": 3,
+        "lv": 30,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateD3",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1200
+        },
+        {
+          "design": "design:def",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD3",
+          "amount": 1200
+        },
+        {
+          "design": "design:def",
+          "amount": 1200
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost16",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:nick",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateD4",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1200
+        },
+        {
+          "design": "design:def",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1200
+        },
+        {
+          "design": "design:def",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1200
+        },
+        {
+          "design": "design:pirateD4",
+          "amount": 1200
+        },
+        {
+          "design": "design:def",
+          "amount": 1200
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost17",
+      "targetPriority": "target:commander",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:annata",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateE1",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE1",
+          "amount": 1400
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost18",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:gastaf",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateE2",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE2",
+          "amount": 1400
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost19",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:ringel",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateE3",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1400
+        },
+        {
+          "design": "design:def",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1400
+        },
+        {
+          "design": "design:def",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE3",
+          "amount": 1400
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost20",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:aileen",
+        "rank": 5,
+        "lv": 40,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:def",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1400
+        },
+        {
+          "design": "design:def",
+          "amount": 1400
+        },
+        {
+          "design": "design:pirateE4",
+          "amount": 1400
+        },
+        {
+          "design": "design:def",
+          "amount": 1400
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost21",
+      "targetPriority": "target:commander",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:linda",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateF1",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF1",
+          "amount": 1700
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost22",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:anna",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateF2",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF2",
+          "amount": 1700
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost23",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:sandora",
+        "rank": 5,
+        "lv": 40,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateF3",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF3",
+          "amount": 1700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 1700
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost24",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:sandora",
+        "rank": 5,
+        "lv": 40,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:meatshield",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1700
+        },
+        {
+          "design": "design:pirateF4",
+          "amount": 1700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 1700
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost25",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:leo",
+        "rank": 6,
+        "lv": 45,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateG1",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG1",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost26",
+      "targetPriority": "target:commander",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:stani",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateG2",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG2",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost27",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:nick",
+        "rank": 6,
+        "lv": 45,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:meatshield",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 2000
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 2000
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG3",
+          "amount": 2000
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost28",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:maletiz",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateG4",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 2000
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 2000
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 2000
+        },
+        {
+          "design": "design:pirateG4",
+          "amount": 2000
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost29",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bart",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateH1",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH1",
+          "amount": 2300
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost30",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bart",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateH2",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH2",
+          "amount": 2300
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost31",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:sandora",
+        "rank": 6,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateH3",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH3",
+          "amount": 2300
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost32",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:nora",
+        "rank": 6,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateH4",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 2300
+        },
+        {
+          "design": "design:pirateH4",
+          "amount": 2300
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost33",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:anna",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateI1",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI1",
+          "amount": 2600
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost34",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:linda",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateI2",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI2",
+          "amount": 2600
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost35",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:gastaf",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateI3",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2600
+        },
+        {
+          "design": "design:shieldX",
+          "amount": 2600
+        },
+        {
+          "design": "design:shieldX",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI3",
+          "amount": 2600
+        },
+        {
+          "design": "design:shieldX",
+          "amount": 2600
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost36",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:nick",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:shieldX",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2600
+        },
+        {
+          "design": "design:shieldX",
+          "amount": 2600
+        },
+        {
+          "design": "design:shieldX",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2600
+        },
+        {
+          "design": "design:pirateI4",
+          "amount": 2600
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost37",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:dilira",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateJ1",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ1",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost38",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:robert",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateJ2",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ2",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost39",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:singhri",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateJ3",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 3000
+        },
+        {
+          "design": "design:shieldX",
+          "amount": 3000
+        },
+        {
+          "design": "design:shieldX",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ3",
+          "amount": 3000
+        },
+        {
+          "design": "design:shieldX",
+          "amount": 3000
+        }
+      ]
+    },
+    {
+      "name": "layout:ghost40",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:hellen",
+        "rank": 8,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 10,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:pirateJ4",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 3000
+        },
+        {
+          "design": "design:shieldX",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 3000
+        },
+        {
+          "design": "design:shieldX",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 3000
+        },
+        {
+          "design": "design:pirateJ4",
+          "amount": 3000
+        },
+        {
+          "design": "design:shieldX",
+          "amount": 3000
+        }
+      ]
+    }
+  ]
+}
