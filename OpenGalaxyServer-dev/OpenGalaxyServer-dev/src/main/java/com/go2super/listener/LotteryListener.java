@@ -15,12 +15,13 @@ import com.go2super.socket.util.DateUtil;
 import lombok.SneakyThrows;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class LotteryListener implements PacketListener {
 
     public static int LOTTERY_PRICE = 5;
 
-    private static final Map<Integer, Long> lotteryCooldownMap = new HashMap<>();
+    private static final Map<Integer, Long> lotteryCooldownMap = new ConcurrentHashMap<>();
 
     @SneakyThrows
     @PacketProcessor
@@ -34,10 +35,10 @@ public class LotteryListener implements PacketListener {
         }
 
         if (lotteryCooldownMap.containsKey(packet.getGuid())) {
-
-            long time = lotteryCooldownMap.get(packet.getGuid());
-            long cooldown = time - System.currentTimeMillis();
-
+            long cooldownEnd = lotteryCooldownMap.get(packet.getGuid());
+            if (System.currentTimeMillis() < cooldownEnd) {
+                return;
+            }
         }
 
         switch (packet.getType()) {
