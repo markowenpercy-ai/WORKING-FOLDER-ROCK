@@ -141,10 +141,9 @@ public class ResourceManager {
         this.instances = new HashSet<>();
         this.layouts = new HashSet<>();
 
-        Reader dictionaryReader = getReader("others/dictionary.txt");
-        Scanner scanner = new Scanner(dictionaryReader);
+        try (Scanner scanner = new Scanner(getReader("others/dictionary.txt"))) {
 
-        while (scanner.hasNextLine()) {
+            while (scanner.hasNextLine()) {
 
             String word = scanner.nextLine();
             if (word.length() < 5 || !StringUtils.isAlphanumeric(word)) {
@@ -152,6 +151,8 @@ public class ResourceManager {
             }
 
             compactedDictionary.add(word);
+
+        }
 
         }
 
