@@ -294,6 +294,11 @@ public class ChatListener implements PacketListener {
 
             case CHANNEL_PRIVATE:
 
+                if (userToSend == null) {
+                    packet.getSmartServer().sendMessage("User not found!");
+                    return;
+                }
+
                 if (userToSend.isNotDisturb()) {
 
                     packet.getSmartServer().sendMessage("The user is in do not disturb mode!");

@@ -26,9 +26,13 @@ import java.util.List;
 public class PropListener implements PacketListener {
 
     @PacketProcessor
-    public void useProp(RequestUsePropsPacket packet) {
+    public void useProp(RequestUsePropsPacket packet) throws BadGuidException {
 
+        LoginService.validate(packet, packet.getGuid());
         User user = UserService.getInstance().getUserCache().findByGuid(packet.getGuid());
+        if (user == null) {
+            return;
+        }
         PropAction consumption = PropAction.getAction(packet.getPropsId());
 
         if (consumption == null) {

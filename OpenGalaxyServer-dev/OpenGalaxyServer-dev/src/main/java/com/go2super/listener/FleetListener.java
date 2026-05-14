@@ -737,6 +737,9 @@ public class FleetListener implements PacketListener {
             case 0 -> { // Planet
 
                 Planet planet = PacketService.getInstance().getPlanetCache().findByPosition(targetTile);
+                if (planet == null) {
+                    return;
+                }
 
                 switch (planet.getType()) {
 
