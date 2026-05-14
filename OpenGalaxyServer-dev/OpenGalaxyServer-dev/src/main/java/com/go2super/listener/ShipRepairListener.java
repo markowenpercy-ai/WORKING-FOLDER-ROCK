@@ -6,6 +6,7 @@ import com.go2super.database.entity.sub.*;
 import com.go2super.obj.game.BruiseShipInfo;
 import com.go2super.obj.game.ShipModelInfo;
 import com.go2super.obj.utility.UnsignedShort;
+import com.go2super.packet.Packet;
 import com.go2super.packet.PacketListener;
 import com.go2super.packet.PacketProcessor;
 import com.go2super.packet.ship.*;
@@ -66,6 +67,13 @@ public class ShipRepairListener implements PacketListener {
         packet.reply(response);
     }
 
+    private void sendReliveError(Packet packet, int errorCode) {
+        var resp = new ResponseBruiseShipRelivePacket();
+        resp.setErrorCode(errorCode);
+        resp.setType(0);
+        packet.reply(resp);
+    }
+
     @PacketProcessor
     public void onRelive(RequestBruiseShipRelivePacket packet) throws BadGuidException {
         LoginService.validate(packet, packet.getGuid());
@@ -75,7 +83,6 @@ public class ShipRepairListener implements PacketListener {
             return;
         }
 
-        BruiseShip b = user.getShips().getRepairShip(packet.getShipModelId());
         if (packet.getKind() != CANCEL_REPAIR && packet.getKind() != REPAIR) {
             return;
         }
@@ -83,8 +90,7 @@ public class ShipRepairListener implements PacketListener {
         UserShips userShips = user.getShips();
 
         if (packet.getKind() == CANCEL_REPAIR) {
-            boolean factory = userShips.cancelRepair(packet.getShipModelId());
-            if (factory) {
+            if (userShips.cancelRepair(packet.getShipModelId())) {
                 var resp = new ResponseBruiseShipRelivePacket();
                 resp.setShipModelId(packet.getShipModelId());
                 resp.setNum(0);
@@ -97,12 +103,16 @@ public class ShipRepairListener implements PacketListener {
             return;
         }
 
+        // REPAIR path — validate bruised ships exist and have enough count
+        BruiseShip b = userShips.getRepairShip(packet.getShipModelId());
+        if (b == null || b.getNum() <= 0 || packet.getNum() <= 0 || packet.getNum() > b.getNum()) {
+            sendReliveError(packet, 1);
+            return;
+        }
+
         int currentShips = user.totalShips();
         if (currentShips + packet.getNum() >= MAX_SHIPS) {
-            var resp = new ResponseBruiseShipRelivePacket();
-            resp.setErrorCode(1);
-            resp.setType(0);
-            packet.reply(resp);
+            sendReliveError(packet, 1);
             return;
         }
 
@@ -137,24 +147,19 @@ public class ShipRepairListener implements PacketListener {
             long newUntilMillis = DateUtil.millis() + (long) (avgTime * 1000 * newNum);
             factory.setUntil(new Date(newUntilMillis));
         } else {
-            int remaining = b.getNum() - packet.getNum();
-            if (remaining == 0) {
-                userShips.getRepair().remove(b);
-            } else {
-                b.setNum(remaining);
-            }
+            // Different model already repairing — can't queue, return current queue info
             var resp = new ResponseBruiseShipRelivePacket();
             resp.setShipModelId(packet.getShipModelId());
             resp.setNum(b.getNum());
             resp.setNeedTime(fixedBuildTime);
-            resp.setErrorCode(0);
+            resp.setErrorCode(1);
             resp.setType(0);
-            user.save();
             packet.reply(resp);
             return;
         }
+
         int remaining = b.getNum() - packet.getNum();
-        if (remaining == 0) {
+        if (remaining <= 0) {
             userShips.getRepair().remove(b);
         } else {
             b.setNum(remaining);
@@ -168,7 +173,6 @@ public class ShipRepairListener implements PacketListener {
         resp.setType(0);
 
         user.save();
-
         packet.reply(resp);
     }
 

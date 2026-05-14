@@ -151,7 +151,7 @@ public class BattleFleet extends BattleElement implements Comparable<BattleFleet
                     }
 
                     int repairNum = (int) (teamNum.getNum() * shipRepairRate);
-                    if (repairNum < 0.0d) {
+                    if (repairNum <= 0) {
                         continue;
                     }
 

@@ -69,7 +69,7 @@ public class ShipRepairConstructionJob implements OfflineJob {
 
     @Override
     public long getInterval() {
-        return 1L; // why this shit run so much
+        return 1000L;
     }
 
 }
