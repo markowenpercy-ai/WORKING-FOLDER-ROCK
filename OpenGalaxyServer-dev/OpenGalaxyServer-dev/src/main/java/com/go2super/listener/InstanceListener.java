@@ -262,8 +262,41 @@ public class InstanceListener implements PacketListener {
                     if (!RaidsService.getInstance().getEnabled().get()) {
                         return;
                     }
+
+                    // Check room slot availability BEFORE consuming the prop
+                    boolean slotAvailable = false;
+                    boolean isIntercept = packet.getCapturePlace().getValue() == 4;
+                    for (var raidCheck : RaidsService.getInstance().getRaids()) {
+                        if (raidCheck.getRoomId() == packet.getRoomId()) {
+                            if (isIntercept) {
+                                // Intercept only needs both slots filled
+                                slotAvailable = raidCheck.getFirstGuid() != -1 && raidCheck.getSecondGuid() != -1;
+                            } else if (packet.getCapturePlace().getValue() == 2) {
+                                slotAvailable = raidCheck.getSecondGuid() == -1;
+                            } else if (packet.getCapturePlace().getValue() == 1) {
+                                slotAvailable = raidCheck.getFirstGuid() == -1;
+                            }
+                            break;
+                        }
+                    }
+                    if (!slotAvailable) {
+                        return;
+                    }
+
+                    // Check attempt limits
+                    int maxAttempts = 5;
+                    if (isIntercept) {
+                        if (user.getStats().getRaidInterceptEntries() >= maxAttempts) {
+                            return;
+                        }
+                    } else {
+                        if (user.getStats().getRaidAttemptsEntries() >= maxAttempts) {
+                            return;
+                        }
+                    }
+
                     var prop = user.getInventory().getProp(packet.getPropsId().toInt());
-                    if (user.getStats().getRaidAttemptsEntries() >= 5 || prop == null) {
+                    if (prop == null) {
                         return;
                     }
                     if (prop.getPropLockNum() < 1 && prop.getPropNum() < 1) {
@@ -277,10 +310,6 @@ public class InstanceListener implements PacketListener {
                             // 1 = Right
                             // 2 = Left
                             if (packet.getCapturePlace().getValue() == 2) {
-                                if (raidRoom.getSecondGuid() != -1) {
-                                    //someone had in the room!
-                                    break;
-                                }
                                 raidRoom.setSecondGuid(user.getGuid());
                                 raidRoom.setSecondPropId(packet.getPropsId().getValue());
                                 raidRoom.setStatus(RaidStatus.WAITING);
@@ -303,10 +332,6 @@ public class InstanceListener implements PacketListener {
                                 }
                                 changed = true;
                             } else if (packet.getCapturePlace().getValue() == 1) {
-                                if (raidRoom.getFirstGuid() != -1) {
-                                    //someone had in the room!
-                                    break;
-                                }
                                 raidRoom.setFirstGuid(user.getGuid());
                                 raidRoom.setFirstPropId(packet.getPropsId().getValue());
                                 raidRoom.setStatus(RaidStatus.WAITING);
@@ -330,6 +355,7 @@ public class InstanceListener implements PacketListener {
                                 changed = true;
                             } else if (packet.getCapturePlace().getValue() == 4) {
                                 //intercept — attacker tries to break the raid
+                                user.getStats().setRaidInterceptEntries(user.getStats().getRaidInterceptEntries() + 1);
                                 raidRoom.setStatus(RaidStatus.INTERCEPTED);
                                 changed = true;
                                 LoggedGameUser loggedGameUser = optionalLoggedGameUser.get();
@@ -345,6 +371,8 @@ public class InstanceListener implements PacketListener {
                                 response.setGateId(UnsignedChar.of(0));
                                 response.setState((byte) 1);
                                 packet.reply(response);
+                                packet.reply(deletePropsPacket, RaidsService.getInstance().getArkInfoPacket(user));
+                                return;
                             }
                             packet.reply(deletePropsPacket, RaidsService.getInstance().getArkInfoPacket(user));
                         }

@@ -136,7 +136,7 @@ public class RaidsService {
                     x.setStatus(RaidStatus.IN_PROGRESS);
                 } else if(x.getTime() > 0 && x.getStatus() == RaidStatus.IN_PROGRESS){
                     x.setTime(x.getTime() - 1);
-                } else if(x.getTime() <= 0){
+                } else if(x.getTime() <= 0 && x.getStatus() == RaidStatus.IN_PROGRESS){
                     //give mail rewards to players, defend success!
                     if (x.getFirstGuid() > 0) {
                         var p1 = giveRewards(x.getFirstGuid(), x.getFirstPropId());

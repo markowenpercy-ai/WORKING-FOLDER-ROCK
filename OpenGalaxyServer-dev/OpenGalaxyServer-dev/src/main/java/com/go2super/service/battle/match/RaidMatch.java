@@ -71,28 +71,33 @@ public class RaidMatch  extends Match {
             viewer.getSmartServer().send(fightResultPacket);
         }
 
-        if (!targetSent && optionalOpponent.isPresent()) {
+        if (!sourceSent && optionalOpponent.isPresent()) {
             optionalOpponent.get().getSmartServer().send(response);
         }
 
-        if (!sourceSent && optionalOwner1.isPresent()) {
+        if (!targetSent && optionalOwner1.isPresent()) {
             optionalOwner1.get().getSmartServer().send(response);
         }
 
-        if (!sourceSent && optionalOwner2.isPresent()) {
+        if (!targetSent && optionalOwner2.isPresent()) {
             optionalOwner2.get().getSmartServer().send(response);
         }
 
         // Reset raid room after intercept battle — give rewards to defenders if they won
+        // Find room by either defender (the other may have disconnected mid-battle)
         var raidOpt = RaidsService.getInstance().getRaids().stream()
-                .filter(r -> (r.getFirstGuid() == defender1 || r.getSecondGuid() == defender1)
-                        && (r.getFirstGuid() == defender2 || r.getSecondGuid() == defender2)
+                .filter(r -> (r.getFirstGuid() == defender1 || r.getSecondGuid() == defender1
+                        || r.getFirstGuid() == defender2 || r.getSecondGuid() == defender2)
                         && r.getStatus() == com.go2super.service.raids.RaidStatus.INTERCEPTED)
                 .findFirst();
         raidOpt.ifPresent(raid -> {
             if (hasWon()) {
-                RaidsService.getInstance().giveRewards(defender1, raid.getFirstPropId());
-                RaidsService.getInstance().giveRewards(defender2, raid.getSecondPropId());
+                if (raid.getFirstGuid() != -1) {
+                    RaidsService.getInstance().giveRewards(defender1, raid.getFirstPropId());
+                }
+                if (raid.getSecondGuid() != -1) {
+                    RaidsService.getInstance().giveRewards(defender2, raid.getSecondPropId());
+                }
             }
             raid.setTime(-1);
             raid.setFirstGuid(-1);
