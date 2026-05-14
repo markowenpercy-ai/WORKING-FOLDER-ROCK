@@ -179,7 +179,7 @@ public class PlayerListener implements PacketListener {
                 response.setGuid(-1);
                 response.getUserName().value("");
 
-                packet.reply(packet);
+                packet.reply(response);
 
                 return;
 
