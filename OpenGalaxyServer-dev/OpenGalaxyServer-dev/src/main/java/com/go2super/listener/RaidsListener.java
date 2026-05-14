@@ -15,6 +15,7 @@ import com.go2super.service.exception.BadGuidException;
 import lombok.Data;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 
 public class RaidsListener implements PacketListener {
 

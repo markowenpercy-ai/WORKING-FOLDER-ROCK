@@ -21,11 +21,13 @@ import com.go2super.packet.instance.ResponseEctypeStatePacket;
 import com.go2super.packet.props.ResponseUsePropsPacket;
 import com.go2super.resources.ResourceManager;
 import com.go2super.service.*;
-import com.go2super.service.battle.BattleService;
-import com.go2super.service.battle.MatchRunnable;
+import com.go2super.service.battle.*;
+import com.go2super.service.battle.match.*;
+import com.go2super.service.battle.type.*;
+import com.go2super.service.champ.*;
 import com.go2super.service.exception.BadGuidException;
-import com.go2super.service.league.LeagueMatchService;
-import com.go2super.service.raids.RaidStatus;
+import com.go2super.service.league.*;
+import com.go2super.service.raids.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -358,7 +360,11 @@ public class InstanceListener implements PacketListener {
                                 user.getStats().setRaidInterceptEntries(user.getStats().getRaidInterceptEntries() + 1);
                                 raidRoom.setStatus(RaidStatus.INTERCEPTED);
                                 changed = true;
-                                LoggedGameUser loggedGameUser = optionalLoggedGameUser.get();
+                                var optGame = LoginService.getInstance().getGame(user.getGuid());
+                                if (optGame.isEmpty()) {
+                                    return;
+                                }
+                                LoggedGameUser loggedGameUser = optGame.get();
                                 List<Integer> fleetIds = new ArrayList<>();
 
                                 for (int i = 0; i < packet.getDataLen().getValue(); i++) {
