@@ -28,6 +28,9 @@ public class BlackListCommand extends Command {
 
         for (int i = 0; i < blockUsers.size(); i++) {
             User blockedUser = UserService.getInstance().getUserCache().findByGuid(blockUsers.get(i).intValue());
+            if (blockedUser == null) {
+                continue;
+            }
             names.add(blockedUser.getUsername());
             if (i == 4) {
                 break;
