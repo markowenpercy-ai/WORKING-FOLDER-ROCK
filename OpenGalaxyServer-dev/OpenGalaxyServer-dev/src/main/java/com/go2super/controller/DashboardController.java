@@ -18,7 +18,7 @@ public class DashboardController {
     @Autowired
     private DashboardLoginService dashboardLoginService;
 
-    @GetMapping("/users")
+    @PostMapping("/users")
     public BasicResponse login(@RequestBody DashboardLoginDTO dto, HttpServletRequest request) {
 
         return dashboardLoginService.login(dto, request);

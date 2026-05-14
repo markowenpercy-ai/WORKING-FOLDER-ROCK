@@ -109,6 +109,9 @@ public class EventController {
     }
     @PostMapping("/event/callback")
     public BasicResponse CallBack(@RequestBody Callback guid) throws IOException {
+        if (guid == null || guid.getPayload() == null || guid.getPayload().getId() == null) {
+            return BasicResponse.builder().code(400).message("Invalid callback payload").build();
+        }
         StoreEventService.getInstance().GetCMSResponse(guid.getPayload().getId(), true);
         return BasicResponse.builder().code(200).build();
     }

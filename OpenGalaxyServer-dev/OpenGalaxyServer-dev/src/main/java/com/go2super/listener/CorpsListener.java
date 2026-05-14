@@ -51,7 +51,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -85,7 +85,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -134,7 +134,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -243,7 +243,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -806,7 +806,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -850,7 +850,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -964,7 +964,7 @@ public class CorpsListener implements PacketListener {
         }
 
         List<ResourcePlanet> resourcePlanets = corp.getResourcePlanets();
-        if (resourcePlanets.isEmpty() || resourcePlanets == null) {
+        if (resourcePlanets == null || resourcePlanets.isEmpty()) {
             return;
         }
 
@@ -1008,7 +1008,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -1047,7 +1047,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -1080,7 +1080,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -1264,7 +1264,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -1334,7 +1334,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -1524,7 +1524,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
@@ -1624,7 +1624,7 @@ public class CorpsListener implements PacketListener {
 
         UserBuildings buildings = user.getBuildings();
         List<UserBuilding> building = buildings.getBuildings(6);
-        if (building.isEmpty() || building == null) {
+        if (building == null || building.isEmpty()) {
             return;
         }
 
