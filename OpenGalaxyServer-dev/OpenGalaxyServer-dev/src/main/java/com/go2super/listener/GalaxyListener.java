@@ -23,11 +23,12 @@ import com.go2super.service.battle.match.WarMatch;
 import com.go2super.service.exception.BadGuidException;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.*;
 
 public class GalaxyListener implements PacketListener {
 
-    private final Map<Integer, Integer> lastSequence = new HashMap<>();
+    private final Map<Integer, Integer> lastSequence = new ConcurrentHashMap<>();
 
     @PacketProcessor
     public void onGalaxy(RequestGalaxyPacket packet) throws BadGuidException {
@@ -48,13 +49,15 @@ public class GalaxyListener implements PacketListener {
         GalaxyTile tile = new GalaxyTile(packet.getGalaxyId());
         Planet planet = GalaxyService.getInstance().getPlanet(tile);
 
-        /*if(gameUser.getViewing() == planet.getPosition().galaxyId() && lastSequence.containsKey(requester.getGuid()))
-            if(lastSequence.get(requester.getGuid()) == packet.getSeqId() - 1) {
+        if (planet != null
+                && gameUser.getViewing() == planet.getPosition().galaxyId()
+                && lastSequence.containsKey(requester.getGuid())
+                && lastSequence.get(requester.getGuid()) >= packet.getSeqId() - 1) {
 
-                lastSequence.put(requester.getGuid(), packet.getSeqId());
-                return;
+            lastSequence.put(requester.getGuid(), packet.getSeqId());
+            return;
 
-            }*/
+        }
 
         lastSequence.put(requester.getGuid(), packet.getSeqId());
         // BotLogger.log("GALAXY PKT :: " + packet);
