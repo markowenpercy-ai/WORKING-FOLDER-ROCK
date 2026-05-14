@@ -142,7 +142,7 @@ def execute_command(auth_token, user_id, guid, command):
     print(f"Game login ack: type={ack_type}")
 
     # Send keep-alive ack (TYPE 1017)
-    ka_payload = struct.pack("<i", 1) + struct.pack("<i", 2) + struct.pack("<i", 1)
+    ka_payload = struct.pack("<i", 0) + struct.pack("<i", guid) + struct.pack("<i", 1)
     ka_pkt = struct.pack("<HH", 4 + len(ka_payload), 1017) + ka_payload
     sock.sendall(ka_pkt)
 
