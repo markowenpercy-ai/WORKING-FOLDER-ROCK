@@ -153,12 +153,12 @@ public class JobService {
         }
     }
 
-    @Scheduled(fixedDelay = 200L)
+    @Scheduled(fixedDelay = 1000L)
     public void saveUsersTask() {
         userCache.saveChanged();
     }
 
-    @Scheduled(fixedDelay = 200L)
+    @Scheduled(fixedDelay = 1000L)
     public void saveIncrementsTask() {
         autoIncrementCache.saveChanged();
     }

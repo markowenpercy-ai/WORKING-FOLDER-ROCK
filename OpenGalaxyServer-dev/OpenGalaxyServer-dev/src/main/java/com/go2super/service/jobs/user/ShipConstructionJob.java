@@ -101,7 +101,7 @@ public class ShipConstructionJob implements OfflineJob {
 
     @Override
     public long getInterval() {
-        return 1L;
+        return 1000L;
     }
 
 }
