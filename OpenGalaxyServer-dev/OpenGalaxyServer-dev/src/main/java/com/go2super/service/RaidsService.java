@@ -15,6 +15,8 @@ import com.go2super.resources.ResourceManager;
 import com.go2super.service.raids.Raid;
 import com.go2super.service.raids.RaidStatus;
 import com.go2super.socket.util.DateUtil;
+import com.go2super.resources.ResourceManager;
+import com.go2super.service.UserService;
 import lombok.Getter;
 import org.apache.tomcat.jni.Local;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -33,7 +35,7 @@ public class RaidsService {
 
     private static RaidsService instance;
     private final ArrayList<Raid> raids;
-    private final ConcurrentMap<User, LocalDateTime> userIds;
+    private final ConcurrentMap<Integer, LocalDateTime> userIds;
 
     private final AtomicBoolean enabled = new AtomicBoolean(false);
     public RaidsService() {
@@ -103,20 +105,20 @@ public class RaidsService {
     }
 
     public void broadcastStatus(){
-        for(var player: getUserIds().keySet()){
-            if(player.isOnline()){
+        for(var guid: getUserIds().keySet()){
+            var player = UserService.getInstance().getUserCache().findByGuid(guid);
+            if(player != null && player.isOnline()){
                 player.getLoggedGameUser().ifPresent(x -> x.getSmartServer().send(getArkRoomsPacket(player)));
             }
         }
     }
 
-    /*@Scheduled(fixedDelay = 10000L)
+    @Scheduled(fixedDelay = 10000L)
     public void removeExpiredPlayers(){
-        new HashSet<>(userIds.keySet()).forEach(x -> {
-            var date = userIds.get(x);
-            var expiry = Math.abs(Duration.between(date, LocalDateTime.now()).toHours());
-            if(expiry >= 1){
-                userIds.remove(x);
+        new HashSet<>(userIds.keySet()).forEach(guid -> {
+            var date = userIds.get(guid);
+            if(date != null && Math.abs(Duration.between(date, LocalDateTime.now()).toHours()) >= 1){
+                userIds.remove(guid);
             }
         });
     }
@@ -132,14 +134,28 @@ public class RaidsService {
                 if(x.getStatus() == RaidStatus.WAITING){
                     x.setTime(60);
                     x.setStatus(RaidStatus.IN_PROGRESS);
-                }
-                else if(x.getTime() > 0 && x.getStatus() == RaidStatus.IN_PROGRESS){
+                } else if(x.getTime() > 0 && x.getStatus() == RaidStatus.IN_PROGRESS){
                     x.setTime(x.getTime() - 1);
-                }
-                else if(x.getTime() <= 0){
+                } else if(x.getTime() <= 0){
                     //give mail rewards to players, defend success!
-                    var p1 = giveRewards(x.getFirstGuid(), x.getFirstPropId());
-                    var p2 = giveRewards(x.getSecondGuid(), x.getSecondPropId());
+                    if (x.getFirstGuid() > 0) {
+                        var p1 = giveRewards(x.getFirstGuid(), x.getFirstPropId());
+                        if (p1 != null) {
+                            p1.getLoggedGameUser().ifPresent((e) -> {
+                                e.getSmartServer().send(ResponseNewEmailNoticePacket.builder().errorCode(0).build());
+                                e.getSmartServer().send(getArkInfoPacket(p1));
+                            });
+                        }
+                    }
+                    if (x.getSecondGuid() > 0) {
+                        var p2 = giveRewards(x.getSecondGuid(), x.getSecondPropId());
+                        if (p2 != null) {
+                            p2.getLoggedGameUser().ifPresent((e) -> {
+                                e.getSmartServer().send(ResponseNewEmailNoticePacket.builder().errorCode(0).build());
+                                e.getSmartServer().send(getArkInfoPacket(p2));
+                            });
+                        }
+                    }
                     x.setTime(-1);
                     x.setFirstGuid(-1);
                     x.setSecondGuid(-1);
@@ -148,18 +164,6 @@ public class RaidsService {
                     x.setStatus(RaidStatus.EMPTY);
                     x.setFirstDefenceFleets(new ArrayList<>());
                     x.setSecondDefenceFleets(new ArrayList<>());
-                    p1.getLoggedGameUser().ifPresent((e) -> {
-                        e.getSmartServer().send(ResponseNewEmailNoticePacket.builder()
-                                .errorCode(0)
-                                .build());
-                        e.getSmartServer().send(getArkInfoPacket(p1));
-                    });
-                    p2.getLoggedGameUser().ifPresent((e) -> {
-                        e.getSmartServer().send(ResponseNewEmailNoticePacket.builder()
-                                .errorCode(0)
-                                .build());
-                        e.getSmartServer().send(getArkInfoPacket(p2));
-                    });
                     changed.set(true);
                 }
             }
@@ -167,22 +171,26 @@ public class RaidsService {
         if(changed.get()){
             broadcastStatus();
         }
-    }*/
+    }
 
     private User giveRewards(int guid, int propId) {
         var player = UserService.getInstance().getUserCache().findByGuid(guid);
+        if (player == null) {
+            return null;
+        }
         player.getStats().setRaidAttemptsEntries(player.getStats().getRaidAttemptsEntries() + 1);
         var reward = ResourceManager.getRewardJson().getReward(propId);
         UserEmailStorage userEmailStorage = player.getUserEmailStorage();
         var emailGoods = new ArrayList<EmailGood>();
-        emailGoods.add(EmailGood.builder().goodId(reward.getPropId()).lockNum(reward.getAmount()).build());
+        if (reward != null) {
+            emailGoods.add(EmailGood.builder().goodId(reward.getPropId()).lockNum(reward.getAmount()).build());
+        }
         userEmailStorage.addEmail(Email.builder()
                 .autoId(userEmailStorage.nextAutoId())
                 .type(2)
                 .name("System")
                 .subject("Raid Rewards")
-                .emailContent(
-                        "Raid defend success")
+                .emailContent("Raid defend success")
                 .readFlag(0)
                 .date(DateUtil.now())
                 .guid(-1)

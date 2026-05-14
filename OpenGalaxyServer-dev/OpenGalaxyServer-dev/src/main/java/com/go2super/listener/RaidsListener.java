@@ -21,7 +21,7 @@ public class RaidsListener implements PacketListener {
     @PacketProcessor
     public void onCaptureState(RequestCaptureStatePacket packet) throws BadGuidException {
 
-        /*if (!RaidsService.getInstance().getEnabled().get()) {
+        if (!RaidsService.getInstance().getEnabled().get()) {
             return;
         }
         LoginService.validate(packet, packet.getGuid());
@@ -30,14 +30,8 @@ public class RaidsListener implements PacketListener {
         if (user == null) {
             return;
         }
-        //add user to the pool for replying
-        var existed = RaidsService.getInstance().getUserIds().get(user.getGuid());
-        if(existed == null){
-            RaidsService.getInstance().getUserIds().put(user, LocalDateTime.now());
-        }
-        else {
-            RaidsService.getInstance().getUserIds().replace(user, LocalDateTime.now());
-        }
+        //add user to the pool for replying (use guid as key for reliable hashing)
+        RaidsService.getInstance().getUserIds().put(user.getGuid(), LocalDateTime.now());
         int request = packet.getRequest().getValue();
         //request 0 == open raid window
         //request 1 == cancel
@@ -60,6 +54,7 @@ public class RaidsListener implements PacketListener {
                         responseUsePropsPacket = ResourcesService.getInstance().genericUseProps(raid.getFirstPropId(), -1, 1, 1);
                         raid.setFirstPropId(-1);
                         raid.setFirstGuid(-1);
+                        raid.setFirstDefenceFleets(new ArrayList<>());
                         break;
                     }
                     if (raid.getSecondGuid() == packet.getGuid()) {
@@ -67,6 +62,7 @@ public class RaidsListener implements PacketListener {
                         responseUsePropsPacket = ResourcesService.getInstance().genericUseProps(raid.getSecondPropId(), -1, 1, 1);
                         raid.setSecondGuid(-1);
                         raid.setSecondPropId(-1);
+                        raid.setSecondDefenceFleets(new ArrayList<>());
                         break;
                     }
                 }
@@ -84,7 +80,7 @@ public class RaidsListener implements PacketListener {
                 packet.getSmartServer().sendMessage("Sorry, that instance is not done yet!");
                 packet.reply(captureArkListPacket, captureArkInfoPacket);
             }
-        }*/
+        }
 
     }
 

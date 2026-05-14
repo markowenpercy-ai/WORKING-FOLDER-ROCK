@@ -21,12 +21,8 @@ import com.go2super.packet.instance.ResponseEctypeStatePacket;
 import com.go2super.packet.props.ResponseUsePropsPacket;
 import com.go2super.resources.ResourceManager;
 import com.go2super.service.*;
-import com.go2super.service.battle.GameBattle;
-import com.go2super.service.battle.Match;
+import com.go2super.service.battle.BattleService;
 import com.go2super.service.battle.MatchRunnable;
-import com.go2super.service.battle.match.ArenaMatch;
-import com.go2super.service.battle.type.StopCause;
-import com.go2super.service.champ.ChampService;
 import com.go2super.service.exception.BadGuidException;
 import com.go2super.service.league.LeagueMatchService;
 import com.go2super.service.raids.RaidStatus;
@@ -262,7 +258,7 @@ public class InstanceListener implements PacketListener {
                         return;
                     }
                 } else if (packet.getActivity() == 1) {
-                    /*boolean changed = false;
+                    boolean changed = false;
                     if (!RaidsService.getInstance().getEnabled().get()) {
                         return;
                     }
@@ -295,8 +291,10 @@ public class InstanceListener implements PacketListener {
                                     raidRoom.setTime(60);
                                     raidRoom.setStatus(RaidStatus.IN_PROGRESS);
                                     var anotherUser = UserService.getInstance().getUserCache().findByGuid(raidRoom.getFirstGuid());
-                                    var anotherLoggedIn = anotherUser.getLoggedGameUser();
-                                    anotherLoggedIn.ifPresent(loggedGameUser -> loggedGameUser.getSmartServer().send(RaidsService.getInstance().getArkInfoPacket(anotherUser)));
+                                    if (anotherUser != null) {
+                                        var anotherLoggedIn = anotherUser.getLoggedGameUser();
+                                        anotherLoggedIn.ifPresent(loggedGameUser -> loggedGameUser.getSmartServer().send(RaidsService.getInstance().getArkInfoPacket(anotherUser)));
+                                    }
                                 }
                                 //leave slot
                                 if (raidRoom.getFirstGuid() == user.getGuid()) {
@@ -319,8 +317,10 @@ public class InstanceListener implements PacketListener {
                                     raidRoom.setTime(60);
                                     raidRoom.setStatus(RaidStatus.IN_PROGRESS);
                                     var anotherUser = UserService.getInstance().getUserCache().findByGuid(raidRoom.getSecondGuid());
-                                    var anotherLoggedIn = anotherUser.getLoggedGameUser();
-                                    anotherLoggedIn.ifPresent(loggedGameUser -> loggedGameUser.getSmartServer().send(RaidsService.getInstance().getArkInfoPacket(anotherUser)));
+                                    if (anotherUser != null) {
+                                        var anotherLoggedIn = anotherUser.getLoggedGameUser();
+                                        anotherLoggedIn.ifPresent(loggedGameUser -> loggedGameUser.getSmartServer().send(RaidsService.getInstance().getArkInfoPacket(anotherUser)));
+                                    }
                                 }
                                 //leave slot
                                 if (raidRoom.getSecondGuid() == user.getGuid()) {
@@ -329,14 +329,8 @@ public class InstanceListener implements PacketListener {
                                 }
                                 changed = true;
                             } else if (packet.getCapturePlace().getValue() == 4) {
-                                //intercept， will not be complete for now.
-                                packet.getSmartServer().sendMessage("Sorry, that instance is not done yet!");
-                                response.setEctypeId((short) 0);
-                                response.setGateId(UnsignedChar.of(0));
-                                response.setState((byte) 0);
-                                packet.reply(response);
-                                return;
-                                /*raidRoom.setStatus(RaidStatus.INTERCEPTED);
+                                //intercept — attacker tries to break the raid
+                                raidRoom.setStatus(RaidStatus.INTERCEPTED);
                                 changed = true;
                                 LoggedGameUser loggedGameUser = optionalLoggedGameUser.get();
                                 List<Integer> fleetIds = new ArrayList<>();
@@ -370,9 +364,9 @@ public class InstanceListener implements PacketListener {
                         RaidsService.getInstance().broadcastStatus();
                     }
                     return;
-*/
 
                 }
+
                 System.out.println("Not found: " + packet.getEctypeId());
                 packet.getSmartServer().sendMessage("Sorry, that instance is not done yet!");
                 response.setEctypeId((short) 0);
