@@ -30516,7 +30516,7 @@
       "mall": [
         {
           "currency": "resource:mallPoint",
-          "value": 32,
+          "value": 56,
           "bound": true
         }
       ]
