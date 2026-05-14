@@ -68,9 +68,9 @@ public class RecycleListener implements PacketListener {
 
         }
 
-        gold = (int) ((double) gold * scrapValue);
-        metal = (int) ((double) metal * scrapValue);
-        he3 = (int) ((double) he3 * scrapValue);
+        gold = (long) ((double) gold * scrapValue);
+        metal = (long) ((double) metal * scrapValue);
+        he3 = (long) ((double) he3 * scrapValue);
 
         user.getResources().addGold(gold);
         user.getResources().addMetal(metal);
@@ -82,9 +82,13 @@ public class RecycleListener implements PacketListener {
 
         ResponseDestroyShipPacket response = new ResponseDestroyShipPacket();
 
-        response.setMoney(Long.valueOf(gold).intValue());
-        response.setMetal(Long.valueOf(metal).intValue());
-        response.setGas(Long.valueOf(he3).intValue());
+        int cappedGold = gold > Integer.MAX_VALUE ? Integer.MAX_VALUE : (int) gold;
+        int cappedMetal = metal > Integer.MAX_VALUE ? Integer.MAX_VALUE : (int) metal;
+        int cappedHe3 = he3 > Integer.MAX_VALUE ? Integer.MAX_VALUE : (int) he3;
+
+        response.setMoney(cappedGold);
+        response.setMetal(cappedMetal);
+        response.setGas(cappedHe3);
 
         packet.reply(response);
 
