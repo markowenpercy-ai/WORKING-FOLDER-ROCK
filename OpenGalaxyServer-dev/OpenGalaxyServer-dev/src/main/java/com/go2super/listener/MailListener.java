@@ -292,7 +292,7 @@ public class MailListener implements PacketListener {
 
         UserEmailStorage emailStorage = user.getUserEmailStorage();
         Email email = emailStorage.getEmail(packet.getAutoId());
-        if (email.getGoods().isEmpty()) {
+        if (email == null || email.getGoods() == null || email.getGoods().isEmpty()) {
             return;
         }
 
