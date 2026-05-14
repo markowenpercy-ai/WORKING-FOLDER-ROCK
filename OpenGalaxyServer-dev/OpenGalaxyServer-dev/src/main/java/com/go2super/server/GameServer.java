@@ -59,7 +59,7 @@ public class GameServer extends SmartServer implements Runnable {
                 setOutputStream(new LittleEndianDataOutputStream(socket.getOutputStream()));
 
                 while (socket.getInputStream().available() == 0 && System.currentTimeMillis() - accepted < timeout) {
-                    continue;
+                    Thread.sleep(10);
                 }
                 if (socket.getInputStream().available() == 0) {
                     continue;

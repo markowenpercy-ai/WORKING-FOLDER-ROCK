@@ -18,10 +18,10 @@ public class SocketService {
     private Thread loginThread;
     private Thread gameThread;
 
-    @Value("${application.game.server-port:90}")
+    @Value("${application.game.server-port:5150}")
     private int gamePort;
 
-    @Value("${application.game.login-port:5150}")
+    @Value("${application.game.login-port:5050}")
     private int loginPort;
 
     public SocketService() {
