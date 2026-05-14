@@ -347,6 +347,10 @@ public class CommanderListener implements PacketListener {
 
     }
 
+    private void replyMergeError(RequestUnionCommanderCardPacket packet) {
+        packet.reply(new ResponseUnionCommanderCardPacket());
+    }
+
     @PacketProcessor
     public void onUnionCommanderCard(RequestUnionCommanderCardPacket packet) throws BadGuidException {
 
@@ -358,6 +362,7 @@ public class CommanderListener implements PacketListener {
         }
 
         if (packet.getCard3() == -1 && packet.getCard1() != packet.getCard2()) {
+            replyMergeError(packet);
             return;
         }
 
@@ -366,12 +371,14 @@ public class CommanderListener implements PacketListener {
 
         // Check if result card would be restricted
         if (RestrictedItemsService.getInstance().isRestricted(nextCard)) {
+            replyMergeError(packet);
             return;
         }
 
         PropData mergeData = CommanderService.getInstance().getCommanderPropData(mergeCard);
 
         if(mergeData == null){
+            replyMergeError(packet);
             return;
         }
 
@@ -379,6 +386,7 @@ public class CommanderListener implements PacketListener {
 
         PropData card2 = CommanderService.getInstance().getCommanderPropData(packet.getCard2());
         if (nextData == null || mergeData.getId() != nextData.getId()) {
+            replyMergeError(packet);
             return;
         }
 
@@ -418,12 +426,17 @@ public class CommanderListener implements PacketListener {
             Prop prop = user.getInventory().getProp(mergeCard);
 
             if (prop == null || prop.getPropNum() < 2) {
+                replyMergeError(packet);
                 return;
             }
             if (!user.getInventory().removeProp(prop, failed ? 1 : 2, false)) {
+                replyMergeError(packet);
                 return;
             }
             if (!failed && !user.getInventory().addProp(nextCard, 1, 0, false)) {
+                // Rollback: return the consumed cards
+                user.getInventory().addProp(mergeCard, failed ? 1 : 2, 0, false);
+                replyMergeError(packet);
                 return;
             }
             if (!failed) {
@@ -449,32 +462,38 @@ public class CommanderListener implements PacketListener {
 
         PropData card3 = CommanderService.getInstance().getCommanderPropData(packet.getCard3());
         if (card2 == null || card3 == null) {
+            replyMergeError(packet);
             return;
         }
 
         int stars3 = packet.getCard3() - card3.getId();
         if (stars1 != stars2 || stars1 != stars3) {
+            replyMergeError(packet);
             return;
         }
 
         if (!card2.getCommanderData().getCommander().getType().equals(mergeData.getCommanderData().getCommander().getType()) ||
             !card3.getCommanderData().getCommander().getType().equals(mergeData.getCommanderData().getCommander().getType())) {
+            replyMergeError(packet);
             return;
         }
 
-        if (!failed && !user.getInventory().removeProp(packet.getCard1(), 1, 0, false)) {
-            return;
-        }
-        if (!user.getInventory().removeProp(packet.getCard2(), 1, 0, false)) {
-            return;
-        }
-        if (!user.getInventory().removeProp(packet.getCard3(), 1, 0, false)) {
-            return;
-        }
-        if (!failed && !user.getInventory().addProp(nextCard, 1, 0, false)) {
-            return;
-        }
+        // Only consume cards on success — 3-card merge is all-or-nothing
         if (!failed) {
+            if (!user.getInventory().removeProp(packet.getCard1(), 1, 0, false) ||
+                !user.getInventory().removeProp(packet.getCard2(), 1, 0, false) ||
+                !user.getInventory().removeProp(packet.getCard3(), 1, 0, false)) {
+                replyMergeError(packet);
+                return;
+            }
+            if (!user.getInventory().addProp(nextCard, 1, 0, false)) {
+                // Rollback: return all three cards
+                user.getInventory().addProp(packet.getCard1(), 1, 0, false);
+                user.getInventory().addProp(packet.getCard2(), 1, 0, false);
+                user.getInventory().addProp(packet.getCard3(), 1, 0, false);
+                replyMergeError(packet);
+                return;
+            }
             user.getMetrics().add("action:combine.cards", 1);
         }
 
