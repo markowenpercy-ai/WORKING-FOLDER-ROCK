@@ -25,7 +25,7 @@ public class StopMatchCommand extends Command {
     private enum StopMatchType {
         ALL("all", null),
         LEAGUE("league", MatchType.LEAGUE_MATCH),
-        ARENA("arena", MatchType.LEAGUE_MATCH),
+        ARENA("arena", MatchType.ARENA_MATCH),
         CHAMPS("champs", MatchType.CHAMPION_MATCH),
         INSTANCE("instance", MatchType.INSTANCE_MATCH),
         WAR("war", MatchType.PVP_MATCH),
