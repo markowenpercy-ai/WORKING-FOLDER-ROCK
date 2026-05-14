@@ -443,9 +443,9 @@ public class LoginService {
         }
     }
 
-    public CopyOnWriteArrayList<LoggedGameUser> getPlanetViewers(Planet planet) {
+    public List<LoggedGameUser> getPlanetViewers(Planet planet) {
 
-        CopyOnWriteArrayList<LoggedGameUser> viewers = new CopyOnWriteArrayList<>();
+        List<LoggedGameUser> viewers = new ArrayList<>();
 
         int galaxyId = planet.getPosition().galaxyId();
 
@@ -459,9 +459,9 @@ public class LoginService {
 
     }
 
-    public CopyOnWriteArrayList<LoggedGameUser> getPlanetViewers(long galaxyId) {
+    public List<LoggedGameUser> getPlanetViewers(long galaxyId) {
 
-        CopyOnWriteArrayList<LoggedGameUser> viewers = new CopyOnWriteArrayList<>();
+        List<LoggedGameUser> viewers = new ArrayList<>();
 
         for (LoggedGameUser gameUser : getGameUsers()) {
             if (gameUser.getViewing() == galaxyId) {
@@ -473,9 +473,9 @@ public class LoginService {
 
     }
 
-    public CopyOnWriteArrayList<LoggedGameUser> getMatchViewers(String matchId) {
+    public List<LoggedGameUser> getMatchViewers(String matchId) {
 
-        CopyOnWriteArrayList<LoggedGameUser> viewers = new CopyOnWriteArrayList<>();
+        List<LoggedGameUser> viewers = new ArrayList<>();
 
         for (LoggedGameUser gameUser : getGameUsers()) {
             if (gameUser.getMatchViewing() != null && gameUser.getMatchViewing().equals(matchId)) {

@@ -378,7 +378,7 @@ public class CommanderListener implements PacketListener {
         PropData nextData = CommanderService.getInstance().getCommanderPropData(nextCard);
 
         PropData card2 = CommanderService.getInstance().getCommanderPropData(packet.getCard2());
-        if (nextData == null || mergeData != nextData) {
+        if (nextData == null || mergeData.getId() != nextData.getId()) {
             return;
         }
 
@@ -531,6 +531,9 @@ public class CommanderListener implements PacketListener {
             List<PropData> raws = gems.stream().filter(g -> g.getGemData().getType() >= 1 && g.getGemData().getType() <= 11 && g.getGemData().getLevel() == 0).collect(Collectors.toList());
 
             Collections.shuffle(raws);
+            if (raws.isEmpty()) {
+                return;
+            }
             result = raws.get(0).getId();
 
         }
