@@ -223,8 +223,8 @@ public class InstanceListener implements PacketListener {
                     ownerStatus.setRoomId(arenaMatch.getSourceGuid());
                     ownerStatus.setRequest(UnsignedChar.of(101));
 
-                    status.setStatus((byte) 1);
-                    owner.getSmartServer().send(status);
+                    ownerStatus.setStatus((byte) 1);
+                    owner.getSmartServer().send(ownerStatus);
 
                 }
             }
