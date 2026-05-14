@@ -161,22 +161,6 @@ public class BattleFleet extends BattleElement implements Comparable<BattleFleet
 
             }
 
-            if (match.getMatchType() != MatchType.ARENA_MATCH && match.getMatchType() != MatchType.LEAGUE_MATCH) {
-                if (commander.isAngla()) {
-                    commander.setUntilRest(DateUtil.now(172800)); // 2 days
-                } else {
-
-                    boolean kill = MathUtil.random(1, 100) >= 50;
-                    commander.setDead(kill);
-                    commander.setInjuredMatch(match.getId());
-
-                    if (!kill) {
-                        commander.setUntilRest(DateUtil.now(345600)); // 4 days
-                    }
-                }
-            }
-            commander.save();
-
         } else {
 
             commander.save();
