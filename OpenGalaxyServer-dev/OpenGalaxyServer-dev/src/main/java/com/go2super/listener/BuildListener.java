@@ -473,7 +473,6 @@ public class BuildListener implements PacketListener {
         }
 
         ResourcePlanet resourcePlanet = (ResourcePlanet) planet;
-        if (resourcePlanet == null) ;
 
         Corp userCorp = user.getCorp();
         if (userCorp == null || userCorp.getMembers().getLeader().getGuid() != user.getGuid()) {
