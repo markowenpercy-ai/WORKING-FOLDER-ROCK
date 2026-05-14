@@ -297,7 +297,7 @@ function launchGame() {
 function embedSWF(cdnUrl) {
   var el = document.getElementById('gameContainer');
   el.innerHTML = '';
-  var vars = 'ApiKey=410602368996176&SessionIP=' + GAME_IP + '&UserId=' + USER_ID + '&GiftId=&SessionKey=' + SESSION_KEY + '&SessionSecret=' + SESSION_KEY + '&Language=1&IsFan=&ServerPort=5050&GameUrl=http://go2.igg.com&ForJS=1&platform=1&MvpUrl=http://go2.igg.com/paybyvip/?fb_sig_user=' + USER_ID + '&CdnBase=' + cdnUrl;
+  var vars = 'ApiKey=410602368996176&SessionIP=' + GAME_IP + '&UserId=' + USER_ID + '&GiftId=&SessionKey=' + SESSION_KEY + '&SessionSecret=' + SESSION_KEY + '&Language=1&IsFan=&ServerPort=5051&GameUrl=http://go2.igg.com&ForJS=1&platform=1&MvpUrl=http://go2.igg.com/paybyvip/?fb_sig_user=' + USER_ID + '&CdnBase=' + cdnUrl;
   var embed = document.createElement('embed');
   embed.src = '/PreLoader.swf';
   embed.type = 'application/x-shockwave-flash';
