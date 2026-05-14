@@ -89,7 +89,7 @@ public class LoginListener implements PacketListener {
 
         PlayerLoginServerValidatePacket response = new PlayerLoginServerValidatePacket();
 
-        response.setPort(5050);
+        response.setPort(5051);
         response.setUserId(packet.getUserId());
         response.getIp().setValue(PacketService.getInstance().getExternalIp());
         response.getSessionKey().setValue(sessionKey);

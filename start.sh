@@ -15,13 +15,11 @@ cleanup() {
     echo ""
     echo "Shutting down all services..."
 
-    # Kill all tracked PIDs and their children
     if [ -f "$PID_FILE" ]; then
         while read -r pid; do
             [ -n "$pid" ] && kill -TERM -- -$(ps -o pgid= -p "$pid" 2>/dev/null | tr -d ' ') 2>/dev/null || true
         done < "$PID_FILE"
         sleep 1
-        # Force kill any survivors on our ports
         fuser -k 9090/tcp 2>/dev/null || true
         fuser -k 8080/tcp 2>/dev/null || true
         fuser -k 5050/tcp 2>/dev/null || true
@@ -30,7 +28,6 @@ cleanup() {
         rm -f "$PID_FILE"
     fi
 
-    # Stop MongoDB if we started it
     if [ -n "$MONGO_PID" ]; then
         echo "  Stopping MongoDB..."
         mongod --dbpath "$SCRIPT_DIR/data/db" --shutdown 2>/dev/null || kill "$MONGO_PID" 2>/dev/null || true
@@ -57,7 +54,7 @@ kill_stale() {
 }
 
 start_mongo() {
-    echo "[1/5] MongoDB..."
+    echo "[1/4] MongoDB..."
     if command -v mongod &>/dev/null; then
         if ! pgrep -x mongod >/dev/null; then
             echo "  Starting MongoDB..."
@@ -75,7 +72,7 @@ start_mongo() {
 }
 
 start_backend() {
-    echo "[2/5] Backend server (port 9090)..."
+    echo "[2/4] Backend server (port 9090)..."
     cd "$SERVER_DIR"
     mvn spring-boot:run -q \
       -Dspring-boot.run.profiles=dev \
@@ -99,37 +96,26 @@ start_backend() {
     exit 1
 }
 
-start_gameproxy() {
-    echo "[3/5] Game socket proxy (port 5050→5051)..."
-    if [ -f "$SCRIPT_DIR/../game-proxy.py" ]; then
-        python3 "$SCRIPT_DIR/../game-proxy.py" 5050 127.0.0.1 5051 > "$LOG_DIR/gameproxy.log" 2>&1 &
-    elif [ -f "$SCRIPT_DIR/game-proxy.py" ]; then
-        python3 "$SCRIPT_DIR/game-proxy.py" 5050 127.0.0.1 5051 > "$LOG_DIR/gameproxy.log" 2>&1 &
-    else
-        echo "  WARN: game-proxy.py not found."
-        return
-    fi
-    echo $! >> "$PID_FILE"
-    sleep 2
-    echo "  Game proxy ready."
-}
-
 start_flask() {
-    echo "[4/5] Flask client (port 8080)..."
+    echo "[3/4] Flask client (port 8080)..."
     if [ -f "$FLASK_DIR/main.py" ]; then
         cd "$FLASK_DIR"
-        FLASK_DEBUG=0 venv/bin/python main.py > "$LOG_DIR/flask.log" 2>&1 &
+        setsid venv/bin/python main.py < /dev/null > "$LOG_DIR/flask.log" 2>&1 &
         echo $! >> "$PID_FILE"
         cd "$SCRIPT_DIR"
         sleep 3
-        echo "  Flask client ready."
+        if curl -s -o /dev/null http://localhost:8080/api/status 2>/dev/null; then
+            echo "  Flask client ready."
+        else
+            echo "  WARN: Flask may not be fully up."
+        fi
     else
         echo "  WARN: Flask main.py not found at $FLASK_DIR."
     fi
 }
 
 start_browser() {
-    echo "[5/5] FlashBrowser..."
+    echo "[4/4] FlashBrowser..."
     if [ -f "$BROWSER_DIR/FlashBrowser" ]; then
         "$BROWSER_DIR/FlashBrowser" --no-sandbox "http://localhost:8080" > "$LOG_DIR/browser.log" 2>&1 &
         echo $! >> "$PID_FILE"
@@ -148,7 +134,6 @@ check_deps
 kill_stale
 start_mongo
 start_backend
-start_gameproxy
 start_flask
 start_browser
 
@@ -159,7 +144,7 @@ echo "  ======================================="
 echo "    Backend      -> http://localhost:9090"
 echo "    Flask Client -> http://localhost:8080"
 echo "    Admin Panel  -> http://localhost:8080/admin.html"
-echo "    Game         -> TCP ports 5050/5051/5150"
+echo "    Game Direct  -> TCP port 5051"
 echo "  ======================================="
 echo "  Press Ctrl+C to stop everything."
 echo ""
