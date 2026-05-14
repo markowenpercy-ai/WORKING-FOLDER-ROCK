@@ -173,7 +173,7 @@ public class RaidsService {
         }
     }
 
-    private User giveRewards(int guid, int propId) {
+    public User giveRewards(int guid, int propId) {
         var player = UserService.getInstance().getUserCache().findByGuid(guid);
         if (player == null) {
             return null;

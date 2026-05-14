@@ -10,6 +10,7 @@ import com.go2super.packet.fight.ResponseFightResultPacket;
 import com.go2super.packet.instance.ResponseEctypeStatePacket;
 import com.go2super.service.BattleService;
 import com.go2super.service.LoginService;
+import com.go2super.service.RaidsService;
 import com.go2super.service.UserService;
 import com.go2super.service.battle.Match;
 import com.go2super.service.battle.type.AttackSideType;
@@ -81,6 +82,28 @@ public class RaidMatch  extends Match {
         if (!sourceSent && optionalOwner2.isPresent()) {
             optionalOwner2.get().getSmartServer().send(response);
         }
+
+        // Reset raid room after intercept battle — give rewards to defenders if they won
+        var raidOpt = RaidsService.getInstance().getRaids().stream()
+                .filter(r -> (r.getFirstGuid() == defender1 || r.getSecondGuid() == defender1)
+                        && (r.getFirstGuid() == defender2 || r.getSecondGuid() == defender2)
+                        && r.getStatus() == com.go2super.service.raids.RaidStatus.INTERCEPTED)
+                .findFirst();
+        raidOpt.ifPresent(raid -> {
+            if (hasWon()) {
+                RaidsService.getInstance().giveRewards(defender1, raid.getFirstPropId());
+                RaidsService.getInstance().giveRewards(defender2, raid.getSecondPropId());
+            }
+            raid.setTime(-1);
+            raid.setFirstGuid(-1);
+            raid.setSecondGuid(-1);
+            raid.setFirstPropId(-1);
+            raid.setSecondPropId(-1);
+            raid.setStatus(com.go2super.service.raids.RaidStatus.EMPTY);
+            raid.setFirstDefenceFleets(new ArrayList<>());
+            raid.setSecondDefenceFleets(new ArrayList<>());
+            RaidsService.getInstance().broadcastStatus();
+        });
     }
     public boolean hasWon() {
         return getFleets().stream().noneMatch(BattleFleet::isAttacker);
