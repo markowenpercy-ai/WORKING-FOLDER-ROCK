@@ -90,6 +90,8 @@ public class GameServerReceiver extends SmartServer implements Runnable {
         }
     }
 
+    private final int MAX_PACKET_SIZE = 16384;
+
     @SneakyThrows
     public void tick() {
         try {
@@ -102,6 +104,12 @@ public class GameServerReceiver extends SmartServer implements Runnable {
             close();
             return;
 
+        }
+
+        if (size < 4 || size > MAX_PACKET_SIZE) {
+            BotLogger.error("Invalid packet size: " + size + " from " + getSocket().getInetAddress());
+            close();
+            return;
         }
 
         if (!PacketRouter.getInstance().containsPacket(type)) {

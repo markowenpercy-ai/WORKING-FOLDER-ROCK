@@ -25,6 +25,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class ChatListener implements PacketListener {
 
@@ -37,11 +38,11 @@ public class ChatListener implements PacketListener {
 
     public static final int CHAT_COOLDOWN = 1;
 
-    public static final Map<Integer, Integer> corpSpy = new HashMap<>();
-    public static final Map<Integer, ObjectId> blockSpy = new HashMap<>();
+    public static final Map<Integer, Integer> corpSpy = new ConcurrentHashMap<>();
+    public static final Map<Integer, ObjectId> blockSpy = new ConcurrentHashMap<>();
 
-    public static final Map<Integer, Date> canSendMessage = new HashMap<>();
-    public static final Map<Integer, Date> muteList = new HashMap<>();
+    public static final Map<Integer, Date> canSendMessage = new ConcurrentHashMap<>();
+    public static final Map<Integer, Date> muteList = new ConcurrentHashMap<>();
 
     private static final String pattern = "MM-dd-yyyy HH:mm:ss";
     private static final DateFormat dateFormat = new SimpleDateFormat(pattern);
@@ -179,6 +180,10 @@ public class ChatListener implements PacketListener {
                         return;
 
                     }
+                }
+
+                if (user.getInventory() == null) {
+                    return;
                 }
 
                 Prop prop = user.getInventory().getProp(921);

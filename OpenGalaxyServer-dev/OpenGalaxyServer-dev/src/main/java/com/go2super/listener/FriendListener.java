@@ -16,11 +16,12 @@ import com.google.common.collect.Lists;
 import org.springframework.util.CollectionUtils;
 
 import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class FriendListener implements PacketListener {
 
     private static final int SECONDS_BETWEEN_REQUESTS = 60 * 10;
-    private static final List<UserBlocked> blocks = new ArrayList<>();
+    private static final List<UserBlocked> blocks = new CopyOnWriteArrayList<>();
 
     @PacketProcessor
     public void onFriendList(RequestFriendListPacket packet) throws BadGuidException {

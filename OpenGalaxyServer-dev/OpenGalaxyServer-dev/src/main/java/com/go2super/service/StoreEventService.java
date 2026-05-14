@@ -49,6 +49,8 @@ public class StoreEventService {
     private String token;
     private Dictionary<String, LocalDateTime> fetchDataTime;
     private Dictionary<String, CMSDTO> cmsCache;
+
+    private static final OkHttpClient httpClient = new OkHttpClient();
     @Autowired
     public StoreEventService(UserCache userCache, StoreEventCache eventCache) {
         instance = this;
@@ -190,7 +192,6 @@ public class StoreEventService {
             return;
         }
         ObjectMapper mapper = new ObjectMapper();
-        OkHttpClient client = new OkHttpClient();
         if(getInstance().token == null){
             RequestBody body = new FormBody.Builder()
                     .add("grant_type", "client_credentials")
@@ -202,9 +203,10 @@ public class StoreEventService {
                     .url(Url + "/identity-server/connect/token")
                     .post(body)
                     .build();
-            Response rt = client.newCall(request).execute();
-            Token cmsResponse = mapper.readValue(rt.body().string(), Token.class);
-            getInstance().token = cmsResponse.getToken_type() + " " + cmsResponse.getAccess_token();
+            try (Response rt = httpClient.newCall(request).execute()) {
+                Token cmsResponse = mapper.readValue(rt.body().string(), Token.class);
+                getInstance().token = cmsResponse.getToken_type() + " " + cmsResponse.getAccess_token();
+            }
         }
         Request request = new Request.Builder()
                 .url(Url + "/api/content/bngo2/events")
@@ -212,8 +214,10 @@ public class StoreEventService {
                 .get()
                 .build();
 
-        Response r = client.newCall(request).execute();
-        String value = r.body().string();
+        String value;
+        try (Response r = httpClient.newCall(request).execute()) {
+            value = r.body().string();
+        }
         CMSEventList cmsResponse = mapper.readValue(value, CMSEventList.class);
         for(var item : cmsResponse.items){
             for(var iv: item.data.plannedEvent.iv){
@@ -336,7 +340,6 @@ public class StoreEventService {
 
     public CMSDTO GetCMSResponse(String guid, boolean force) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        OkHttpClient client = new OkHttpClient();
         if(getInstance().token == null){
             RequestBody body = new FormBody.Builder()
                     .add("grant_type", "client_credentials")
@@ -348,9 +351,10 @@ public class StoreEventService {
                     .url(Url + "/identity-server/connect/token")
                     .post(body)
                     .build();
-            Response rt = client.newCall(request).execute();
-            Token cmsResponse = mapper.readValue(rt.body().string(), Token.class);
-            getInstance().token = cmsResponse.getToken_type() + " " + cmsResponse.getAccess_token();
+            try (Response rt = httpClient.newCall(request).execute()) {
+                Token cmsResponse = mapper.readValue(rt.body().string(), Token.class);
+                getInstance().token = cmsResponse.getToken_type() + " " + cmsResponse.getAccess_token();
+            }
             System.out.println("Fetching Event Data for " + guid);
         }
         else if(!force && getInstance().cmsCache.get(guid) != null){
@@ -365,8 +369,10 @@ public class StoreEventService {
                 .post(RequestBody.create(MediaType.parse("application/json"), object.toString()))
                 .build();
 
-        Response r = client.newCall(request).execute();
-        String value = r.body().string();
+        String value;
+        try (Response r = httpClient.newCall(request).execute()) {
+            value = r.body().string();
+        }
         CMSDTO cmsResponse = mapper.readValue(value, CMSDTO.class);
         getInstance().cmsCache.put(guid, cmsResponse);
         return cmsResponse;
