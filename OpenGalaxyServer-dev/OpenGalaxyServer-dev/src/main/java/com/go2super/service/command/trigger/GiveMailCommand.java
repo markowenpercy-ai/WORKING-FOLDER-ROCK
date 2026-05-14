@@ -40,7 +40,13 @@ public class GiveMailCommand extends Command {
 
         String target = parts[1];
 
-        int propId = Integer.parseInt(parts[2]);
+        int propId;
+        try {
+            propId = Integer.parseInt(parts[2]);
+        } catch (NumberFormatException e) {
+            sendMessage("Invalid prop id for 'givemail' command! Expected a number, got '" + parts[2] + "'", user);
+            return;
+        }
         if (propId < 0) {
             sendMessage("Invalid prop id for 'givemail' command! (got " + propId + ")", user);
             return;
@@ -53,7 +59,12 @@ public class GiveMailCommand extends Command {
 
         int amount = 1;
         if (parts.length >= 4) {
-            amount = Integer.parseInt(parts[3]);
+            try {
+                amount = Integer.parseInt(parts[3]);
+            } catch (NumberFormatException e) {
+                sendMessage("Invalid quantity for 'givemail' command! Expected a number, got '" + parts[3] + "'", user);
+                return;
+            }
         }
         if (amount < 0 || amount > 9999) {
             sendMessage("Invalid quantity for 'givemail' command! (expected 0-9999, got " + amount + ")", user);
@@ -108,6 +119,10 @@ public class GiveMailCommand extends Command {
         if (target.matches("^\\d+$")) {
             int targetId = Integer.parseInt(target);
             User player = UserService.getInstance().getUserCache().findByGuid(targetId);
+            if (player == null) {
+                sendMessage("Target player with guid " + targetId + " does not exist!", user);
+                return;
+            }
 
             UserEmailStorage userEmailStorage = player.getUserEmailStorage();
 
