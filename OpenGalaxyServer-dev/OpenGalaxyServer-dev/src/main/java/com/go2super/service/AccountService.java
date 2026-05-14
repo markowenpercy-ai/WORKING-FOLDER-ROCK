@@ -132,13 +132,25 @@ public class AccountService {
                 .build();
         }
 
+        // Check if this user already has an active session — reuse it instead of disconnecting
         for (LoggedSessionUser session : LoginService.getInstance().getSessionUsers()) {
             if (session.getUser().getUserId() != userId) {
                 continue;
             }
 
-            LoginService.getInstance().disconnectGame(session);
-            LoginService.getInstance().disconnectUser(session);
+            // User already has an active session — return the existing key instead of reconnecting
+            PlayUserDTO userDTO = PlayUserDTO
+                .builder()
+                .sessionKey(session.getSessionKey())
+                .userId(user.getUserId())
+                .build();
+
+            return BasicResponse
+                .builder()
+                .code(HttpStatus.OK.value())
+                .message("OK")
+                .data(userDTO)
+                .build();
         }
 
         String sessionKey = RandomStringUtils.randomAlphanumeric(25);
