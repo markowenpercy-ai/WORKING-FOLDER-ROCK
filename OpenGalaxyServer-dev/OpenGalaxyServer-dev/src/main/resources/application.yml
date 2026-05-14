@@ -59,13 +59,13 @@ application:
     fast-rbp: false
     gelf-endpoint: https://beta-gelf.supergo2.com/gelf
     gelf-scope: local
-    hcaptcha-secret: ${HCAPTCHA_SECRET:0x078E2EbD57d43A6c7166ae87f3A86B9E6671eceD}
-    smtp-host: ${SMTP_HOST:smtp.mailgun.org}
-    smtp-username: ${SMTP_USERNAME:master@supergo2.com}
-    smtp-password: ${SMTP_PASSWORD:12NewPlanets09_}
-    default-admin-username: ${ADMIN_USERNAME:admin}
-    default-admin-email: ${ADMIN_EMAIL:admin@supergo2.com}
-    default-admin-password: ${ADMIN_PASSWORD:Ff5E!68a*5on}
+    hcaptcha-secret: ${HCAPTCHA_SECRET:changeme}
+    smtp-host: ${SMTP_HOST:changeme}
+    smtp-username: ${SMTP_USERNAME:changeme}
+    smtp-password: ${SMTP_PASSWORD:changeme}
+    default-admin-username: ${ADMIN_USERNAME:changeme}
+    default-admin-email: ${ADMIN_EMAIL:changeme}
+    default-admin-password: ${ADMIN_PASSWORD:changeme}
     max-users: 1
     phase: -1
     event-validation: ${EVENT_VALIDATION:dev_validation}

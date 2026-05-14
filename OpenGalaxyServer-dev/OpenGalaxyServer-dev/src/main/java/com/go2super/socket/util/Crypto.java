@@ -4,7 +4,7 @@ import org.jasypt.util.text.StrongTextEncryptor;
 
 public class Crypto {
 
-    private static final String SECRET = "6c4c0cc399f655b313b1719287b3fde1";
+    private static final String SECRET = System.getenv().getOrDefault("CRYPTO_SECRET", "6c4c0cc399f655b313b1719287b3fde1");
 
     private static final StrongTextEncryptor encryptor = new StrongTextEncryptor();
 
